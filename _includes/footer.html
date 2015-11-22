@@ -1,0 +1,48 @@
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    
+
+<footer style="background-color:#333; color:#c5c5c5;padding:20px;padding-bottom:5px">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>Sobre a APyB</h3>
+        <ul>
+          <li><a href="">Sobre a APyB</a></li>
+          <li><a href="">Contato com a APyB</a></li>
+          <li><a href="">Colaboradores</a></li>
+          <li><a href="">Eventos</a></li>
+          <li><a href="">Wiki Python no Brasil (Site da Comunidade)</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3>+ Sobre Python </h3>
+        <ul>
+          <li><a href="">Site da Linguagem Python (EN)</a></li>
+          <li><a href="">Python na WikiPédia</a></li>
+          <li><a href="">PEPs - Futuro da Lingiagem Python</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Como contribuir com este site </h3>
+        <ul>
+          <li><a href="https://github.com/cadu-leite/django_fatec/zipball/master" class="button">Documentação deste site</a></li>
+          <li><a href=    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    "https://github.com/cadu-leite/django_fatec/zipball/master" class="button">Download ZIP</a></li>
+          <li><a href="https://github.com/cadu-leite/django_fatec/tarball/master" class="button">Download TAR</a></li>
+          <li><a href="https://github.com/cadu-leite/django_fatec" class="button fork"><strong>View On GitHub</strong></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

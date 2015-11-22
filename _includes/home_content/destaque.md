@@ -1,0 +1,1 @@
+O objetivo da APyB é promover e apoiar iniciativas da comunidade Python no Brasil, e não nos apropriar dessas iniciativas.
