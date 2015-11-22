@@ -40,7 +40,7 @@ e a publicação do conteúdo.
 
 Porque teria que instalar coisas na máquina local para poder atualizar o site
 
-###Mas somos todos programadore .
+###Mas somos todos programadores.
 
 Não, não somos.
 Mas mesmo entre os dev temos conhecimentos distintos, muitos da comunidade não querem saber como publicar um site, nem mesmo estático.
