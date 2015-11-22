@@ -1,5 +1,12 @@
-# apyb
-Por enquanto, teste de site estatico da APYB
+#PORQUE ?
+
+##Premissas para a escolha
+
+1. Editado via web
+2. exportado para qualquer formato, de preferencia sem BD
+3. não requerer conhecimento de Html
+4. Não  requerer conhecimento de Python ou qualquer outro conhecimento técnico.
+5. _NÃO requerer de forma nenhuma, que seja instalado algo na máquina local_
 
 
 Pensando na possibilidade de mantermos um site pra comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo
@@ -20,9 +27,9 @@ Site de homologação:   http://pythonbrasil.github.io/apyb.
 
 ###Porque usar isso ??
 
-1 - Basta ter uma conta no GitHub.
-2 - Consigo editar via WEB
-3 - O site não tem senha, mas é automaticamente versionado.
+1. Basta ter uma conta no GitHub.
+2. Consigo editar via WEB
+3. O site não tem senha, mas é automaticamente versionado.
 
 ###Porque não usar algo da comunidade Python ?
 
