@@ -1,0 +1,21 @@
+{% include header.html %}
+
+{% include home_layout/jumbotron.html %}
+
+<div class="container">
+
+{% for evento in page.eventos %}
+  <ul>
+    <li>
+      <ul>
+        <li><b>Organizador:</b>{{evento.organizador}}</li>
+        <li><b>Local:</b>{{evento.local}}</li>
+        <li><b>Data:</b>{{evento.data}}</li>
+      </ul>
+    </li>
+  </ul>
+{% endfor %}
+
+</div>
+
+{% include footer.html %}
