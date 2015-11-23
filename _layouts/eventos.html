@@ -3,19 +3,46 @@
 {% include home_layout/jumbotron.html %}
 
 <div class="container">
+  <div class="row">
+    <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+      <ul class="event-list">
+        {% for evento in page.eventos %}
+          <li>
+            <time datetime="{{evento.data.ano}}-{{evento.data.mes}}-{{evento.data.dia}}">
+              <span class="day">{{evento.data.dia}}</span>
+              <span class="month">{{evento.data.mes}}</span>
+              <span class="year">{{evento.data.ano}}</span>
+              <span class="time">{{evento.data.duracao}}</span>
+            </time>
+            {% if evento.imagem %}
+              <img src="{{evento.imagem}}" />
+            {% endif %}
+            <div class="info">
+              <h2 class="title">{{evento.nome}}</h2>
+              <p class="desc">{{evento.descricao}}</p>
+              <ul>
+                {% if evento.site %}
+								  <li style="width:50%;"><a href="{{evento.site}}"><span class="fa fa-globe"></span> Website</a></li>
+                {% endif %}
+                {% if evento.preco %}
+								  <li style="width:50%;"><span class="fa fa-money"></span> {{evento.preco}}</li>
+                {% endif %}
+							</ul>
+            </div>
+            <div class="social">
+              <ul>
+                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+              </ul>
+            </div>
+          </li>
 
-{% for evento in page.eventos %}
-  <ul>
-    <li>
-      <ul>
-        <li><b>Organizador:</b>{{evento.organizador}}</li>
-        <li><b>Local:</b>{{evento.local}}</li>
-        <li><b>Data:</b>{{evento.data}}</li>
+        {% endfor %}
+
       </ul>
-    </li>
-  </ul>
-{% endfor %}
-
+    </div>
+  </div>
 </div>
 
 {% include footer.html %}
