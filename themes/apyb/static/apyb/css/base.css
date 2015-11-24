@@ -12,7 +12,7 @@ header {
 }
 
 .header-container {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .header-logo {
@@ -20,6 +20,7 @@ header {
 }
 
 .header-subtitle {
-  font: bold 18px;
+  font-size: 16px;
+  font-weight: bold;
   color: #ffd343;
 }

@@ -7,11 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
+    <link href="{{ SITEURL }}/theme/apyb/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="{{ SITEURL }}/theme/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/pygments/{{ PYGMENTS_STYLE }}.css" rel="stylesheet">
-    <link href="{{ SITEURL }}/theme/apyb/base.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/apyb/css/base.css" rel="stylesheet">
 
     {% block aditional_styles %}
     {% endblock %}
@@ -30,7 +31,8 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="header-container">
-              <img class="header-logo" src="{{ SITEURL }}/{{ SITE_LOGO }}" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
+              <img class="header-logo" src="{{ SITEURL }}/theme/apyb/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
+
               <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
             </div>
           </div>

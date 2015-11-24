@@ -23,7 +23,6 @@ GITHUB_BRANCH = 'pelican'
 
 # Imagens
 ARTICLE_BANNERS_FOLDER = 'images/banners'
-SITE_LOGO = 'images/logo.svg'
 
 # Home settings
 WELCOME_TITLE = 'Associação Python Brasil'
