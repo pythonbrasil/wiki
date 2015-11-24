@@ -7,6 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
+    <!-- Favicon -->
     <link href="{{ SITEURL }}/theme/apyb/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="{{ SITEURL }}/theme/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +34,26 @@
             <div class="header-container">
               <img class="header-logo" src="{{ SITEURL }}/theme/apyb/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
 
+              <nav class="navbar navbar-default navbar-inverse navbar-apyb">
+                <div class="container">
+                  <ul class="nav navbar-nav">
+                    {% if page is defined %}
+                      {% set href = page.slug %}
+                    {% elif page_name is defined %}
+                      {% set href = page_name.replace("/index", "") %}
+                    {% else %}
+                      {% set href = None %}
+                    {% endif %}
+
+                    {% for link in NAVBAR_HOME_LINKS %}
+                      <li {% if href == link.href %}class="active"{% endif %}>
+                        <a href="{{ link.href }}">{{ link.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </nav>
+
               <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
             </div>
           </div>
@@ -41,7 +62,6 @@
     </header>
 
     <main>
-      Olá
     </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

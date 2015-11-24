@@ -47,8 +47,16 @@ NAVBAR_HOME_LINKS = [
         'href': 'eventos',
     },
     {
-        'title': 'Prêmio Dorneles Treméa',
-        'href': 'premio-dorneles-tremea',
+        'title': 'Comunidade',
+        'href': 'comunidade',
+    },
+    {
+        'title': 'Python Brasil',
+        'href': 'python-brasil',
+    },
+    {
+        'title': 'Patrocínio',
+        'href': 'patrocinio',
     },
 ]
 
