@@ -62,7 +62,35 @@
     </header>
 
     <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"></div>
+        </div>
+      </div>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <h3>Sobre</h3>
+            <p>{{ FOOTER_ABOUT }}</p>
+          </div>
+
+          <div class="col-xs-4"></div>
+
+          <div class="col-xs-4">
+            <h3>Social</h3>
+
+            <ul>
+              {% for social in SOCIAL_LINKS %}
+                <li><a href="{{ social.href }}"><icon class="fa {{ social.icon }}"></icon> {{ social.text }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -65,6 +65,6 @@ SOCIAL_LINKS = (
     {
         'href': 'https://github.com/pythonbrasil',
         'icon': 'fa-github',
-        'text': 'GitHub APyB',
+        'text': 'GitHub',
     },
 )
