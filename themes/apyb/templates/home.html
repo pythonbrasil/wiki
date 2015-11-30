@@ -2,7 +2,16 @@
 
 {% block content %}
   <div class="row">
-    <div class="col-xs-12">
-    </div>
+    {% for page in pages|sort(attribute='sortorder') %}
+      {% if page.slug != 'index' %}
+        <div class="col-xs-4">
+          <h1>{{ page.title }}</h1>
+
+          {{ page.content|truncate }}
+
+          <a href="{{ page.slug }}">Mais &gt;</a>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 {% endblock %}

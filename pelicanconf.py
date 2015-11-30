@@ -43,12 +43,12 @@ NAVBAR_HOME_LINKS = [
         'href': 'associe-se',
     },
     {
-        'title': 'Eventos',
-        'href': 'eventos',
-    },
-    {
         'title': 'Comunidade',
         'href': 'comunidade',
+    },
+    {
+        'title': 'Eventos',
+        'href': 'eventos',
     },
     {
         'title': 'Python Brasil',
