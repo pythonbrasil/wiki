@@ -113,6 +113,21 @@ footer ul>li>a:hover, footer ul>li>a:active {
   font-weight: bold;
 }
 
-h1, h2, h3, h4 {
+main {
+  color: #444444;
+}
+
+main h1, main h2, main h3, main h4 {
   color: #666666;
+}
+
+.page-description {
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+.page-description-text {
+  height: 140px;
+  text-align: justify;
+  margin-bottom: 10px;
 }

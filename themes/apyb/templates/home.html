@@ -4,12 +4,16 @@
   <div class="row">
     {% for page in pages|sort(attribute='sortorder') %}
       {% if page.slug != 'index' %}
-        <div class="col-xs-4">
+        <div class="col-xs-4 page-description">
           <h1>{{ page.title }}</h1>
 
-          {{ page.content|truncate }}
+          <div class="page-description-text">
+            {{ page.content|truncate }}
+          </div>
 
-          <a href="{{ page.slug }}">Mais &gt;</a>
+          <div class="text-right">
+            <a href="{{ page.slug }}">Mais &gt;</a>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
