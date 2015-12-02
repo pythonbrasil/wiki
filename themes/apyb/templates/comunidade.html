@@ -1,74 +1,63 @@
 {% extends 'page.html' %}
 
-
 {% block aditional_styles %}
-    {{ super() }}
-    {#    http://github.hubspot.com/pace/docs/welcome/#}
-    {#    https://cdnjs.com/libraries/pace#}
+  {{ super() }}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/red/pace-theme-flash.css" rel="stylesheet">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/red/pace-theme-flash.css"
-          rel="stylesheet">
-
-    <style>
-        .hide-google-groups {
-            display: none;
-        }
-    </style>
+  <style>
+    .hide-google-groups {
+      display: none;
+    }
+  </style>
 {% endblock %}
-
-
 
 {% block post_content %}
-    <div class="row">
-        <div class="col-xs-12">
-            <hr>
-            <h3>Python Brasil no Google Groups</h3>
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
 
-            <div id="google-groups-section" class="hide-google-groups">
-                <iframe id="forum_embed" class="center-block" frameborder="0" scrolling="no" width="900"
-                        height="700"></iframe>
-            </div>
-            <div id="google-space" style="height: 700px">
-                <h4>
-                    <p>
-                        Carregando Lista de email no Google Groups, aguarde...
-                    </p>
-                </h4>
-            </div>
-        </div>
+      <h3>Python Brasil no Google Groups</h3>
+
+      <div id="google-groups-section" class="hide-google-groups">
+        <iframe id="forum_embed" class="center-block" frameborder="0" scrolling="no" width="100%" height="700"></iframe>
+      </div>
+
+      <div id="google-space" style="height: 700px">
+        <h4>
+          <p>
+            Carregando Lista de email no Google Groups, aguarde...
+          </p>
+        </h4>
+      </div>
     </div>
-
+  </div>
 {% endblock %}
 
-
 {% block aditional_scripts %}
-    {{ super() }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js"></script>
-    <script>
-        Pace.paceOptions = {
-            {#            ajax: false, // disabled#}
-            document: false, // disabled
-            eventLag: true, // disabled
-            elements: {
-                selectors: ['#forum_embed']
-            }
-        };
-        Pace.track(function () {
+  {{ super() }}
 
-            $('#forum_embed').attr({
-                src: 'https://groups.google.com/forum/embed/?place=forum/{{ GOOGLE_GROUPS_MAIL_LIST_NAME }}'
-                + '&showsearch=true&showpopout=true&showtabs=false'
-                + '&parenturl=' + encodeURIComponent(window.location.href)
-            });
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js"></script>
 
-        });
+  <script>
+    Pace.paceOptions = {
+      document: false, // disabled
+      eventLag: true, // enabled
+      elements: {
+        selectors: ['#forum_embed']
+      }
+    };
 
-        Pace.on('hide', function () {
+    Pace.track(function () {
+      $('#forum_embed').attr({
+        src: 'https://groups.google.com/forum/embed/?place=forum/{{ GOOGLE_GROUPS_MAIL_LIST_NAME }}'
+        + '&showsearch=true&showpopout=true&showtabs=false'
+        + '&parenturl=' + encodeURIComponent(window.location.href)
+      });
+    });
 
-            $("#google-space").fadeOut("fast");
-            $("#google-groups-section").fadeIn("fast");
-
-        });
-    </script>
-
+    Pace.on('hide', function () {
+      $("#google-space").fadeOut("fast");
+      $("#google-groups-section").fadeIn("fast");
+    });
+  </script>
 {% endblock %}
