@@ -32,7 +32,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="header-container">
-              <a href="/index">
+              <a href="{{ SITEURL }}/index">
                 <img class="header-logo" src="{{ SITEURL }}/theme/apyb/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
               </a>
 
@@ -49,7 +49,7 @@
 
                     {% for link in NAVBAR_HOME_LINKS %}
                       <li {% if href == link.href %}class="active"{% endif %}>
-                        <a href="/{{ link.href }}">{{ link.title }}</a>
+                        <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
                       </li>
                     {% endfor %}
                   </ul>
