@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pythonbrasil/apyb.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/apyb)
 
-Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitGHub Pages.
+Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitHub Pages.
 
 Site Live:  http://pythonbrasil.github.io/apyb/
 
