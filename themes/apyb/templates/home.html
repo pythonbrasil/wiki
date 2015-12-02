@@ -4,7 +4,7 @@
   <div class="row">
     {% for page in pages|sort(attribute='sortorder') %}
       {% if page.slug != 'index' %}
-        <div class="col-xs-4 page-description">
+        <div class="col-xs-12 col-md-4 col-lg-4 page-description">
           <h1>{{ page.title }}</h1>
 
           <div class="page-description-text">
