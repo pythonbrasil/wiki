@@ -1,0 +1,43 @@
+.event {
+  margin: 40px 0;
+  background-color: #eeeeee;
+  border: solid 1px #333333;
+  text-align: center;
+}
+
+.event-date {
+  padding: 40px 0;
+  height: 100%;
+}
+
+.date-blue {
+  background-color: #3771a2;
+}
+
+.date-yellow {
+  background-color: #ffd545;
+}
+
+.event-day {
+  margin: 0;
+  font-size: 60px;
+  line-height: 62px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.event-month {
+  margin: 0px;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.event-year {
+  margin: 0px;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
