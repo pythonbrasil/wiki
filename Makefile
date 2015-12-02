@@ -68,7 +68,7 @@ github: publish
 
 travis: publish
 	ghp-import  -m "Updated APyB site." -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	@git push -fq https://${GH_TOKEN}@github.com/pythonbrasil/apyb $(GITHUB_PAGES_BRANCH) > /dev/null
+	@git push -fq git@github.com:pythonbrasil/apyb.git $(GITHUB_PAGES_BRANCH) > /dev/null
 
 ping:
 	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/apyb/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
