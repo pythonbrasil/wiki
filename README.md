@@ -1,5 +1,7 @@
 # Site estático APyB
 
+[![Build Status](https://travis-ci.org/pythonbrasil/apyb.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/apyb)
+
 Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitGHub Pages.
 
 Site Live:  http://pythonbrasil.github.io/apyb/
@@ -32,7 +34,7 @@ Independente de ser ou não programador, ou conhecer ou não **python**, podemos
 
 Se não sabe o que é o virtualenv e/ou pra que serve, sugiro que leia a página do projeto.
 
-###Processo de instalação:
+### Processo de instalação:
 
 Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
