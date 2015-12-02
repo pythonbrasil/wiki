@@ -8,7 +8,11 @@
           <h1>{{ page.title }}</h1>
 
           <div class="page-description-text">
+            {% if page.excerpt %}
+            {{ page.excerpt }}
+            {% else %}
             {{ page.content|truncate }}
+            {% endif %}
           </div>
 
           <div class="text-right">
