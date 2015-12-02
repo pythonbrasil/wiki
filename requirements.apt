@@ -1,0 +1,5 @@
+# listar as dependencias nao python aqui (Ubuntu 14.04 de preferencia)
+python-dev
+libxslt1-dev
+libxml2-dev
+
