@@ -53,9 +53,22 @@
                     {% endif %}
 
                     {% for link in NAVBAR_HOME_LINKS %}
-                      <li {% if href == link.href %}class="active"{% endif %}>
-                        <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
-                      </li>
+                      {% if 'children' in link %}
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            {{ link.title }} <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu navbar-apyb">
+                            {% for sublink in link.children %}
+                              <li><a href="{{ sublink.href }}">{{ sublink.title }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        </li>
+                      {% else %}
+                        <li {% if href == link.href %}class="active"{% endif %}>
+                          <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
+                        </li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </div>
