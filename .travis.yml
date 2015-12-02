@@ -13,5 +13,9 @@ before_install:
 - git fetch origin -f gh-pages:gh-pages
 install:
 - pip install -r requirements.txt
-script:
-- make travis ping
+deploy:
+  provider: script
+  script: make travis ping
+  on:
+    branch: pelican
+    condition: $TRAVIS_PULL_REQUEST = false
