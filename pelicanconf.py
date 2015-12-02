@@ -77,7 +77,7 @@ SOCIAL_LINKS = (
     },
     {
         'href': 'https://www.facebook.com/groups/python.brasil',
-        'icon': 'fa-facebook',
+        'icon': 'fa-facebook-official',
         'text': 'Facebook',
     },
     {
