@@ -24,6 +24,13 @@ GITHUB_BRANCH = 'pelican'
 # Referencia ao Google Groups
 GOOGLE_GROUPS_MAIL_LIST_NAME = 'python-brasil'
 
+# GOOGLE_ANALYTICS
+GOOGLE_ANALYTICS_CODE = None
+
+# https://www.google.com/webmasters/tools/
+# https://support.google.com/webmasters/answer/35659?hl=pt&ref_topic=4564314
+GOOGLE_SITE_VERIFICATION_METATAG_CODE = None
+
 # Imagens
 ARTICLE_BANNERS_FOLDER = 'images/banners'
 
