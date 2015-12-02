@@ -57,3 +57,13 @@ docs/_build/
 target/
 output/
 cache/
+
+# pelican process id files
+srv.pid
+pelican.pid
+
+# Pycharm
+.idea/
+
+venv
+.venv
