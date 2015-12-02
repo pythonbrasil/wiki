@@ -36,8 +36,10 @@ Se não sabe o que é o virtualenv e/ou pra que serve, sugiro que leia a página
 
 Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
-> virtualenv project-name
-> cd project-name
+> virtualenv project-name  
+
+> cd project-name  
+
 > source bin/activate
 
 Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
@@ -53,7 +55,8 @@ Podem ocorrer problemas variados na instalação dos programas, verifique pelo S
 
 Legal, agora já instalei todos os programas, vamos fazê-lo rodar em nosso computador?
 
-> make html
+> make html  
+
 > make serve
 
 O *make html* irá gerar o HTML e o *make serve* irá criar o servidor. Basta acessar *localhost:8000* e pronto! O site já está rodando em seu computador localmente!
