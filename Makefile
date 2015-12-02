@@ -63,7 +63,15 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	ghp-import -m "Generate APyB site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
+
+travis: publish
+	ghp-import  -m "Updated APyB site." -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	@git push -fq https://${GH_TOKEN}@github.com/pythonbrasil/apyb $(GITHUB_PAGES_BRANCH) > /dev/null
+
+ping:
+	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/apyb/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
+	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://pythonbrasil.github.io/apyb/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
 
 .PHONY: html help clean regenerate serve devserver publish github
