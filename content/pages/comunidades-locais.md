@@ -1,7 +1,7 @@
-Title: Comunidade
-Slug: comunidade
-Template: comunidade
-Sortorder: 3
+Title: Comunidades Locais
+Slug: comunidades-locais
+Template: page
+Sortorder: 4
 
 Conheça os grupos de usuários de Python espalhados pelo Brasil.
 
