@@ -18,4 +18,4 @@ deploy:
   script: make travis ping
   on:
     branch: pelican
-    condition: $TRAVIS_PULL_REQUEST = false
+    condition: "$TRAVIS_PULL_REQUEST" = "false"
