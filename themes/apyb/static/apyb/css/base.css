@@ -101,6 +101,7 @@ footer ul {
 
 footer ul>li {
   list-style: none;
+  margin-bottom: 5px;
 }
 
 footer ul>li>a {
