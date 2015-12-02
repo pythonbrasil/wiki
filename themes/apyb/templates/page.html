@@ -3,15 +3,19 @@
 {% block title %}{{ super() }}-{{ page.title }}{% endblock %}
 
 {% block content %}
-  <div class="row">
-    <div class="col-xs-12">
-      <ol class="breadcrumb">
-        <li><a href="index">Home</a></li>
-        <li class="active">{{ page.title }}</li>
-      </ol>
-      <hr>
-      <h1>{{ page.title }}</h1>
-      {{ page.content }}
+    {% block pre_content %}{% endblock %}
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index">Home</a></li>
+                <li class="active">{{ page.title }}</li>
+            </ol>
+            <hr>
+            <h1>{{ page.title }}</h1>
+
+            {{ page.content }}
+
+        </div>
     </div>
-  </div>
+    {% block post_content %}{% endblock %}
 {% endblock %}

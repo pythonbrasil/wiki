@@ -21,6 +21,9 @@ THEME = 'themes/apyb'
 GITHUB_REPO = 'https://github.com/pythonbrasil/apyb'
 GITHUB_BRANCH = 'pelican'
 
+# Referencia ao Google Groups
+GOOGLE_GROUPS_MAIL_LIST_NAME = 'python-brasil'
+
 # Imagens
 ARTICLE_BANNERS_FOLDER = 'images/banners'
 
@@ -51,7 +54,7 @@ NAVBAR_HOME_LINKS = [
         'href': 'eventos',
     },
     {
-        'title': 'Python Brasil',
+        'title': 'Conferência Python Brasil',
         'href': 'python-brasil',
     },
     {
@@ -66,5 +69,20 @@ SOCIAL_LINKS = (
         'href': 'https://github.com/pythonbrasil',
         'icon': 'fa-github',
         'text': 'GitHub',
+    },
+    {
+        'href': 'https://twitter.com/pythonbrasil',
+        'icon': 'fa-twitter',
+        'text': 'Twitter',
+    },
+    {
+        'href': 'https://www.facebook.com/groups/python.brasil',
+        'icon': 'fa-facebook',
+        'text': 'Facebook',
+    },
+    {
+        'href': 'https://groups.google.com/forum/#!forum/python-brasil',
+        'icon': 'fa-users',
+        'text': 'Lista de emails',
     },
 )
