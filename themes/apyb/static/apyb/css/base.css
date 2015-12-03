@@ -19,6 +19,12 @@ header {
   width: 400px;
 }
 
+@media only screen and (max-width: 400px) {
+  .header-logo {
+    width: 280px;
+  }
+}
+
 .header-subtitle {
   font-size: 25px;
   color: #ffd343;
