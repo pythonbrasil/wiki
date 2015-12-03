@@ -1,0 +1,34 @@
+{
+    "links": [
+        [
+            "Site",
+            "http://floripa.sc.python.org.br/"
+        ],
+        [
+            "Google groups",
+            "https://groups.google.com/forum/#!forum/python-floripa"
+        ],
+        [
+            "Google Plus",
+            "https://plus.google.com/communities/103743339273138251517"
+        ],
+        [
+            "Github",
+            "https://github.com/PythonFloripa"
+        ],
+        [
+            "Facebook",
+            "https://www.facebook.com/groups/python.floripa/"
+        ],
+        [
+            "Twitter",
+            "https://twitter.com/pythonfloripa"
+        ],
+        [
+            "Slack",
+            "https://pythonfloripa.slack.com/"
+        ]
+    ],
+    "nome": "Grupo de usu\u00e1rios de Florian\u00f3polis",
+    "sigla": "Python Floripa"
+}

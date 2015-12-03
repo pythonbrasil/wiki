@@ -1,0 +1,27 @@
+{
+    "links": [
+        [
+            "Google Groups",
+            "https://groups.google.com/forum/#!forum/grupy-sp"
+        ],
+        [
+            "Github",
+            "https://github.com/grupy-sp/encontros"
+        ],
+        [
+            "Facebook",
+            "https://www.facebook.com/grupysp"
+        ],
+        [
+            "Twitter",
+            "https://twitter.com/grupysp"
+        ],
+        [
+            "Slack",
+            "https://grupysp.herokuapp.com"
+        ]
+    ],
+    "nome": "Grupo de usu\u00e1rios de S\u00e3o Paulo",
+    "imagem": "images/comunidades-locais/grupysp.png",
+    "sigla": "GruPy-SP"
+}
