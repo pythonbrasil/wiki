@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 
 import os
 import sys
+import glob
+import json
 
 sys.path.append(os.curdir)
 
@@ -103,3 +105,6 @@ SOCIAL_LINKS = (
         'text': 'Lista de emails',
     },
 )
+
+COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
+DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
