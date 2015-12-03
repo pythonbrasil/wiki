@@ -22,7 +22,8 @@ Desenvolvedores de software freelancers, de startups e grandes empresas, ativist
 - Dorneles Tremea, Plone developer 
 - Facundo Batista, Canonical technical lead 
 - Gustavo Niemeyer, Canonical technical lead 
-- Jacob Kaplan-Moss, Django co-founder Jim Fulton, Zope Corp. 
+- Jacob Kaplan-Moss, Django co-founder 
+- Jim Fulton, Zope Corp. 
 - Kenneth Rohde Christiansen, CTO INdT 
 - Maciej Fijalkowski, PyPy core developer 
 - Steve Holden, Python Software Foundation chair 
