@@ -2,6 +2,7 @@ Title: Sobre
 Slug: sobre
 Template: page
 Sortorder: 1
+Excerpt: A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.
 
 A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.
 
