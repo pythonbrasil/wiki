@@ -60,7 +60,7 @@
                           </a>
                           <ul class="dropdown-menu navbar-apyb">
                             {% for sublink in link.children %}
-                              <li><a href="{{ sublink.href }}">{{ sublink.title }}</a></li>
+                              <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
                             {% endfor %}
                           </ul>
                         </li>

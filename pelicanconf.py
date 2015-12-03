@@ -58,11 +58,11 @@ NAVBAR_HOME_LINKS = [
         'children': [
             {
                 'title': 'Python Brasil Group',
-                'href': '/python-brasil-group',
+                'href': 'python-brasil-group',
             },
             {
                 'title': 'Comunidades Locais',
-                'href': '/comunidades-locais',
+                'href': 'comunidades-locais',
             },
         ]
     },
