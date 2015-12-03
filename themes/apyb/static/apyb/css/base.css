@@ -132,14 +132,17 @@ main h1, main h2, main h3, main h4 {
 }
 
 .page-description {
-  height: 240px;
+  height: 190px;
   margin-bottom: 20px;
 }
 
+.page-description-title {
+  font-size: 28px;
+}
+
 .page-description-text {
-  height: 140px;
+  height: 90px;
   text-align: justify;
-  margin-bottom: 10px;
 }
 
 .grupy-thumbnail-container {
