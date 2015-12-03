@@ -1,7 +1,8 @@
-:title: Estatuto da Associação Python Brasil
+:title: Estatuto da APyB
 :slug: estatuto
 :template: page
-:sortorder: 9
+:sortorder: 8
+:excerpt: Estatuto que descreve o funcionamento da Associação Python Brasil.
 
 Capítulo I - Da Associação
 --------------------------

@@ -48,11 +48,21 @@ PYGMENTS_STYLE = 'perldoc'
 NAVBAR_HOME_LINKS = [
     {
         'title': 'Sobre',
-        'href': 'sobre',
-    },
-    {
-        'title': 'Associe-se',
-        'href': 'associe-se',
+        'href': '#',
+        'children': [
+            {
+                'title': 'A APyB',
+                'href': 'apyb',
+            },
+            {
+                'title': 'Estatuto',
+                'href': 'estatuto',
+            },
+            {
+                'title': 'Associe-se',
+                'href': 'associe-se',
+            },
+        ]
     },
     {
         'title': 'Comunidade',
