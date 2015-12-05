@@ -32,6 +32,8 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
   * Luciano Ramalho
   * Rodrigo Senra
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bp7KuOTU9nE" frameborder="0" allowfullscreen></iframe>
+
 **2012 - PythonBrasil[8] (Rio de Janeiro)**
 
   * Érico Andrei
