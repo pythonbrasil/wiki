@@ -47,13 +47,18 @@ Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome q
 Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
 
 > git clone git@github.com:pythonbrasil/apyb.git
+
 > cd apyb
 
 Pronto! Você já está na pasta do projeto! Agora vamos instalar os programas necessários (Certifique-se que o virtualenv está ativado):
 
 > pip install -r requirements.txt
 
-Podem ocorrer problemas variados na instalação dos programas, verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
+Podem ocorrer problemas variados na instalação dos programas, se isso acontecer tente instalar as depêndencias do sistema operacional. No Ubuntu você pode usar o seguinte comando:
+
+> sudo ./install_os_dependencies.sh install
+
+Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
 
 Legal, agora já instalei todos os programas, vamos fazê-lo rodar em nosso computador?
 

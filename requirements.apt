@@ -1,7 +1,15 @@
 # listar as dependencias nao python aqui (Ubuntu 14.04 de preferencia)
 python-dev
+build-essential
+
+# lxml dependencies
 libxslt1-dev
 libxml2-dev
-libjpeg-dev
 
-
+## Pillow dependencies
+zlib1g-dev
+libtiff4-dev
+libjpeg8-dev
+libfreetype6-dev
+liblcms1-dev
+libwebp-dev

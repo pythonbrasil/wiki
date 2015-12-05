@@ -116,7 +116,7 @@ SOCIAL_LINKS = (
     {
         'href': 'https://groups.google.com/forum/#!forum/python-brasil',
         'icon': 'fa-users',
-        'text': 'Lista de emails',
+        'text': 'Lista de Discussões',
     },
 )
 
