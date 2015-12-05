@@ -13,6 +13,7 @@
     <link href="{{ SITEURL }}/theme/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/pygments/{{ PYGMENTS_STYLE }}.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/apyb/css/components.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/apyb/css/base.css" rel="stylesheet">
 
     {% block aditional_styles %}
@@ -32,6 +33,54 @@
   </head>
 
   <body>
+    {% if page is defined %}
+      {% set href = page.slug %}
+    {% elif page_name is defined %}
+      {% set href = page_name.replace("/index", "") %}
+    {% else %}
+      {% set href = None %}
+    {% endif %}
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
+        </div>
+        <div id="slidemenu">
+          <div class="menu-logo">
+            <img src="{{ SITEURL }}/theme/apyb/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}">
+          </div>
+
+          <ul class="nav navbar-nav">
+            {% for link in NAVBAR_HOME_LINKS %}
+              {% if 'children' in link %}
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }} <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    {% for sublink in link.children %}
+                      <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% else %}
+                <li {% if href == link.href %}class="active"{% endif %}>
+                  <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <header>
       <div class="container">
         <div class="row">
@@ -40,39 +89,6 @@
               <a href="{{ SITEURL }}/index">
                 <img class="header-logo" src="{{ SITEURL }}/theme/apyb/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
               </a>
-
-              <nav class="navbar navbar-default navbar-inverse navbar-apyb">
-                <div class="container">
-                  <ul class="nav navbar-nav">
-                    {% if page is defined %}
-                      {% set href = page.slug %}
-                    {% elif page_name is defined %}
-                      {% set href = page_name.replace("/index", "") %}
-                    {% else %}
-                      {% set href = None %}
-                    {% endif %}
-
-                    {% for link in NAVBAR_HOME_LINKS %}
-                      {% if 'children' in link %}
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            {{ link.title }} <span class="caret"></span>
-                          </a>
-                          <ul class="dropdown-menu navbar-apyb">
-                            {% for sublink in link.children %}
-                              <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
-                            {% endfor %}
-                          </ul>
-                        </li>
-                      {% else %}
-                        <li {% if href == link.href %}class="active"{% endif %}>
-                          <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </div>
-              </nav>
 
               <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
             </div>
@@ -113,6 +129,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ SITEURL }}/theme/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ SITEURL }}/theme/apyb/js/components.js"></script>
 
     {% block aditional_scripts %}
     {% endblock %}
