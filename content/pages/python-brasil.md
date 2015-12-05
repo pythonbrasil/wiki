@@ -70,21 +70,34 @@ Desenvolvedores de software freelancers, de startups e grandes empresas, ativist
 
 ## Histórico das Python Brasil
 
-- Campinas (2005)
-- Brasília (2006) 
-- Joinville (2007)
-- Rio de Janeiro (2008)
-- Caxias do Sul (2009)
-- Curitiba (2010)
-- São Paulo (2011)
-- Rio de Janeiro (2012)
-- Brasília (2013)
-- [Porto de Galinhas (2014)](http://2014.pythonbrasil.org.br/)
-- [São José dos Campos (2015)](http://pythonbrasil.github.io/pythonbrasil11-site/)
-- A Python Brasil 2016 será em Florianópolis, Santa Catarina 
-- A Python Brasil 2017 será em Belo Horizonte, Minas Gerais
+Em todas as edições da PythonBrasil uma pessoa da comunidade fica responsável por coordenar e gerenciar todos os envolvidos na organização do evento.
+
+Essa pessoa recebe, por razões históricas (consulte o Rodrigo Senra para maiores detalhes), o título de ‘Big Kahuna’. O ‘Big Kahuna’ é o grande chefe, o maestro da organização, se ele trabalha bem o evento é um sucesso, se ele não trabalha bem o evento não sairá direito.
+
+Todavia, em todas as edições, o evento é fruto do trabalho de diversas pessoas, e é responsabilidade de todos o sucesso da empreitada.
+
+- 2005 - [São Paulo - Centro de Computação da Unicamp](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil.html) - Rodrigo Senra
+- 2006 - [Brasília - Interlegis](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil2.html) - Jean Rodrigo Ferri
+- 2007 - [Santa Catarina - SOCIESC](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil3.html) - Marco André Lopes
+- 2008 - [Rio de Janeiro - UVA](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil2008.html) - Luis Gustavo Neves
+- 2009 - [Rio Grande do Sul - UCS - Dornéles Treméa](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil5.html) - Dorneles Treméa
+- 2010 - [Curitiba - UFPR - Ramiro Luz](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil6.html) - Ramiro Batista Luz
+- 2011 - [São Paulo - AMCHAM Business Center](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil7.html) - Érico Andrei
+- 2012 - Rio de Janeiro - Tatiana Al-Chueyr e Álvaro Justen
+- 2013 - [Brasília - Centro de Convenções Ulysses Guimarães (CCUG)](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil9.html) - Tania Andréa
+- 2014 - [Porto de Galinhas (2014)](http://2014.pythonbrasil.org.br/) - Renato Oliveira
+- 2015 - [São José dos Campos (2015)](http://pythonbrasil.github.io/pythonbrasil11-site/) - Renzo Nuccitelli
+- A Python Brasil 2016 será em Florianópolis, Santa Catarina - Mário Sérgio Oliveira de Queiroz
+- A Python Brasil 2017 será em Belo Horizonte, Minas Gerais - Igor Santos
 
 Mais informações podem ser encontradas no manual do Big Kahuna - [https://manual-do-big-kahuna.readthedocs.org/en/latest/](https://manual-do-big-kahuna.readthedocs.org/en/latest/)
 
- 
+## Vídeos das conferências passadas
 
+- [II Pycon Brasil](https://www.youtube.com/user/ericoandrei/videos)
+- [Pycon Brasil 2008](https://www.youtube.com/user/opobre/videos)
+- [Python Brasil 2010](https://www.youtube.com/watch?v=iuKjxeHLVOU&list=PLqjh1U8eZaP5Qd-IXAxhSXoO6MXZjfP_b)
+- [Python Brasil 2011](https://www.youtube.com/watch?v=kMwZpxm_Pac&list=PLqjh1U8eZaP4GVDc2sB-nbZdim13rUU74)
+- [Python Brasil 2011](https://www.youtube.com/watch?v=oj3l-VuIIVw&list=PLF6D4A34C424514D3)
+- [Python Brasil 2013](https://www.youtube.com/watch?v=FnZTQGKG7dA&list=PLqjh1U8eZaP6TM0tCdLVeiB0LTBkaEBai)
+- [Plone Conference 2013](https://www.youtube.com/watch?v=4x_vjgKPyhA&list=PLqjh1U8eZaP4QiTZlx4XFKIannYcMr_am)
