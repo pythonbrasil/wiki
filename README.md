@@ -58,6 +58,15 @@ Podem ocorrer problemas variados na instalação dos programas, se isso acontece
 
 > sudo ./install_os_dependencies.sh install
 
+No Mac OS X Yosemite, use o seguinte comando para instalar ferramentas e utilitários como (libtool, lxml, cpp, etc...)que já é default em distros Linux:
+
+> x-code-select --install
+
+Se der erro de locale, tente comando abaixo, o ideal é colocar no ~/.bash_profile
+
+> export LC_ALL=en_US.UTF-8
+> export LANG=en_US.UTF-8
+
 Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
 
 Legal, agora já instalei todos os programas, vamos fazê-lo rodar em nosso computador?
