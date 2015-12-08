@@ -1,12 +1,12 @@
 # Site estático Python Brasil
 
-[![Build Status](https://travis-ci.org/pythonbrasil/pythonbrasil.github.io.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/pythonbrasil.github.io)
+[![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
 
 Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitHub Pages.
 
-Site Live:  http://pythonbrasil.github.io
+Site Live:  http://pythonbrasil.github.io/wiki
 
-Repo: https://github.com/pythonbrasil/pythonbrasil.github.io/
+Repo: https://github.com/pythonbrasil/wiki
 
 Este projeto utiliza [Pelican](http://blog.getpelican.com/) como gerador de páginas estáticas e [Travis-CI](https://travis-ci.org/) para realizar a integração contínua.
 
@@ -46,7 +46,7 @@ Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome q
 
 Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
 
-> git clone git@github.com:pythonbrasil/pythonbrasil.github.io.git
+> git clone git@github.com:pythonbrasil/wiki.git
 
 > cd apyb
 

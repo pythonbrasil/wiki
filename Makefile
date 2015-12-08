@@ -8,7 +8,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-GITHUB_PAGES_BRANCH=master
+GITHUB_PAGES_BRANCH=gh-pages
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -73,7 +73,7 @@ travis: publish
 	git push -fq origin $(GITHUB_PAGES_BRANCH) > /dev/null
 
 ping:
-	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
-	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://pythonbrasil.github.io/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
+	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
+	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
 
 .PHONY: html help clean regenerate serve devserver publish github

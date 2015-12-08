@@ -10,8 +10,8 @@ before_install:
 - echo "Host github.com" >> ~/.ssh/config
 - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
 - git --version
-- git remote set-url origin git@github.com:pythonbrasil/pythonbrasil.github.io.git
-- git fetch origin -f master:master
+- git remote set-url origin git@github.com:pythonbrasil/wiki.git
+- git fetch origin -f gh-pages:gh-pages
 install:
 - pip install -r requirements.txt
 script:

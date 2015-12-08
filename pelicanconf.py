@@ -20,7 +20,7 @@ AUTHOR = 'APyB'
 THEME = 'themes/apyb'
 
 # Referências à Github
-GITHUB_REPO = 'https://github.com/pythonbrasil/pythonbrasil.github.io'
+GITHUB_REPO = 'https://github.com/pythonbrasil/wiki'
 GITHUB_BRANCH = 'pelican'
 
 # Referencia ao Google Groups
