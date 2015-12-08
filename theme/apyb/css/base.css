@@ -1,0 +1,127 @@
+header {
+  margin-top: 51px;
+  border-top: 2px solid #ffd343;
+  color: #ffffff;
+  text-align: center;
+
+  /* gradient */
+  background: #092c34;  /* Old browsers */
+  background: -moz-linear-gradient(#092c34 0%, #34608f 100%);  /* FF3.6-15 */
+  background: -webkit-linear-gradient(#092c34 0%,#34608f 100%);  /* Chrome10-25, Safari5.1-6 */
+  background: linear-gradient(#092c34 0%,#34608f 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#092c34', endColorstr='#34608f', GradientType=0);  /* IE6-9 */
+}
+
+.header-container {
+  padding: 50px 0;
+}
+
+.header-logo {
+  width: 400px;
+}
+
+.menu-logo {
+  display: none;
+  margin: 30px 0 20px 0;
+  text-align: center;
+}
+
+@media (max-width:767px) {
+  .menu-logo {
+    display: block;
+  }
+}
+
+.menu-logo>img {
+  width: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+  .header-logo {
+    width: 280px;
+  }
+}
+
+.header-subtitle {
+  font-size: 25px;
+  color: #ffd343;
+}
+
+main {
+  padding: 40px 0;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: justify;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul>li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+footer ul>li>a {
+  color: #ffffff;
+}
+
+footer ul>li>a:hover, footer ul>li>a:active {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  color: #444444;
+}
+
+main h1, main h2, main h3, main h4 {
+  color: #666666;
+}
+
+.page-description {
+  height: 190px;
+  margin-bottom: 20px;
+}
+
+.page-description-title {
+  font-size: 28px;
+}
+
+.page-description-text {
+  height: 90px;
+  text-align: justify;
+}
+
+.grupy-thumbnail-container {
+  margin-top: 50px;
+}
+
+.grupy-thumbnail {
+  min-height: 520px;
+}
+
+.grupy-thumbnail:hover {
+  background-color: #eeeeee;
+}
+
+.grupy-thumbnail > img {
+  padding: 20px;
+  max-height: 310px;
+}
+.grupy-thumbnail > .caption {
+  bottom: 0;
+  left: 5%;
+  padding-bottom: 30px;
+  position: absolute;
+  width: 90%;
+}
+.grupy-thumbnail > .caption > h3{
+  padding-bottom: 15px;
+}
