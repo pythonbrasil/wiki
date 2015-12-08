@@ -19,7 +19,7 @@ Nossa atual diretoria atuará até Setembro de 2017. O estatuto da APyB foi disc
 
 ##Fundadores
 
-![Fundação da APyB](/images/apyb/fundadores-apyb.jpg)
+![Fundação da APyB]({filename}/images/apyb/fundadores-apyb.jpg)
 
 De pé (esquerda para direita):
 
