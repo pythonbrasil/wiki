@@ -1,12 +1,12 @@
-# Site estático APyB
+# Site estático Python Brasil
 
-[![Build Status](https://travis-ci.org/pythonbrasil/apyb.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/apyb)
+[![Build Status](https://travis-ci.org/pythonbrasil/pythonbrasil.github.io.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/pythonbrasil.github.io)
 
 Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitHub Pages.
 
-Site Live:  http://pythonbrasil.github.io/apyb/
+Site Live:  http://pythonbrasil.github.io
 
-Repo: https://github.com/pythonbrasil/apyb
+Repo: https://github.com/pythonbrasil/pythonbrasil.github.io/
 
 Este projeto utiliza [Pelican](http://blog.getpelican.com/) como gerador de páginas estáticas e [Travis-CI](https://travis-ci.org/) para realizar a integração contínua.
 
@@ -46,7 +46,7 @@ Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome q
 
 Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
 
-> git clone git@github.com:pythonbrasil/apyb.git
+> git clone git@github.com:pythonbrasil/pythonbrasil.github.io.git
 
 > cd apyb
 
@@ -57,6 +57,16 @@ Pronto! Você já está na pasta do projeto! Agora vamos instalar os programas n
 Podem ocorrer problemas variados na instalação dos programas, se isso acontecer tente instalar as depêndencias do sistema operacional. No Ubuntu você pode usar o seguinte comando:
 
 > sudo ./install_os_dependencies.sh install
+
+No Mac OS X Yosemite, use o seguinte comando para instalar ferramentas e utilitários como (libtool, lxml, cpp, etc...)que já é default em distros Linux:
+
+> x-code-select --install
+
+Se der erro de locale, tente comando abaixo, o ideal é colocar no ~/.bash_profile
+
+> export LC_ALL=en_US.UTF-8
+
+> export LANG=en_US.UTF-8
 
 Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
 
