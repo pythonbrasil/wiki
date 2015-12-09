@@ -1,4 +1,4 @@
-# Site estático Python Brasil
+# Site estático python.org.br
 
 [![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
 
