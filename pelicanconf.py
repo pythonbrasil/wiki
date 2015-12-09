@@ -15,9 +15,9 @@ from collections import OrderedDict
 from baseconf import *
 
 # Configurações Base
-SITENAME = 'APyB'
-AUTHOR = 'APyB'
-THEME = 'themes/apyb'
+SITENAME = 'Python Brasil'
+AUTHOR = 'Python Brasil'
+THEME = 'themes/pybr'
 
 # Referências à Github
 GITHUB_REPO = 'https://github.com/pythonbrasil/wiki'
@@ -37,9 +37,9 @@ GOOGLE_SITE_VERIFICATION_METATAG_CODE = None
 ARTICLE_BANNERS_FOLDER = 'images/banners'
 
 # Home settings
-WELCOME_TITLE = 'Associação Python Brasil'
-WELCOME_TEXT = 'A APyB tem como objetivo promover e apoiar iniciativas da comunidade Python no Brasil, empoderando a comunidade sem se apropriar da mesma.'
-FOOTER_ABOUT = 'A Associação Python Brasil (APyB) é uma organização sem fins lucrativos com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.'
+WELCOME_TITLE = 'Python Brasil'
+WELCOME_TEXT = 'A comunidade Python Brasil reune grupos de usuários em todo o Brasil interessados em difundir e divulgar a linguagem de programação.'
+FOOTER_ABOUT = 'Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.'
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = 'perldoc'
@@ -47,52 +47,48 @@ PYGMENTS_STYLE = 'perldoc'
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
     {
-        'title': 'Sobre',
+        'title': 'Impressione-se',
         'href': '#',
+        'desc': 'Descubra como Python está presente em seu dia-a-dia.',
         'children': [
-            {
-                'title': 'A APyB',
-                'href': 'apyb',
-            },
-            {
-                'title': 'Estatuto',
-                'href': 'estatuto',
-            },
-            {
-                'title': 'Associe-se',
-                'href': 'associe-se',
-            },
         ]
     },
     {
-        'title': 'Comunidade',
+        'title': 'Inicie-se',
         'href': '#',
+        'desc': 'Veja como é fácil começar a usar a linguagem.',
         'children': [
+        ]
+    },
+    {
+        'title': 'Aprenda mais',
+        'href': '#',
+        'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
+        'children': [
+        ]
+    },
+    {
+        'title': 'Envolva-se',
+        'href': '#',
+        'desc': 'Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.',
+        'children': [
+            {
+                'title': 'Eventos',
+                'href': 'eventos',
+            },
             {
                 'title': 'Comunidades Locais',
                 'href': 'comunidades-locais',
+            },
+            {
+                'title': 'Conferência Python Brasil',
+                'href': 'python-brasil',
             },
             {
                 'title': 'Lista de Discussões',
                 'href': 'lista-de-discussoes',
             },
         ]
-    },
-    {
-        'title': 'Eventos',
-        'href': 'eventos',
-    },
-    {
-        'title': 'Conferência Python Brasil',
-        'href': 'python-brasil',
-    },
-    {
-        'title': 'Prêmio Dorneles Treméa',
-        'href': 'premio-dorneles-tremea',
-    },
-    {
-        'title': 'Patrocínio',
-        'href': 'patrocinio',
     },
 ]
 
