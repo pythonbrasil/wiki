@@ -48,7 +48,12 @@ header {
 }
 
 main {
+  color: #444444;
   padding: 40px 0;
+}
+
+main h1, main h2, main h3, main h4 {
+  color: #666666;
 }
 
 footer {
@@ -75,53 +80,4 @@ footer ul>li>a:hover, footer ul>li>a:active {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
-}
-
-main {
-  color: #444444;
-}
-
-main h1, main h2, main h3, main h4 {
-  color: #666666;
-}
-
-.page-description {
-  height: 190px;
-  margin-bottom: 20px;
-}
-
-.page-description-title {
-  font-size: 28px;
-}
-
-.page-description-text {
-  height: 90px;
-  text-align: justify;
-}
-
-.grupy-thumbnail-container {
-  margin-top: 50px;
-}
-
-.grupy-thumbnail {
-  min-height: 520px;
-}
-
-.grupy-thumbnail:hover {
-  background-color: #eeeeee;
-}
-
-.grupy-thumbnail > img {
-  padding: 20px;
-  max-height: 310px;
-}
-.grupy-thumbnail > .caption {
-  bottom: 0;
-  left: 5%;
-  padding-bottom: 30px;
-  position: absolute;
-  width: 90%;
-}
-.grupy-thumbnail > .caption > h3{
-  padding-bottom: 15px;
 }

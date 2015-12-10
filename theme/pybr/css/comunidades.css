@@ -1,0 +1,26 @@
+.grupy-thumbnail-container {
+  margin-top: 50px;
+}
+
+.grupy-thumbnail {
+  min-height: 520px;
+}
+
+.grupy-thumbnail:hover {
+  background-color: #eeeeee;
+}
+
+.grupy-thumbnail > img {
+  padding: 20px;
+  max-height: 310px;
+}
+.grupy-thumbnail > .caption {
+  bottom: 0;
+  left: 5%;
+  padding-bottom: 30px;
+  position: absolute;
+  width: 90%;
+}
+.grupy-thumbnail > .caption > h3{
+  padding-bottom: 15px;
+}
