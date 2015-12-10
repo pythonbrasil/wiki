@@ -7,50 +7,52 @@
 {% endblock %}
 
 {% block content %}
-  <div class="row">
-    <div class="col-xs-12">
-      <ol class="breadcrumb">
-        <li><a href="{{ SITEURL }}/index">Home</a></li>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ol class="breadcrumb">
+          <li><a href="{{ SITEURL }}/index">Home</a></li>
 
-        <li class="active">Eventos</li>
-      </ol>
+          <li class="active">Eventos</li>
+        </ol>
 
-      <hr>
+        <hr>
 
-      <h1>Eventos</h1>
+        <h1>Eventos</h1>
 
-      {% set date_color = cycler('date-blue', 'date-yellow') %}
-      {% for article in articles %}
-        <div class="row event">
-          <div class="col-xs-2 event-date {{ date_color.next() }}">
-            <p class="event-day">
-              {{ article.date.day }}
-            </p>
+        {% set date_color = cycler('date-blue', 'date-yellow') %}
+        {% for article in articles %}
+          <div class="row event">
+            <div class="col-xs-2 event-date {{ date_color.next() }}">
+              <p class="event-day">
+                {{ article.date.day }}
+              </p>
 
-            <p class="event-month">
-              {{ article.date|strftime('%b')|upper }}
-            </p>
+              <p class="event-month">
+                {{ article.date|strftime('%b')|upper }}
+              </p>
 
-            <p class="event-year">
-              {{ article.date.year }}
-            </p>
+              <p class="event-year">
+                {{ article.date.year }}
+              </p>
+            </div>
+
+            <div class="col-xs-10 event-description">
+              <h1>
+                {{ article.title }}
+              </h1>
+
+              <h2>
+                {{ article.cidade }} - {{ article.estado }}
+              </h2>
+
+              <h3>
+                {{ article.sumary }}
+              </h3>
+            </div>
           </div>
-
-          <div class="col-xs-10 event-description">
-            <h1>
-              {{ article.title }}
-            </h1>
-
-            <h2>
-              {{ article.cidade }} - {{ article.estado }}
-            </h2>
-
-            <h3>
-              {{ article.sumary }}
-            </h3>
-          </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% endblock %}
