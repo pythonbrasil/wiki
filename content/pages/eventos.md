@@ -1,6 +1,6 @@
 Title: Eventos
 Slug: eventos
-Template: page
+Template: eventos
 Sortorder: 5
 Excerpt: Veja todos os eventos promovidos pela comunidade, incluindo encontros, conferências, meetups, sprints e hackfests.
 

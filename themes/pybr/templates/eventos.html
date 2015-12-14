@@ -1,0 +1,42 @@
+{% extends 'page.html' %}
+
+{% block title %}{{ super() }}-Eventos{% endblock %}
+
+{% block aditional_styles %}
+  <link href="{{ SITEURL }}/theme/pybr/css/eventos.css" rel="stylesheet">
+{% endblock %}
+
+{% block post_content %}
+  {% set date_color = cycler('date-blue', 'date-yellow') %}
+  {% for evento in EVENTOS %}
+    <div class="row event">
+      <div class="col-xs-2 event-date {{ date_color.next() }}">
+        <p class="event-day">
+          {{ evento.data.day }}
+        </p>
+
+        <p class="event-month">
+          {{ evento.data|strftime('%b')|upper }}
+        </p>
+
+        <p class="event-year">
+          {{ evento.data.year }}
+        </p>
+      </div>
+
+      <div class="col-xs-10 event-description">
+        <h1>
+          {{ evento.nome }}
+        </h1>
+
+        <h2>
+          {{ evento.cidade }} - {{ evento.estado }}
+        </h2>
+
+        <p>
+          <a href="{{ evento.link }}">Site</a>
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}

@@ -7,6 +7,7 @@ import os
 import sys
 import glob
 import json
+import datetime
 
 sys.path.append(os.curdir)
 
@@ -116,5 +117,14 @@ SOCIAL_LINKS = (
     },
 )
 
+def date_hook(json_dict):
+    for (key, value) in json_dict.items():
+        try:
+            json_dict[key] = datetime.datetime.strptime(value, "%Y-%m-%d")
+        except:
+            pass
+    return json_dict
+
+EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"

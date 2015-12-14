@@ -10,28 +10,28 @@ TIMEZONE = 'America/Sao_Paulo'
 SUMMARY_MAX_LENGTH = 35
 
 ### URL and Page generation settings
-ARTICLE_URL = 'eventos/{slug}'
-ARTICLE_SAVE_AS = 'eventos/{slug}/index.html'
+ARTICLE_URL = 'vagas/{slug}'
+ARTICLE_SAVE_AS = 'vagas/{slug}/index.html'
 
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 
-CATEGORIES_URL = 'eventos/categorias'
-CATEGORIES_SAVE_AS = 'eventos/categorias/index.html'
-CATEGORY_URL = 'eventos/categorias/{slug}'
-CATEGORY_SAVE_AS = 'eventos/categorias/{slug}/index.html'
+CATEGORIES_URL = 'vagas/categorias'
+CATEGORIES_SAVE_AS = 'vagas/categorias/index.html'
+CATEGORY_URL = 'vagas/categorias/{slug}'
+CATEGORY_SAVE_AS = 'vagas/categorias/{slug}/index.html'
 
-TAG_URL = 'eventos/tags/{slug}'
-TAG_SAVE_AS = 'eventos/tags/{slug}/index.html'
-TAGS_URL = 'eventos/tags'
-TAGS_SAVE_AS = 'eventos/tags/index.html'
+TAG_URL = 'vagas/tags/{slug}'
+TAG_SAVE_AS = 'vagas/tags/{slug}/index.html'
+TAGS_URL = 'vagas/tags'
+TAGS_SAVE_AS = 'vagas/tags/index.html'
 
-AUTHOR_URL = 'eventos/autores/{slug}'
-AUTHOR_SAVE_AS = 'eventos/autores/{slug}/index.html'
-AUTHORS_URL = 'eventos/autores'
-AUTHORS_SAVE_AS = 'eventos/autores/index.html'
+AUTHOR_URL = 'vagas/autores/{slug}'
+AUTHOR_SAVE_AS = 'vagas/autores/{slug}/index.html'
+AUTHORS_URL = 'vagas/autores'
+AUTHORS_SAVE_AS = 'vagas/autores/index.html'
 
-INDEX_SAVE_AS = "eventos/index.html"
+INDEX_SAVE_AS = "vagas/index.html"
 
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
