@@ -83,6 +83,10 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Lista de Discussões',
                 'href': 'lista-de-discussoes',
             },
+            {
+                'title': 'A APyB',
+                'href': 'apyb',
+            },
         ]
     },
 ]
