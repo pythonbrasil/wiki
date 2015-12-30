@@ -49,24 +49,18 @@ PYGMENTS_STYLE = 'perldoc'
 NAVBAR_HOME_LINKS = [
     {
         'title': 'Impressione-se',
-        'href': '#',
+        'href': 'impressione-se',
         'desc': 'Descubra como Python está presente em seu dia-a-dia.',
-        'children': [
-        ]
     },
     {
         'title': 'Inicie-se',
-        'href': '#',
+        'href': 'inicie-se',
         'desc': 'Veja como é fácil começar a usar a linguagem.',
-        'children': [
-        ]
     },
     {
         'title': 'Aprenda mais',
-        'href': '#',
+        'href': 'aprenda-mais',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
-        'children': [
-        ]
     },
     {
         'title': 'Envolva-se',

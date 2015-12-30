@@ -1,8 +1,6 @@
 Title: Associe-se
 Slug: associe-se
 Template: page
-Sortorder: 2
-Excerpt: Apaixonado por Python? Quer fazer parte da APyB? Você pode se inscrever AGORA através de nosso site.
 
 Apaixonado por Python? Quer fazer parte da APyB? Você pode se inscrever AGORA através de nosso site.
 

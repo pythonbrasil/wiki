@@ -1,8 +1,6 @@
 Title: Prêmio Dorneles Treméa
 Slug: premio-dorneles-tremea
 Template: page
-Sortorder: 7
-Excerpt: O Prêmio Dorneles Treméa é concedido anualmente ao membro, ou membros, da comunidade Python brasileira que mantém vivo o espírito de colaboração, empreendedorismo e entrega à comunidade.
 
 **O Prêmio Dorneles Treméa é concedido anualmente ao membro, ou membros, da comunidade Python brasileira que mantém vivo o espírito de colaboração, empreendedorismo e entrega à comunidade.**
 
