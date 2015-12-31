@@ -48,7 +48,7 @@ Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora v
 
 > git clone git@github.com:pythonbrasil/wiki.git
 
-> cd apyb
+> cd wiki
 
 Pronto! Você já está na pasta do projeto! Agora vamos instalar os programas necessários (Certifique-se que o virtualenv está ativado):
 
