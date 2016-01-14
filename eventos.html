@@ -112,7 +112,7 @@
     </div>
 
     <div class="row event">
-      <div class="col-xs-2 event-date date-blue">
+      <div class="col-xs-3 event-date date-blue">
         <p class="event-day">
           2
         </p>
@@ -126,7 +126,7 @@
         </p>
       </div>
 
-      <div class="col-xs-10 event-description">
+      <div class="col-xs-6 event-description">
         <h1>
           Python Nordeste 2016
         </h1>
@@ -136,8 +136,12 @@
         </h2>
 
         <p>
-          <a href="http://2016.pythonnordeste.org/">Site</a>
+          <a href="http://2016.pythonnordeste.org/">Site do Evento</a>
         </p>
+      </div>
+
+      <div class="col-xs-3 event-map">
+        <div class="map" data-latitude="-5.058986" data-longitude="-42.821826"></div>
       </div>
     </div>
   </div>
@@ -171,6 +175,25 @@
       <script src="http://pythonbrasil.github.io/wiki/theme/bootstrap/js/bootstrap.min.js"></script>
       <script src="http://pythonbrasil.github.io/wiki/theme/pybr/js/components.js"></script>
 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&dummy=.js"></script>
+
+  <script>
+    var maps = $('.map');
+
+    for (i = 0; i < maps.length; i++) {
+      var map = maps[i];
+      var latitude = $(map).data('latitude');
+      var longitude = $(map).data('longitude');
+
+      new google.maps.Map(map, {
+          zoom: 10,
+          disableDefaultUI: true,
+          zoomControl: true,
+          center: new google.maps.LatLng(latitude, longitude),
+          mapTypeId: "roadmap"
+      });
+    }
+  </script>
     </div>
   </body>
 </html>
