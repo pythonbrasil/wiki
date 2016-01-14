@@ -3,5 +3,7 @@
     "data": "2016-06-02",
     "cidade": "Teresina",
     "estado": "PI",
-    "link": "http://2016.pythonnordeste.org/"
+    "link": "http://2016.pythonnordeste.org/",
+    "latitude": "-5.058986",
+    "longitude": "-42.821826"
 }
