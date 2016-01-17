@@ -18,6 +18,7 @@
 
 .event-description{
   height: 100%;
+  padding: 40px 0;
   background-color: #666666;
   color: #ffffff;
 }
@@ -45,16 +46,36 @@
   color: #ffffff;
 }
 
+.event-description h1{
+  margin: 0;
+  font-size: 30px;
+  line-height: 50px;
+}
 
 .event-description h2 {
-  margin-top: 0;
-  font-size: 20px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .event-description p {
-  padding: 20px;
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+@media (max-width:767px) {
+  .event-description h1{
+    font-size: 18px;
+  }
+
+  .event-description h2 {
+    font-size: 14px;
+  }
+
+  .event-description p {
+    font-size: 16px;
+  }
 }
 
 .event-description a {
