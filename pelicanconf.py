@@ -63,25 +63,25 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
     },
     {
-        'title': 'Envolva-se',
+        'title': 'Participe',
         'href': '#',
         'desc': 'Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.',
         'children': [
             {
-                'title': 'Eventos',
-                'href': 'eventos',
+                'title': 'Lista de Discussões',
+                'href': 'lista-de-discussoes',
             },
             {
                 'title': 'Comunidades Locais',
                 'href': 'comunidades-locais',
             },
             {
-                'title': 'Conferência Python Brasil',
-                'href': 'python-brasil',
+                'title': 'Eventos',
+                'href': 'eventos',
             },
             {
-                'title': 'Lista de Discussões',
-                'href': 'lista-de-discussoes',
+                'title': 'Conferência Python Brasil',
+                'href': 'python-brasil',
             },
             {
                 'title': 'A APyB',
