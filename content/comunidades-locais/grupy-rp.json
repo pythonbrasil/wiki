@@ -1,8 +1,20 @@
 {
     "links": [
         [
+            "Slack",
+            "https://grupyrp.herokuapp.com"
+        ],
+        [
             "Meetup",
             "http://www.meetup.com/pt/grupy-rp/"
+        ],
+        [
+            "Github",
+            "https://github.com/grupyrp"
+        ],
+        [
+            "Google Groups",
+            "https://groups.google.com/forum/#!forum/grupy-rp"
         ]
     ],
     "nome": "Grupo de usu\u00e1rios de Ribeir\u00e3o Preto",
