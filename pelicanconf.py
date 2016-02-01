@@ -113,6 +113,11 @@ SOCIAL_LINKS = (
         'icon': 'fa-users',
         'text': 'Lista de Discussões',
     },
+    {
+        'href': 'https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ',
+        'icon': 'fa-paper-plane',
+        'text': 'Telegram'
+    }
 )
 
 def date_hook(json_dict):
