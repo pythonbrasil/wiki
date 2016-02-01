@@ -1,24 +1,28 @@
 /* Slide Menu */
 
 /* adjust body when menu is open */
-body.slide-active {
-  overflow-x: hidden
+body.slide-active > .master-wrapper {
+  overflow-x: hidden;
 }
 
 /*first child of #page-content so it doesn't shift around*/
 .no-margin-top {
-  margin-top: 0px!important
+  margin-top: 0px !important;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 /*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
 #page-content {
   position: relative;
-  padding-top: 70px;
+  padding-top: 50px;
   left: 0;
 }
 
 #page-content.slide-active {
-  padding-top: 0
+  padding-top: 0;
 }
 
 /* put toggle bars on the left :: not using button */
@@ -44,24 +48,24 @@ body.slide-active {
 }
 
 #slide-nav .navbar-toggle.slide-active .icon-bar {
-  background: #ffd343
+  background: #ffd343;
 }
 
 .navbar-header {
-  position: relative
+  position: relative;
 }
 
 /* un fix the navbar when active so that all the menu items are accessible */
 .navbar.navbar-fixed-top.slide-active {
-  position: relative
+  position: relative;
 }
 
 /* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
 @media (max-width:767px) {
   #slide-nav .container {
-    margin: 0!important;
-    padding: 0!important;
-    height:100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
   }
 
   #slide-nav .navbar-header {
@@ -101,11 +105,19 @@ body.slide-active {
   }
 
   #slide-nav {
-    border-top: 0
+    border-top: 0;
   }
 
   #slide-nav.navbar-inverse #slidemenu {
-    background: #333
+    background: #333333;
+  }
+
+  #slide-nav.navbar-inverse .navbar-nav>.open>a:hover,
+  #slide-nav.navbar-inverse .navbar-nav>.open>a:focus,
+  #slide-nav.navbar-inverse .navbar-nav>.active>a,
+  #slide-nav.navbar-inverse .navbar-nav>.active>a:hover,
+  #slide-nav.navbar-inverse .navbar-nav>.active>a:focus {
+    background: #292929;
   }
 
   /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
@@ -113,14 +125,14 @@ body.slide-active {
     position: fixed;
     top: 0;
     height: 100%;
-    bottom:0;
+    bottom: 0;
     width: 80%;
     left: -80%;
     background: #f7f7f7;
   }
 
   #navbar-height-col.inverse {
-    background: #333;
+    background: #333333;
     z-index: 1;
     border: 0;
   }
@@ -134,25 +146,25 @@ body.slide-active {
   }
 
   #slide-nav .navbar-form .form-control {
-    text-align: center
+    text-align: center;
   }
 
   #slide-nav .navbar-form .btn {
-    width: 100%
+    width: 100%;
   }
 
 }
 
 @media (min-width:768px) {
   #page-content {
-    left: 0!important
+    left: 0 !important;
   }
 
   .navbar.navbar-fixed-top.slide-active {
-    position: fixed
+    position: fixed;
   }
 
   .navbar-header {
-    left: 0!important
+    left: 0 !important;
   }
 }

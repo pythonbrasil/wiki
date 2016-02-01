@@ -1,8 +1,24 @@
 {
     "links": [
         [
+            "Site",
+            "http://http://pythonmg.com.br/"
+        ],
+        [
             "Google Groups",
             "https://groups.google.com/forum/#!forum/python-mg"
+        ],
+        [
+            "Github",
+            "https://github.com/python-mg"
+        ],
+        [
+            "Twitter",
+            "https://twitter.com/pythonMG"
+        ],
+        [
+            "Youtube",
+            "https://www.youtube.com/c/PythonMinasGerais"
         ],
         [
             "Meetup",

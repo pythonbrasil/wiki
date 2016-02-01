@@ -7,6 +7,7 @@ import os
 import sys
 import glob
 import json
+import datetime
 
 sys.path.append(os.curdir)
 
@@ -48,45 +49,43 @@ PYGMENTS_STYLE = 'perldoc'
 NAVBAR_HOME_LINKS = [
     {
         'title': 'Impressione-se',
-        'href': '#',
+        'href': 'impressione-se',
         'desc': 'Descubra como Python está presente em seu dia-a-dia.',
-        'children': [
-        ]
     },
     {
         'title': 'Inicie-se',
-        'href': '#',
+        'href': 'inicie-se',
         'desc': 'Veja como é fácil começar a usar a linguagem.',
-        'children': [
-        ]
     },
     {
         'title': 'Aprenda mais',
-        'href': '#',
+        'href': 'aprenda-mais',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
-        'children': [
-        ]
     },
     {
-        'title': 'Envolva-se',
+        'title': 'Participe',
         'href': '#',
         'desc': 'Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.',
         'children': [
             {
-                'title': 'Eventos',
-                'href': 'eventos',
+                'title': 'Lista de Discussões',
+                'href': 'lista-de-discussoes',
             },
             {
                 'title': 'Comunidades Locais',
                 'href': 'comunidades-locais',
             },
             {
+                'title': 'Eventos',
+                'href': 'eventos',
+            },
+            {
                 'title': 'Conferência Python Brasil',
                 'href': 'python-brasil',
             },
             {
-                'title': 'Lista de Discussões',
-                'href': 'lista-de-discussoes',
+                'title': 'A APyB',
+                'href': 'apyb',
             },
         ]
     },
@@ -116,5 +115,14 @@ SOCIAL_LINKS = (
     },
 )
 
+def date_hook(json_dict):
+    for (key, value) in json_dict.items():
+        try:
+            json_dict[key] = datetime.datetime.strptime(value, "%Y-%m-%d")
+        except:
+            pass
+    return json_dict
+
+EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"

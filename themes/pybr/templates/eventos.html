@@ -1,0 +1,69 @@
+{% extends 'page.html' %}
+
+{% block title %}{{ super() }}-Eventos{% endblock %}
+
+{% block aditional_styles %}
+  <link href="{{ SITEURL }}/theme/pybr/css/eventos.css" rel="stylesheet">
+{% endblock %}
+
+{% block post_content %}
+  {% set date_color = cycler('date-blue', 'date-yellow') %}
+  {% for evento in EVENTOS %}
+    <div class="row event">
+      <div class="col-xs-3 event-date {{ date_color.next() }}">
+        <p class="event-day">
+          {{ evento.data.day }}
+        </p>
+
+        <p class="event-month">
+          {{ evento.data|strftime('%b')|upper }}
+        </p>
+
+        <p class="event-year">
+          {{ evento.data.year }}
+        </p>
+      </div>
+
+      <div class="col-xs-6 event-description">
+        <h1>
+          {{ evento.nome }}
+        </h1>
+
+        <h2>
+          {{ evento.cidade }} - {{ evento.estado }}
+        </h2>
+
+        <p>
+          <a href="{{ evento.link }}">Site do Evento</a>
+        </p>
+      </div>
+
+      <div class="col-xs-3 event-map">
+        <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}
+
+
+{% block aditional_scripts %}
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&dummy=.js"></script>
+
+  <script>
+    var maps = $('.map');
+
+    for (i = 0; i < maps.length; i++) {
+      var map = maps[i];
+      var latitude = $(map).data('latitude');
+      var longitude = $(map).data('longitude');
+
+      new google.maps.Map(map, {
+          zoom: 10,
+          disableDefaultUI: true,
+          zoomControl: true,
+          center: new google.maps.LatLng(latitude, longitude),
+          mapTypeId: "roadmap"
+      });
+    }
+  </script>
+{% endblock %}

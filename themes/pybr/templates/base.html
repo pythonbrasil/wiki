@@ -33,105 +33,106 @@
   </head>
 
   <body>
-    {% if page is defined %}
-      {% set href = page.slug %}
-    {% elif page_name is defined %}
-      {% set href = page_name.replace("/index", "") %}
-    {% else %}
-      {% set href = None %}
-    {% endif %}
+    <div class="master-wrapper">
+      {% if page is defined %}
+        {% set href = page.slug %}
+      {% elif page_name is defined %}
+        {% set href = page_name.replace("/index", "") %}
+      {% else %}
+        {% set href = None %}
+      {% endif %}
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
-        </div>
-        <div id="slidemenu">
-          <div class="menu-logo">
-            <img src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
           </div>
-
-          <ul class="nav navbar-nav">
-            {% for link in NAVBAR_HOME_LINKS %}
-              {% if 'children' in link %}
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    {{ link.title }} <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    {% for sublink in link.children %}
-                      <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
-                    {% endfor %}
-                  </ul>
-                </li>
-              {% else %}
-                <li {% if href == link.href %}class="active"{% endif %}>
-                  <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="header-container">
-              <a href="{{ SITEURL }}/index">
-                <img class="header-logo" src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
-              </a>
-
-              <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
+          <div id="slidemenu">
+            <div class="menu-logo">
+              <img src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}">
             </div>
-          </div>
-        </div>
-      </div>
-    </header>
 
-    <main>
-      <div class="container">
-        {% block content %}
-        {% endblock %}
-      </div>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <h3>Sobre</h3>
-            <p>{{ FOOTER_ABOUT }}</p>
-          </div>
-
-          <div class="col-xs-12 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-4">
-            <h3>Social</h3>
-
-            <ul>
-              {% for social in SOCIAL_LINKS %}
-                <li><a href="{{ social.href }}"><icon class="fa {{ social.icon }}"></icon> {{ social.text }}</a></li>
+            <ul class="nav navbar-nav">
+              {% for link in NAVBAR_HOME_LINKS %}
+                {% if 'children' in link %}
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      {{ link.title }} <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      {% for sublink in link.children %}
+                        <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li {% if href == link.href %}class="active"{% endif %}>
+                    <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
+                  </li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
         </div>
       </div>
-    </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ SITEURL }}/theme/bootstrap/js/bootstrap.min.js"></script>
-    <script src="{{ SITEURL }}/theme/pybr/js/components.js"></script>
+      <div id='page-content'>
+        <header>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="header-container">
+                  <a href="{{ SITEURL }}/index">
+                    <img class="header-logo" src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
+                  </a>
 
-    {% block aditional_scripts %}
-    {% endblock %}
+                  <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          {% block content %}
+          {% endblock %}
+        </main>
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-4">
+                <h3>Sobre</h3>
+                <p>{{ FOOTER_ABOUT }}</p>
+              </div>
+
+              <div class="col-xs-12 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-4">
+                <h3>Social</h3>
+
+                <ul>
+                  {% for social in SOCIAL_LINKS %}
+                    <li><a href="{{ social.href }}"><icon class="fa {{ social.icon }}"></icon> {{ social.text }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+          </div>
+        </footer>
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="{{ SITEURL }}/theme/bootstrap/js/bootstrap.min.js"></script>
+      <script src="{{ SITEURL }}/theme/pybr/js/components.js"></script>
+
+      {% block aditional_scripts %}
+      {% endblock %}
+    </div>
   </body>
 </html>

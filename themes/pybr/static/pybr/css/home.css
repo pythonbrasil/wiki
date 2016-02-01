@@ -1,0 +1,34 @@
+main {
+  padding: 0;
+}
+
+.page-description-container {
+  background-color: #dddddd;
+}
+
+.page-description-link {
+  color: #444444;
+}
+
+.page-description-link:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.page-description {
+  padding: 50px 20px;
+}
+
+.page-description:hover {
+  background-color: #bbbbbb;
+}
+
+.page-description-title {
+  margin-top: 0;
+  color: #333333;
+  font-size: 24px;
+}
+
+.page-description-text {
+  font-size: 13px;
+}

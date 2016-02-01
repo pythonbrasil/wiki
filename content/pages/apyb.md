@@ -1,14 +1,12 @@
 Title: A APyB
 Slug: apyb
 Template: page
-Sortorder: 1
-Excerpt: A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.
 
 A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.
 
-Nossa atual diretoria atuará até Setembro de 2017. O estatuto da APyB foi discutido democraticamente em nossa Assembléia de fundação em 2007 e emendado na Assembléia Geral de 2008.
+Sua atual diretoria atuará até Setembro de 2017. O estatuto da APyB foi discutido democraticamente em nossa Assembléia de fundação em 2007 e emendado na Assembléia Geral de 2008.
 
-## Nossos Objetivos e Metas
+## Objetivos e Metas
 
 - Organização de eventos, seminários e palestras;
 - Coordenação de esforços de promoção e marketing da linguagem;
@@ -17,7 +15,7 @@ Nossa atual diretoria atuará até Setembro de 2017. O estatuto da APyB foi disc
 - Fomentar a utilização da linguagem e seus derivados em instituições de ensino e organizações privadas, governamentais e de economia mista;
 - Assegurar a proteção e uso das marcas relacionadas à linguagem Python e seus derivados.
 
-##Fundadores
+## Fundadores
 
 ![Fundação da APyB]({filename}/images/apyb/fundadores-apyb.jpg)
 
@@ -49,3 +47,27 @@ Sentados (esquerda para direita):
 - Marco André
 - Dornéles Treméa
 - Jean Ferri
+
+## Associe-se
+
+Apaixonado por Python? Quer fazer parte da APyB? Você pode se inscrever AGORA através de nosso site.
+
+É fácil, [preencha o formulário](http://associados.python.org.br/members/signup/) e realize o pagamento da anuidade.
+
+Existem duas categorias de membros:
+
+### Estudantes
+
+- Anuidade: R$32,00
+- Direito a descontos em eventos da APyB, descontos em ofertas de parceiros
+
+### Efetivo
+
+- Anuidade: R$64,00
+- Direito a descontos em eventos da APyB, descontos em ofertas de parceiros
+- Direito a votar e ser votado para cargos da APyB
+ 
+
+## Já sou associado 
+
+Confira a [lista de associados](http://associados.python.org.br/members/list/) ou  [Autentique-se](http://associados.python.org.br/login/) para verificar seu status.
