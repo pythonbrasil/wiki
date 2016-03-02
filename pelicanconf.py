@@ -49,8 +49,14 @@ PYGMENTS_STYLE = 'perldoc'
 NAVBAR_HOME_LINKS = [
     {
         'title': 'Impressione-se',
-        'href': 'impressione-se',
+        'href': '#',
         'desc': 'Descubra como Python está presente em seu dia-a-dia.',
+        'children': [
+            {
+                'title': 'Empresas que usam Python',
+                'href': 'empresas',
+            },
+        ]
     },
     {
         'title': 'Inicie-se',
@@ -61,11 +67,6 @@ NAVBAR_HOME_LINKS = [
         'title': 'Aprenda mais',
         'href': 'aprenda-mais',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
-    },
-    {
-        'title': 'Empresas',
-        'href': 'empresas',
-        'desc': 'Descubra empresas que usam Python no Brasil.',
     },
     {
         'title': 'Participe',
