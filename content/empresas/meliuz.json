@@ -1,0 +1,13 @@
+{
+    "nome": "Méliuz",
+    "cidade": "Belo Horizonte",
+    "regiao": "Sudeste",
+    "site": "https://www.meliuz.com.br/",
+    "contatos": [
+        {
+            "texto": "meliuz.recruiterbox.com/jobs",
+            "link": "https://meliuz.recruiterbox.com/jobs"
+        }
+    ],
+    "estado": "Minas Gerais"
+}

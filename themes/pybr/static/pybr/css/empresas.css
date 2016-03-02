@@ -1,0 +1,29 @@
+.empresa-thumbnail-container {
+  margin-top: 50px;
+}
+
+.empresa-thumbnail {
+  min-height: 415px;
+}
+
+.empresa-thumbnail:hover {
+  background-color: #eeeeee;
+}
+
+.empresa-thumbnail > img {
+  padding: 20px;
+  max-height: 310px;
+}
+
+.empresa-thumbnail > .caption {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.empresa-thumbnail > .caption > h3 {
+  padding-bottom: 15px;
+}
+
+.empresa-thumbnail img {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+{
+    "nome": "Genomika Diagnôsticos",
+    "cidade": "Recife",
+    "regiao": "Nordeste",
+    "site": "http://genomika.com.br",
+    "contatos": [
+        {
+            "texto": "bioinfo@genomika.com.br",
+            "link": "mailto:bioinfo@genomika.com.br"
+        }
+    ],
+    "estado": "Pernambuco"
+}

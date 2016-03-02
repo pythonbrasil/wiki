@@ -1,0 +1,13 @@
+{
+    "nome": "Stoq",
+    "cidade": "São Carlos",
+    "regiao": "Sudeste",
+    "site": "http://stoq.com.br",
+    "contatos": [
+        {
+            "texto": "hireme@async.com.br",
+            "link": "mailto:hireme@async.com.br"
+        }
+    ],
+    "estado": "São Paulo"
+}

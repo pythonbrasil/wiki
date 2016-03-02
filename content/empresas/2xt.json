@@ -1,0 +1,13 @@
+{
+    "nome": "2XT",
+    "cidade": "Belo Horizonte",
+    "regiao": "Sudeste",
+    "site": "http://www.2xt.com.br/",
+    "contatos": [
+        {
+            "texto": "+55 31 3292-2120",
+            "link": "tel:+55 31 3292-2120"
+        }
+    ],
+    "estado": "Minas Gerais"
+}

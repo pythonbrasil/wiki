@@ -1,0 +1,13 @@
+{
+    "nome": "M2Agro",
+    "cidade": "Florianôpolis",
+    "regiao": "Sul",
+    "site": "http://m2agro.com.br",
+    "contatos": [
+        {
+            "texto": "marcelo.melo@m2agro.com.br",
+            "link": "mailto:marcelo.melo@m2agro.com.br"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

@@ -1,0 +1,13 @@
+{
+    "nome": "Cianet",
+    "cidade": "Florianôpolis",
+    "regiao": "Sul",
+    "site": "http://www.cianet.ind.br/",
+    "contatos": [
+        {
+            "texto": "+55 48 2106 0101",
+            "link": "tel:+55 48 2106 0101"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

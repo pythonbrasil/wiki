@@ -1,0 +1,13 @@
+{
+    "nome": "Hotel Urbano",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://www.hotelurbano.com/",
+    "contatos": [
+        {
+            "texto": "bruno.moura@hotelurbano.com.br",
+            "link": "mailto:bruno.moura@hotelurbano.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

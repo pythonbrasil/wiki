@@ -1,0 +1,13 @@
+{
+    "nome": "Paggtaxi",
+    "cidade": "Joinville",
+    "regiao": "Sul",
+    "site": "http://www.paggtaxi.com.br/",
+    "contatos": [
+        {
+            "texto": "alan@paggtaxi.com.br",
+            "link": "mailto:alan@paggtaxi.com.br"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

@@ -1,0 +1,13 @@
+{
+    "nome": "WPensar",
+    "cidade": "Niterôi",
+    "regiao": "Sudeste",
+    "site": "http://wpensar.com.br/",
+    "contatos": [
+        {
+            "texto": "gustavo.morada@wpensar.com.br",
+            "link": "mailto:gustavo.morada@wpensar.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

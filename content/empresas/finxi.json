@@ -1,0 +1,13 @@
+{
+    "nome": "Finxi",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://finxi.com.br/",
+    "contatos": [
+        {
+            "texto": "victor.sousa@finxi.com.br",
+            "link": "mailto:victor.sousa@finxi.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

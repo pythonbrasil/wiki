@@ -1,0 +1,13 @@
+{
+    "nome": "LegalNote",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "http://legalnote.com.br",
+    "contatos": [
+        {
+            "texto": "+55 (11) 3262-3122",
+            "link": "tel:+55 (11) 3262-3122"
+        }
+    ],
+    "estado": "São Paulo"
+}

@@ -1,0 +1,13 @@
+{
+    "nome": "Hadrons",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://hadrons.io/",
+    "contatos": [
+        {
+            "texto": "contact@hadrons.io",
+            "link": "mailto:contact@hadrons.io"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}
