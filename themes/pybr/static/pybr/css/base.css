@@ -80,3 +80,7 @@ footer ul>li>a:hover, footer ul>li>a:active {
   text-decoration: none;
   font-weight: bold;
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
