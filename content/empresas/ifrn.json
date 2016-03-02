@@ -1,0 +1,13 @@
+{
+    "nome": "IFRN",
+    "cidade": "Natal",
+    "regiao": "Nordeste",
+    "site": "http://suap.ifrn.edu.br",
+    "contatos": [
+        {
+            "texto": "+55 84 4005-0772",
+            "link": "tel:+55 84 4005-0772"
+        }
+    ],
+    "estado": "Rio Grande do Norte"
+}

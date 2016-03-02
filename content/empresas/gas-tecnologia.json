@@ -1,0 +1,13 @@
+{
+    "nome": "GAS Tecnologia",
+    "cidade": "Indaiatuba",
+    "regiao": "Sudeste",
+    "site": "http://www.gastecnologia.com",
+    "contatos": [
+        {
+            "texto": "afonso.franca@diebold.com",
+            "link": "mailto:afonso.franca@diebold.com"
+        }
+    ],
+    "estado": "São Paulo"
+}

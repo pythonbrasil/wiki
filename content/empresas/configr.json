@@ -1,0 +1,14 @@
+{
+    "nome": "Configr",
+    "cidade": "Brasília",
+    "regiao": "Centro-Oeste",
+    "site": "https://configr.com/",
+    "contatos": [
+        {
+            "texto": "suporte@configr.com",
+            "link": "mailto:suporte@configr.com"
+        }
+    ],
+    "logo": "images/empresas/configr.svg",
+    "estado": "Distrito Federal"
+}

@@ -1,0 +1,13 @@
+{
+    "nome": "Simples Consultoria",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "http://www.simplesconsultoria.com.br/",
+    "contatos": [
+        {
+            "texto": "+55 (11) 3898-2121",
+            "link": "tel:+55 (11) 3898-2121"
+        }
+    ],
+    "estado": "São Paulo"
+}

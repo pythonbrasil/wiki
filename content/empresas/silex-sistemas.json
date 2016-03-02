@@ -1,0 +1,13 @@
+{
+    "nome": "Sílex Sistemas",
+    "cidade": "Belo Horizonte",
+    "regiao": "Sudeste",
+    "site": "http://www.silexsistemas.com.br/",
+    "contatos": [
+        {
+            "texto": "+55 31 3273-1530",
+            "link": "tel:+55 31 3273-1530"
+        }
+    ],
+    "estado": "Minas Gerais"
+}

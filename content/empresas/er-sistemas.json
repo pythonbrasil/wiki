@@ -1,0 +1,13 @@
+{
+    "nome": "ER Sistemas",
+    "cidade": "Santa Maria",
+    "regiao": "Sul",
+    "site": "http://www.ersistemas.info",
+    "contatos": [
+        {
+            "texto": "contato@ersistemas.info",
+            "link": "mailto:contato@ersistemas.info"
+        }
+    ],
+    "estado": "Rio Grande do Sul"
+}

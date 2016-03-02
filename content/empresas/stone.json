@@ -1,0 +1,13 @@
+{
+    "nome": "Stone",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://www.stone.com.br/",
+    "contatos": [
+        {
+            "texto": "rportugal@stone.com.br",
+            "link": "mailto:rportugal@stone.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

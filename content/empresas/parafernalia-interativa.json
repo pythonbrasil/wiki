@@ -1,0 +1,13 @@
+{
+    "nome": "Parafernalia Interativa",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://parafernalia.net.br/",
+    "contatos": [
+        {
+            "texto": "luiz.senna@parafernalia.net.br",
+            "link": "mailto:luiz.senna@parafernalia.net.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

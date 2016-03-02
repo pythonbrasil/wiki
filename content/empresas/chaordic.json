@@ -1,0 +1,13 @@
+{
+    "nome": "Chaordic",
+    "cidade": "Florianôpolis",
+    "regiao": "Sul",
+    "site": "https://www.chaordic.com.br",
+    "contatos": [
+        {
+            "texto": "+55 48 3232 3200",
+            "link": "tel:+55 48 3232 3200"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

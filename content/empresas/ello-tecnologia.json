@@ -1,0 +1,13 @@
+{
+    "nome": "Ello Tecnologia",
+    "cidade": "Alta Floresta",
+    "regiao": "Centro-Oeste",
+    "site": "http://www.ellotecnologia.net.br",
+    "contatos": [
+        {
+            "texto": "clayton@ellotecnologia.net.br",
+            "link": "mailto:clayton@ellotecnologia.net.br"
+        }
+    ],
+    "estado": "Mato Grosso"
+}

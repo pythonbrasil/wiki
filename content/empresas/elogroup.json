@@ -1,0 +1,13 @@
+{
+    "nome": "EloGroup",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://elogroup.com.br/",
+    "contatos": [
+        {
+            "texto": "bernardo.fontes@elogroup.com.br",
+            "link": "mailto:bernardo.fontes@elogroup.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

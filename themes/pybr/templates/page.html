@@ -16,9 +16,13 @@
 
         <hr>
 
+        {% block page_title %}
         <h1>{{ page.title }}</h1>
+        {% endblock %}
 
+        {% block page_content %}
         {{ page.content }}
+        {% endblock %}
       </div>
     </div>
 

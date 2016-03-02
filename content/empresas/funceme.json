@@ -1,0 +1,13 @@
+{
+    "nome": "Funceme",
+    "cidade": "Fortaleza",
+    "regiao": "Nordeste",
+    "site": "http://www.funceme.br",
+    "contatos": [
+        {
+            "texto": "funceme@funceme.br",
+            "link": "mailto:funceme@funceme.br"
+        }
+    ],
+    "estado": "Ceará"
+}

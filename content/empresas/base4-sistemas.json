@@ -1,0 +1,13 @@
+{
+    "nome": "Base4 Sistemas",
+    "cidade": "Catanduva",
+    "regiao": "Sudeste",
+    "site": "http://www.base4.com.br",
+    "contatos": [
+        {
+            "texto": "+55 17 3524-2971",
+            "link": "tel:+55 17 3524-2971"
+        }
+    ],
+    "estado": "São Paulo"
+}

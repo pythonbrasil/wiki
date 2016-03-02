@@ -1,0 +1,13 @@
+{
+    "nome": "GrupoCITEC",
+    "cidade": "Recife",
+    "regiao": "Nordeste",
+    "site": "https://grupocitec.com",
+    "contatos": [
+        {
+            "texto": "info@grupocitec.com",
+            "link": "mailto:info@grupocitec.com"
+        }
+    ],
+    "estado": "Pernambuco"
+}

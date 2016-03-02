@@ -1,0 +1,13 @@
+{
+    "nome": "GetupCloud",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "https://getupcloud.com",
+    "contatos": [
+        {
+            "texto": "getupcloud.com/contato",
+            "link": "https://getupcloud.com/contato/"
+        }
+    ],
+    "estado": "São Paulo"
+}

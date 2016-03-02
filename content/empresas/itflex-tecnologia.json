@@ -1,0 +1,13 @@
+{
+    "nome": "iTFLEX Tecnologia",
+    "cidade": "Joinville",
+    "regiao": "Sul",
+    "site": "https://www.itflex.com.br/",
+    "contatos": [
+        {
+            "texto": "contato@itflex.com.br",
+            "link": "mailto:contato@itflex.com.br"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

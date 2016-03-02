@@ -63,6 +63,11 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
     },
     {
+        'title': 'Empresas',
+        'href': 'empresas',
+        'desc': 'Descubra empresas que usam Python no Brasil.',
+    },
+    {
         'title': 'Participe',
         'href': '#',
         'desc': 'Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.',
@@ -128,6 +133,33 @@ def date_hook(json_dict):
             pass
     return json_dict
 
+def import_empresas(path):
+    por_regiao = {}
+    dados  = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
+
+    for empresa in dados:
+        regiao = empresa['regiao']
+        estado = empresa['estado']
+
+        por_estado = por_regiao.get(regiao, {})
+        no_estado = por_estado.get(estado, [])
+
+        no_estado.append(empresa)
+        por_estado[estado] = no_estado
+        por_regiao[regiao] = por_estado
+
+    empresas = OrderedDict()
+    for regiao in sorted(por_regiao):
+        empresas[regiao] = OrderedDict()
+        for estado in sorted(por_regiao[regiao]):
+            no_estado = por_regiao[regiao][estado]
+            no_estado.sort(key=lambda x:x['nome'])
+            no_estado.sort(key=lambda x:x['cidade'])
+            empresas[regiao][estado] = no_estado
+    return empresas
+
 EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
+EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
+DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"

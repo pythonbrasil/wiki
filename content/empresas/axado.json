@@ -1,0 +1,13 @@
+{
+    "nome": "Axado",
+    "cidade": "Florianôpolis",
+    "regiao": "Sul",
+    "site": "http://www.axado.com.br",
+    "contatos": [
+        {
+            "texto": "+55 48 3047 4704",
+            "link": "tel:+55 48 3047 4704"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

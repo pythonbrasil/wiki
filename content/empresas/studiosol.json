@@ -1,0 +1,13 @@
+{
+    "nome": "StudioSol",
+    "cidade": "Belo Horizonte",
+    "regiao": "Sudeste",
+    "site": "http://www.studiosol.com.br/",
+    "contatos": [
+        {
+            "texto": "+55 31 2127-2540",
+            "link": "tel:+55 31 2127-2540"
+        }
+    ],
+    "estado": "Minas Gerais"
+}

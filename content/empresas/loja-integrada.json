@@ -1,0 +1,13 @@
+{
+    "nome": "Loja Integrada",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "http://www.lojaintegrada.com.br/",
+    "contatos": [
+        {
+            "texto": "suporte@lojaintegrada.com.br",
+            "link": "mailto:suporte@lojaintegrada.com.br"
+        }
+    ],
+    "estado": "São Paulo"
+}

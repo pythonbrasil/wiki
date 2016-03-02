@@ -1,0 +1,13 @@
+{
+    "nome": "Viva Decora",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "https://www.vivadecora.com.br/",
+    "contatos": [
+        {
+            "texto": "jose.maciel@vivadecora.com.br",
+            "link": "mailto:jose.maciel@vivadecora.com.br"
+        }
+    ],
+    "estado": "São Paulo"
+}

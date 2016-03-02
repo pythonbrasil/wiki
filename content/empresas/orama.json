@@ -1,0 +1,13 @@
+{
+    "nome": "Orama",
+    "cidade": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "site": "http://www.orama.com.br/",
+    "contatos": [
+        {
+            "texto": "anderson.carneiro@orama.com.br",
+            "link": "mailto:anderson.carneiro@orama.com.br"
+        }
+    ],
+    "estado": "Rio de Janeiro"
+}

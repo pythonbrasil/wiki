@@ -1,0 +1,13 @@
+{
+    "nome": "Catarina Touch",
+    "cidade": "Florianôpolis",
+    "regiao": "Sul",
+    "site": "www.catarinatouch.com",
+    "contatos": [
+        {
+            "texto": "+55 48 3207 8527",
+            "link": "tel:+55 48 3207 8527"
+        }
+    ],
+    "estado": "Santa Catarina"
+}

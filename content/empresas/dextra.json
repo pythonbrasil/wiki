@@ -1,0 +1,13 @@
+{
+    "nome": "Dextra",
+    "cidade": "Campinas",
+    "regiao": "Sudeste",
+    "site": "http://dextra.com.br",
+    "contatos": [
+        {
+            "texto": "+55 19 3256-6722",
+            "link": "tel:+55 19 3256-6722"
+        }
+    ],
+    "estado": "São Paulo"
+}
