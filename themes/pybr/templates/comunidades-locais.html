@@ -16,11 +16,13 @@
 
             <p>{{ comunidade.nome }}</p>
 
-            <p>
+            <ul class="list-group list-inline">
               {% for link in comunidade.links %}
-                <a class="label label-default" href="{{ link.1 }}">{{ link.0 }}</a>
+                <li class="list-group-item comunidade-link">
+                  <a class="label label-default" href="{{ link.1 }}">{{ link.0 }}</a>
+                </li>
               {% endfor %}
-            </p>
+            </ul>
           </div>
         </div>
       </div>
