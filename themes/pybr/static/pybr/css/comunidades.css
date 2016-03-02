@@ -23,3 +23,10 @@
 .grupy-thumbnail > .caption > h3 {
   padding-bottom: 15px;
 }
+
+.list-group-item.comunidade-link {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-bottom: none;
+  padding: 0px 5px 5px 0px;
+}
