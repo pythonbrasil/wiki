@@ -3,8 +3,21 @@
         [
             "Google Groups",
             "https://groups.google.com/forum/#!forum/grupy-pr"
+        ],
+        [
+            "Github",
+            "https://github.com/grupypr"
+        ],
+        [
+            "Mobilize",
+            "https://grupypr.mobilize.io"
+        ],
+        [
+            "Slack",
+            "http://grupypr.herokuapp.com/"
         ]
     ],
     "nome": "Grupo de usu\u00e1rios do Paran\u00e1",
+    "imagem": "images/comunidades-locais/grupypr.png",
     "sigla": "GruPy-PR"
 }
