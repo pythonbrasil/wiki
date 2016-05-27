@@ -1,6 +1,14 @@
+.yellow-top-border {
+  border-top: 3px solid #ffd343;
+}
+
+.blue-top-border {
+  border-top: 3px solid #1d6bbd;
+}
+
 header {
-  border-top: 2px solid #ffd343;
   color: #ffffff;
+  padding: 50px 0;
   text-align: center;
 
   /* gradient */
@@ -11,9 +19,6 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#092c34', endColorstr='#34608f', GradientType=0);  /* IE6-9 */
 }
 
-.header-container {
-  padding: 50px 0;
-}
 
 .header-logo {
   width: 300px;
@@ -48,7 +53,7 @@ header {
 
 main {
   color: #444444;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 main h1, main h2, main h3, main h4 {

@@ -82,22 +82,24 @@
         </div>
       </div>
 
-      <div id='page-content'>
-        <header>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <div class="header-container">
-                  <a href="{{ SITEURL }}/index">
-                    <img class="header-logo" src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
-                  </a>
+      <div id='page-content' class="{% block top_border_color %}yellow{% endblock %}-top-border">
+        {% block header %}
+          <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="header-container">
+                    <a href="{{ SITEURL }}/index">
+                      <img class="header-logo" src="{{ SITEURL }}/theme/pybr/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
+                    </a>
 
-                  <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
+                    <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </header>
+          </header>
+        {% endblock %}
 
         <main>
           {% block content %}

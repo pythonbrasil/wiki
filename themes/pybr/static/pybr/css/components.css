@@ -17,7 +17,7 @@ body.slide-active > .master-wrapper {
 /*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
 #page-content {
   position: relative;
-  padding-top: 50px;
+  margin-top: 51px;
   left: 0;
 }
 
@@ -28,7 +28,6 @@ body.slide-active > .master-wrapper {
 /* put toggle bars on the left :: not using button */
 #slide-nav .navbar-toggle {
   cursor: pointer;
-  position: relative;
   line-height: 0;
   float: left;
   margin: 0;
@@ -49,15 +48,6 @@ body.slide-active > .master-wrapper {
 
 #slide-nav .navbar-toggle.slide-active .icon-bar {
   background: #ffd343;
-}
-
-.navbar-header {
-  position: relative;
-}
-
-/* un fix the navbar when active so that all the menu items are accessible */
-.navbar.navbar-fixed-top.slide-active {
-  position: relative;
 }
 
 /* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
