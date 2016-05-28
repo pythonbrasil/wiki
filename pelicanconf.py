@@ -60,8 +60,18 @@ NAVBAR_HOME_LINKS = [
     },
     {
         'title': 'Inicie-se',
-        'href': 'inicie-se',
+        'href': '#',
         'desc': 'Veja como é fácil começar a usar a linguagem.',
+        'children': [
+            {
+                'title': 'Instalando o Python',
+                'href': 'instalando-o-python',
+            },
+            {
+                'title': 'Ferramentas de Desenvolvimento',
+                'href': 'ferramentas-de-desenvolvimento',
+            },
+        ]
     },
     {
         'title': 'Aprenda mais',
