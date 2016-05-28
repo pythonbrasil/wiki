@@ -54,6 +54,7 @@ PLUGINS = [
         'better_figures_and_images',
         'sitemap',
         'welcome-helpers',
+        'bootstrapify',
         ]
 
 # Plugins settings
