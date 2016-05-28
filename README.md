@@ -38,57 +38,57 @@ Veja como está organizado o conteúdo e como contribuir:
 
 1. Empresas: Listagem das empresas que usam python
 
-O Conteúdo está em formato estruturado JSON. Para adicionar uma nova empresa basta criar um arquivo com extensão .json na pasta (content/empresas/)[https://github.com/pythonbrasil/wiki/tree/pelican/content/empresas] seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da empresa basta colocar o arquivo de extensão .png na pasta (content/images/empresas/)[https://github.com/pythonbrasil/wiki/tree/pelican/content/images/empresas].
+O Conteúdo está em formato estruturado JSON. Para adicionar uma nova empresa basta criar um arquivo com extensão .json na pasta [content/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/empresas) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da empresa basta colocar o arquivo de extensão .png na pasta [content/images/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/empresas).
 
 ### Páginas do Inicie-se
 
 1. Instalação
 
-Conteúdo em formato markdown no arquivo (content/pages/instalacao.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao.md]
+Conteúdo em formato markdown no arquivo [content/pages/instalacao.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao.md).
 
 2. Ferramentas
 
-Conteúdo em formato markdown no arquivo (content/pages/ferramentas.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/ferramentas.md]
+Conteúdo em formato markdown no arquivo [content/pages/ferramentas.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/ferramentas.md)
 
 ### Páginas do Aprenda mais
 
 1. Introdução
 
-Conteúdo em formato markdown no arquivo (content/pages/introducao.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/introducao.md]
+Conteúdo em formato markdown no arquivo [content/pages/introducao.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/introducao.md).
 
 2. Web
 
-Conteúdo em formato markdown no arquivo (content/pages/web.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/web.md]
+Conteúdo em formato markdown no arquivo [content/pages/web.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/web.md).
 
 3. Mobile
 
-Conteúdo em formato markdown no arquivo (content/pages/mobile.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/mobile.md]
+Conteúdo em formato markdown no arquivo [content/pages/mobile.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/mobile.md).
 
 4. Games
 
-Conteúdo em formato markdown no arquivo (content/pages/games.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/games.md]
+Conteúdo em formato markdown no arquivo [content/pages/games.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/games.md).
 
 5. Científico
 
-Conteúdo em formato markdown no arquivo (content/pages/cientifico.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/cientifico.md]
+Conteúdo em formato markdown no arquivo [content/pages/cientifico.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/cientifico.md).
 
 ### Páginas do Participe
 
 1. Comunidades Locais
 
-O Conteúdo está em formato estruturado JSON. Para adicionar uma nova comunidade basta criar um arquivo com extensão .json na pasta (content/comunidades-locais/)[https://github.com/pythonbrasil/wiki/tree/pelican/content/comunidades-locais] seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da comunidade basta colocar o arquivo de extensão .png na pasta (content/images/comunidades-locais/)[https://github.com/pythonbrasil/wiki/tree/pelican/content/images/comunidades-locais].
+O Conteúdo está em formato estruturado JSON. Para adicionar uma nova comunidade basta criar um arquivo com extensão .json na pasta [content/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/comunidades-locais) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da comunidade basta colocar o arquivo de extensão .png na pasta [content/images/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/comunidades-locais).
 
 2. Eventos
 
-O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta (content/eventos/<ano>/)[https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos]
+O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/<ano>/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
 
 3. Python Brasil
 
-Conteúdo em formato markdown no arquivo (content/pages/python-brasil.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/python-brasil.md]
+Conteúdo em formato markdown no arquivo [content/pages/python-brasil.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/python-brasil.md).
 
 4. A APyB
 
-Conteúdo em formato markdown no arquivo (content/pages/apyb.md)[https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/apyb.md]
+Conteúdo em formato markdown no arquivo [content/pages/apyb.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/apyb.md).
 
 ## Mas se você for programador e tem conhecimentos mínimos de Python, saiba como rodar o projeto em sua máquina e colaborar conosco:
 
