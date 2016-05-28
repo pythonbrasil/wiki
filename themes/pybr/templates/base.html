@@ -60,22 +60,16 @@
 
             <ul class="nav navbar-nav">
               {% for link in NAVBAR_HOME_LINKS %}
-                {% if 'children' in link %}
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      {{ link.title }} <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      {% for sublink in link.children %}
-                        <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
-                      {% endfor %}
-                    </ul>
-                  </li>
-                {% else %}
-                  <li {% if href == link.href %}class="active"{% endif %}>
-                    <a href="{{ SITEURL }}/{{ link.href }}">{{ link.title }}</a>
-                  </li>
-                {% endif %}
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }} <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    {% for sublink in link.children %}
+                      <li><a href="{{ SITEURL  }}/{{ sublink.href }}">{{ sublink.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
               {% endfor %}
             </ul>
           </div>

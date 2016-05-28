@@ -75,8 +75,30 @@ NAVBAR_HOME_LINKS = [
     },
     {
         'title': 'Aprenda mais',
-        'href': 'aprenda-mais',
+        'href': '#',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
+        'children': [
+            {
+                'title': 'Introdução',
+                'href': 'introducao',
+            },
+            {
+                'title': 'Web',
+                'href': 'web',
+            },
+            {
+                'title': 'Mobile',
+                'href': 'mobile',
+            },
+            {
+                'title': 'Games',
+                'href': 'games',
+            },
+            {
+                'title': 'Científico',
+                'href': 'cientifico',
+            },
+        ]
     },
     {
         'title': 'Participe',
