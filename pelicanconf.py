@@ -53,7 +53,7 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Descubra como Python está presente em seu dia-a-dia.',
         'children': [
             {
-                'title': 'Empresas que usam Python',
+                'title': 'Empresas',
                 'href': 'empresas',
             },
         ]
@@ -64,12 +64,12 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Veja como é fácil começar a usar a linguagem.',
         'children': [
             {
-                'title': 'Instalando o Python',
-                'href': 'instalando-o-python',
+                'title': 'Instalação',
+                'href': 'instalacao',
             },
             {
-                'title': 'Ferramentas de Desenvolvimento',
-                'href': 'ferramentas-de-desenvolvimento',
+                'title': 'Ferramentas',
+                'href': 'ferramentas',
             },
         ]
     },
@@ -118,7 +118,7 @@ NAVBAR_HOME_LINKS = [
                 'href': 'eventos',
             },
             {
-                'title': 'Conferência Python Brasil',
+                'title': 'Python Brasil',
                 'href': 'python-brasil',
             },
             {
