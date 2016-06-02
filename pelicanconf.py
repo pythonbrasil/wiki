@@ -42,6 +42,10 @@ WELCOME_TITLE = 'Python Brasil'
 WELCOME_TEXT = 'A comunidade Python Brasil reune grupos de usuários em todo o Brasil interessados em difundir e divulgar a linguagem de programação.'
 FOOTER_ABOUT = 'Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.'
 
+# Statics
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = 'perldoc'
 
