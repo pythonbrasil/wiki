@@ -4,7 +4,7 @@ Template: page
 
 ## O que é a Python Brasil?
 
-**Python Brasil** é uma conferência vibrante de Python que estimula a comunidade, o debate, propicia negócios, motiva e **conecta pessoas**. 
+**Python Brasil** é uma conferência vibrante de Python que estimula a comunidade, o debate, propicia negócios, motiva e **conecta pessoas**.
 
 É uma conferência sem fins lucrativos mantida por voluntários com o suporte da Associação Python Brasil (APyB) e a Python Software Foundation (PSF).
 
@@ -14,28 +14,28 @@ Desenvolvedores de software freelancers, de startups e grandes empresas, ativist
 
 ## Quem já palestrou nas Python Brasil?
 
-- Alan Runyan, Plone co-founder and Enfold president 
-- Alexander Limi, Firefox UX Lead at Mozilla 
-- Bruce Eckel, Thinking in Java and Thinking in C++ author 
-- Collin Winter, Google 
-- Dorneles Tremea, Plone developer 
-- Facundo Batista, Canonical technical lead 
-- Gustavo Niemeyer, Canonical technical lead 
-- Jacob Kaplan-Moss, Django co-founder 
-- Jim Fulton, Zope Corp. 
-- Kenneth Rohde Christiansen, CTO INdT 
-- Maciej Fijalkowski, PyPy core developer 
-- Steve Holden, Python Software Foundation chair 
-- Wesley Chun, Google developer advocate 
-- Paul Everitt, Plone core developer and Pyramid core developer 
-- Paul Hildebrandt, Senior Engineer at Walt Disney Studios 
-- Daniel Greenfeld and Audrey Roy, Two Scoops of Django authors 
+- Alan Runyan, Plone co-founder and Enfold president
+- Alexander Limi, Firefox UX Lead at Mozilla
+- Bruce Eckel, Thinking in Java and Thinking in C++ author
+- Collin Winter, Google
+- Dorneles Tremea, Plone developer
+- Facundo Batista, Canonical technical lead
+- Gustavo Niemeyer, Canonical technical lead
+- Jacob Kaplan-Moss, Django co-founder
+- Jim Fulton, Zope Corp.
+- Kenneth Rohde Christiansen, CTO INdT
+- Maciej Fijalkowski, PyPy core developer
+- Steve Holden, Python Software Foundation chair
+- Wesley Chun, Google developer advocate
+- Paul Everitt, Plone core developer and Pyramid core developer
+- Paul Hildebrandt, Senior Engineer at Walt Disney Studios
+- Daniel Greenfeld and Audrey Roy, Two Scoops of Django authors
 - Fernando Perez, Creator of IPython Notebook
 - José Valim, Creator of Elixir programming language
 - Lynn Root, Software developer of Spotify and Pyladies SF founder
 - Alex Gaynor, Software engineer of OpenStack
 - Bryan Van de Ven, software engineer at Continuum Analytics, and is the project lead for the Open Source Bokeh visualization system.
-- David Beasley, Author of the Python Essential Reference and Python Cookbook. 
+- David Beasley, Author of the Python Essential Reference and Python Cookbook.
 
 ## Perguntas frequentes
 
@@ -85,7 +85,7 @@ Todavia, em todas as edições, o evento é fruto do trabalho de diversas pessoa
 - 2013 - [Brasília - Centro de Convenções Ulysses Guimarães (CCUG)](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil9.html) - Tania Andréa
 - 2014 - [Porto de Galinhas (2014)](http://2014.pythonbrasil.org.br/) - Renato Oliveira
 - 2015 - [São José dos Campos (2015)](http://pythonbrasil.github.io/pythonbrasil11-site/) - Renzo Nuccitelli
-- A Python Brasil 2016 será em Florianópolis, Santa Catarina - Mário Sérgio Oliveira de Queiroz
+- A Python Brasil 2016 será em [Florianópolis, Santa Catarina](http://2016.pythonbrasil.org.br/) - Mário Sérgio Oliveira de Queiroz
 - A Python Brasil 2017 será em Belo Horizonte, Minas Gerais - Igor Santos
 
 Mais informações podem ser encontradas no manual do Big Kahuna - [https://manual-do-big-kahuna.readthedocs.org/en/latest/](https://manual-do-big-kahuna.readthedocs.org/en/latest/)
