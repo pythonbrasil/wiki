@@ -76,17 +76,21 @@ Conteúdo em formato markdown no arquivo [content/pages/cientifico.md](https://g
 
 1. Comunidades Locais
 
-O Conteúdo está em formato estruturado JSON. Para adicionar uma nova comunidade basta criar um arquivo com extensão .json na pasta [content/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/comunidades-locais) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da comunidade basta colocar o arquivo de extensão .png na pasta [content/images/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/comunidades-locais).
+O Conteúdo está em formato estruturado JSON. Para adicionar uma nova comunidade basta criar um arquivo com extensão .json na pasta [content/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/comunidades-locais) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da comunidade basta colocar o arquivo de extensão .png de tamanho 400X400 na pasta [content/images/comunidades-locais/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/comunidades-locais).
 
-2. Eventos
+2. Pyladies
+
+O Conteúdo está em formato estruturado JSON. Para adicionar basta criar um arquivo com extensão .json na pasta [content/pyladies/](https://github.com/pythonbrasil/wiki/tree/pelican/content/pyladies) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo basta colocar o arquivo de extensão .png de tamanho 400X400 na pasta [content/images/pyladies/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/pyladies).
+
+3. Eventos
 
 O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/<ano>/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
 
-3. Python Brasil
+4. Python Brasil
 
 Conteúdo em formato markdown no arquivo [content/pages/python-brasil.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/python-brasil.md).
 
-4. A APyB
+5. A APyB
 
 Conteúdo em formato markdown no arquivo [content/pages/apyb.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/apyb.md).
 

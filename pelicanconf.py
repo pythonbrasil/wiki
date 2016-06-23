@@ -118,6 +118,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'comunidades-locais',
             },
             {
+                'title': 'Pyladies',
+                'href': 'pyladies',
+            },
+            {
                 'title': 'Eventos',
                 'href': 'eventos',
             },
@@ -205,3 +209,7 @@ DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 # Configurações da página de empresas
 EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
+
+# Configurações da página das pyladies
+PYLADIES = [json.load(open(fname, 'r')) for fname in glob.glob('content/pyladies/*.json')]
+DEFAULT_PYLADIES_IMAGE = "images/pyladies/default.png"
