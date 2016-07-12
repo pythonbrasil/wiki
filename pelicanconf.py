@@ -118,6 +118,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'comunidades-locais',
             },
             {
+                'title': 'Pyladies',
+                'href': 'pyladies',
+            },
+            {
                 'title': 'Eventos',
                 'href': 'eventos',
             },
@@ -195,8 +199,17 @@ def import_empresas(path):
             empresas[regiao][estado] = no_estado
     return empresas
 
+# Configurações da página de eventos
 EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
+
+# Configurações da página de comunidades locais
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
-EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
+
+# Configurações da página de empresas
+EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
+
+# Configurações da página das pyladies
+PYLADIES = [json.load(open(fname, 'r')) for fname in glob.glob('content/pyladies/*.json')]
+DEFAULT_PYLADIES_IMAGE = "images/pyladies/default.png"
