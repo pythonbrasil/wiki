@@ -13,3 +13,7 @@ libjpeg8-dev
 libfreetype6-dev
 liblcms1-dev
 libwebp-dev
+
+#cryptography dependecies
+libssl-dev
+libffi-dev
