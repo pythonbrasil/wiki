@@ -1,6 +1,6 @@
-# Site estático python.org.br
-
-[![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
+Title: Contribua com este site
+Slug: este-site
+Template: page
 
 Pensando na possibilidade de mantermos um site para a comunidade de maneira mais colaborativa onde qualquer um possa contribuir com conteúdo de maneira rápida, surgiu a idéia de utilizarmos o GitHub Pages.
 

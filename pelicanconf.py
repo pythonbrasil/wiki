@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-
 from __future__ import unicode_literals
-
 import os
 import sys
 import glob
@@ -132,6 +130,21 @@ NAVBAR_HOME_LINKS = [
             {
                 'title': 'A APyB',
                 'href': 'apyb',
+            },
+        ]
+    },
+    {
+        'title': 'Contribua',
+        'href': '#',
+        'desc': 'Veja como contribuir e ajudar a comunidade crescer.',
+        'children': [
+            {
+                'title': 'Este Site',
+                'href': 'este-site',
+            },
+            {
+                'title': 'Tradução',
+                'href': 'traducao',
             },
         ]
     },
