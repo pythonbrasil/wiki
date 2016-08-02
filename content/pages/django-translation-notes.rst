@@ -97,7 +97,10 @@ template tag:
 set the <var/attributo>: 
     defina a variaável ou atributo.
 
+Notas do @FilipeCifali
 
+Cloud:
+   nuvem - exemplos: cloud service - serviço em nuvem, cloud hosting - hospedagem em nuvem
 
 ---------------------------------
 
