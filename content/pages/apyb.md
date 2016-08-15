@@ -6,6 +6,28 @@ A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de a
 
 Sua atual diretoria atuará até Setembro de 2017. O estatuto da APyB foi discutido democraticamente em nossa Assembléia de fundação em 2007 e emendado na Assembléia Geral de 2008.
 
+## Integrantes da diretoria e conselhos:
+
+- Carlos Leite (Cadu) - Presidente
+- Henrique Bastos - Diretor Financeiro
+- Tânia Andrea - Diretora de Marketing
+- Filipe Cifali - Diretor de Tecnologia
+
+- Rudá Filgueiras - Conselho Deliberativo
+- Gustavo Maia Neto - Conselho Deliberativo
+- Marco Antônio Rougeth de Oliveira - Conselho Deliberativo
+- Paula Grangeiro- Suplente
+
+- Leonardo Rochael Almeida - Conselho Fiscal
+- Igor dos Santos Silva - Conselho Fiscal
+- Sérgio Oliveira - Conselho Fiscal
+- Annanda Dandi - Suplente
+
+## Formas de contato:
+
+- contato@ (python.org.br)
+- doacoes@ (python.org.br)
+
 ## Objetivos e Metas
 
 - Organização de eventos, seminários e palestras;
