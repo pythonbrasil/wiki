@@ -30,6 +30,105 @@ Se vc tem pouco tempo, alguns minutos, tente o tópico [faq]
 
 Hoje algumas partes estão totalmente traduzidas. Mas toda vez que tem um release novo do Django, os textos ficam obsoletos, ao menos em parte, e tem que ser revistos. Então é um trabalho que nunca acaba.
 
+Gerando a documentação traduzida em português no seu computador
+----------------------------------------------------------------
+
+O processo de traduação pode ser feito diretamente pelo navegador web mas também é possível gerar a documentação
+traduzida em português no computador. Isso pode facilitar o processo de revisão já que pelo navegador web fica mais
+difícil visualizar links quebrados e navegar pela documentação.
+
+Para gerar a documentação em português siga os passos abaixo:
+
+1. Conforme documentação do Transifex disponível em http://docs.transifex.com/client/config/,
+será preciso criar um arquivo chamado '.transifexrc' na raiz do seu home
+(ex.: /home/user/.transifexrc) com o conteúdo abaixo:
+
+
+    [https://www.transifex.com]
+
+    username = user
+
+    token =
+
+    password = passw0rd
+
+    hostname = https://www.transifex.com
+
+
+Obs: No arquivo acima 'user' e paassword é o seu login e senha no Transifex. Portanto, é preciso estar
+cadastrado no site.
+
+
+2. Você precisará baixar os repositórios do Django e algumas bibliotecas,
+para isso eu sugiro criar uma pasta de trabalho:
+
+    $ mkdir /tmp/django-br && cd /tmp/django-br
+
+
+3. Faça o clone do repositório do Django
+
+    $ git clone https://github.com/django/django.git
+
+
+4. Faça também o clone do repositório contendo as traduções do Django
+
+    $ git clone https://github.com/django/django-docs-translations.git
+
+
+5. Para gerar a documentação em português, nós vamos trabalhar dentro do diretório 'django-docs-translations'
+
+    $ cd django-docs-translations/
+
+
+6. Existem várias traduções disponíveis, uma para cada versão do Django, nesse exemplo nós vamos gerar a documentação
+para a versão 1.10. Para isso saia da branch 'master' e entre na branch 'stable/1.10.x' rodando o comando abaixo:
+
+    $ git checkout stable/1.10.x
+
+7. Você terá que instalar algumas bibliotecas, para isso eu sugiro criar um virtualenv:
+
+    $ python -m venv .django-br
+
+8. Ative o virtualenv rodando o comando abaixo:
+
+    $ source .django-br/bin/activate
+
+9. Para gerar a documentação, o Django utiliza o Sphinx, para instalá-lo rode o comando:
+
+    $ pip install sphinx
+
+10. Para baixar as últimas traduções do site Transifex, nós vamos precisar instalar também o 'Transifex-Client':
+
+    $ pip install transifex-client
+
+11. Com o Transifex-Client instalado e com o arquivo .transifexrc configurado na raiz do seu home,
+será possível executar o comando abaixo:
+
+    $ tx pull -f -l pt_BR
+
+12. Com as traduções baixadas, agora é preciso executar o comando 'make translations' para compilá-las:
+
+    $ make translations
+
+13. Agora será preciso criar um link simbólico para que a documentação gerada posteriormente use os arquivos baixados
+ao invés dos arquivos padrão do repositório do Django:
+
+    $ ln -s /tmp/django-br/django-docs-translations/translations/ /tmp/django-br/django/docs/locale
+
+14. Agora resta gerar a documentação, mas para isso é preciso sair do repositório django-docs-translations e ir para
+o repositório django, onde vamos encontrar o diretório 'docs', é dentro desse diretório que vamos poder gerar a
+documentação.
+
+    $ cd ../django/docs/
+
+15. Uma vez que os passos acima foram executados, dentro do diretório docs do repositório do Django, rode o comando
+'make html LANGUAGE=pt_BR' para que o Sphinx gere a documentação em português.
+
+    $ make html LANGUAGE=pt_BR
+
+Obs: Os warnings gerados durante o build podem ser em decorrência de links quebrados, erros de ortografia e etc.
+Durante os testes que fiz, esses warnings não impediram a geração com sucesso da documentação.
+
 O que traduzir
 --------------
 
