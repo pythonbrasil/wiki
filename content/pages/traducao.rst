@@ -100,6 +100,16 @@ Para gerar a documentação em português siga os passos a seguir:
 
     make html LANGUAGE=pt_BR
 
+#. Como medida de segurança, eu sugiro excluir o arquivo ~/.transifexrc do seu home ou apagar a senha contida dentro dele já que o Transifex não oferece autenticação via tokens (ainda). ::
+
+    rm ~/.transifexrc
+
+#. Ao final do processo, um novo diretório '_build' é criado e dentro desse diretório é possível encontrar também o diretório 'html' contendo os arquivos gerados pelo Sphinx. Para visualizar a documentação entre em _build/html/ ::
+
+    cd _build/html/
+
+A página principal da documentação é a 'index.html', clique duas vezes nesse arquivo para que ele seja aberto no seu browser. Clique nos links para navegar pela documentação, embora sejam links html, todo o conteúdo está contido dentro da pasta _build e portanto disponível offline. O Sphinx permite ainda gerar a documentação em outros formatos como .pdf mas eu só testei o formato html.
+
 O que traduzir
 --------------
 
