@@ -1,0 +1,14 @@
+{
+    "nome": "Olist",
+    "cidade": "Curitiba",
+    "regiao": "Sul",
+    "site": "https://olist.com/",
+    "contatos": [
+        {
+            "texto": "br@olist.com (Remote friendly)",
+            "link": "br@olist.com"
+        }
+    ],
+    "logo": "images/empresas/olist_logo.jpg",
+    "estado": "Paraná"
+}
