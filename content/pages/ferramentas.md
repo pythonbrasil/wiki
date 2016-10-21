@@ -5,7 +5,32 @@ Template: page
 Veja aqui uma listagem de ferramentas para te auxiliar no desenvolvimento python:
 
 
-# Ferramentas gratuitas
+# Editores de texto
+### vim - http://www.vim.org/
+Esse é o que eu uso ( OsvaldoSantanaNeto ). Tem em todo GNU/Linux e é altamente configurável. Uma forma de transformar o vim em uma IDE Python completa é seguindo o tutorial em http://avelino.us/2011/12/22/vim-ide-para-programadores-python/ (pt-BR)
+PythonBrasil[5] - DDD.py - tem boas dicas para utilizar o vim - http://www.pythonbrasil.org.br/2009/sobre-o-evento/slides/ddd.py/view
+
+### Emacs - http://www.gnu.org/software/emacs/emacs.html
+Um editor ( ou um sistema operacional com capacidades de edição ? :) ) poderoso e amplamente extensível em eLisp (um dialeto Lisp). Vencida a curva de aprendizado (considerada dificil por alguns) é possível torna-lo em uma IDE Python poderosíssima. O python-mode.el prove diversas funcionalidades para edição, debug e desenvolvimento de programas em Python e o Ropemacs funcionalidades de refactoring. Mais "Emacs Goodies" na propria Wiki em PythonComEmacs.
+
+### SciTE - http://www.scintilla.org/SciTE.html
+Excelente editor de textos voltado para programação. Suporta uma grande lista de linguagens, pode rodar e debugar os programas, é fácil de usar e é muito configurável. Disponível para Windows e X (ambiente gráfico dos UNIXes).
+
+### jext - http://www.jext.org/
+Muito bom editor! Suporta muitas linguagens e possui plugins para Python (executar, por exemplo).
+
+### joe - http://sourceforge.net/projects/joe-editor/
+Editor de texto para dinossauros :-) Utiliza os mesmos comandos do WordStar, SideKick, etc. Disponivel via apt-get e emerge. (NiloMenezes).
+
+### sublime - http://www.sublimetext.com/
+Editor de texto proprietário e pago, porém disponibiliza uma versão beta para uso sem custo. Atualmente na versão 2, a compra de sua licensa permite o uso de ambas as versão existentes.
+
+### PS Pad - http://www.pspad.com/
+Grátis (freeware) para Windows. Colore código Python e suporta edição com vários encodings. Tem também utilitários para HTML/XML, tabela ASCII e conversão DOS/UNIX. O Hex view quebra um galho na hora de procurar erros em arquivos com encoding incorreto.
+
+Uma lista com outros (muitos) editores podem ser encontrados em http://www.python.org/moin/PythonEditors
+
+# IDEs gratuitas
 
 ### Idle - http://www.python.org 
 O IDLE vem com o Python. É feito com Tkinter e se você se acostumar pode lhe ajudar bastante. É bem simples de ser usado também.
@@ -48,7 +73,8 @@ Um shell com muitos recursos, através das comandos "magicos". Bastante util, mo
 ### KDevelop - http://www.kdevelop.org/
 IDE livre para GNU/Linux e outros *nixes-like.
 
-### PythonWin - http://pywin32.sf.net/ - IDE que acompanha as extensões Win32 para Python (PyWin32). Oferece auto-completion e debugging, e tem recursos extras voltados à programação Windows (coletor de exceções para componentes COM criados, COM browser, geração de arquivos .py com informações sobre objetos COM (static dispatch), etc.).
+### PythonWin - http://pywin32.sf.net/
+IDE que acompanha as extensões Win32 para Python (PyWin32). Oferece auto-completion e debugging, e tem recursos extras voltados à programação Windows (coletor de exceções para componentes COM criados, COM browser, geração de arquivos .py com informações sobre objetos COM (static dispatch), etc.).
 
 ### PythonCard - http://pythoncard.sourceforge.net 
 É uma GUI para construção de aplicações multiplataforma em Windows, Mac OS X e Linux, usando a linguagem de programação Python. O lema de PythonCard é "coisas simples devem ser simples de fazer e coisas complexas devem devem ser possiveis". É a ferramenta para quem deseja desenvolver aplicações gráficas de maneira rápida e fácil, com um mínimo de esforço e codificação; simples mas poderoso. Utiliza a biblioteca wxPython, mas separa a lógica do código da apresentação utilizando um tipo de arquivo de definição de recursos. (RômuloCampelo - 08/04/2005)
@@ -62,7 +88,7 @@ Acompanha o conjunto de componentes python para Delphi (embora não requira que 
 ###  PyPE - http://pype.sourceforge.net/index.shtml
 Não se trata de um IDE propriamente dito, mas é um editor Python, leve, funcional e rico em recursos interessantes e multiplataforma. Além disso, é desenvolvido utilizando wxPython.
 
-# Proprietárias (pagas)
+# IDEs (pagas)
 Wing - http://www.wingware.com - Das IDEs proprietárias essa é uma das que mais gosto ( OsvaldoSantanaNeto ). A empresa wingware recentemente lançou o wingide101 para auxiliar no ensino de python e é uma versão com menos recursos que as versões professional e personal, mas que tem funcionalidades interessantes, como depurador gráfico, shell interativo. Segue o link: http://wingware.com/wingide-101/index
 
 ### Komodo - http://www.activestate.com
@@ -78,4 +104,13 @@ Feita pelo pessoal que desenvolve o KDE.
 IDE completo para o mundo .NET que com o IronPython se torna um excelente IDE.
 
 
-(Conteúdo retirado do link http://wiki.python.org.br/IdesPython)
+# Refactoring
+
+### Bycicle Repair Man - http://bicyclerepair.sourceforge.net/ 
+Automatiza algumas operações básicas de refactoring para Python. Tem integração com vários editores, como o PyDev e o Emacs.
+
+### Rope - http://rope.sourceforge.net/ 
+Uma biblioteca de refactoring para Python. Pode ser usada em outras IDEs.
+
+
+*Boa parte do conteúdo foi retirado do link (http://wiki.python.org.br/IdesPython)
