@@ -2,7 +2,13 @@
     "nome": "Globo.com",
     "cidade": "Rio de Janeiro",
     "regiao": "Sudeste",
-    "site": "www.globo.com/talentos",
+    "site": "https://talentos.globo.com",
     "logo": "images/empresas/globocom.svg",
-    "estado": "Rio de Janeiro"
+    "estado": "Rio de Janeiro",
+    "contatos": [
+        {
+            "texto": "talentos@corp.globo.com",
+            "link": "mailto:talentos@corp.globo.com"
+        }
+    ],
 }
