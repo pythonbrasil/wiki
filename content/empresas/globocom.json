@@ -2,6 +2,13 @@
     "cidade": "Porto Alegre",
     "nome": "Globo.com",
     "estado": "Rio Grande do Sul",
-    "site": "http://www.globo.com/",
-    "regiao": "Sul"
+    "site": "https://talentos.globo.com/",
+    "logo": "images/empresas/globocom.svg",
+    "regiao": "Sul",
+    "contatos": [
+        {
+            "texto": "talentos@corp.globo.com",
+            "link": "mailto:talentos@corp.globo.com"
+        }
+    ],
 }
