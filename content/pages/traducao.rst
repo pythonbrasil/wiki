@@ -1,4 +1,4 @@
-:title: Como colaborar com a traduzição
+:title: Como colaborar com a tradução
 :slug: traducao
 :template: page
 
@@ -17,13 +17,13 @@ https://groups.google.com/d/forum/django-i18n
 https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation
 
 
-o Luciano Ramalho e mais uma galera, criaram algumas dicas para quando eles estavam traduzindo o tutorial oficial do Python 2.7. Talvez algumas dessas dicas também sirvam para ajudar a traduzir a documentação do django.
+O Luciano Ramalho e mais uma galera, criaram algumas dicas para quando eles estavam traduzindo o tutorial oficial do Python 2.7. Talvez algumas dessas dicas também sirvam para ajudar a traduzir a documentação do django.
 
 http://turing.com.br/pydoc/2.7/glossary.html#glossary
 
 http://turing.com.br/pydoc/2.7/tutorial/NOTAS.html#notas-para-os-tradutores-da-versao-pt-br
 
-Se vc tem pouco tempo, alguns minutos, tente o tópico [faq]
+Se você tem pouco tempo, alguns minutos, tente o tópico [faq]
 
 [faq] https://www.transifex.com/django/django-docs/translate/#pt_BR/
 
