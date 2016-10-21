@@ -113,4 +113,6 @@ Automatiza algumas operações básicas de refactoring para Python. Tem integra�
 Uma biblioteca de refactoring para Python. Pode ser usada em outras IDEs.
 
 
+
+
 *Boa parte do conteúdo foi retirado do link (http://wiki.python.org.br/IdesPython)
