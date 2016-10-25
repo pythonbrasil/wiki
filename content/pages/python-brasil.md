@@ -87,6 +87,7 @@ Todavia, em todas as edições, o evento é fruto do trabalho de diversas pessoa
 - 2015 - [São José dos Campos (2015)](http://pythonbrasil.github.io/pythonbrasil11-site/) - Renzo Nuccitelli
 - A Python Brasil 2016 será em [Florianópolis, Santa Catarina](http://2016.pythonbrasil.org.br/) - Mário Sérgio Oliveira de Queiroz
 - A Python Brasil 2017 será em Belo Horizonte, Minas Gerais - Igor Santos
+- A Python Brasil 2018 será em Natal, Rio Grande do Norte
 
 Mais informações podem ser encontradas no manual do Big Kahuna - [https://manual-do-big-kahuna.readthedocs.org/en/latest/](https://manual-do-big-kahuna.readthedocs.org/en/latest/)
 
