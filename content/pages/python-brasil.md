@@ -74,18 +74,18 @@ Essa pessoa recebe, por razões históricas (consulte o Rodrigo Senra para maior
 
 Todavia, em todas as edições, o evento é fruto do trabalho de diversas pessoas, e é responsabilidade de todos o sucesso da empreitada.
 
-- 2005 - [São Paulo - Centro de Computação da Unicamp](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil.html) - Rodrigo Senra
-- 2006 - [Brasília - Interlegis](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil2.html) - Jean Rodrigo Ferri
-- 2007 - [Santa Catarina - SOCIESC](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil3.html) - Marco André Lopes
+- 2005 - [São Paulo - Campinas - Centro de Computação da Unicamp](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil.html) - Rodrigo Senra
+- 2006 - [Distrito Federal - Brasília - Interlegis](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil2.html) - Jean Rodrigo Ferri
+- 2007 - [Santa Catarina - Joinville - SOCIESC](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil3.html) - Marco André Lopes
 - 2008 - [Rio de Janeiro - UVA](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pyconbrasil2008.html) - Luis Gustavo Neves
-- 2009 - [Rio Grande do Sul - UCS - Dornéles Treméa](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil5.html) - Dorneles Treméa
-- 2010 - [Curitiba - UFPR - Ramiro Luz](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil6.html) - Ramiro Batista Luz
+- 2009 - [Rio Grande do Sul - Caxias do Sul - UCS](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil5.html) - Dorneles Treméa
+- 2010 - [Paraná - Curitiba - UFPR](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil6.html) - Ramiro Batista Luz
 - 2011 - [São Paulo - AMCHAM Business Center](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil7.html) - Érico Andrei
-- 2012 - Rio de Janeiro - Tatiana Al-Chueyr e Álvaro Justen
-- 2013 - [Brasília - Centro de Convenções Ulysses Guimarães (CCUG)](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil9.html) - Tania Andréa
-- 2014 - [Porto de Galinhas (2014)](http://2014.pythonbrasil.org.br/) - Renato Oliveira
-- 2015 - [São José dos Campos (2015)](http://pythonbrasil.github.io/pythonbrasil11-site/) - Renzo Nuccitelli
-- A Python Brasil 2016 será em [Florianópolis, Santa Catarina](http://2016.pythonbrasil.org.br/) - Mário Sérgio Oliveira de Queiroz
+- 2012 - [Rio de Janeiro - Cidade Nova - Centro de convenções SulAmérica](https://manual-do-big-kahuna.readthedocs.io/en/latest/historia/pythonbrasil8.html) - Tatiana Al-Chueyr e Álvaro Justen
+- 2013 - [Distrito Federal - Brasília - Centro de Convenções Ulysses Guimarães (CCUG)](https://manual-do-big-kahuna.readthedocs.org/en/latest/historia/pythonbrasil9.html) - Tania Andréa
+- 2014 - [Pernambuco - Porto de Galinhas - Hotel Armação](http://2014.pythonbrasil.org.br/) - Renato Oliveira
+- 2015 - [São Paulo - São José dos Campos - Novotel](http://pythonbrasil.github.io/pythonbrasil11-site/) - Renzo Nuccitelli
+- 2016 - [Santa Catarina - Florianópolis - Centro de Convenções CentroSul](http://2016.pythonbrasil.org.br/) - Mário Sérgio Oliveira de Queiroz
 - A Python Brasil 2017 será em Belo Horizonte, Minas Gerais - Igor Santos
 
 Mais informações podem ser encontradas no manual do Big Kahuna - [https://manual-do-big-kahuna.readthedocs.org/en/latest/](https://manual-do-big-kahuna.readthedocs.org/en/latest/)
