@@ -36,6 +36,7 @@ Desenvolvedores de software freelancers, de startups e grandes empresas, ativist
 - Alex Gaynor, Software engineer of OpenStack
 - Bryan Van de Ven, software engineer at Continuum Analytics, and is the project lead for the Open Source Bokeh visualization system.
 - David Beasley, Author of the Python Essential Reference and Python Cookbook.
+- Naomi Ceder, Author of Quick Python and PSF Board member.
 
 ## Perguntas frequentes
 
