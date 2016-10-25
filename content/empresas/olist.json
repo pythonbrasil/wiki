@@ -6,7 +6,7 @@
     "contatos": [
         {
             "texto": "br@olist.com (Remote friendly)",
-            "link": "br@olist.com"
+            "link": "mailto:br@olist.com"
         }
     ],
     "logo": "images/empresas/olist_logo.jpg",
