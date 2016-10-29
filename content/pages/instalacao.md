@@ -29,7 +29,8 @@ Para instalar o Python 2.7, digite em um terminal:
     $ sudo apt-get install python2.7
 
 Para instalar o Python 3.5, digite em um terminal:
-$ sudo apt-get install python3.5
+
+    $ sudo apt-get install python3.5
 
 (Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:
 
