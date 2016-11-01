@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Python Brasil-Python no Meio Científico</title>
+    <title>Python Brasil-Instalando o Python no Mac OS X</title>
 
     <!-- Favicon -->
     <link href="http://pythonbrasil.github.io/wiki/theme/pybr/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -117,20 +117,41 @@
         <ol class="breadcrumb">
           <li><a href="http://pythonbrasil.github.io/wiki/index">Home</a></li>
 
-          <li class="active">Python no Meio Científico</li>
+          <li class="active">Instalando o Python no Mac OS X</li>
         </ol>
 
         <hr>
 
-        <h1>Python no Meio Científico</h1>
+        <h1>Instalando o Python no Mac OS X</h1>
 
-        <html><body><p>Descubra como usar python no meio científico:</p>
-<h2>Ferramentas</h2>
-<h3>Scikit-learn</h3>
-<p><a href="http://scikit-learn.org/stable/">Scikit-learn</a> é um módulo Python de código aberto usado para mineração e análise de dados a partir do uso de métodos de Aprendizado de Máquina.</p>
-<h3>Anaconda</h3>
-<p><a href="https://docs.continuum.io">Anaconda</a> é um gerenciador de pacotes de código aberto, com ferramentas para ciência de dados. Possui mais de 720 pacotes e pode ser usado em Windows, macOS e Linux.</p>
-<h2>Conteúdo</h2></body></html>
+        <html><body><h2>Verifique se já tem o Python instalado</h2>
+<p>Se você usa macOS 10.2 ou superior, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ which python
+</pre></div>
+<p>ou</p>
+<div class="highlight"><pre><span></span>$ which python3
+</pre></div>
+<p>que deve retornar algo como <code>/usr/bin/python</code>. Isso significa que o Python está instalado nesse endereço.</p>
+<h2>Instalação</h2>
+<p>Antes de fazer a instalação do Python, é preciso fazer a instalação do XCode, que pode ser baixado na <a href="https://itunes.apple.com/br/app/xcode/id497799835">App Store</a>, do pacote para desenvolvimento em linha de comando no macOS, command line tools e dos gerenciadores de pacotes pip e homebrew.</p>
+<p>Para instalar o command line tools, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ xcode-select --install
+</pre></div>
+<p>Para instalar o pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo easy_install pip
+</pre></div>
+<p>Para atualizar o pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo pip install --upgrade pip
+</pre></div>
+<p>Para instalar o homebrew, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ ruby -e <span class="s2">"</span><span class="k">$(</span>curl -fsSL https://raw.github.com/mxcl/homebrew/go<span class="k">)</span><span class="s2">"</span>
+</pre></div>
+<p>Para instalar o Python 2, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ brew install python
+</pre></div>
+<p>Para instalar o Python 3, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ brew install python3
+</pre></div></body></html>
       </div>
     </div>
 

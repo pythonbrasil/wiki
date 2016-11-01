@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Python Brasil-Python no Meio Científico</title>
+    <title>Python Brasil-Instalando o Python no Linux</title>
 
     <!-- Favicon -->
     <link href="http://pythonbrasil.github.io/wiki/theme/pybr/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -117,20 +117,45 @@
         <ol class="breadcrumb">
           <li><a href="http://pythonbrasil.github.io/wiki/index">Home</a></li>
 
-          <li class="active">Python no Meio Científico</li>
+          <li class="active">Instalando o Python no Linux</li>
         </ol>
 
         <hr>
 
-        <h1>Python no Meio Científico</h1>
+        <h1>Instalando o Python no Linux</h1>
 
-        <html><body><p>Descubra como usar python no meio científico:</p>
-<h2>Ferramentas</h2>
-<h3>Scikit-learn</h3>
-<p><a href="http://scikit-learn.org/stable/">Scikit-learn</a> é um módulo Python de código aberto usado para mineração e análise de dados a partir do uso de métodos de Aprendizado de Máquina.</p>
-<h3>Anaconda</h3>
-<p><a href="https://docs.continuum.io">Anaconda</a> é um gerenciador de pacotes de código aberto, com ferramentas para ciência de dados. Possui mais de 720 pacotes e pode ser usado em Windows, macOS e Linux.</p>
-<h2>Conteúdo</h2></body></html>
+        <html><body><h2>Verifique se já tem o Python instalado</h2>
+<p>Se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ which python
+</pre></div>
+<p>ou</p>
+<div class="highlight"><pre><span></span>$ which python3
+</pre></div>
+<p>que deve retornar algo como <code>/usr/bin/python</code>. Isso significa que o Python está instalado nesse endereço.</p>
+<p>Caso contrário, se retornar algo como <code>which: no python in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr...)</code> você precisa instalar pelos repositórios ou gerenciador de pacotes de sua distribuição.</p>
+<h2>Instalação por Gerenciadores de Pacotes</h2>
+<p>Os gerenciadores de pacotes mais comuns são apt-get (Debian, Ubuntu) e yum
+(RedHat, CentOS). Caso sua distribuição utilize um gerenciador de pacotes diferente, acesse a <a href="https://www.python.org/downloads/">página de downloads do Python</a>.</p>
+<h3>Apt-get</h3>
+<p>Para instalar o Python 2.7, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python2.7
+</pre></div>
+<p>Para instalar o Python 3.5, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python3.5
+</pre></div>
+<p>(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python-pip
+</pre></div>
+<h3>Yum</h3>
+<p>Para instalar o Python 2.7, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo yum install python27
+</pre></div>
+<p>Para instalar o Python 3.5, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo yum install python35
+</pre></div>
+<p>(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ yum -y install python-pip
+</pre></div></body></html>
       </div>
     </div>
 
