@@ -7,7 +7,7 @@
 }
 
 .grupy-thumbnail:hover {
-  background-color: #eeeeee;
+  border-color: #888888;
 }
 
 .grupy-thumbnail > img {
