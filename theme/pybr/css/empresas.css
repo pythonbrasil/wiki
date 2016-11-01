@@ -7,10 +7,10 @@
 }
 
 .empresa-thumbnail:hover {
-  background-color: #eeeeee;
+  border-color: #888888;
 }
 
-.empresa-thumbnail > img {
+.empresa-thumbnail > a > img {
   padding: 20px;
   max-height: 310px;
 }
