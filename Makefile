@@ -72,6 +72,9 @@ travis: publish
 	ghp-import -m "Updated APyB site." -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push -fq origin $(GITHUB_PAGES_BRANCH) > /dev/null
 
+import_pyladies:
+	python pyladies_generator.py
+
 ping:
 	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
 	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"

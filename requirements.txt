@@ -21,3 +21,5 @@ smartypants
 typogrify
 unidecode
 ghp-import
+pyyaml
+python-slugify
