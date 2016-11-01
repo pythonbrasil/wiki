@@ -66,8 +66,16 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Veja como é fácil começar a usar a linguagem.',
         'children': [
             {
-                'title': 'Instalação',
-                'href': 'instalacao',
+                'title': 'Instalação Linux',
+                'href': 'instalacao-linux',
+            },
+            {
+                'title': 'Instalação Mac',
+                'href': 'instalacao-mac',
+            },
+            {
+                'title': 'Instalação Windows',
+                'href': 'instalacao-windows',
             },
             {
                 'title': 'Ferramentas',
