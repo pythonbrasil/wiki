@@ -10,13 +10,13 @@ Repo: [https://github.com/pythonbrasil/wiki](https://github.com/pythonbrasil/wik
 
 Este projeto utiliza [Pelican](http://blog.getpelican.com/) como gerador de páginas estáticas e [Travis-CI](https://travis-ci.org/) para realizar a integração contínua.
 
-## Porque usar isso?
+## Por que usar isso?
 
 1. Basta ter uma conta no GitHub.
 2. Consigo editar via web.
 3. O site não tem senha, mas é automaticamente versionado.
 
-## Porque não usar um framework web?
+## Por que não usar um framework web?
 
 Porque a tecnologia não pode estar entre o voluntário que deseja colaborar e a publicação do conteúdo.
 
@@ -120,7 +120,7 @@ Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome q
 
 Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
 
-> git clone git@github.com:pythonbrasil/wiki.git
+> git clone https://github.com/pythonbrasil/wiki.git
 
 > cd wiki
 

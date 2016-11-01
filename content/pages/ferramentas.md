@@ -32,22 +32,22 @@ Uma lista com outros (muitos) editores podem ser encontrados em http://www.pytho
 
 # IDEs gratuitas
 
-### Idle - http://www.python.org 
+### Idle - http://www.python.org
 O IDLE vem com o Python. É feito com Tkinter e se você se acostumar pode lhe ajudar bastante. É bem simples de ser usado também.
 
-### Komodo-Edit - http://www.activestate.com/komodo_edit/ 
+### Komodo-Edit - http://www.activestate.com/komodo_edit/
 Também desenvolvido pela ActiveState o Komodo-Edit é uma excelente opção de editor, bastante rico em recursos tais como autocomplete, calltips, multi-language file support, syntax coloring, syntax checking, Vi emulation, Emacs key bindings e outros.
 
-### NetBeans - http://netbeans.org/features/python/index.html 
+### NetBeans - http://netbeans.org/features/python/index.html
 Analogamente ao Eclipse, o NetBeans também oferece suporte ao Python através de plugins.
 
-### NINJA-IDE - http://ninja-ide.org/ 
+### NINJA-IDE - http://ninja-ide.org/
 Do acrônimo recursivo: "Ninja-IDE Is Not Just Another IDE", é uma IDE multi-plataforma de desenvolvimento integrado. NINJA-IDE é executado em Linux/X11, Mac OS X e sistemas operacionais de desktop Windows, e permite aos desenvolvedores criarem aplicações para diversas finalidades, utilizando todas as ferramentas e utilitários de NINJA-IDE, tornando a tarefa de escrever software mais fácil e agradável.
 
 ### SPE - http://pythonide.blogspot.com/
 Desenvolvido com wxPython é livre e tem algumas funcionalidades interessantes. Tem wxGlade como plugin para desenho de telas gráficas.
 
-### Spyder 2 - http://code.google.com/p/spyderlib/ 
+### Spyder 2 - http://code.google.com/p/spyderlib/
 Spyder (também conhecido como Pydee) é um poderoso ambiente de desenvolvimento interativo para a linguagem Python com edição avançada, testes interativos, recursos de depuração e introspecção
 
 ### Pida - http://pida.co.uk/
@@ -67,7 +67,7 @@ Diferente de todos os outros. Pesado, grande, monstruoso mas muito poderoso. É 
 ### DrPython - http://drpython.sourceforge.net/
 Usa wxPython. Criado para ser utilizado em escolas.
 
-### IPython - http://ipython.scipy.org/ 
+### IPython - http://ipython.scipy.org/
 Um shell com muitos recursos, através das comandos "magicos". Bastante util, modo texto apenas. Você pode usa-lo como um shell "acoplado" aos seus programas também.
 
 ### KDevelop - http://www.kdevelop.org/
@@ -76,7 +76,7 @@ IDE livre para GNU/Linux e outros *nixes-like.
 ### PythonWin - http://pywin32.sf.net/
 IDE que acompanha as extensões Win32 para Python (PyWin32). Oferece auto-completion e debugging, e tem recursos extras voltados à programação Windows (coletor de exceções para componentes COM criados, COM browser, geração de arquivos .py com informações sobre objetos COM (static dispatch), etc.).
 
-### PythonCard - http://pythoncard.sourceforge.net 
+### PythonCard - http://pythoncard.sourceforge.net
 É uma GUI para construção de aplicações multiplataforma em Windows, Mac OS X e Linux, usando a linguagem de programação Python. O lema de PythonCard é "coisas simples devem ser simples de fazer e coisas complexas devem devem ser possiveis". É a ferramenta para quem deseja desenvolver aplicações gráficas de maneira rápida e fácil, com um mínimo de esforço e codificação; simples mas poderoso. Utiliza a biblioteca wxPython, mas separa a lógica do código da apresentação utilizando um tipo de arquivo de definição de recursos. (RômuloCampelo - 08/04/2005)
 
 ###  TruStudio - http://trustudio.unipro.ru e http://sourceforge.net/projects/trustudio
@@ -87,6 +87,11 @@ Acompanha o conjunto de componentes python para Delphi (embora não requira que 
 
 ###  PyPE - http://pype.sourceforge.net/index.shtml
 Não se trata de um IDE propriamente dito, mas é um editor Python, leve, funcional e rico em recursos interessantes e multiplataforma. Além disso, é desenvolvido utilizando wxPython.
+
+### Rodeo - https://www.yhat.com/products/rodeo
+Rodeo é uma IDE leve e intuitiva voltado para análise de dados. Com
+suporte a Jupyter Notebook, navegador de arquivos, busca de packages e
+visualização de gráficos, além de suporte a comandos VIM.
 
 # IDEs (pagas)
 Wing - http://www.wingware.com - Das IDEs proprietárias essa é uma das que mais gosto ( OsvaldoSantanaNeto ). A empresa wingware recentemente lançou o wingide101 para auxiliar no ensino de python e é uma versão com menos recursos que as versões professional e personal, mas que tem funcionalidades interessantes, como depurador gráfico, shell interativo. Segue o link: http://wingware.com/wingide-101/index
@@ -100,16 +105,16 @@ Possui um conjunto de ferramentas úteis para um desenvolvimento produtivo. Alé
 ### BlackAdder - http://www.thekompany.com/products/blackadder/
 Feita pelo pessoal que desenvolve o KDE.
 
-### Visual Studio 2010+ - http://ironpython.net/ 
+### Visual Studio 2010+ - http://ironpython.net/
 IDE completo para o mundo .NET que com o IronPython se torna um excelente IDE.
 
 
 # Refactoring
 
-### Bycicle Repair Man - http://bicyclerepair.sourceforge.net/ 
+### Bycicle Repair Man - http://bicyclerepair.sourceforge.net/
 Automatiza algumas operações básicas de refactoring para Python. Tem integração com vários editores, como o PyDev e o Emacs.
 
-### Rope - http://rope.sourceforge.net/ 
+### Rope - https://github.com/python-rope/rope
 Uma biblioteca de refactoring para Python. Pode ser usada em outras IDEs.
 
 
