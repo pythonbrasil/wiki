@@ -66,6 +66,10 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Veja como é fácil começar a usar a linguagem.',
         'children': [
             {
+                'title': 'Qual Python?',
+                'href': 'qual-python',
+            },
+            {
                 'title': 'Instalação Linux',
                 'href': 'instalacao-linux',
             },
