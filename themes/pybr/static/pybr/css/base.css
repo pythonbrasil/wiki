@@ -60,6 +60,26 @@ main h1, main h2, main h3, main h4 {
   color: #666666;
 }
 
+.page-content {
+  font-size: 17px;
+  line-height: 1.4em;
+}
+
+.page-content p {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.page-content ul, .page-content ol {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
 footer {
   padding: 40px 0;
   background-color: #222222;
