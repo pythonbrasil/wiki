@@ -123,6 +123,7 @@
 
         <html><body><p>Aprenda aqui como instalar o python para começar a trabalhar:</p>
 <h1>GNU/Linux</h1>
+<h2>Verifique se já tem o Python instalado</h2>
 <p>Se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:</p>
 <div class="highlight"><pre><span></span>$ which python
 </pre></div>
@@ -130,12 +131,62 @@
 <div class="highlight"><pre><span></span>$ which python3
 </pre></div>
 <p>que deve retornar algo como <code>/usr/bin/python</code>. Isso significa que o Python está instalado nesse endereço.</p>
-<p>Caso contrário, se retornar algo como <code>which: no python in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr...)</code> você precisa instalar pelos repositórios de sua distribuição.</p>
+<p>Caso contrário, se retornar algo como <code>which: no python in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr...)</code> você precisa instalar pelos repositórios ou gerenciador de pacotes de sua distribuição.</p>
+<h2>Instalação por Gerenciadores de Pacotes</h2>
+<p>Os gerenciadores de pacotes mais comuns são apt-get (Debian, Ubuntu) e yum
+(RedHat, CentOS). Caso sua distribuição utilize um gerenciador de pacotes diferente, acesse a <a href="https://www.python.org/downloads/">página de downloads do Python</a>.</p>
+<h3>Apt-get</h3>
+<p>Para instalar o Python 2.7, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python2.7
+</pre></div>
+<p>Para instalar o Python 3.5, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python3.5
+</pre></div>
+<p>(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install python-pip
+</pre></div>
+<h3>Yum</h3>
+<p>Para instalar o Python 2.7, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo yum install python27
+</pre></div>
+<p>Para instalar o Python 3.5, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo yum install python35
+</pre></div>
+<p>(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ yum -y install python-pip
+</pre></div>
 <h1>Windows</h1>
 <p>Para instalar o Python em Windows, baixe o instalador do site oficial <a href="https://www.python.org/downloads/">neste link</a>. <strong>Dê preferência ao Python 3</strong>, já que a versão 2.x é mantida por compatibilidade com códigos antigos e será descontinuada em 2020.</p>
 <p><strong>Importante:</strong> Certifique-se de selecionar a opção "Adicionar python.exe ao Path" na etapa de Personalização da instalação. Isso garante que ao digitar "python" no prompt de comando, o Windows consiga encontrar o executável do programa e/ou iniciar no modo interativo pelo <code>cmd</code>.</p>
 <h1>Mac OS X</h1>
-<p>???</p></body></html>
+<h2>Verifique se já tem o Python instalado</h2>
+<p>Se você usa macOS 10.2 ou superior, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ which python
+</pre></div>
+<p>ou</p>
+<div class="highlight"><pre><span></span>$ which python3
+</pre></div>
+<p>que deve retornar algo como <code>/usr/bin/python</code>. Isso significa que o Python está instalado nesse endereço.</p>
+<h2>Instalação</h2>
+<p>Antes de fazer a instalação do Python, é preciso fazer a instalação do XCode, que pode ser baixado na <a href="https://itunes.apple.com/br/app/xcode/id497799835">App Store</a>, do pacote para desenvolvimento em linha de comando no macOS, command line tools e dos gerenciadores de pacotes pip e homebrew.</p>
+<p>Para instalar o command line tools, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ xcode-select --install
+</pre></div>
+<p>Para instalar o pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo easy_install pip
+</pre></div>
+<p>Para atualizar o pip, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ sudo pip install --upgrade pip
+</pre></div>
+<p>Para instalar o homebrew, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ ruby -e <span class="s2">"</span><span class="k">$(</span>curl -fsSL https://raw.github.com/mxcl/homebrew/go<span class="k">)</span><span class="s2">"</span>
+</pre></div>
+<p>Para instalar o Python 2, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ brew install python
+</pre></div>
+<p>Para instalar o Python 3, digite em um terminal:</p>
+<div class="highlight"><pre><span></span>$ brew install python3
+</pre></div></body></html>
       </div>
     </div>
 
