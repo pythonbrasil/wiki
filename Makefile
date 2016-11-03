@@ -31,23 +31,23 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
 
-html:
+html: import_pyladies
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-regenerate:
+regenerate: import_pyladies
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: import_pyladies
 ifdef PORT
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
 else
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
-devserver:
+devserver: import_pyladies
 ifdef PORT
 	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
@@ -59,7 +59,7 @@ stopserver:
 	kill -9 `cat srv.pid`
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish:
+publish: import_pyladies
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish

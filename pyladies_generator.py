@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-from slugify import slugify
-
-import urllib2
-import yaml
 import json
+import os
+import urllib2
+
+import yaml
+from slugify import slugify
 
 
 # Diretório onde serão gerados os arquivos JSON
@@ -40,6 +41,9 @@ def list_pyladies():
     Gera os arquivos JSON no diretório setado em PAGE_PATH.
     """
 
+    if not os.path.exists(PAGE_PATH):
+            os.makedirs(PAGE_PATH)
+
     for item in scrapping_pyladies():
         data = dict()
 
@@ -71,6 +75,7 @@ def list_pyladies():
             data['links'].append(['Telegram', item['telegram']])
 
         filename = get_filename(PAGE_PATH, item['city'].lower())
+
         with open(filename, 'w') as f:
             json.dump(data, f)
 
