@@ -80,11 +80,11 @@ O Conteúdo está em formato estruturado JSON. Para adicionar uma nova comunidad
 
 2. Pyladies
 
-O Conteúdo está em formato estruturado JSON. Para adicionar basta criar um arquivo com extensão .json na pasta [content/pyladies/](https://github.com/pythonbrasil/wiki/tree/pelican/content/pyladies) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo basta colocar o arquivo de extensão .png de tamanho 400X400 na pasta [content/images/pyladies/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/pyladies).
+O Conteúdo das pyladies é uma importação do conteúdo encontrado em [https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/data/ladies.yml](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/data/ladies.yml).
 
 3. Eventos
 
-O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/<ano>/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
+O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/YYYY/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
 
 4. Python Brasil
 

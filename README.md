@@ -84,7 +84,7 @@ O Conteúdo das pyladies é uma importação do conteúdo encontrado em [https:/
 
 3. Eventos
 
-O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/<ano>/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
+O Conteúdo está em formato estruturado JSON. Para adicionar um novo evento basta criar um arquivo com extensão .json na pasta [content/eventos/YYYY/](https://github.com/pythonbrasil/wiki/tree/pelican/content/eventos).
 
 4. Python Brasil
 
