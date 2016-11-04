@@ -88,7 +88,7 @@
 }
 
 .date-blue {
-  background-color: #3771a2;
+  background-color: #5088b7;
 }
 
 .date-yellow {
@@ -111,4 +111,12 @@
   margin: 0;
   font-size: 24px;
   line-height: 26px;
+}
+
+.past-event {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1);
 }

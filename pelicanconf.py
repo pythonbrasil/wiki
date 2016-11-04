@@ -194,7 +194,8 @@ SOCIAL_LINKS = (
 def date_hook(json_dict):
     for (key, value) in json_dict.items():
         try:
-            json_dict[key] = datetime.datetime.strptime(value, "%Y-%m-%d")
+            json_dict[key] = datetime.datetime.strptime(
+                value, "%Y-%m-%d").date()
         except:
             pass
     return json_dict
@@ -226,6 +227,7 @@ def import_empresas(path):
 
 # Configurações da página de eventos
 EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
+EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=True)
 
 # Configurações da página de comunidades locais
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
