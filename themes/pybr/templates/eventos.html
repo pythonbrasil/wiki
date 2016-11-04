@@ -4,6 +4,14 @@
 
 {% block aditional_styles %}
   <link href="{{ SITEURL }}/theme/pybr/css/eventos.css" rel="stylesheet">
+  <style type="text/css">
+      .maps {
+      pointer-events: none;
+    }
+  </style>
+
+<!-- E agora Jose -->
+
 {% endblock %}
 
 {% block post_content %}
@@ -39,7 +47,7 @@
       </div>
 
       <div class="col-xs-3 event-map">
-        <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
+        <div class="map maps" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
       </div>
     </div>
   {% endfor %}
