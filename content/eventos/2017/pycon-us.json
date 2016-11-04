@@ -2,8 +2,8 @@
     "nome": "PyCon US",
     "data": "2017-05-17",
     "cidade": "Portland",
-    "estado": "Oregan",
+    "estado": "OR",
     "link": "https://us.pycon.org/2017/",
-    "latitude": "45.521047",
-    "longitude": "-112.676635"
+    "latitude": "45.520449",
+    "longitude": "-112.672305"
 }
