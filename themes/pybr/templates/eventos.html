@@ -65,6 +65,7 @@
   <script src="http://maps.googleapis.com/maps/api/js?sensor=false&dummy=.js"></script>
 
   <script>
+
     // mapas dos eventos
     var maps = $('.map');
 
@@ -72,14 +73,22 @@
       var map = maps[i];
       var latitude = $(map).data('latitude');
       var longitude = $(map).data('longitude');
-
-      new google.maps.Map(map, {
+      var map = new google.maps.Map(map, {
           zoom: 10,
           disableDefaultUI: true,
           zoomControl: false,
           center: new google.maps.LatLng(latitude, longitude),
           mapTypeId: "roadmap"
       });
+      var image = '{{ SITEURL }}/theme/pybr/img/ponteiro_mapa.png';
+      var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(latitude, longitude),
+        map: map,
+        icon: image
+      });
+
     }
+
   </script>
+
 {% endblock %}
