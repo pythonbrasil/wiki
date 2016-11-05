@@ -9,7 +9,7 @@
 {% block post_content %}
   {% set date_color = cycler('date-blue', 'date-yellow') %}
   <div class="row">
-  {% for evento in EVENTOS %}
+  {% for evento in EVENTOS %} <!-- Porque esta EVENTOS, esta em caixa auta? -->
   
   <div class="col-md-12 col-xs-12 col-lg-6">
     <div class="row event" data-event-date="{{ evento.data }}">
