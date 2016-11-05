@@ -9,6 +9,7 @@
 {% block post_content %}
   {% set date_color = cycler('date-blue', 'date-yellow') %}
   {% for evento in EVENTOS %}
+  <div class="col-md-12 col-xs-12 col-lg-6">
     <div class="row event" data-event-date="{{ evento.data }}">
       <div class="col-xs-3 event-date {{ date_color.next() }}">
         <p class="event-day">
@@ -42,6 +43,7 @@
         <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
       </div>
     </div>
+  </div>
   {% endfor %}
 {% endblock %}
 
