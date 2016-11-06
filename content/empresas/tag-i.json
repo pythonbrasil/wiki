@@ -1,0 +1,14 @@
+{
+    "nome": "tag.i",
+    "cidade": "Serra Talhada",
+    "regiao": "Nordeste",
+    "site": "http://www.tagi.com.br",
+    "contatos": [
+        {
+            "texto": "Somos especialistas em projetar ideias e impulsionar projetos",
+            "link": "mailto:falecom@tagi.com.br"
+        }
+    ],
+    "logo": "images/empresas/tag-i.png",
+    "estado": "Pernambuco"
+}
