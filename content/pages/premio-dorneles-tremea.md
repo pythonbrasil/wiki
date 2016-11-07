@@ -25,32 +25,32 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
 
 ## Homenageados
 
-**2011 - PythonBrasil[7] (São Paulo)**
+**2011 - PythonBrasil 7 (São Paulo)**
 
   * Luciano Ramalho
   * Rodrigo Senra
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/bp7KuOTU9nE" frameborder="0" allowfullscreen></iframe>
 
-**2012 - PythonBrasil[8] (Rio de Janeiro)**
+**2012 - PythonBrasil 8 (Rio de Janeiro)**
 
   * Érico Andrei
   * Marcel Caraciolo
 
-**2013 - PythonBrasil[9] (Brasília)**
+**2013 - PythonBrasil 9 (Brasília)**
 
   * Fernando Massanori
   * Henrique Bastos
 
-**2014 - PythonBrasil[10] (Porto de Galinhas)**
+**2014 - PythonBrasil 10 (Porto de Galinhas)**
 
   * Osvaldo Santana
 
-**2015 - PythonBrasil[11] (São José dos Campos)**
+**2015 - PythonBrasil 11 (São José dos Campos)**
 
   * Tânia Andrea
   
-**2016 - PythonBrasil[12] (Florianópolis)**
+**2016 - PythonBrasil 12 (Florianópolis)**
 
   * Paula Grangeiro
  
