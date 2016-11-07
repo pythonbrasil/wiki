@@ -2,10 +2,10 @@ Title: Prêmio Dorneles Treméa
 Slug: premio-dorneles-tremea
 Template: page
 
-**O Prêmio Dorneles Treméa é concedido anualmente ao membro, ou membros, da comunidade Python brasileira que mantém vivo o espírito de colaboração, empreendedorismo e entrega à comunidade.**
+**O Prêmio Dorneles Treméa é concedido ao membro, ou membros, da comunidade Python brasileira que mantém vivo o espírito de colaboração, empreendedorismo e entrega à comunidade.**
 
 ## O Prêmio
-Criado em 2011 pela Associação Python Brasil, o Prêmio Dorneles Treméa é um momento para a comunidade Python brasileira lembrar e homenagear as pessoas que mais se destacaram e contribuíram para manter vivo o espírito de colaboração, empreendedorismo e entrega à comunidade que eram características marcantes de Dorneles Treméa.
+Criado em 2011 pela Associação Python Brasil, o Prêmio Dorneles Treméa é um momento para a comunidade Python brasileira lembrar e homenagear anualmente a(s) pessoa(s) que mais se destacou(aram) e contribuíu(íram) para manter vivo o espírito de colaboração, empreendedorismo e entrega à comunidade que eram características marcantes do Dorneles Treméa.
 
 ### Critérios utilizados
 O prêmio é dedicado àquelas que, durante os últimos doze meses, dedicaram-se a:
@@ -49,10 +49,14 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
 **2015 - PythonBrasil[11] (São José dos Campos)**
 
   * Tânia Andrea
+  
+**2016 - PythonBrasil[12] (Florianópolis)**
+
+  * Paula Grangeiro
  
 ## Sobre Dorneles Treméa
 
-Gaúcho, colorado, amante de sushi e de suco de maçã, empreendedor, líder de comunidades OSS, desenvolvedor, empreendedor, líder, marido e  pai de duas gurias. 
+Gaúcho, colorado, amante de sushi e de suco de maçã, empreendedor, líder de comunidades OSS, desenvolvedor, empreendedor, marido e  pai de duas gurias. 
 
 Déo, como os mais próximos o chamavam, foi fundador da Debian-RS, da Associação Python Brasil, membro da Plone Foundation, Big Kahuna da PythonBrasil[5] e palestrante constante.
 
