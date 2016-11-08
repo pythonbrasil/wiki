@@ -7,53 +7,51 @@
 {% endblock %}
 
 {% block post_content %}
-  {% set date_color = cycler('date-blue', 'date-yellow') %}
   <div class="row">
-  {% for evento in EVENTOS %} <!-- Porque esta EVENTOS, esta em caixa auta? -->
-  
-  <div class="col-md-12 col-xs-12 col-lg-6">
-    <div class="row event" data-event-date="{{ evento.data }}">
-      <div class="col-xs-3 event-date {{ date_color.next() }}">
-        <p class="event-day">
-          {{ evento.data.day }}
-        </p>
+    <div class="col-xs-12">
+      {% set date_color = cycler('date-blue', 'date-yellow') %}
+      {% for evento in EVENTOS %}
+        <div class="row event" data-event-date="{{ evento.data }}">
+          <div class="col-xs-3 event-date {{ date_color.next() }}">
+            <p class="event-day">
+              {{ evento.data.day }}
+            </p>
 
-        <p class="event-month">
-          {{ evento.data|strftime('%b')|upper }}
-        </p>
+            <p class="event-month">
+              {{ evento.data|strftime('%b')|upper }}
+            </p>
 
-        <p class="event-year">
-          {{ evento.data.year }}
-        </p>
-      </div>
+            <p class="event-year">
+              {{ evento.data.year }}
+            </p>
+          </div>
 
-      <div class="col-xs-6 event-description">
-        <h1>
-          {{ evento.nome }}
-        </h1>
+          <div class="col-xs-6 event-description">
+            <h1>
+              {{ evento.nome }}
+            </h1>
 
-        <h2>
-          {{ evento.cidade }} - {{ evento.estado }}
-        </h2>
+            <h2>
+              {{ evento.cidade }} - {{ evento.estado }}
+            </h2>
 
-        <p>
-          <a href="{{ evento.link }}">{{ evento.link }}</a>
-        </p>
-      </div>
+            <p>
+              <a href="{{ evento.link }}">{{ evento.link }}</a>
+            </p>
+          </div>
 
-      <div class="col-xs-3 event-map">
-        <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
-      </div>
+          <div class="col-xs-3 event-map">
+            <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
-  </div>
-
-  {% endfor %}
   </div>
 {% endblock %}
 
 {% block aditional_scripts %}
   <script>
-    // marcação de eventos passados
+    // filtro cinza em eventos passados
     var today = new Date();
     var events = $('.event');
 
