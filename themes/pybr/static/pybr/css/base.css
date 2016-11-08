@@ -1,9 +1,9 @@
 .yellow-top-border {
-  border-top: 3px solid #ffd343;
+  border-top: 4px solid #ffd343;
 }
 
 .blue-top-border {
-  border-top: 3px solid #1d6bbd;
+  border-top: 4px solid #1d6bbd;
 }
 
 header {
@@ -12,11 +12,16 @@ header {
   text-align: center;
 
   /* gradient */
-  background: #092c34;  /* Old browsers */
-  background: -moz-linear-gradient(#092c34 0%, #34608f 100%);  /* FF3.6-15 */
-  background: -webkit-linear-gradient(#092c34 0%,#34608f 100%);  /* Chrome10-25, Safari5.1-6 */
-  background: linear-gradient(#092c34 0%,#34608f 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#092c34', endColorstr='#34608f', GradientType=0);  /* IE6-9 */
+  background-color: #2b5b84;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF1E415E',endColorstr='#FF2B5B84');
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(10%,#1e415e),color-stop(90%,#2b5b84));
+  background-image: -webkit-linear-gradient(#1e415e 10%,#2b5b84 90%);
+  background-image: -moz-linear-gradient(#1e415e 10%,#2b5b84 90%);
+  background-image: -o-linear-gradient(#1e415e 10%,#2b5b84 90%);
+  background-image: linear-gradient(#1e415e 10%,#2b5b84 90%);
+  -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.03),inset 0 0 20px rgba(0,0,0,0.03);
+  -moz-box-shadow: inset 0 0 50px rgba(0,0,0,0.03),inset 0 0 20px rgba(0,0,0,0.03);
+  box-shadow: inset 0 0 50px rgba(0,0,0,0.03),inset 0 0 20px rgba(0,0,0,0.03);
 }
 
 

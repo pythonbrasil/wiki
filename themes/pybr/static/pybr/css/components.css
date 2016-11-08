@@ -11,13 +11,14 @@ body.slide-active > .master-wrapper {
 }
 
 .navbar {
+  border-width: 0;
   margin-bottom: 0;
 }
 
 /*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
 #page-content {
   position: relative;
-  margin-top: 51px;
+  margin-top: 49px;
   left: 0;
 }
 
@@ -59,6 +60,7 @@ body.slide-active > .master-wrapper {
   }
 
   #slide-nav .navbar-header {
+    position: absolute;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -86,6 +88,11 @@ body.slide-active > .master-wrapper {
     min-width: 0;
     width: 100%;
     margin: 0;
+  }
+
+  #slide-nav #slidemenu .navbar-nav .dropdown-menu,
+  #slide-nav #slidemenu .navbar-nav .dropdown-menu li {
+    background-color: transparent;
   }
 
   #slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
