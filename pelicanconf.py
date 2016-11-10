@@ -140,6 +140,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'python-brasil',
             },
             {
+                'title': 'Prêmio Dorneles Treméa',
+                'href': 'premio-dorneles-tremea',
+            },
+            {
                 'title': 'A APyB',
                 'href': 'apyb',
             },
