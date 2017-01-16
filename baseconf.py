@@ -51,11 +51,10 @@ CATEGORY_FEED_RSS = None
 ## Plugins
 PLUGIN_PATHS = ['./.plugins']
 PLUGINS = [
-        'better_figures_and_images',
-        'sitemap',
-        'welcome-helpers',
-        'bootstrapify',
-        ]
+    'sitemap',
+    'welcome-helpers',
+    'bootstrapify',
+]
 
 # Plugins settings
 RESPONSIVE_IMAGES = True
