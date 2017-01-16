@@ -2,9 +2,7 @@ Title: Instalando o Python no Mac OS X
 Slug: instalacao-mac
 Template: page
 
-## Verifique se já tem o Python instalado
-
-Se você usa macOS 10.2 ou superior, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:
+Verifique se já tem o Python instalado, se você usa macOS 10.2 ou superior, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:
 
     $ which python
 

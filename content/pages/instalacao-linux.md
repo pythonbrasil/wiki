@@ -2,9 +2,7 @@ Title: Instalando o Python no Linux
 Slug: instalacao-linux
 Template: page
 
-## Verifique se já tem o Python instalado
-
-Se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:
+Verifique se já tem o Python instalado, se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:
 
     $ which python
 
