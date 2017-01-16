@@ -117,8 +117,30 @@
       <div class="col-xs-12">
         <h1>Instalando o Python no Windows</h1>
 
-        <html><body><p>Para instalar o Python em Windows, baixe o instalador do site oficial <a href="https://www.python.org/downloads/">neste link</a>. <strong>Dê preferência ao Python 3</strong>, já que a versão 2.x é mantida por compatibilidade com códigos antigos e será descontinuada em 2020.</p>
-<p><strong>Importante:</strong> Certifique-se de selecionar a opção "Adicionar python.exe ao Path" na etapa de Personalização da instalação. Isso garante que ao digitar "python" no prompt de comando, o Windows consiga encontrar o executável do programa e/ou iniciar no modo interativo pelo <code>cmd</code>.</p></body></html>
+        <p>Para instalar o Python em Windows, baixe o instalador do site oficial <a href="https://www.python.org/downloads/">neste link</a>. <strong>Dê preferência ao Python 3</strong>, já que a versão 2.x é mantida por compatibilidade com códigos antigos e será descontinuada em 2020.</p>
+<p>Rode o instalador baixado para instalar o python no sistema e ao finalizar a instalação siga os passos para adicionar o python no path do sistema, ou ignore esta etapa caso a versão do instalador que você baixou possua a opção de configurar o path para você.</p>
+<h2>Adicionando o python no path</h2>
+<p>Para que você consiga rodar o python pela linha de comando é necessário adiciona-lo no path do sistema que pode ser feito seguindo os passos a seguir:</p>
+<p><img alt="passos" class="img-responsive" src="http://pythonbrasil.github.io/wiki/images/instalacao-windows/add-python-to-path.png"/></p>
+<ol>
+<li>Abra o painel de controle e navegue até as configurações de sistema</li>
+<li>Selecione as configurações avançadas do sistema</li>
+<li>Clique em variáveis de ambiente</li>
+<li>Procure nas variáveis do sistema pela variável <code>Path</code></li>
+<li>Clique em editar</li>
+<li>Verifique se os valores <code>C:\Python34</code> e <code>C:\Python34\Scripts</code> existem no campo de valor da variável, caso não exista adicione ao final dos valores separando cada valor com <code>;</code>. O <code>Python34</code> neste exemplo é referente a pasta onde o python foi instalado no seu sistema, este valor pode ser diferente caso esteja instalando outra versão do python por exemplo se for a versão 2.7 o valor será <code>Python27</code>. Verifique o destino da sua instalação e subistitua por este valor.</li>
+<li>Clique em OK</li>
+</ol>
+<h2>Instalando o pip</h2>
+<p>Para que você consiga instalar os pacotes do python é necessário que você tenha o <code>pip</code> instalado no sistema. Este procedimento funciona com python 2.7.9 ou versões superiores e python 3.x.</p>
+<p>Clique com o botão direito no icone do windows e selecione <strong>executar</strong>:</p>
+<p><img alt="executar" class="img-responsive" src="http://pythonbrasil.github.io/wiki/images/instalacao-windows/windows-run.png"/></p>
+<p>Digite <code>cmd</code> e clique em ok:</p>
+<p><img alt="cmd" class="img-responsive" src="http://pythonbrasil.github.io/wiki/images/instalacao-windows/cmd.png"/></p>
+<p>Na linha de comando rode <code>python -m ensurepip</code>:</p>
+<p><img alt="ensurepip" class="img-responsive" src="http://pythonbrasil.github.io/wiki/images/instalacao-windows/ensurepip.png"/></p>
+<p>Se o comando retornar dizendo que os requisitos já estão satisfeitos rode <code>python -m ensurepip --upgrade</code>:</p>
+<p><img alt="ensurepip-upgrade" class="img-responsive" src="http://pythonbrasil.github.io/wiki/images/instalacao-windows/ensurepip-upgrade.png"/></p>
       </div>
     </div>
 
