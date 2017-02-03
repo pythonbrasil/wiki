@@ -1,0 +1,28 @@
+{
+    "links": [
+        [
+            "Site",
+            "http://pynorte.python.org.br/"
+        ],
+        [
+            "Facebook",
+            "http://facebook.com/pynorte"
+        ],
+        [
+            "Telegram",
+            "http://pynorte.python.org.br/bit.ly/pynorte"
+        ],
+        [
+            "GitHub",
+            "https://github.com/PyNorte"
+        ],      
+        [
+            "Google Groups",
+            "https://groups.google.com/d/forum/pynorte"
+        ]
+
+    ],
+    "nome": "Grupo de usu\u00e1rios da Região Norte do Brasil",
+    "imagem": "images/comunidades-locais/default.png",
+    "sigla": "PyNorte"
+}
