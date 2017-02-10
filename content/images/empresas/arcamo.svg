@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="160.79199mm"
+   height="162.59264mm"
+   viewBox="0 0 569.73541 576.11564"
    id="svg4177"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-min.svg">
+   sodipodi:docname="arcamo.svg">
   <defs
      id="defs4179" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="167.10814"
-     inkscape:cy="475.53756"
+     inkscape:zoom="0.7"
+     inkscape:cx="111.53635"
+     inkscape:cy="114.62039"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,11 @@
      inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata4182">
     <rdf:RDF>
@@ -51,7 +55,8 @@
   <g
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-59.143176,-159.75657)">
     <g
        id="g4945"
        transform="matrix(5.1310037,0,0,5.1310037,-1262.2365,-2022.7606)">
