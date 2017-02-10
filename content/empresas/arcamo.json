@@ -1,0 +1,12 @@
+{
+	"nome": "Arcamo",
+	"estado": "São Paulo",
+	"cidade": "Marília",
+	"regiao": "Sudeste",
+	"site": "http://www.arcamo.com.br",
+	"logo": "images/empresas/arcamo.svg",
+	"contatos": [{
+		"texto": "ettore@arcamo.com.br",
+		"link": "mailto:ettore@arcamo.com.br"
+	}]
+}
