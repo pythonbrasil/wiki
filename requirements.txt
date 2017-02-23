@@ -11,6 +11,7 @@ markupsafe
 mdx-video
 paramiko
 pelican==3.6
+pelican-alias==1.1
 pillow
 pycrypto
 pygments

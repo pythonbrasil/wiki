@@ -244,3 +244,6 @@ DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
 # Configurações da página das pyladies
 PYLADIES = [json.load(open(fname, 'r')) for fname in glob.glob('content/pyladies/*.json')]
 DEFAULT_PYLADIES_IMAGE = "images/pyladies/default.png"
+
+# Plugins
+PLUGINS = ("pelican_alias", )
