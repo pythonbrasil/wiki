@@ -229,7 +229,7 @@ cd _build/html/
 <h2>O que traduzir</h2>
 <p>Ao ler a documentção do Django seria comum se confundisse</p>
 <p>Model: Modelo -- Classe que representa uma tabela.
-Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de uma Django "app".</p>
+Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de uma Django &quot;app&quot;.</p>
 </div>
 <div class="section" id="atento-aos-nomes-inerentes-ao-objeto-da-traducao">
 <h2>Atento aos nomes inerentes ao objeto da tradução</h2>
@@ -240,7 +240,7 @@ Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de u
 <p>Algumas vezes encontramos textos referenciando classe ou métodos por exemplo, onde descrevem o nome destes mas não explicitam que se referem a uma classe ou método. Como durante a traduçao temos as marcações de RestruturedText, temos uma ajuda para saber se por exemplo usamos um artigo feminino ou masculino. Como no texto abaixo.</p>
 <blockquote>
 Or use a common ancestor to hold the :class:<cite>~django.db.models.AutoField</cite>::</blockquote>
-<p>alguém poderia traduzir como usando o artigo "o" referindo-se ao "autoField":</p>
+<p>alguém poderia traduzir como usando o artigo &quot;o&quot; referindo-se ao &quot;autoField&quot;:</p>
 <blockquote>
 Ou use um acestral comum para manter o :class:<cite>~django.db.models.AutoField</cite>::</blockquote>
 <p>Mas não seria correto. Talvez para um leitor menos atento fique até estranho,
@@ -257,7 +257,7 @@ Ou use um acestral comum para manter a :class:<cite>~django.db.models.AutoField<
 além do problema raiz persistir, pode acontecer de estar sendo repetitivo.</p>
 <p>O erro no texto original pode existir, mas antes de afirmá-lo, procure ler o contexto todo e entender se aquele detalhe ou explicaç ao deveria estar ali, ou já foi comentado emoutra seção,
 ou se é realmente papel do texto explicar em detalhes tal condição.</p>
-<hr class="docutils"/>
+<hr class="docutils" />
 <p>Notas do Cadu</p>
 <dl class="docutils">
 <dt>Parser:</dt>
@@ -271,12 +271,12 @@ ou se é realmente papel do texto explicar em detalhes tal condição.</p>
 <dt>set the &lt;var/attributo&gt;:</dt>
 <dd>defina a variaável ou atributo.</dd>
 </dl>
-<p>Notas do @FilipeCifali</p>
+<p>Notas do &#64;FilipeCifali</p>
 <dl class="docutils">
 <dt>Cloud:</dt>
 <dd>nuvem - exemplos: cloud service - serviço em nuvem, cloud hosting - hospedagem em nuvem</dd>
 </dl>
-<hr class="docutils"/>
+<hr class="docutils" />
 <p>topics[1355] - está confuso ao explicar que o modulo do modelo deve ser colocado no settings</p>
 <blockquote>
 For example, if the models for your application live in the module <tt class="docutils literal">myapp.models</tt> (the package structure that is created for an application by the :djadmin:<cite>manage.py startapp &lt;startapp&gt;</cite> script), :setting:<cite>INSTALLED_APPS</cite> should read, in part::</blockquote>
@@ -289,7 +289,7 @@ If <tt class="docutils literal">True</tt>, this field must be unique throughout 
 For example, repeatedly getting a certain index in a queryset object will query the database each time::</blockquote>
 <p>topics[1906]</p>
 <blockquote>
-Each lookup function that takes keyword-arguments (e.g. :meth:<cite>~django.db.models.query.QuerySet.filter</cite>, :meth:<cite>~django.db.models.query.QuerySet.exclude</cite>, :meth:<cite>~django.db.models.query.QuerySet.get</cite>) can also be passed one or more <tt class="docutils literal">Q</tt> objects as positional (not-named) arguments. If you provide multiple <tt class="docutils literal">Q</tt> object arguments to a lookup function, the arguments will be "AND"ed together. For example::</blockquote>
+Each lookup function that takes keyword-arguments (e.g. :meth:<cite>~django.db.models.query.QuerySet.filter</cite>, :meth:<cite>~django.db.models.query.QuerySet.exclude</cite>, :meth:<cite>~django.db.models.query.QuerySet.get</cite>) can also be passed one or more <tt class="docutils literal">Q</tt> objects as positional (not-named) arguments. If you provide multiple <tt class="docutils literal">Q</tt> object arguments to a lookup function, the arguments will be &quot;AND&quot;ed together. For example::</blockquote>
 </div>
 <div class="section" id="mal-escritos-em-ingles-imho">
 <h2>Mal escritos em inglês IMHO</h2>
@@ -300,7 +300,7 @@ For example, if the models for your application live in the module <tt class="do
 <blockquote>
 sugestion: this fields <strong>value</strong> must be unique throughout the table.
 If <tt class="docutils literal">True</tt>, this field must be unique throughout the table.</blockquote>
-<p>[1822] Topics/models: usou termos ruins pra traduzir até mesmo para a explicação em ingles. Ex.:"Field lookups are how you specify the meat of an SQL <tt class="docutils literal">WHERE</tt> clause.""</p>
+<p>[1822] Topics/models: usou termos ruins pra traduzir até mesmo para a explicação em ingles. Ex.:&quot;Field lookups are how you specify the meat of an SQL <tt class="docutils literal">WHERE</tt> clause.&quot;&quot;</p>
 <blockquote>
 Field lookups are how you specify the meat of an SQL <tt class="docutils literal">WHERE</tt> clause. They're specified as keyword arguments to the :class:<cite>~django.db.models.query.QuerySet</cite> methods :meth:<cite>~django.db.models.query.QuerySet.filter</cite>, :meth:<cite>~django.db.models.query.QuerySet.exclude</cite> and :meth:<cite>~django.db.models.query.QuerySet.get</cite>.</blockquote>
 </div>
