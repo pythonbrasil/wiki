@@ -2,11 +2,12 @@
     "nome": "Storm Security",
     "cidade": "Rio de Janeiro",
     "regiao": "Sudeste",
-    "site": "htto://stormsec.com.br/",
+    "site": "http://stormsec.com.br/",
+    "logo": "images/empresas/storm-security.png",
     "contatos": [
         {
-            "texto": "karina.garcia@stormsec.com.br",
-            "link": "mailto:karina.garcia@stormsec.com.br"
+            "texto": "rh@stormsec.com.br",
+            "link": "mailto:rh@stormsec.com.br"
         }
     ],
     "estado": "Rio de Janeiro"
