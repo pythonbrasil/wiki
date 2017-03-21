@@ -162,6 +162,10 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Tradução',
                 'href': 'traducao',
             },
+            {
+                'title': 'Wiki',
+                'href': 'http://wiki.python.org.br/'
+            },
         ]
     },
 ]
