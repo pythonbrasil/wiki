@@ -112,6 +112,10 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Científico',
                 'href': 'cientifico',
             },
+            {
+                'title': 'Wiki',
+                'href': 'wiki',
+            },
         ]
     },
     {
