@@ -1,0 +1,14 @@
+{
+    "nome": "PontoTel",
+    "cidade": "São Paulo",
+    "regiao": "Sudeste",
+    "site": "http://www.pontotel.com.br",
+    "contatos": [
+        {
+            "texto": "dev@pontotel.com.br",
+            "link": "mailto:dev@pontotel.com.br"
+        }
+    ],
+    "logo": "https://s3-sa-east-1.amazonaws.com/lar21css/rsz_logo_3.png",
+    "estado": "São Paulo"
+}
