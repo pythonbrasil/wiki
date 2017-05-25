@@ -82,6 +82,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'instalacao-windows',
             },
             {
+                'title': 'Introdução',
+                'href': 'introducao',
+            },
+            {
                 'title': 'Ferramentas',
                 'href': 'ferramentas',
             },
@@ -92,10 +96,6 @@ NAVBAR_HOME_LINKS = [
         'href': '#',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
         'children': [
-            {
-                'title': 'Introdução',
-                'href': 'introducao',
-            },
             {
                 'title': 'Web',
                 'href': 'web',
@@ -140,31 +140,31 @@ NAVBAR_HOME_LINKS = [
                 'href': 'eventos',
             },
             {
+                'title': 'Contribua',
+                'href': 'contribua',
+            },
+            {
+                'title': 'Tradução',
+                'href': 'traducao',
+            },
+        ]
+    },
+    {
+        'title': 'APyB',
+        'href': '#',
+        'desc': 'Conheça a Associação Python Brasil.',
+        'children': [
+            {
+                'title': 'A APyB',
+                'href': 'apyb',
+            },
+            {
                 'title': 'Python Brasil',
                 'href': 'python-brasil',
             },
             {
                 'title': 'Prêmio Dorneles Treméa',
                 'href': 'premio-dorneles-tremea',
-            },
-            {
-                'title': 'A APyB',
-                'href': 'apyb',
-            },
-        ]
-    },
-    {
-        'title': 'Contribua',
-        'href': '#',
-        'desc': 'Veja como contribuir e ajudar a comunidade crescer.',
-        'children': [
-            {
-                'title': 'Este Site',
-                'href': 'este-site',
-            },
-            {
-                'title': 'Tradução',
-                'href': 'traducao',
             },
         ]
     },
