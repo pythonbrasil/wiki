@@ -45,7 +45,7 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Tema do Syntax Hightlight
-PYGMENTS_STYLE = 'perldoc'
+PYGMENTS_STYLE = 'monokai'
 
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [

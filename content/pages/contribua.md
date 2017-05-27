@@ -60,9 +60,7 @@ Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome q
 
 ```
 $ virtualenv project-name
-
 $ cd project-name
-
 $ source bin/activate
 ```
 
@@ -70,7 +68,6 @@ Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora v
 
 ```
 $ git clone git@github.com:pythonbrasil/wiki.git
-
 $ cd wiki
 ```
 
@@ -96,7 +93,6 @@ Se der erro de locale, tente comando abaixo, o ideal é colocar no ~/.bash_profi
 
 ```
 $ export LC_ALL=en_US.UTF-8
-
 $ export LANG=en_US.UTF-8
 ```
 
@@ -106,7 +102,6 @@ Legal, agora já instalei todos os programas, vamos fazê-lo rodar em nosso comp
 
 ```
 $ make html
-
 $ make serve
 ```
 
