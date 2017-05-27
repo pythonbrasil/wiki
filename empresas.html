@@ -1,2139 +1,2199 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Python Brasil-Empresas que usam Python</title>
 
     <!-- Favicon -->
-    <link href="http://pythonbrasil.github.io/wiki/theme/pybr/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="http://pythonbrasil.github.io/wiki/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Bootstrap -->
-    <link href="http://pythonbrasil.github.io/wiki/theme/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://pythonbrasil.github.io/wiki/theme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://pythonbrasil.github.io/wiki/theme/pygments/perldoc.css" rel="stylesheet">
-    <link href="http://pythonbrasil.github.io/wiki/theme/pybr/css/components.css" rel="stylesheet">
-    <link href="http://pythonbrasil.github.io/wiki/theme/pybr/css/base.css" rel="stylesheet">
-
-  <link href="http://pythonbrasil.github.io/wiki/theme/pybr/css/empresas.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="http://pythonbrasil.github.io/wiki/theme/css/pybr.min.css" rel="stylesheet">
 
 
   </head>
 
   <body>
-    <div class="master-wrapper">
 
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-toggle">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="navbar-brand" href="http://pythonbrasil.github.io/wiki">Python Brasil</a>
+    <div class="master-wrapper blue-top-border">
+      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="http://pythonbrasil.github.io/wiki">Python Brasil</a>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Impressione-se
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/empresas">Empresas</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Inicie-se
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/qual-python">Qual Python?</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/instalacao-linux">Instalação Linux</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/instalacao-mac">Instalação Mac</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/instalacao-windows">Instalação Windows</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/introducao">Introdução</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/ferramentas">Ferramentas</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Aprenda mais
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/web">Web</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/mobile">Mobile</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/games">Games</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/cientifico">Científico</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/wiki">Wiki</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Participe
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/lista-de-discussoes">Lista de Discussões</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/comunidades-locais">Comunidades Locais</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/pyladies">Pyladies</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/eventos">Eventos</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/contribua">Contribua</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/traducao">Tradução</a>
+                </div>
+              </li>
           </div>
-          <div id="slidemenu">
-            <div class="menu-logo">
-              <img src="http://pythonbrasil.github.io/wiki/theme/pybr/img/site-logo.svg" title="Python Brasil" alt="Python Brasil">
-            </div>
 
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Impressione-se <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a href="http://pythonbrasil.github.io/wiki/empresas">Empresas</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Inicie-se <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a href="http://pythonbrasil.github.io/wiki/qual-python">Qual Python?</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/instalacao-linux">Instalação Linux</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/instalacao-mac">Instalação Mac</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/instalacao-windows">Instalação Windows</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/introducao">Introdução</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/ferramentas">Ferramentas</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Aprenda mais <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a href="http://pythonbrasil.github.io/wiki/web">Web</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/mobile">Mobile</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/games">Games</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/cientifico">Científico</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/wiki">Wiki</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Participe <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a href="http://pythonbrasil.github.io/wiki/lista-de-discussoes">Lista de Discussões</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/comunidades-locais">Comunidades Locais</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/pyladies">Pyladies</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/eventos">Eventos</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/contribua">Contribua</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/traducao">Tradução</a></li>
-                  </ul>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    APyB <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a href="http://pythonbrasil.github.io/wiki/apyb">A APyB</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/python-brasil">Python Brasil</a></li>
-                      <li><a href="http://pythonbrasil.github.io/wiki/premio-dorneles-tremea">Prêmio Dorneles Treméa</a></li>
-                  </ul>
-                </li>
-            </ul>
+          <div class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  APyB
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/apyb">A APyB</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/python-brasil">Python Brasil</a>
+                    <a class="dropdown-item" href="http://pythonbrasil.github.io/wiki/premio-dorneles-tremea">Prêmio Dorneles Treméa</a>
+                </div>
+              </li>
           </div>
         </div>
-      </div>
+      </nav>
 
-      <div id='page-content' class="blue-top-border">
 
-        <main>
+      <main>
   <div class="container">
 
     <div class="row page-content">
-      <div class="col-xs-12">
+      <div class="col-12">
 
         <h1>Empresas que usam Python</h1>
 <p>Conheça as empresas espalhados pelo Brasil que utilizam Python.</p>
       </div>
     </div>
 
-  <div class="row">
-    <div class="col-xs-12">
+<div class="row">
+  <div class="col-xs-12">
 
       <h2 class="text-center">Centro-Oeste</h2>
       <hr>
 
         <h3>Distrito Federal</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://configr.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/configr.svg" alt="Configr">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://configr.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/configr.svg" alt="Configr">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Configr
-                      <small>
-                        <a href="https://configr.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Configr
 
-                        <p>
-                          <a href="mailto:suporte@configr.com" target="_blank">suporte@configr.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://configr.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:suporte@configr.com" target="_blank">suporte@configr.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.hexgis.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/hexgis.png" alt="Hex Gis">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.hexgis.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/hexgis.png" alt="Hex Gis">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Hex Gis
-                      <small>
-                        <a href="http://www.hexgis.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Hex Gis
 
-                        <p>
-                          <a href="tel:+55 61 3447-6213" target="_blank">+55 61 3447-6213</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.hexgis.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 61 3447-6213" target="_blank">+55 61 3447-6213</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.liberiun.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/liberiun.png" alt="Liberiun">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.liberiun.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/liberiun.png" alt="Liberiun">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Liberiun
-                      <small>
-                        <a href="http://www.liberiun.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Liberiun
 
-                        <p>
-                          <a href="tel:+55 61 3041-8172" target="_blank">+55 61 3041-8172</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.liberiun.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 61 3041-8172" target="_blank">+55 61 3041-8172</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.serpro.gov.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/serpro.svg" alt="Serpro - Serviço Federal de Processamento de Dados">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.serpro.gov.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/serpro.svg" alt="Serpro - Serviço Federal de Processamento de Dados">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Serpro - Serviço Federal de Processamento de Dados
-                      <small>
-                        <a href="http://www.serpro.gov.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Serpro - Serviço Federal de Processamento de Dados
 
-                        <p>
-                          <a href="tel:+55 (61) 2021-7666" target="_blank">+55 (61) 2021-7666</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.serpro.gov.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (61) 2021-7666" target="_blank">+55 (61) 2021-7666</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Mato Grosso</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.ellotecnologia.net.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/ello-tecnologia.png" alt="Ello Tecnologia">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.ellotecnologia.net.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/ello-tecnologia.png" alt="Ello Tecnologia">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Ello Tecnologia
-                      <small>
-                        <a href="http://www.ellotecnologia.net.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Ello Tecnologia
 
-                        <p>
-                          <a href="mailto:clayton@ellotecnologia.net.br" target="_blank">clayton@ellotecnologia.net.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.ellotecnologia.net.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:clayton@ellotecnologia.net.br" target="_blank">clayton@ellotecnologia.net.br</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
       <h2 class="text-center">Nordeste</h2>
       <hr>
 
         <h3>Bahia</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.echoflowengineering.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/echoflow-engineering.png" alt="EchoFlow Engineering">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.echoflowengineering.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/echoflow-engineering.png" alt="EchoFlow Engineering">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      EchoFlow Engineering
-                      <small>
-                        <a href="http://www.echoflowengineering.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    EchoFlow Engineering
 
-                  </div>
+                    <small>
+                      <a href="http://www.echoflowengineering.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.jusbrasil.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/jusbrasil.png" alt="JusBrasil">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.jusbrasil.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/jusbrasil.png" alt="JusBrasil">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      JusBrasil
-                      <small>
-                        <a href="http://www.jusbrasil.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    JusBrasil
 
-                  </div>
+                    <small>
+                      <a href="http://www.jusbrasil.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.maqhin.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/maqhin.png" alt="Maqhin Soluções Tecnolôgicas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.maqhin.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/maqhin.png" alt="Maqhin Soluções Tecnolôgicas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Maqhin Soluções Tecnolôgicas
-                      <small>
-                        <a href="http://www.maqhin.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Maqhin Soluções Tecnolôgicas
 
-                        <p>
-                          <a href="mailto:contato@maqhin.com.br" target="_blank">contato@maqhin.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.maqhin.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@maqhin.com.br" target="_blank">contato@maqhin.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.potelo.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/potelo.png" alt="Potelo">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.potelo.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/potelo.png" alt="Potelo">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Potelo
-                      <small>
-                        <a href="http://www.potelo.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Potelo
 
-                  </div>
+                    <small>
+                      <a href="http://www.potelo.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Ceará</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.deway.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/deway.png" alt="Deway">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.deway.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/deway.png" alt="Deway">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Deway
-                      <small>
-                        <a href="http://www.deway.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Deway
 
-                        <p>
-                          <a href="mailto:contato@deway.com.br" target="_blank">contato@deway.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.deway.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@deway.com.br" target="_blank">contato@deway.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.funceme.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/funceme.png" alt="Funceme">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.funceme.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/funceme.png" alt="Funceme">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Funceme
-                      <small>
-                        <a href="http://www.funceme.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Funceme
 
-                        <p>
-                          <a href="mailto:funceme@funceme.br" target="_blank">funceme@funceme.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.funceme.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:funceme@funceme.br" target="_blank">funceme@funceme.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.morphus.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/morphus.png" alt="Morphus">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.morphus.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/morphus.png" alt="Morphus">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Morphus
-                      <small>
-                        <a href="http://www.morphus.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Morphus
 
-                        <p>
-                          <a href="mail:contato@morphus.com.br" target="_blank">contato@morphus.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.morphus.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mail:contato@morphus.com.br" target="_blank">contato@morphus.com.br</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Pernambuco</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.dantasengenharia.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Dantas Engenharia de Avaliações">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.dantasengenharia.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Dantas Engenharia de Avaliações">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Dantas Engenharia de Avaliações
-                      <small>
-                        <a href="http://www.dantasengenharia.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Dantas Engenharia de Avaliações
 
-                        <p>
-                          <a href="mailto:suporte@dantas.eng.br" target="_blank">suporte@dantas.eng.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.dantasengenharia.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:suporte@dantas.eng.br" target="_blank">suporte@dantas.eng.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://genomika.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/genomika.png" alt="Genomika Diagnôsticos">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://genomika.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/genomika.png" alt="Genomika Diagnôsticos">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Genomika Diagnôsticos
-                      <small>
-                        <a href="http://genomika.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Genomika Diagnôsticos
 
-                        <p>
-                          <a href="mailto:bioinfo@genomika.com.br" target="_blank">bioinfo@genomika.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://genomika.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:bioinfo@genomika.com.br" target="_blank">bioinfo@genomika.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://grupocitec.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/grupocitec.png" alt="GrupoCITEC">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://grupocitec.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/grupocitec.png" alt="GrupoCITEC">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      GrupoCITEC
-                      <small>
-                        <a href="https://grupocitec.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    GrupoCITEC
 
-                        <p>
-                          <a href="mailto:info@grupocitec.com" target="_blank">info@grupocitec.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://grupocitec.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:info@grupocitec.com" target="_blank">info@grupocitec.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.labcodes.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/labcodes.png" alt="Labcodes Software Studio">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.labcodes.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/labcodes.png" alt="Labcodes Software Studio">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Labcodes Software Studio
-                      <small>
-                        <a href="http://www.labcodes.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Labcodes Software Studio
 
-                        <p>
-                          <a href="mailto:contato@labcodes.com.br" target="_blank">contato@labcodes.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.labcodes.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@labcodes.com.br" target="_blank">contato@labcodes.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://pycursos.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/pycursos.png" alt="PyCursos">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://pycursos.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/pycursos.png" alt="PyCursos">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      PyCursos
-                      <small>
-                        <a href="http://pycursos.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    PyCursos
 
-                        <p>
-                          <a href="mailto:admin@pycursos.com" target="_blank">admin@pycursos.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://pycursos.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:admin@pycursos.com" target="_blank">admin@pycursos.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.vinta.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/vinta.png" alt="Vinta">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.vinta.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/vinta.png" alt="Vinta">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Vinta
-                      <small>
-                        <a href="http://www.vinta.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Vinta
 
-                        <p>
-                          <a href="mailto:contact@vinta.com.br" target="_blank">contact@vinta.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.vinta.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contact@vinta.com.br" target="_blank">contact@vinta.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.tagi.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/tag-i.png" alt="tag.i">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.tagi.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/tag-i.png" alt="tag.i">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      tag.i
-                      <small>
-                        <a href="http://www.tagi.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    tag.i
 
-                        <p>
-                          <a href="mailto:falecom@tagi.com.br" target="_blank">Somos especialistas em projetar ideias e impulsionar projetos</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.tagi.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:falecom@tagi.com.br" target="_blank">Somos especialistas em projetar ideias e impulsionar projetos</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Rio Grande do Norte</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.evolux.net.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/evolux.png" alt="Evolux">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.evolux.net.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/evolux.png" alt="Evolux">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Evolux
-                      <small>
-                        <a href="http://www.evolux.net.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Evolux
 
-                        <p>
-                          <a href="tel:+55 11 4003-3833" target="_blank">+55 11 4003-3833</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.evolux.net.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 11 4003-3833" target="_blank">+55 11 4003-3833</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://suap.ifrn.edu.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/ifrn.png" alt="IFRN">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://suap.ifrn.edu.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/ifrn.png" alt="IFRN">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      IFRN
-                      <small>
-                        <a href="http://suap.ifrn.edu.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    IFRN
 
-                        <p>
-                          <a href="tel:+55 84 4005-0772" target="_blank">+55 84 4005-0772</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://suap.ifrn.edu.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 84 4005-0772" target="_blank">+55 84 4005-0772</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
       <h2 class="text-center">Norte</h2>
       <hr>
 
         <h3>Amazonas</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.fpftech.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/fpf-tech.png" alt="FPF Tech">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.fpftech.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/fpf-tech.png" alt="FPF Tech">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      FPF Tech
-                      <small>
-                        <a href="http://www.fpftech.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    FPF Tech
 
-                  </div>
+                    <small>
+                      <a href="http://www.fpftech.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
       <h2 class="text-center">Sudeste</h2>
       <hr>
 
         <h3>Minas Gerais</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.2xt.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/2xt.png" alt="2XT">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.2xt.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/2xt.png" alt="2XT">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      2XT
-                      <small>
-                        <a href="http://www.2xt.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    2XT
 
-                        <p>
-                          <a href="tel:+55 31 3292-2120" target="_blank">+55 31 3292-2120</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.2xt.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 31 3292-2120" target="_blank">+55 31 3292-2120</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.intip.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/intip.png" alt="Intip">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.intip.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/intip.png" alt="Intip">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Intip
-                      <small>
-                        <a href="http://www.intip.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Intip
 
-                        <p>
-                          <a href="tel:+55 31 2526-2623" target="_blank">+55 31 2526-2623</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.intip.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 31 2526-2623" target="_blank">+55 31 2526-2623</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://www.meliuz.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/meliuz.png" alt="Méliuz">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://www.meliuz.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/meliuz.png" alt="Méliuz">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Méliuz
-                      <small>
-                        <a href="https://www.meliuz.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Méliuz
 
-                        <p>
-                          <a href="https://meliuz.recruiterbox.com/jobs" target="_blank">meliuz.recruiterbox.com/jobs</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://www.meliuz.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="https://meliuz.recruiterbox.com/jobs" target="_blank">meliuz.recruiterbox.com/jobs</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.prodap.com.br/pt/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/prodap.jpg" alt="Prodap">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.prodap.com.br/pt/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/prodap.jpg" alt="Prodap">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Prodap
-                      <small>
-                        <a href="http://www.prodap.com.br/pt/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Prodap
 
-                        <p>
-                          <a href="tel:+55 (31) 3555-0800" target="_blank">+55 (31) 3555-0800</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.prodap.com.br/pt/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (31) 3555-0800" target="_blank">+55 (31) 3555-0800</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.studiosol.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/studiosol.svg" alt="StudioSol">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.studiosol.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/studiosol.svg" alt="StudioSol">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      StudioSol
-                      <small>
-                        <a href="http://www.studiosol.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    StudioSol
 
-                        <p>
-                          <a href="tel:+55 31 2127-2540" target="_blank">+55 31 2127-2540</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.studiosol.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 31 2127-2540" target="_blank">+55 31 2127-2540</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.silexsistemas.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/silex.png" alt="Sílex Sistemas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.silexsistemas.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/silex.png" alt="Sílex Sistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Sílex Sistemas
-                      <small>
-                        <a href="http://www.silexsistemas.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Sílex Sistemas
 
-                        <p>
-                          <a href="tel:+55 31 3273-1530" target="_blank">+55 31 3273-1530</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.silexsistemas.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 31 3273-1530" target="_blank">+55 31 3273-1530</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.tivit.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/tivit.png" alt="TIVIT">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.tivit.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/tivit.png" alt="TIVIT">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      TIVIT
-                      <small>
-                        <a href="http://www.tivit.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    TIVIT
 
-                  </div>
+                    <small>
+                      <a href="http://www.tivit.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://sigmageosistemas.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/sigma.png" alt="Sigma Geosistemas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://sigmageosistemas.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/sigma.png" alt="Sigma Geosistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Sigma Geosistemas
-                      <small>
-                        <a href="http://sigmageosistemas.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Sigma Geosistemas
 
-                        <p>
-                          <a href="tel:+55 34 3231-9858" target="_blank">+55 34 3231-9858</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://sigmageosistemas.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 34 3231-9858" target="_blank">+55 34 3231-9858</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Rio de Janeiro</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://wpensar.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="WPensar">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://wpensar.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="WPensar">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      WPensar
-                      <small>
-                        <a href="http://wpensar.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    WPensar
 
-                        <p>
-                          <a href="mailto:gustavo.morada@wpensar.com.br" target="_blank">gustavo.morada@wpensar.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://wpensar.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:gustavo.morada@wpensar.com.br" target="_blank">gustavo.morada@wpensar.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.concretesolutions.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Concrete Solutions">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.concretesolutions.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Concrete Solutions">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Concrete Solutions
-                      <small>
-                        <a href="http://www.concretesolutions.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Concrete Solutions
 
-                        <p>
-                          <a href="mailto:rh@concretesolutions.com.br" target="_blank">rh@concretesolutions.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.concretesolutions.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:rh@concretesolutions.com.br" target="_blank">rh@concretesolutions.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://elogroup.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="EloGroup">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://elogroup.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="EloGroup">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      EloGroup
-                      <small>
-                        <a href="http://elogroup.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    EloGroup
 
-                        <p>
-                          <a href="mailto:bernardo.fontes@elogroup.com.br" target="_blank">bernardo.fontes@elogroup.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://elogroup.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:bernardo.fontes@elogroup.com.br" target="_blank">bernardo.fontes@elogroup.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://finxi.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Finxi">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://finxi.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Finxi">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Finxi
-                      <small>
-                        <a href="http://finxi.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Finxi
 
-                        <p>
-                          <a href="mailto:victor.sousa@finxi.com.br" target="_blank">victor.sousa@finxi.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://finxi.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:victor.sousa@finxi.com.br" target="_blank">victor.sousa@finxi.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://talentos.globo.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/globocom.svg" alt="Globo.com">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://talentos.globo.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/globocom.svg" alt="Globo.com">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Globo.com
-                      <small>
-                        <a href="https://talentos.globo.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Globo.com
 
-                        <p>
-                          <a href="mailto:talentos@corp.globo.com" target="_blank">talentos@corp.globo.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://talentos.globo.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:talentos@corp.globo.com" target="_blank">talentos@corp.globo.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://globosat.tv.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Globosat">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://globosat.tv.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Globosat">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Globosat
-                      <small>
-                        <a href="http://globosat.tv.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Globosat
 
-                        <p>
-                          <a href="mailto:rh@globosat.com.br" target="_blank">rh@globosat.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://globosat.tv.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:rh@globosat.com.br" target="_blank">rh@globosat.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://hadrons.io/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hadrons">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://hadrons.io/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hadrons">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Hadrons
-                      <small>
-                        <a href="http://hadrons.io/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Hadrons
 
-                        <p>
-                          <a href="mailto:contact@hadrons.io" target="_blank">contact@hadrons.io</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://hadrons.io/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contact@hadrons.io" target="_blank">contact@hadrons.io</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.hotelurbano.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hotel Urbano">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.hotelurbano.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hotel Urbano">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Hotel Urbano
-                      <small>
-                        <a href="http://www.hotelurbano.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Hotel Urbano
 
-                        <p>
-                          <a href="mailto:bruno.moura@hotelurbano.com.br" target="_blank">bruno.moura@hotelurbano.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.hotelurbano.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:bruno.moura@hotelurbano.com.br" target="_blank">bruno.moura@hotelurbano.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.orama.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Orama">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.orama.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Orama">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Orama
-                      <small>
-                        <a href="http://www.orama.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Orama
 
-                        <p>
-                          <a href="mailto:anderson.carneiro@orama.com.br" target="_blank">anderson.carneiro@orama.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.orama.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:anderson.carneiro@orama.com.br" target="_blank">anderson.carneiro@orama.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://parafernalia.net.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Parafernalia Interativa">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://parafernalia.net.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Parafernalia Interativa">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Parafernalia Interativa
-                      <small>
-                        <a href="http://parafernalia.net.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Parafernalia Interativa
 
-                        <p>
-                          <a href="mailto:luiz.senna@parafernalia.net.br" target="_blank">luiz.senna@parafernalia.net.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://parafernalia.net.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:luiz.senna@parafernalia.net.br" target="_blank">luiz.senna@parafernalia.net.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://sieve.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Sieve">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://sieve.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Sieve">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Sieve
-                      <small>
-                        <a href="https://sieve.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Sieve
 
-                        <p>
-                          <a href="mailto:victor.novaes@sieve.com.br" target="_blank">victor.novaes@sieve.com.br</a>
-                        </p>
-                        <p>
-                          <a href="mailto:ti.vagas@sieve.com.br" target="_blank">ti.vagas@sieve.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://sieve.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:victor.novaes@sieve.com.br" target="_blank">victor.novaes@sieve.com.br</a>
+                      </p>
+                      <p>
+                        <a href="mailto:ti.vagas@sieve.com.br" target="_blank">ti.vagas@sieve.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.stone.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Stone">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.stone.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Stone">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Stone
-                      <small>
-                        <a href="http://www.stone.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Stone
 
-                        <p>
-                          <a href="mailto:rportugal@stone.com.br" target="_blank">rportugal@stone.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.stone.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:rportugal@stone.com.br" target="_blank">rportugal@stone.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://stormsec.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/storm-security.png" alt="Storm Security">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://stormsec.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/storm-security.png" alt="Storm Security">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Storm Security
-                      <small>
-                        <a href="http://stormsec.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Storm Security
 
-                        <p>
-                          <a href="mailto:rh@stormsec.com.br" target="_blank">rh@stormsec.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://stormsec.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:rh@stormsec.com.br" target="_blank">rh@stormsec.com.br</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>São Paulo</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://dextra.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Dextra">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://dextra.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Dextra">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Dextra
-                      <small>
-                        <a href="http://dextra.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Dextra
 
-                        <p>
-                          <a href="tel:+55 19 3256-6722" target="_blank">+55 19 3256-6722</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://dextra.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 19 3256-6722" target="_blank">+55 19 3256-6722</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.eldorado.org.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Instituto de Pesquisas Eldorado">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.eldorado.org.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Instituto de Pesquisas Eldorado">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Instituto de Pesquisas Eldorado
-                      <small>
-                        <a href="http://www.eldorado.org.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Instituto de Pesquisas Eldorado
 
-                        <p>
-                          <a href="tel:+55 19 3757-3000" target="_blank">+55 19 3757-3000</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.eldorado.org.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 19 3757-3000" target="_blank">+55 19 3757-3000</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.base4.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Base4 Sistemas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.base4.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Base4 Sistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Base4 Sistemas
-                      <small>
-                        <a href="http://www.base4.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Base4 Sistemas
 
-                        <p>
-                          <a href="tel:+55 17 3524-2971" target="_blank">+55 17 3524-2971</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.base4.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 17 3524-2971" target="_blank">+55 17 3524-2971</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://enterplug.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Enter&Plug Sistemas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://enterplug.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Enter&Plug Sistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Enter&Plug Sistemas
-                      <small>
-                        <a href="http://enterplug.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Enter&Plug Sistemas
 
-                        <p>
-                          <a href="tel:+55 16 3721-4283" target="_blank">+55 16 3721-4283</a>
-                        </p>
-                        <p>
-                          <a href="tel:+55 11 4063-1864" target="_blank">+55 11 4063-1864</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://enterplug.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 16 3721-4283" target="_blank">+55 16 3721-4283</a>
+                      </p>
+                      <p>
+                        <a href="tel:+55 11 4063-1864" target="_blank">+55 11 4063-1864</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.forip.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/logo_forip.png" alt="ForIP Tecnologia">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.forip.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/logo_forip.png" alt="ForIP Tecnologia">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      ForIP Tecnologia
-                      <small>
-                        <a href="http://www.forip.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    ForIP Tecnologia
 
-                        <p>
-                          <a href="tel:+55 16 3702-3400" target="_blank">+55 16 3702-3400</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.forip.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 16 3702-3400" target="_blank">+55 16 3702-3400</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.gastecnologia.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="GAS Tecnologia">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.gastecnologia.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="GAS Tecnologia">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      GAS Tecnologia
-                      <small>
-                        <a href="http://www.gastecnologia.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    GAS Tecnologia
 
-                        <p>
-                          <a href="mailto:afonso.franca@diebold.com" target="_blank">afonso.franca@diebold.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.gastecnologia.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:afonso.franca@diebold.com" target="_blank">afonso.franca@diebold.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.arcamo.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/arcamo.svg" alt="Arcamo">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.arcamo.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/arcamo.svg" alt="Arcamo">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Arcamo
-                      <small>
-                        <a href="http://www.arcamo.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Arcamo
 
-                        <p>
-                          <a href="mailto:ettore@arcamo.com.br" target="_blank">ettore@arcamo.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.arcamo.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:ettore@arcamo.com.br" target="_blank">ettore@arcamo.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.m2iconsultoria.com.br/home/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="M2i Consultoria">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.m2iconsultoria.com.br/home/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="M2i Consultoria">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      M2i Consultoria
-                      <small>
-                        <a href="http://www.m2iconsultoria.com.br/home/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    M2i Consultoria
 
-                        <p>
-                          <a href="mailto:contato@m2iconsultoria.com" target="_blank">contato@m2iconsultoria.com</a>
-                        </p>
-                        <p>
-                          <a href="tel:+ 55 (16) 3289 985l" target="_blank">+ 55 (16) 3289 9851</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.m2iconsultoria.com.br/home/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@m2iconsultoria.com" target="_blank">contato@m2iconsultoria.com</a>
+                      </p>
+                      <p>
+                        <a href="tel:+ 55 (16) 3289 985l" target="_blank">+ 55 (16) 3289 9851</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.okubomercantil.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Okubo Mercantil">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.okubomercantil.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Okubo Mercantil">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Okubo Mercantil
-                      <small>
-                        <a href="http://www.okubomercantil.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Okubo Mercantil
 
-                        <p>
-                          <a href="mailto:ti@okubomercantil.com.br" target="_blank">ti@okubomercantil.com.br</a>
-                        </p>
-                        <p>
-                          <a href="tel:+55 (16) 3514-9966" target="_blank">+55 (16) 3514-9966</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.okubomercantil.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:ti@okubomercantil.com.br" target="_blank">ti@okubomercantil.com.br</a>
+                      </p>
+                      <p>
+                        <a href="tel:+55 (16) 3514-9966" target="_blank">+55 (16) 3514-9966</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://iclinic.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="iClinic">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://iclinic.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="iClinic">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      iClinic
-                      <small>
-                        <a href="https://iclinic.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    iClinic
 
-                        <p>
-                          <a href="tel:+55 (16) 3235-3209" target="_blank">+55 (16) 3235-3209</a>
-                        </p>
-                        <p>
-                          <a href="mailto:contato@iclinic.com.br" target="_blank">contato@iclinic.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://iclinic.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (16) 3235-3209" target="_blank">+55 (16) 3235-3209</a>
+                      </p>
+                      <p>
+                        <a href="mailto:contato@iclinic.com.br" target="_blank">contato@iclinic.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://stoq.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Stoq">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://stoq.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Stoq">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Stoq
-                      <small>
-                        <a href="http://stoq.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Stoq
 
-                        <p>
-                          <a href="mailto:hireme@async.com.br" target="_blank">hireme@async.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://stoq.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:hireme@async.com.br" target="_blank">hireme@async.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://catholabs.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="CathoLabs">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://catholabs.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="CathoLabs">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      CathoLabs
-                      <small>
-                        <a href="http://catholabs.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    CathoLabs
 
-                        <p>
-                          <a href="http://catho.com.br" target="_blank">http://catho.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://catholabs.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="http://catho.com.br" target="_blank">http://catho.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://getupcloud.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="GetupCloud">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://getupcloud.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="GetupCloud">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      GetupCloud
-                      <small>
-                        <a href="https://getupcloud.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    GetupCloud
 
-                        <p>
-                          <a href="https://getupcloud.com/contato/" target="_blank">getupcloud.com/contato</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://getupcloud.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="https://getupcloud.com/contato/" target="_blank">getupcloud.com/contato</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://hacklab.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hacklab">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://hacklab.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Hacklab">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Hacklab
-                      <small>
-                        <a href="http://hacklab.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Hacklab
 
-                        <p>
-                          <a href="tel:+55 (11) 2892-0122" target="_blank">+55 (11) 2892-0122</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://hacklab.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 2892-0122" target="_blank">+55 (11) 2892-0122</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://legalnote.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="LegalNote">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://legalnote.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="LegalNote">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      LegalNote
-                      <small>
-                        <a href="http://legalnote.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    LegalNote
 
-                        <p>
-                          <a href="tel:+55 (11) 3262-3122" target="_blank">+55 (11) 3262-3122</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://legalnote.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 3262-3122" target="_blank">+55 (11) 3262-3122</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.lojaintegrada.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Loja Integrada">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.lojaintegrada.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Loja Integrada">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Loja Integrada
-                      <small>
-                        <a href="http://www.lojaintegrada.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Loja Integrada
 
-                        <p>
-                          <a href="mailto:suporte@lojaintegrada.com.br" target="_blank">suporte@lojaintegrada.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.lojaintegrada.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:suporte@lojaintegrada.com.br" target="_blank">suporte@lojaintegrada.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.neemu.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Neemu">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.neemu.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Neemu">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Neemu
-                      <small>
-                        <a href="http://www.neemu.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Neemu
 
-                        <p>
-                          <a href="mail:careers@neemu.com" target="_blank">careers@neemu.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.neemu.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mail:careers@neemu.com" target="_blank">careers@neemu.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://onyo.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Onyo (trabalhamos remotamente)   ">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://onyo.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Onyo (trabalhamos remotamente)   ">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Onyo (trabalhamos remotamente)   
-                      <small>
-                        <a href="http://onyo.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Onyo (trabalhamos remotamente)   
 
-                        <p>
-                          <a href="tel:+55 (21) 3942-2102" target="_blank">+55 (21) 3942-2102</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://onyo.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (21) 3942-2102" target="_blank">+55 (21) 3942-2102</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.pontotel.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/pontotel.png" alt="PontoTel">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.pontotel.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/pontotel.png" alt="PontoTel">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      PontoTel
-                      <small>
-                        <a href="http://www.pontotel.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    PontoTel
 
-                        <p>
-                          <a href="mailto:dev@pontotel.com.br" target="_blank">dev@pontotel.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.pontotel.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:dev@pontotel.com.br" target="_blank">dev@pontotel.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.simplesconsultoria.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Simples Consultoria">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.simplesconsultoria.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Simples Consultoria">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Simples Consultoria
-                      <small>
-                        <a href="http://www.simplesconsultoria.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Simples Consultoria
 
-                        <p>
-                          <a href="tel:+55 (11) 3898-2121" target="_blank">+55 (11) 3898-2121</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.simplesconsultoria.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 3898-2121" target="_blank">+55 (11) 3898-2121</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://skyone.solutions/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Sky.One">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://skyone.solutions/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Sky.One">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Sky.One
-                      <small>
-                        <a href="http://skyone.solutions/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Sky.One
 
-                        <p>
-                          <a href="tel:+55 (11) 2193-1961" target="_blank">+55 (11) 2193-1961</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://skyone.solutions/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 2193-1961" target="_blank">+55 (11) 2193-1961</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.titansgroup.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Titans Group">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.titansgroup.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Titans Group">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Titans Group
-                      <small>
-                        <a href="http://www.titansgroup.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Titans Group
 
-                        <p>
-                          <a href="tel:+55 (11) 3849-0054" target="_blank">+55 (11) 3849-0054</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.titansgroup.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 3849-0054" target="_blank">+55 (11) 3849-0054</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://www.vivadecora.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Viva Decora">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://www.vivadecora.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Viva Decora">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Viva Decora
-                      <small>
-                        <a href="https://www.vivadecora.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Viva Decora
 
-                        <p>
-                          <a href="mailto:jose.maciel@vivadecora.com.br" target="_blank">jose.maciel@vivadecora.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://www.vivadecora.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:jose.maciel@vivadecora.com.br" target="_blank">jose.maciel@vivadecora.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://filmow.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/filmow.jpg" alt="filmow.com">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://filmow.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/filmow.jpg" alt="filmow.com">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      filmow.com
-                      <small>
-                        <a href="http://filmow.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    filmow.com
 
-                        <p>
-                          <a href="tel:+55 (11) 3512-6600" target="_blank">+55 (11) 3512-6600</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://filmow.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 (11) 3512-6600" target="_blank">+55 (11) 3512-6600</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
       <h2 class="text-center">Sul</h2>
       <hr>
 
         <h3>Paraná</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.kmsistemas.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/km-sistemas.png" alt="KM Sistemas">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.kmsistemas.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/km-sistemas.png" alt="KM Sistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      KM Sistemas
-                      <small>
-                        <a href="http://www.kmsistemas.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    KM Sistemas
 
-                        <p>
-                          <a href="mailto:desenvolvimento@kmsistemas.com.br" target="_blank">desenvolvimento@kmsistemas.com.br</a>
-                        </p>
-                        <p>
-                          <a href="tel:+ 55 (43) 3424 2300" target="_blank">+ 55 (43) 3424 2300</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.kmsistemas.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:desenvolvimento@kmsistemas.com.br" target="_blank">desenvolvimento@kmsistemas.com.br</a>
+                      </p>
+                      <p>
+                        <a href="tel:+ 55 (43) 3424 2300" target="_blank">+ 55 (43) 3424 2300</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://olist.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/olist.jpg" alt="Olist">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://olist.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/olist.jpg" alt="Olist">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Olist
-                      <small>
-                        <a href="https://olist.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Olist
 
-                        <p>
-                          <a href="mailto:br@olist.com" target="_blank">br@olist.com (Remote friendly)</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://olist.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:br@olist.com" target="_blank">br@olist.com (Remote friendly)</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Rio Grande do Sul</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://layerdesign.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="LayerDesign">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://layerdesign.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="LayerDesign">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      LayerDesign
-                      <small>
-                        <a href="http://layerdesign.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    LayerDesign
 
-                        <p>
-                          <a href="mailto:contato@layerdesign.com.br" target="_blank">contato@layerdesign.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://layerdesign.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@layerdesign.com.br" target="_blank">contato@layerdesign.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.azion.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Azion Technologies">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.azion.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Azion Technologies">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Azion Technologies
-                      <small>
-                        <a href="http://www.azion.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Azion Technologies
 
-                        <p>
-                          <a href="mailto:marcelo.mallmann@azion.com" target="_blank">marcelo.mallmann@azion.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.azion.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:marcelo.mallmann@azion.com" target="_blank">marcelo.mallmann@azion.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://talentos.globo.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/globocom.svg" alt="Globo.com">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://talentos.globo.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/globocom.svg" alt="Globo.com">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Globo.com
-                      <small>
-                        <a href="https://talentos.globo.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Globo.com
 
-                        <p>
-                          <a href="mailto:talentos@corp.globo.com" target="_blank">talentos@corp.globo.com</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://talentos.globo.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:talentos@corp.globo.com" target="_blank">talentos@corp.globo.com</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.thoughtworks.com/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Thoughtworks">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.thoughtworks.com/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Thoughtworks">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Thoughtworks
-                      <small>
-                        <a href="http://www.thoughtworks.com/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Thoughtworks
 
-                  </div>
+                    <small>
+                      <a href="http://www.thoughtworks.com/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.ersistemas.info" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="ER Sistemas">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.ersistemas.info" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="ER Sistemas">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      ER Sistemas
-                      <small>
-                        <a href="http://www.ersistemas.info" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    ER Sistemas
 
-                        <p>
-                          <a href="mailto:contato@ersistemas.info" target="_blank">contato@ersistemas.info</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.ersistemas.info" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@ersistemas.info" target="_blank">contato@ersistemas.info</a>
+                      </p>
                 </div>
               </div>
-          </div>
+            </div>
+        </div>
         <h3>Santa Catarina</h3>
-          <div class="row empresa-thumbnail-container">
+        <div class="row thumbnail-container">
 
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.axado.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Axado">
-                  </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.axado.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Axado">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Axado
-                      <small>
-                        <a href="http://www.axado.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Axado
 
-                        <p>
-                          <a href="tel:+55 48 3047 4704" target="_blank">+55 48 3047 4704</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.axado.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 3047 4704" target="_blank">+55 48 3047 4704</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="www.catarinatouch.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Catarina Touch">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="www.catarinatouch.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Catarina Touch">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Catarina Touch
-                      <small>
-                        <a href="www.catarinatouch.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Catarina Touch
 
-                        <p>
-                          <a href="tel:+55 48 3207 8527" target="_blank">+55 48 3207 8527</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="www.catarinatouch.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 3207 8527" target="_blank">+55 48 3207 8527</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://www.chaordic.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Chaordic">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://www.chaordic.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Chaordic">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Chaordic
-                      <small>
-                        <a href="https://www.chaordic.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Chaordic
 
-                        <p>
-                          <a href="tel:+55 48 3232 3200" target="_blank">+55 48 3232 3200</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://www.chaordic.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 3232 3200" target="_blank">+55 48 3232 3200</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.cianet.ind.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Cianet">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.cianet.ind.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Cianet">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Cianet
-                      <small>
-                        <a href="http://www.cianet.ind.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Cianet
 
-                        <p>
-                          <a href="tel:+55 48 2106 0101" target="_blank">+55 48 2106 0101</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.cianet.ind.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 2106 0101" target="_blank">+55 48 2106 0101</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://contentools.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Contentools">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://contentools.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Contentools">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Contentools
-                      <small>
-                        <a href="http://contentools.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Contentools
 
-                  </div>
+                    <small>
+                      <a href="http://contentools.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://cd2.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="D2 Sistemas de Implantar">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://cd2.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="D2 Sistemas de Implantar">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      D2 Sistemas de Implantar
-                      <small>
-                        <a href="http://cd2.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    D2 Sistemas de Implantar
 
-                  </div>
+                    <small>
+                      <a href="http://cd2.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://m2agro.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="M2Agro">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://m2agro.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="M2Agro">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      M2Agro
-                      <small>
-                        <a href="http://m2agro.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    M2Agro
 
-                        <p>
-                          <a href="mailto:marcelo.melo@m2agro.com.br" target="_blank">marcelo.melo@m2agro.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://m2agro.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:marcelo.melo@m2agro.com.br" target="_blank">marcelo.melo@m2agro.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.neoprospecta.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Neoprospecta">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.neoprospecta.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Neoprospecta">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Neoprospecta
-                      <small>
-                        <a href="http://www.neoprospecta.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Neoprospecta
 
-                  </div>
+                    <small>
+                      <a href="http://www.neoprospecta.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.parmais.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="ParMais">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.parmais.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="ParMais">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      ParMais
-                      <small>
-                        <a href="http://www.parmais.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    ParMais
 
-                        <p>
-                          <a href="tel:+55 48 3209 1609" target="_blank">+55 48 3209 1609</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.parmais.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 3209 1609" target="_blank">+55 48 3209 1609</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.simb.com.br" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="SIMB">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.simb.com.br" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="SIMB">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      SIMB
-                      <small>
-                        <a href="http://www.simb.com.br" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    SIMB
 
-                        <p>
-                          <a href="tel:+ 55 48 3028 7462" target="_blank">+ 55 48 3028 7462</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.simb.com.br" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+ 55 48 3028 7462" target="_blank">+ 55 48 3028 7462</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://ecentry.com" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="eCentry">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://ecentry.com" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="eCentry">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      eCentry
-                      <small>
-                        <a href="http://ecentry.com" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    eCentry
 
-                        <p>
-                          <a href="tel:+55 48 3031 6200" target="_blank">+55 48 3031 6200</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://ecentry.com" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="tel:+55 48 3031 6200" target="_blank">+55 48 3031 6200</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="http://www.paggtaxi.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Paggtaxi">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="http://www.paggtaxi.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="Paggtaxi">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      Paggtaxi
-                      <small>
-                        <a href="http://www.paggtaxi.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    Paggtaxi
 
-                        <p>
-                          <a href="mailto:alan@paggtaxi.com.br" target="_blank">alan@paggtaxi.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="http://www.paggtaxi.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:alan@paggtaxi.com.br" target="_blank">alan@paggtaxi.com.br</a>
+                      </p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail empresa-thumbnail">
-                  <a href="https://www.itflex.com.br/" target="_blank">
-                    <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="iTFLEX Tecnologia">
-                  </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail">
+                <a href="https://www.itflex.com.br/" target="_blank">
+                  <img src="http://pythonbrasil.github.io/wiki/images/empresas/default.png" alt="iTFLEX Tecnologia">
+                </a>
 
-                  <div class="caption">
-                    <h4 class="text-center">
-                      iTFLEX Tecnologia
-                      <small>
-                        <a href="https://www.itflex.com.br/" target="_blank">
-                          <i class="fa fa-globe"></i>
-                        </a>
-                      </small>
-                    </h4>
+                <div class="caption">
+                  <h4 class="text-center">
+                    iTFLEX Tecnologia
 
-                        <p>
-                          <a href="mailto:contato@itflex.com.br" target="_blank">contato@itflex.com.br</a>
-                        </p>
-                  </div>
+                    <small>
+                      <a href="https://www.itflex.com.br/" target="_blank">
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </small>
+                  </h4>
+
+                      <p>
+                        <a href="mailto:contato@itflex.com.br" target="_blank">contato@itflex.com.br</a>
+                      </p>
                 </div>
               </div>
-          </div>
-    </div>
+            </div>
+        </div>
   </div>
+</div>
   </div>
-        </main>
+      </main>
 
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <h3>Sobre</h3>
-                <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
-              </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <h3>Sobre</h3>
+              <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
+            </div>
 
-              <div class="col-xs-12 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-4">
-                <h3>Social</h3>
+            <div class="col-xs-12 col-md-4 offset-md-2 col-lg-4 offset-lg-4">
+              <h3>Social</h3>
 
-                <ul>
-                    <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
-                    <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
-                    <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
-                    <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
-                    <li><a href="https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
-                </ul>
-              </div>
-          </div>
-        </footer>
-      </div>
+              <ul>
+                  <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
+                  <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
+                  <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
+                  <li><a href="https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
+              </ul>
+            </div>
+        </div>
+      </footer>
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="http://pythonbrasil.github.io/wiki/theme/bootstrap/js/bootstrap.min.js"></script>
-      <script src="http://pythonbrasil.github.io/wiki/theme/pybr/js/components.js"></script>
+      <script src="http://pythonbrasil.github.io/wiki/theme/js/jquery.min.js"></script>
+      <script src="http://pythonbrasil.github.io/wiki/theme/js/tether.min.js"></script>
+      <script src="http://pythonbrasil.github.io/wiki/theme/js/bootstrap.min.js"></script>
 
     </div>
   </body>

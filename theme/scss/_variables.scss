@@ -1,0 +1,30 @@
+/* fonts */
+
+$fa-font-path: "../fonts";
+
+$font-size-base: .875rem;
+$font-size-lg:   1rem;
+$font-size-sm:   .75rem;
+$font-size-xs:   .625rem;
+
+/* colors */
+
+$white:  #fff;
+$black:  #000;
+$red:    #d9534f;
+$orange: #f0ad4e;
+$yellow: #ffd343;
+$green:  #5cb85c;
+$blue:   #1d6bbd;
+$teal:   #5bc0de;
+$pink:   #ff5b77;
+$purple: #613d7c;
+
+// Create grayscale
+$gray-dark:                 #222222;
+$gray:                      #444444;
+$gray-light:                #666666;
+$gray-lighter:              #bbbbbb;
+$gray-lightest:             #dddddd;
+
+$brand-primary:             $gray;
