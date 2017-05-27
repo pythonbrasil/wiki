@@ -21,10 +21,15 @@ $pink:   #ff5b77;
 $purple: #613d7c;
 
 // Create grayscale
-$gray-dark:                 #222222;
-$gray:                      #444444;
-$gray-light:                #666666;
-$gray-lighter:              #bbbbbb;
-$gray-lightest:             #dddddd;
+$gray-dark:     #222222;
+$gray:          #444444;
+$gray-light:    #666666;
+$gray-lighter:  #bbbbbb;
+$gray-lightest: #dddddd;
 
-$brand-primary:             $gray;
+$brand-primary: $gray;
+
+// code
+$pre-bg:            #272822;
+$pre-color:         #f8f8f2;
+$pre-border-color:  #272822;

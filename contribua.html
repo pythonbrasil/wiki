@@ -10,6 +10,7 @@
     <!-- Favicon -->
     <link href="http://pythonbrasil.github.io/wiki/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Bootstrap -->
+    <link href="http://pythonbrasil.github.io/wiki/theme/css/pygment.css" rel="stylesheet">
     <link href="http://pythonbrasil.github.io/wiki/theme/css/pybr.min.css" rel="stylesheet">
 
 
@@ -175,16 +176,13 @@
 <h3>Para contribuir com desenvolvimento</h3>
 <p>Crie um <a href="https://virtualenv.readthedocs.org/en/latest/">virtualenv</a> com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):</p>
 <div class="highlight"><pre><span></span>$ virtualenv project-name
-
 $ <span class="nb">cd</span> project-name
-
 $ <span class="nb">source</span> bin/activate
 </pre></div>
 
 
 <p>Provavelmente irá aparecer em seu terminal algo como <em>(project-name)$</em>, agora vamos clonar o repositório do projeto:</p>
 <div class="highlight"><pre><span></span>$ git clone git@github.com:pythonbrasil/wiki.git
-
 $ <span class="nb">cd</span> wiki
 </pre></div>
 
@@ -206,7 +204,6 @@ $ <span class="nb">cd</span> wiki
 
 <p>Se der erro de locale, tente comando abaixo, o ideal é colocar no ~/.bash_profile</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8
-
 $ <span class="nb">export</span> <span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
 </pre></div>
 
@@ -214,7 +211,6 @@ $ <span class="nb">export</span> <span class="nv">LANG</span><span class="o">=</
 <p>Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.</p>
 <p>Legal, agora já instalei todos os programas, vamos fazê-lo rodar em nosso computador?</p>
 <div class="highlight"><pre><span></span>$ make html
-
 $ make serve
 </pre></div>
 
