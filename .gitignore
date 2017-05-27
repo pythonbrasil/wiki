@@ -76,3 +76,6 @@ pip-selfcheck.json
 
 # pyladies
 content/pyladies/
+
+# node
+node_modules/
