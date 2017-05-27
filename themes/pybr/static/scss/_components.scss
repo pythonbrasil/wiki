@@ -1,8 +1,14 @@
+pre {
+  // fix for .highlight not applyed blocks
+  color: $gray;
+}
+
 .highlight {
   border-radius: 4px;
   padding: 0 4px;
 
   pre {
+    color: #f8f8f2;
     line-height: 1.5em;
     margin: 0;
     padding: 4px 0 2px 0;
