@@ -6,7 +6,7 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 
 ### Páginas do Impressione-se
 
-1. **Empresas - ** Listagem das empresas que usam python
+1. **Empresas** - Listagem das empresas que usam python
 
     O Conteúdo está em formato estruturado JSON. Para adicionar uma nova empresa basta criar um arquivo com extensão .json na pasta [content/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/empresas) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da empresa basta colocar o arquivo de extensão .png na pasta [content/images/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/empresas).
 
