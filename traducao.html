@@ -10,8 +10,8 @@
     <!-- Favicon -->
     <link href="http://pythonbrasil.github.io/wiki/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Bootstrap -->
-    <link href="http://pythonbrasil.github.io/wiki/theme/css/pygment.css" rel="stylesheet">
     <link href="http://pythonbrasil.github.io/wiki/theme/css/pybr.min.css" rel="stylesheet">
+    <link href="http://pythonbrasil.github.io/wiki/theme/css/pygment.css" rel="stylesheet">
 
 
   </head>
@@ -99,194 +99,137 @@
       <div class="col-12">
         <h1>Como colaborar com a tradução</h1>
 
-        <p>Para traduzir, faça o cadastro no transifex e entre nas urls:</p>
-<p><a class="reference external" href="https://www.transifex.com/django/django-docs/dashboard/">https://www.transifex.com/django/django-docs/dashboard/</a></p>
-<p><a class="reference external" href="https://www.transifex.com/django/django-docs/language/pt_BR/">https://www.transifex.com/django/django-docs/language/pt_BR/</a></p>
+        <p>Uma excelênte forma de contribuir com a comunidade é através da tradução da documentação da linguagem, de bibliotecas e de ferramentas. Com isso você contribuí com o crescimento da comunidade aumentando o alcance da linguagem dentro dos falantes do Português Brasileiro.</p>
+<p>Caso esteja interessado em contribuír, a comunidade possuí um grupo no telegram destinado a essa tarefa que pode ser acessado através do seguinte link:</p>
+<p><a href="https://telegram.me/joinchat/CjIqFj4UVvCtPnCwxUDJLA">https://telegram.me/joinchat/CjIqFj4UVvCtPnCwxUDJLA</a></p>
+<p>As traduções estão sendo feitas através da plataforma <a href="https://www.transifex.com/">transifex</a>. Para ajudar com a tradução basta criar uma conta e seguir para um dos projetos em andamento abaixo:</p>
+<h3>Tradução da documentação da linguagem Python</h3>
+<p>Para começar a traduzir faça sua requisição através de:</p>
+<p><a href="https://www.transifex.com/python-doc/public/">https://www.transifex.com/python-doc/public/</a></p>
+<h3>Tradução da documentação do framework Django</h3>
+<p>Para começar a traduzir faça sua requisição através de:</p>
+<p><a href="https://www.transifex.com/django/public/">https://www.transifex.com/django/public/</a></p>
 <p>Você pode também participar da lista de e-mails para
 discussão sobre tradução do django:</p>
-<p><a class="reference external" href="https://groups.google.com/d/forum/django-i18n">https://groups.google.com/d/forum/django-i18n</a></p>
-<p><a class="reference external" href="https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation">https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation</a></p>
-<p>O Luciano Ramalho e mais uma galera, criaram algumas dicas para quando eles estavam traduzindo o tutorial oficial do Python 2.7. Talvez algumas dessas dicas também sirvam para ajudar a traduzir a documentação do django.</p>
-<p><a class="reference external" href="http://turing.com.br/pydoc/2.7/glossary.html#glossary">http://turing.com.br/pydoc/2.7/glossary.html#glossary</a></p>
-<p><a class="reference external" href="http://turing.com.br/pydoc/2.7/tutorial/NOTAS.html#notas-para-os-tradutores-da-versao-pt-br">http://turing.com.br/pydoc/2.7/tutorial/NOTAS.html#notas-para-os-tradutores-da-versao-pt-br</a></p>
-<p>Se você tem pouco tempo, alguns minutos, tente o tópico [faq]</p>
-<p>[faq] <a class="reference external" href="https://www.transifex.com/django/django-docs/translate/#pt_BR/">https://www.transifex.com/django/django-docs/translate/#pt_BR/</a></p>
-<p>Hoje algumas partes estão totalmente traduzidas. Mas toda vez que tem um release novo do Django, os textos ficam obsoletos, ao menos em parte, e tem que ser revistos. Então é um trabalho que nunca acaba.</p>
-<div class="section" id="gerando-a-documentacao-em-portugues">
-<h2>Gerando a documentação em português</h2>
-<p>Embora o processo de tradução possa ser feito diretamente pelo navegador web, também é possível gerar a documentação
-traduzida no computador. Isso pode facilitar o processo de revisão já que pelo browser fica mais
-difícil visualizar links quebrados e navegar pela documentação.</p>
-<p>Para gerar a documentação em português siga os passos a seguir:</p>
-<ol class="arabic">
-<li><p class="first">Conforme documentação do Transifex (disponível em <a class="reference external" href="http://docs.transifex.com/client/config/">http://docs.transifex.com/client/config/</a>), será preciso criar um arquivo chamado '.transifexrc' na raiz do seu home (ex.: /home/user/.transifexrc) contendo seu login e senha no Transifex. Segue um exemplo:</p>
-<pre class="literal-block">
-[https://www.transifex.com]
-username = user
-token =
-password = passw0rd
-hostname = https://www.transifex.com
-</pre>
-</li>
-<li><p class="first">Será preciso baixar os repositórios do Django e instalar algumas bibliotecas, para isso eu sugiro criar uma pasta de trabalho:</p>
-<pre class="literal-block">
-mkdir /tmp/django-br &amp;&amp; cd /tmp/django-br
-</pre>
-</li>
-<li><p class="first">Faça o clone do repositório do Django no GitHub:</p>
-<pre class="literal-block">
-git clone https://github.com/django/django.git
-</pre>
-</li>
-<li><p class="first">Faça também o clone do repositório contendo as traduções do Django (como as traduções consomem muito espaço, elas foram movidas para um repositório em separado)</p>
-<pre class="literal-block">
-git clone https://github.com/django/django-docs-translations.git
-</pre>
-</li>
-<li><p class="first">Para gerar a documentação em português, nós vamos trabalhar dentro do diretório 'django-docs-translations'</p>
-<pre class="literal-block">
-cd django-docs-translations/
-</pre>
-</li>
-<li><p class="first">Existem várias traduções disponíveis, uma para cada versão do Django, nesse exemplo nós vamos gerar a documentação para a versão 1.10.</p>
-<pre class="literal-block">
-git checkout stable/1.10.x
-</pre>
-</li>
-<li><p class="first">Para a instalação das bibliotecas, eu também sugiro criar e ativar um virtualenv:</p>
-<pre class="literal-block">
-python -m venv .django-br
+<p><a href="https://groups.google.com/d/forum/django-i18n">https://groups.google.com/d/forum/django-i18n</a></p>
+<p>E ler mais sobre a localização do projeto em:</p>
+<p><a href="https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation">https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation</a></p>
+<h2>Referências de tradução</h2>
+<p>O Luciano Ramalho e mais uma galera, criaram algumas dicas para quando eles estavam traduzindo o tutorial oficial do Python 2.7 que podem ser usados como referência ao realizar as traduções:</p>
+<p><a href="http://turing.com.br/pydoc/2.7/tutorial/NOTAS.html#notas-para-os-tradutores-da-versao-pt-br">http://turing.com.br/pydoc/2.7/tutorial/NOTAS.html#notas-para-os-tradutores-da-versao-pt-br</a></p>
+<h2>Tradução offline</h2>
+<p>Embora o processo de tradução possa ser feito diretamente pelo navegador web, também é possível gerar a documentação traduzida no computador. Isso pode facilitar o processo de revisão já que pelo browser fica mais difícil visualizar links quebrados e navegar pela documentação.</p>
+<p>Para gerar a documentação em português siga os passos a seguir (usaremos o django como exemplo):</p>
+<p><strong>1</strong> - Conforme a <a href="http://docs.transifex.com/client/config/">documentação do Transifex</a>, será preciso criar um arquivo chamado <code>.transifexrc</code> na raiz do seu diretório pessoal (ex.: <code>/home/user/.transifexrc</code>) contendo seu login e senha no Transifex:</p>
+<div class="highlight"><pre><span></span><span class="k">[https://www.transifex.com]</span>
+<span class="na">username</span> <span class="o">=</span> <span class="s">user</span>
+<span class="na">token</span> <span class="o">=</span>
+<span class="na">password</span> <span class="o">=</span> <span class="s">passw0rd</span>
+<span class="na">hostname</span> <span class="o">=</span> <span class="s">https://www.transifex.com</span>
+</pre></div>
+
+
+<p><strong>2</strong> - Será preciso baixar os repositórios e instalar algumas bibliotecas, para isso é recomendado criar uma pasta de trabalho:</p>
+<div class="highlight"><pre><span></span>mkdir ~/traducoes/django-br &amp;&amp; cd ~/traducoes/django-br
+</pre></div>
+
+
+<p><strong>3</strong> - Faça o clone do repositório no GitHub:</p>
+<div class="highlight"><pre><span></span>git clone https://github.com/django/django.git
+</pre></div>
+
+
+<p><strong>4</strong> - Faça também o clone do repositório contendo as traduções do Django (como as traduções consomem muito espaço, elas foram movidas para um repositório em separado):</p>
+<div class="highlight"><pre><span></span>git clone https://github.com/django/django-docs-translations.git
+</pre></div>
+
+
+<p><strong>5</strong> - Para gerar a documentação em português, nós vamos trabalhar dentro do diretório <code>django-docs-translations</code>:</p>
+<div class="highlight"><pre><span></span>cd django-docs-translations/
+</pre></div>
+
+
+<p><strong>6</strong> - Existem várias traduções disponíveis, uma para cada versão do Django, nesse exemplo nós vamos gerar a documentação para a versão 1.10.x:</p>
+<div class="highlight"><pre><span></span>git checkout stable/1.10.x
+</pre></div>
+
+
+<p><strong>7</strong> - Para a instalação das bibliotecas, é recomendado também criar e ativar um virtualenv:</p>
+<div class="highlight"><pre><span></span>python -m venv .django-br
 source .django-br/bin/activate
-</pre>
-</li>
-<li><p class="first">Para gerar a documentação, o Django utiliza uma biblioteca chamada Sphinx, você pode instalá-la rodando o comando abaixo:</p>
-<pre class="literal-block">
-pip install sphinx
-</pre>
-</li>
-<li><p class="first">Para baixar as últimas traduções do site Transifex, nós vamos precisar instalar também a biblioteca 'Transifex-Client':</p>
-<pre class="literal-block">
-pip install transifex-client
-</pre>
-</li>
-<li><p class="first">Com o 'Transifex-Client' instalado e com o arquivo .transifexrc configurado na raiz do seu home, será possível executar o comando abaixo para baixar as traduções do Transifex:</p>
-<pre class="literal-block">
-tx pull -f -l pt_BR
-</pre>
-</li>
-<li><p class="first">Com o download das traduções concluído, agora é preciso executar o comando 'make translations' para compilá-las:</p>
-<pre class="literal-block">
-make translations
-</pre>
-</li>
-<li><p class="first">Também é necessário criar um link simbólico para que o Sphinx gere a documentação utilizando os arquivos baixados e compilados por você (ao invés dos arquivos padrão no repositório do Django)</p>
-<pre class="literal-block">
-ln -s /tmp/django-br/django-docs-translations/translations/ /tmp/django-br/django/docs/locale
-</pre>
-</li>
-<li><p class="first">Agora saia do repositório django-docs-translations e vá para o repositório django, onde vamos encontrar um diretório chamado 'docs'. É dentro desse diretório que vamos poder gerar a documentação.</p>
-<pre class="literal-block">
-cd ../django/docs/
-</pre>
-</li>
-<li><p class="first">Dentro do diretório docs do repositório do Django, após executar os passos acima, rode o comando abaixo para que o Sphinx gere a documentação em português</p>
-<pre class="literal-block">
-make html LANGUAGE=pt_BR
-</pre>
-</li>
-<li><p class="first">Como medida de segurança, eu sugiro excluir o arquivo ~/.transifexrc do seu home ou apagar a senha contida dentro dele já que o Transifex não oferece autenticação via tokens (ainda).</p>
-<pre class="literal-block">
-rm ~/.transifexrc
-</pre>
-</li>
-<li><p class="first">Ao final do processo, um novo diretório '_build' é criado e dentro desse diretório é possível encontrar também o diretório 'html' contendo os arquivos gerados pelo Sphinx. Para visualizar a documentação entre em _build/html/</p>
-<pre class="literal-block">
-cd _build/html/
-</pre>
-</li>
-</ol>
-<p>A página principal da documentação é a 'index.html', clique duas vezes nesse arquivo para que ele seja aberto no seu browser. Clique nos links para navegar pela documentação, embora sejam links html, todo o conteúdo está contido dentro da pasta _build e portanto disponível offline. O Sphinx permite ainda gerar a documentação em outros formatos como .pdf mas eu só testei o formato html.</p>
-</div>
-<div class="section" id="o-que-traduzir">
-<h2>O que traduzir</h2>
-<p>Ao ler a documentção do Django seria comum se confundisse</p>
+</pre></div>
+
+
+<p><strong>6</strong> - Para gerar a documentação, o Django utiliza uma biblioteca chamada Sphinx, você pode instalá-la rodando o comando abaixo:</p>
+<div class="highlight"><pre><span></span>pip install sphinx
+</pre></div>
+
+
+<p><strong>7</strong> - Para baixar as últimas traduções do site Transifex, nós vamos precisar instalar também a biblioteca <code>Transifex-Client</code>:</p>
+<div class="highlight"><pre><span></span>pip install transifex-client
+</pre></div>
+
+
+<p><strong>8</strong> - Com o <code>Transifex-Client</code> instalado e com o arquivo <code>.transifexrc</code> configurado na raiz do seu diretório pessoal, será possível executar o comando abaixo para baixar as traduções do Transifex:</p>
+<div class="highlight"><pre><span></span>tx pull -f -l pt_BR
+</pre></div>
+
+
+<p><strong>9</strong> - Com o download das traduções concluído, agora é preciso executar o comando 'make translations' para compilá-las:</p>
+<div class="highlight"><pre><span></span>make translations
+</pre></div>
+
+
+<p><strong>10</strong> - Também é necessário criar um link simbólico para que o Sphinx gere a documentação utilizando os arquivos baixados e compilados por você (ao invés dos arquivos padrão no repositório do Django):</p>
+<div class="highlight"><pre><span></span>ln -s ~/traducoes/django-br/django-docs-translations/translations/ ~/traducoes/django-br/django/docs/locale
+</pre></div>
+
+
+<p><strong>11</strong> - Agora saia do repositório django-docs-translations e vá para o repositório django, onde vamos encontrar um diretório chamado <code>docs</code>. É dentro desse diretório que vamos poder gerar a documentação:</p>
+<div class="highlight"><pre><span></span>cd ../django/docs/
+</pre></div>
+
+
+<p><strong>12</strong> - Dentro do diretório docs do repositório do Django, após executar os passos acima, rode o comando abaixo para que o Sphinx gere a documentação em português:</p>
+<div class="highlight"><pre><span></span>make html LANGUAGE=pt_BR
+</pre></div>
+
+
+<p><strong>13</strong> - Como medida de segurança, eu sugiro excluir o arquivo <code>~/.transifexrc</code> do seu home ou apagar a senha contida dentro dele já que o Transifex não oferece autenticação via tokens (ainda):</p>
+<div class="highlight"><pre><span></span>rm ~/.transifexrc
+</pre></div>
+
+
+<p><strong>14</strong> - Ao final do processo, um novo diretório <code>_build</code> é criado e dentro desse diretório é possível encontrar também o diretório <code>html</code> contendo os arquivos gerados pelo Sphinx. Para visualizar a documentação entre em <code>_build/html/</code>:</p>
+<div class="highlight"><pre><span></span>cd _build/html/
+</pre></div>
+
+
+<p>A página principal da documentação é a <code>index.html</code>, clique duas vezes nesse arquivo para que ele seja aberto no seu browser. Clique nos links para navegar pela documentação, embora sejam links html, todo o conteúdo está contido dentro da pasta <code>_build</code> e portanto disponível offline. O Sphinx permite ainda gerar a documentação em outros formatos como <code>.pdf</code>.</p>
+<h2>Dicas de tradução</h2>
+<p>Nesta seção apresentamos agumas dicas de tradução.</p>
+<h3>Atenção com palavras de grafía parecida</h3>
 <p>Model: Modelo -- Classe que representa uma tabela.
-Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de uma Django &quot;app&quot;.</p>
-</div>
-<div class="section" id="atento-aos-nomes-inerentes-ao-objeto-da-traducao">
-<h2>Atento aos nomes inerentes ao objeto da tradução</h2>
-<p>A maioria dos termos de computação vem do inglês. E muitas vezes os temor em inglês ne não nos damos conta, ou pior, usamos uma tradução cujo o sentido da palbra em portuges é outro</p>
-</div>
-<div class="section" id="cuidado-com-os-artigos">
-<h2>Cuidado com os artigos</h2>
-<p>Algumas vezes encontramos textos referenciando classe ou métodos por exemplo, onde descrevem o nome destes mas não explicitam que se referem a uma classe ou método. Como durante a traduçao temos as marcações de RestruturedText, temos uma ajuda para saber se por exemplo usamos um artigo feminino ou masculino. Como no texto abaixo.</p>
-<blockquote>
-Or use a common ancestor to hold the :class:<cite>~django.db.models.AutoField</cite>::</blockquote>
-<p>alguém poderia traduzir como usando o artigo &quot;o&quot; referindo-se ao &quot;autoField&quot;:</p>
-<blockquote>
-Ou use um acestral comum para manter o :class:<cite>~django.db.models.AutoField</cite>::</blockquote>
-<p>Mas não seria correto. Talvez para um leitor menos atento fique até estranho,
-o que é bom pois o chamará atenção se usarmos um artigo feminino neste caso.</p>
-<blockquote>
-Ou use um acestral comum para manter a :class:<cite>~django.db.models.AutoField</cite>::</blockquote>
-<p>quer dizer, <cite>ou use um acestral comum para a manter a classe `~django.db.models.AutoField`</cite></p>
-<p>Depois do texto renderizado, a  diretiva `:class:` não é mostrada, e usar o artigo correto ajuda a lembrar que referenciamos uma classe ou método por exemplo.</p>
-</div>
-<div class="section" id="nao-tente-explicar-mais-que-o-autor-original">
-<h2>Não tente explicar mais que o Autor original</h2>
+Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de uma Django "app".</p>
+<h3>Cudado com o neologismo</h3>
+<p>A maioria dos termos de computação vem do inglês. E muitas vezes usamos os termos em inglês sem nos dar conta, ou pior, usamos uma tradução cujo o sentido da palavra em português é outro.</p>
+<h3>Cuidado com os artigos</h3>
+<p>Em inglês as palavras não possuem gênero, portando fique atento a concordancia dos artigos ao realizar a tradução:</p>
+<p><strong>Or use a common ancestor to hold the :class:`~django.db.models.AutoField`</strong></p>
+<p>alguém poderia traduzir como usando o artigo "o" referindo-se ao "autoField":</p>
+<p><strong>Ou use um acestral comum para manter o :class:`~django.db.models.AutoField`</strong></p>
+<p>Mas não seria correto. Talvez para um leitor menos atento fique até estranho, o que é bom pois o chamará atenção se usarmos um artigo feminino neste caso.</p>
+<p><strong>Ou use um acestral comum para manter a :class:`~django.db.models.AutoField`</strong></p>
+<p>quer dizer, "ou use um acestral comum para a manter a classe ~django.db.models.AutoField"</p>
+<p>Depois do texto renderizado, a  diretiva <code>:class:</code> não é mostrada, e usar o artigo correto ajuda a lembrar que referenciamos uma classe ou método por exemplo.</p>
+<h3>Não tente explicar mais que o Autor original</h3>
 <p>Cuidado ao achar que um texto em inglês não está bem explicado, ou falta detalhes. Você pode ter razão, e a solução é sugerir melhorias no texto original.</p>
 <p>Se ao invés disso,  tentar escrever um texto melhor na tradução,
 além do problema raiz persistir, pode acontecer de estar sendo repetitivo.</p>
 <p>O erro no texto original pode existir, mas antes de afirmá-lo, procure ler o contexto todo e entender se aquele detalhe ou explicaç ao deveria estar ali, ou já foi comentado emoutra seção,
 ou se é realmente papel do texto explicar em detalhes tal condição.</p>
-<hr class="docutils" />
-<p>Notas do Cadu</p>
-<dl class="docutils">
-<dt>Parser:</dt>
-<dd>Análisador sintática - é o processo de analisar uma sequência de entrada segundo uma grmática formal.</dd>
-<dt>auto-escaping :</dt>
-<dd>auto substituição.</dd>
-<dt>template:</dt>
-<dd>modelo (mas dentro do contexto do django pode ser confundido como o modelo da classe Model.)</dd>
-<dt>template tag:</dt>
-<dd>tag de template - funções para serem usadas em templates</dd>
-<dt>set the &lt;var/attributo&gt;:</dt>
-<dd>defina a variaável ou atributo.</dd>
-</dl>
-<p>Notas do &#64;FilipeCifali</p>
-<dl class="docutils">
-<dt>Cloud:</dt>
-<dd>nuvem - exemplos: cloud service - serviço em nuvem, cloud hosting - hospedagem em nuvem</dd>
-</dl>
-<hr class="docutils" />
-<p>topics[1355] - está confuso ao explicar que o modulo do modelo deve ser colocado no settings</p>
-<blockquote>
-For example, if the models for your application live in the module <tt class="docutils literal">myapp.models</tt> (the package structure that is created for an application by the :djadmin:<cite>manage.py startapp &lt;startapp&gt;</cite> script), :setting:<cite>INSTALLED_APPS</cite> should read, in part::</blockquote>
-<p>toics[1387]</p>
-<p>sugestion: this fields <strong>value</strong> must be unique throughout the table.</p>
-<blockquote>
-If <tt class="docutils literal">True</tt>, this field must be unique throughout the table.</blockquote>
-<p>Topics[1894]: referenciar a class como :class:<cite>~django.db.models.query.QuerySet</cite></p>
-<blockquote>
-For example, repeatedly getting a certain index in a queryset object will query the database each time::</blockquote>
-<p>topics[1906]</p>
-<blockquote>
-Each lookup function that takes keyword-arguments (e.g. :meth:<cite>~django.db.models.query.QuerySet.filter</cite>, :meth:<cite>~django.db.models.query.QuerySet.exclude</cite>, :meth:<cite>~django.db.models.query.QuerySet.get</cite>) can also be passed one or more <tt class="docutils literal">Q</tt> objects as positional (not-named) arguments. If you provide multiple <tt class="docutils literal">Q</tt> object arguments to a lookup function, the arguments will be &quot;AND&quot;ed together. For example::</blockquote>
-</div>
-<div class="section" id="mal-escritos-em-ingles-imho">
-<h2>Mal escritos em inglês IMHO</h2>
-<p>[1355] do topics / models: está confuso ao explicar que o modulo do modelo deve ser colocado no settings</p>
-<blockquote>
-For example, if the models for your application live in the module <tt class="docutils literal">myapp.models</tt> (the package structure that is created for an application by the :djadmin:<cite>manage.py startapp &lt;startapp&gt;</cite> script), :setting:<cite>INSTALLED_APPS</cite> should read, in part::</blockquote>
-<p>[1387] doc/models:</p>
-<blockquote>
-sugestion: this fields <strong>value</strong> must be unique throughout the table.
-If <tt class="docutils literal">True</tt>, this field must be unique throughout the table.</blockquote>
-<p>[1822] Topics/models: usou termos ruins pra traduzir até mesmo para a explicação em ingles. Ex.:&quot;Field lookups are how you specify the meat of an SQL <tt class="docutils literal">WHERE</tt> clause.&quot;&quot;</p>
-<blockquote>
-Field lookups are how you specify the meat of an SQL <tt class="docutils literal">WHERE</tt> clause. They're specified as keyword arguments to the :class:<cite>~django.db.models.query.QuerySet</cite> methods :meth:<cite>~django.db.models.query.QuerySet.filter</cite>, :meth:<cite>~django.db.models.query.QuerySet.exclude</cite> and :meth:<cite>~django.db.models.query.QuerySet.get</cite>.</blockquote>
-</div>
-
+<h3>Glossário de tradução</h3>
+<p>Este glossário tem como objetivo criar uma consistência de tradução entre os projetos:</p>
       </div>
     </div>
 
