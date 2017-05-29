@@ -40,4 +40,5 @@ Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está co
  2014 | Introdução à Programação com Python | Nilo Ney Coutinho Menezes | Livro | Iniciante | Não | [link](http://python.nilo.pro.br/)
  2015 | Curso de Programação em Python para Iniciantes | PyLadies BH | Curso | Iniciante | Sim | [link](https://www.youtube.com/watch?v=O2xKiMl-d7Y&list=PL70CUfm2J_8SXFHovpVUbq8lB2JSuUXgk)
  2017 | Introdução à Ciência da Computação com Python  | CCSL do IME/USP | Curso | Iniciante | Sim	 | [link](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn)
+ 2017 | Pycubator (Tradução PT-BR) | Noam Elfanbaum, Udi Oron e Gilson Filho (Tradução) | Material online | Iniciante | Sim | [link](http://df.python.org.br/pycubator/)
 
