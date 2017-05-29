@@ -117,3 +117,26 @@ Agora basta fazer as modificações na pasta *content/pages*, rodar os comandos 
 Resta então fazer o commit de suas alterações em seu repositório local e enviar-nos o Pull Request! o/
 
 Mais informações sobre como funciona o Pelican, indicamos o artigo - [http://mindbending.org/pt/instalando-o-pelican](http://mindbending.org/pt/instalando-o-pelican).
+
+Caso queira contribuir com o tema é preciso ter o node instalado em sua máquina. Sua instalação é bem direta e pode ser obtida em:
+
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+Após a instalação do node você pode instalar as dependências do tema indo a seu diretório e rodando o npm:
+
+```
+$ cd themes/pybr
+$ npm install
+```
+
+Com as dependências instaladas para rodar a montagem do css com live reload basta rodar:
+
+```
+$ gulp
+```
+
+E caso queira rodar sem o live reload, somente para gerar o css para publicação rode:
+
+```
+$ gulp build
+```
