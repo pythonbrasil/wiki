@@ -219,6 +219,22 @@ $ make serve
 <p>Agora basta fazer as modificações na pasta <em>content/pages</em>, rodar os comandos <em>make html</em> e <em>make serve</em> e suas alterações já serão visíveis.</p>
 <p>Resta então fazer o commit de suas alterações em seu repositório local e enviar-nos o Pull Request! o/</p>
 <p>Mais informações sobre como funciona o Pelican, indicamos o artigo - <a href="http://mindbending.org/pt/instalando-o-pelican">http://mindbending.org/pt/instalando-o-pelican</a>.</p>
+<p>Caso queira contribuir com o tema é preciso ter o node instalado em sua máquina. Sua instalação é bem direta e pode ser obtida em:</p>
+<p><a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+<p>Após a instalação do node você pode instalar as dependências do tema indo a seu diretório e rodando o npm:</p>
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> themes/pybr
+$ npm install
+</pre></div>
+
+
+<p>Com as dependências instaladas para rodar a montagem do css com live reload basta rodar:</p>
+<div class="highlight"><pre><span></span>$ gulp
+</pre></div>
+
+
+<p>E caso queira rodar sem o live reload, somente para gerar o css para publicação rode:</p>
+<div class="highlight"><pre><span></span>$ gulp build
+</pre></div>
       </div>
     </div>
 
