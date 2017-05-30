@@ -54,6 +54,7 @@ PLUGINS = [
     'sitemap',
     'welcome-helpers',
     'bootstrapify',
+    'pelican_alias',
 ]
 
 # Plugins settings
