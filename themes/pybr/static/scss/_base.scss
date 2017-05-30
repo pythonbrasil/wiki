@@ -38,8 +38,9 @@
     .page-content {
       margin: 40px 0;
 
-      table {
+      .table-wrapper {
         width: 100%;
+        overflow-x: scroll;
       }
 
       img {

@@ -55,7 +55,13 @@ PLUGINS = [
     'welcome-helpers',
     'bootstrapify',
     'pelican_alias',
+    'replacer',
 ]
+
+REPLACES = (
+    (u'<table', u'<div class="table-wrapper"><table'),
+    (u'</table>', u'</table></div>'),
+)
 
 # Plugins settings
 RESPONSIVE_IMAGES = True
