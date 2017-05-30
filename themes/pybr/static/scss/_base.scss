@@ -40,7 +40,10 @@
 
       .table-wrapper {
         width: 100%;
-        overflow-x: scroll;
+
+        @include media-breakpoint-down(md) {
+          overflow-x: scroll;
+        }
       }
 
       img {
