@@ -154,12 +154,12 @@ pre, code {
     font-size: 24px;
     line-height: 26px;
   }
+}
 
-  .past-event {
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
-    filter: grayscale(1);
-  }
+.past-event {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1);
 }
