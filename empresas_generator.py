@@ -35,7 +35,7 @@ def scrapping_empresas():
             city =  line[4:].strip()
         elif line.startswith('!') and region and state and city:
             parts = line.split('|')
-            site = parts[2].strip()
+            site = parts[2].split('(')[1].strip().strip(')')
             name = parts[1].strip()
             logo = EMPRESAS_LOGO_PATH + parts[0].split(
                 '(')[1].strip().strip(')')
