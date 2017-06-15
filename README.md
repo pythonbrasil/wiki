@@ -2,13 +2,15 @@
 
 [![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
 
+Site Live: [http://python.org.br/](http://python.org.br/)
+
+Repositório: [https://github.com/pythonbrasil/wiki](https://github.com/pythonbrasil/wiki)
+
 Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das páginas mapeadas abaixo, editar seu conteúdo e submeter sua alteração como um pull request.
 
 ### Páginas do Impressione-se
 
-1. **Empresas** - Listagem das empresas que usam python
-
-    O Conteúdo está em formato estruturado JSON. Para adicionar uma nova empresa basta criar um arquivo com extensão .json na pasta [content/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/empresas) seguindo o padrão dos demais arquivos desta pasta e caso queira adicionar o logo da empresa basta colocar o arquivo de extensão .png na pasta [content/images/empresas/](https://github.com/pythonbrasil/wiki/tree/pelican/content/images/empresas).
+1. **Empresas** - O Conteúdo das empresas é uma importação do conteúdo encontrado em [https://github.com/pythonbrasil/pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR).
 
 ### Páginas do Inicie-se
 
