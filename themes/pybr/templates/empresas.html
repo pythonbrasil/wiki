@@ -11,14 +11,14 @@
       <hr>
 
       {% for estado in EMPRESAS[regiao] %}
-        <h3>{{ estado  }}</h3>
+        <h3>{{ estado }}</h3>
         <div class="row thumbnail-container">
 
           {% for empresa in EMPRESAS[regiao][estado] %}
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail">
                 <a href="{{ empresa.site }}" target="_blank">
-                  <img src="{{ SITEURL }}/{% if empresa.logo %}{{ empresa.logo }}{% else %}{{ DEFAULT_EMPRESA_IMAGE }}{% endif %}" alt="{{ empresa.nome }}">
+                  <img src="{{ empresa.logo }}" alt="{{ empresa.nome }}">
                 </a>
 
                 <div class="caption">

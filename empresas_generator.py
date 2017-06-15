@@ -19,7 +19,7 @@ PAGE_PATH = 'content/empresas/'
 
 # Arquivo que será consumido para gerar os arquivos JSON
 EMPRESAS_FILE = 'https://raw.githubusercontent.com/pythonbrasil/pyBusinesses-BR/master/README.md'
-EMPRESAS_LOGO_PATH = 'https://github.com/pythonbrasil/pyBusinesses-BR/blob/master/'
+EMPRESAS_LOGO_PATH = 'https://raw.githubusercontent.com/pythonbrasil/pyBusinesses-BR/master/'
 
 def scrapping_empresas():
     file = urlopen(EMPRESAS_FILE)
