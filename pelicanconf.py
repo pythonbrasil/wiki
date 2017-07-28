@@ -234,8 +234,10 @@ def import_empresas(path):
     return empresas
 
 # Configurações da página de eventos
+hoje = datetime.date.today()
 EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
-EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=True)
+EVENTOS = filter(lambda evento: evento['data'] >= hoje, EVENTOS)
+EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=False)
 
 # Configurações da página de comunidades locais
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
