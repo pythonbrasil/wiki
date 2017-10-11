@@ -54,6 +54,8 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
 
   * Paula Grangeiro
   
+<iframe width="420" height="315" src="https://www.youtube.com/embed/LToaF3_cgtk" frameborder="0" allowfullscreen></iframe>  
+  
 **2017 - PythonBrasil 13 (Belo Horizonte)**
 
   * Jean Rodrigo Ferri
