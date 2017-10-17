@@ -58,6 +58,10 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Empresas',
                 'href': 'empresas',
             },
+            {
+                'title': 'Projetos Brasileiros',
+                'href': 'projetos',
+            },
         ]
     },
     {
