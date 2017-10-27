@@ -17,7 +17,7 @@ Sua atual diretoria atuará até Setembro de 2019. O estatuto da APyB foi discut
 
 ##### Conselho Deliberativo
 
-- Marco Antônio Rougeth
+- Marco Antônio Rougeth de Oliveira
 - Jessica Caroline Alves Nunes Temporal
 - Erika Campos
 
