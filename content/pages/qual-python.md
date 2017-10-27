@@ -7,7 +7,7 @@ Uma das dúvidas mais recorrentes dentre os iniciantes na linguagem é a respeit
 - Python 2 foi o padrão da linguagem por muito tempo.
 - Python 3 introduziu algumas mudanças que quebraram a compatibilidade com a versão anterior o que criou a nessecidade de se manter duas versões da linguagem.
 - Python 2 receberá atualizações de segurança até 2020 quando seu suporte será descontinuado.
-- Python 3 está constantemente evoluindo e recebendo novas funcionalidades, que não estaram presentes na versão anterior.
+- Python 3 está constantemente evoluindo e recebendo novas funcionalidades, que não estarão presentes na versão anterior.
 
 Sabendo disso, a recomendação é de dar sempre que possível preferência ao Python 3, por ser o futuro da linguagem e pelo fato de sua versão anterior estar em processo de descontinuação.
 

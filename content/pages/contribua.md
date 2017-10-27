@@ -1,6 +1,6 @@
-# Site estático python.org.br
-
-[![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
+Title: Contribua com este site
+Slug: contribua
+Template: page
 
 Site Live: [http://python.org.br/](http://python.org.br/)
 
@@ -101,13 +101,6 @@ $ export LC_ALL=en_US.UTF-8
 
 $ export LANG=en_US.UTF-8
 ```
-
-Se der erro de pycripto instale:
-
-```
-$ sudo apt install python3-dev 
-```
- 
 
 Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
 

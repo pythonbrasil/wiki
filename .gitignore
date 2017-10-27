@@ -76,3 +76,9 @@ pip-selfcheck.json
 
 # pyladies
 content/pyladies/
+
+# empresas
+content/empresas/
+
+# node
+node_modules/

@@ -6,6 +6,7 @@ Veja aqui uma listagem de ferramentas para te auxiliar no desenvolvimento python
 
 
 # Editores de texto
+
 ### vim - http://www.vim.org/
 Esse é o que eu uso ( OsvaldoSantanaNeto ). Tem em todo GNU/Linux e é altamente configurável. Uma forma de transformar o vim em uma IDE Python completa é seguindo o tutorial em http://avelino.us/2011/12/22/vim-ide-para-programadores-python/ (pt-BR)
 PythonBrasil[5] - DDD.py - tem boas dicas para utilizar o vim - http://www.pythonbrasil.org.br/2009/sobre-o-evento/slides/ddd.py/view
@@ -116,8 +117,5 @@ Automatiza algumas operações básicas de refactoring para Python. Tem integra�
 
 ### Rope - https://github.com/python-rope/rope
 Uma biblioteca de refactoring para Python. Pode ser usada em outras IDEs.
-
-
-
 
 *Boa parte do conteúdo foi retirado do link (http://wiki.python.org.br/IdesPython)

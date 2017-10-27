@@ -8,7 +8,7 @@ Template: page
 Criado em 2011 pela Associação Python Brasil, o Prêmio Dorneles Treméa é um momento para a comunidade Python brasileira lembrar e homenagear anualmente a(s) pessoa(s) que mais se destacou(aram) e contribuíu(íram) para manter vivo o espírito de colaboração, empreendedorismo e entrega à comunidade que eram características marcantes do Dorneles Treméa.
 
 ### Critérios utilizados
-O prêmio é dedicado àquelas que, durante os últimos doze meses, dedicaram-se a:
+O prêmio é dedicado àquelas pessoas que, durante os últimos doze meses, dedicaram-se a:
 
 - Divulgar e ensinar Python
 - Participar ativamente das comunidades locais
@@ -53,6 +53,13 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
 **2016 - PythonBrasil 12 (Florianópolis)**
 
   * Paula Grangeiro
+  
+<iframe width="420" height="315" src="https://www.youtube.com/embed/LToaF3_cgtk" frameborder="0" allowfullscreen></iframe>  
+  
+**2017 - PythonBrasil 13 (Belo Horizonte)**
+
+  * Jean Rodrigo Ferri
+  * Bruno Rocha
  
 ## Sobre Dorneles Treméa
 

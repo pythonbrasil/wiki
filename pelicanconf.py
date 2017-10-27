@@ -45,7 +45,7 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Tema do Syntax Hightlight
-PYGMENTS_STYLE = 'perldoc'
+PYGMENTS_STYLE = 'monokai'
 
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
@@ -57,6 +57,10 @@ NAVBAR_HOME_LINKS = [
             {
                 'title': 'Empresas',
                 'href': 'empresas',
+            },
+            {
+                'title': 'Projetos Brasileiros',
+                'href': 'projetos',
             },
         ]
     },
@@ -82,6 +86,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'instalacao-windows',
             },
             {
+                'title': 'Introdução',
+                'href': 'introducao',
+            },
+            {
                 'title': 'Ferramentas',
                 'href': 'ferramentas',
             },
@@ -92,10 +100,6 @@ NAVBAR_HOME_LINKS = [
         'href': '#',
         'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
         'children': [
-            {
-                'title': 'Introdução',
-                'href': 'introducao',
-            },
             {
                 'title': 'Web',
                 'href': 'web',
@@ -111,6 +115,10 @@ NAVBAR_HOME_LINKS = [
             {
                 'title': 'Científico',
                 'href': 'cientifico',
+            },
+            {
+                'title': 'Wiki',
+                'href': 'wiki',
             },
         ]
     },
@@ -136,31 +144,31 @@ NAVBAR_HOME_LINKS = [
                 'href': 'eventos',
             },
             {
+                'title': 'Contribua',
+                'href': 'contribua',
+            },
+            {
+                'title': 'Tradução',
+                'href': 'traducao',
+            },
+        ]
+    },
+    {
+        'title': 'APyB',
+        'href': '#',
+        'desc': 'Conheça a Associação Python Brasil.',
+        'children': [
+            {
+                'title': 'A APyB',
+                'href': 'apyb',
+            },
+            {
                 'title': 'Python Brasil',
                 'href': 'python-brasil',
             },
             {
                 'title': 'Prêmio Dorneles Treméa',
                 'href': 'premio-dorneles-tremea',
-            },
-            {
-                'title': 'A APyB',
-                'href': 'apyb',
-            },
-        ]
-    },
-    {
-        'title': 'Contribua',
-        'href': '#',
-        'desc': 'Veja como contribuir e ajudar a comunidade crescer.',
-        'children': [
-            {
-                'title': 'Este Site',
-                'href': 'este-site',
-            },
-            {
-                'title': 'Tradução',
-                'href': 'traducao',
             },
         ]
     },
@@ -230,8 +238,10 @@ def import_empresas(path):
     return empresas
 
 # Configurações da página de eventos
+hoje = datetime.date.today()
 EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
-EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=True)
+EVENTOS = filter(lambda evento: evento['data'] >= hoje, EVENTOS)
+EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=False)
 
 # Configurações da página de comunidades locais
 COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
