@@ -1,5 +1,5 @@
 Title: APyB - FAQ
-Slug: apyb
+Slug: apyb-faq
 Template: page
 
 
