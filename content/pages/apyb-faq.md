@@ -12,7 +12,7 @@ Ela existe desde 2007 e tem sede em Caxias do Sul, RS.
 
 ## Quem forma a APyB hoje?
 
-A gestão atual é composta por: Mário Sérgio Oliveira de Queiroz, Henrique dos Santos Bastos, Humberto Rocha Gonçalves Filho, Letícia Vasques dos Reis Portella Nascimento além de diversos membros dos 
+A gestão atual é composta por: Mário Sérgio Oliveira de Queiroz, Henrique dos Santos Bastos, Humberto Rocha Gonçalves Filho, Letícia Portella além de diversos membros dos 
 conselhos deliberativo e fiscal. Veja mais sobre essa gestão [aqui](http://python.org.br/apyb).
 
 ## O que a APyB faz?
