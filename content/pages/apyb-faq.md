@@ -12,7 +12,7 @@ Ela existe desde 2007 e tem sede em Caxias do Sul, RS.
 
 ## Quem forma a APyB hoje?
 
-A gestão atual é composta por: Mário Sérgio Oliveira de Queiroz, Henrique dos Santos Bastos, Humberto Rocha Gonçalves Filho, Letícia Vasques dos Reis Portella Nascimento além de diversos membros dos 
+A gestão atual é composta por: Mário Sérgio Oliveira de Queiroz, Henrique dos Santos Bastos, Humberto Rocha Gonçalves Filho, Letícia Portella além de diversos membros dos 
 conselhos deliberativo e fiscal. Veja mais sobre essa gestão [aqui](http://python.org.br/apyb).
 
 ## O que a APyB faz?
@@ -26,6 +26,8 @@ Além disso, dada a sua estrutura e a complexidade burocrática para se realizar
 A APyB não é um órgão regulatório, não tem posições políticas e nenhum caráter que não aqueles especificados no item anterior.
 
 ## Porque eu devo me associar?
+
+Para contribuir com a manutenção e expansão da comunidade no Brasil!
 
 A APyB é um meio dos eventos Python no Brasil continuarem a poder funcionar da forma como são hoje, podendo receber patrocínios e realizar estes eventos que tanto amamos. A associação é uma das formas que a APyB tem de continuar exercendo seu trabalho. Sem ela, seria extremamente difícil organizar eventos e continuar promovendo a comunidade da forma como é feito hoje. 
 
@@ -41,7 +43,7 @@ Caso queira, primeiro é preciso consultar nossa diretoria para garantir que pod
 
 ## Não estou na chapa, significa que eu não posso ajudar?
 
-Claro que não! A chapa é algo meramente necessário, mas braços sempre são necessários! Se puder ajudar, entre em contato conosco!
+Claro que não! A chapa é algo meramente formal, ajuda é sempre bem-vinda! Se puder ajudar, entre em contato conosco!
 
 ## Quando acontecem as eleições?
 
@@ -57,7 +59,7 @@ no [Capítulo 5 do Estatuto](https://github.com/pythonbrasil/estatuto#cap%C3%ADt
 ## Como posso votar?
 
 Para votar você deve ser associado pleno com suas contribuições em dia e deve estar presente durante a Assembléia a ser realizada durante a 
-Python Brasil de 2017 em Belo Horizonte em horário e dia ainda a ser estipulado.
+Python Brasil de 2019 em Ribeirão Preto em horário e dia ainda a ser estipulado.
 
 ## Como posso me candidatar?
 
