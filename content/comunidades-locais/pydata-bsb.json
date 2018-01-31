@@ -1,0 +1,21 @@
+{
+    "links": [
+        [
+            "Twitter",
+            "https://twitter.com/PyDataBSB"
+        ],
+
+        [
+            "Meetup",
+            "https://www.meetup.com/pt-BR/PyData-Brasilia/"
+        ],
+
+        [
+            "Telegram",
+            "https://t.me/PyDataBSB"
+        ]
+    ],
+    "nome": "Comunidade do programa educacional PyData de Brasília",
+    "imagem": "images/comunidades-locais/default.png",
+    "sigla": "Pydata BSB"
+}

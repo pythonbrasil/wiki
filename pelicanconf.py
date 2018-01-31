@@ -170,6 +170,11 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Prêmio Dorneles Treméa',
                 'href': 'premio-dorneles-tremea',
             },
+            {
+                'title': 'FAQ',
+                'href': 'apyb-faq',
+            },
+
         ]
     },
 ]
