@@ -20,3 +20,6 @@ Alguns projetos brasileiros que usam python:
 - [python-binary-memcached](https://github.com/jaysonsantos/python-binary-memcached)
 - [correios](https://github.com/olist/correios)
 - [simple-model](https://github.com/lamenezes/simple-model)
+- [python-ami](https://github.com/ettoreleandrotognoli/python-ami/)
+- [python-cdi](https://github.com/ettoreleandrotognoli/python-cdi)
+- [django-pycdi](https://github.com/ettoreleandrotognoli/django-pycdi)
