@@ -10,7 +10,7 @@ sys.path.append(os.curdir)
 
 from pelicanconf import *
 
-SITEURL = 'http://pythonbrasil.github.io/wiki'
+SITEURL = 'https://python.org.br'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds.atom'
