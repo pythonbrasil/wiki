@@ -14,7 +14,7 @@ ARTICLE_URL = 'vagas/{slug}'
 ARTICLE_SAVE_AS = 'vagas/{slug}/index.html'
 
 PAGE_URL = '{slug}'
-PAGE_SAVE_AS = '{slug}.html'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 CATEGORIES_URL = 'vagas/categorias'
 CATEGORIES_SAVE_AS = 'vagas/categorias/index.html'
