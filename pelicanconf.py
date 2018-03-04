@@ -174,6 +174,10 @@ NAVBAR_HOME_LINKS = [
                 'title': 'FAQ',
                 'href': 'apyb-faq',
             },
+            {
+                'title': 'História da APyB',
+                'href': 'apyb-historia',
+            },
 
         ]
     },
