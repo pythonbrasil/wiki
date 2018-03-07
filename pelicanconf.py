@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
 from __future__ import unicode_literals
-import os
-import sys
+
+import datetime
 import glob
 import json
-import datetime
+import os
+import sys
 
 sys.path.append(os.curdir)
 
@@ -37,12 +39,20 @@ ARTICLE_BANNERS_FOLDER = 'images/banners'
 
 # Home settings
 WELCOME_TITLE = 'Python Brasil'
-WELCOME_TEXT = 'A comunidade Python Brasil reune grupos de usuários em todo o Brasil interessados em difundir e divulgar a linguagem de programação.'
-FOOTER_ABOUT = 'Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.'
+WELCOME_TEXT = (
+    'A comunidade Python Brasil reune grupos de usuários em todo '
+    'o Brasil interessados em difundir e divulgar a linguagem de programação.'
+)
+FOOTER_ABOUT = (
+    'Este site busca reunir todo o conteúdo produzido e traduzido pela '
+    'comunidade brasileira bem como informações relevantes em relação a mesma.'
+)
 
 # Statics
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+}
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = 'monokai'
@@ -98,7 +108,10 @@ NAVBAR_HOME_LINKS = [
     {
         'title': 'Aprenda mais',
         'href': '#',
-        'desc': 'Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.',
+        'desc': (
+            'Conheça mais sobre a linguagem e torne-se um '
+            'verdadeiro pythonista.'
+        ),
         'children': [
             {
                 'title': 'Web',
@@ -125,7 +138,10 @@ NAVBAR_HOME_LINKS = [
     {
         'title': 'Participe',
         'href': '#',
-        'desc': 'Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.',
+        'desc': (
+            'Encontre e participe da comunidade e compartilhe '
+            'suas dúvidas e idéias.'
+        ),
         'children': [
             {
                 'title': 'Lista de Discussões',
@@ -212,6 +228,7 @@ SOCIAL_LINKS = (
     }
 )
 
+
 def date_hook(json_dict):
     for (key, value) in json_dict.items():
         try:
@@ -221,9 +238,10 @@ def date_hook(json_dict):
             pass
     return json_dict
 
+
 def import_empresas(path):
     por_regiao = {}
-    dados  = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
+    dados = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
 
     for empresa in dados:
         regiao = empresa['regiao']
@@ -241,19 +259,17 @@ def import_empresas(path):
         empresas[regiao] = OrderedDict()
         for estado in sorted(por_regiao[regiao]):
             no_estado = por_regiao[regiao][estado]
-            no_estado.sort(key=lambda x:x['nome'])
-            no_estado.sort(key=lambda x:x['cidade'])
+            no_estado.sort(key=lambda x: x['nome'])
+            no_estado.sort(key=lambda x: x['cidade'])
             empresas[regiao][estado] = no_estado
     return empresas
 
-# Configurações da página de eventos
-hoje = datetime.date.today()
-EVENTOS = [json.load(open(fname, 'r'), object_hook=date_hook) for fname in glob.glob('content/eventos/*/*.json')]
-EVENTOS = filter(lambda evento: evento['data'] >= hoje, EVENTOS)
-EVENTOS = sorted(EVENTOS, key=lambda evento: evento['data'], reverse=False)
 
 # Configurações da página de comunidades locais
-COMUNIDADES_LOCAIS = [json.load(open(fname, 'r')) for fname in glob.glob('content/comunidades-locais/*.json')]
+COMUNIDADES_LOCAIS = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/comunidades-locais/*.json')
+]
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 
 # Configurações da página de empresas
@@ -261,5 +277,8 @@ EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
 
 # Configurações da página das pyladies
-PYLADIES = [json.load(open(fname, 'r')) for fname in glob.glob('content/pyladies/*.json')]
+PYLADIES = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/pyladies/*.json')
+]
 DEFAULT_PYLADIES_IMAGE = "images/pyladies/default.png"

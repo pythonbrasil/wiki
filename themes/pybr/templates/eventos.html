@@ -1,94 +1,25 @@
-{% extends 'page.html' %}
+{% extends 'base.html' %}
 
-{% block title %}{{ super() }}-Eventos{% endblock %}
+{% block title %}{{ super() }}-{{ page.title }}{% endblock %}
 
-{% block post_content %}
-  <div class="row">
-    <div class="col-12">
-      {% set date_color = cycler('date-blue', 'date-yellow') %}
-      {% for evento in EVENTOS %}
-        <div class="row event" data-event-date="{{ evento.data }}">
-          <div class="col-3 event-date {{ date_color.next() }}">
-            <p class="event-day">
-              {{ evento.data.day }}
-            </p>
+{% block header %}{% endblock %}
 
-            <p class="event-month">
-              {{ evento.data|strftime('%b')|upper }}
-            </p>
+{% block content %}
+  <div class="container">
+    {% block pre_content %}{% endblock %}
 
-            <p class="event-year">
-              {{ evento.data.year }}
-            </p>
-          </div>
+    <div class="row page-content">
+      <div class="col-12">
+        {% block page_title %}
+        <h1>{{ page.title }}</h1>
+        {% endblock %}
 
-          <div class="col-6 event-description">
-            <h1>
-              {{ evento.nome }}
-            </h1>
-
-            <h2>
-              {{ evento.cidade }} - {{ evento.estado }}
-            </h2>
-
-            <p>
-              <a href="{{ evento.link }}">{{ evento.link }}</a>
-            </p>
-          </div>
-
-          <div class="col-3 event-map">
-            <div class="map" data-latitude="{{ evento.latitude }}" data-longitude="{{ evento.longitude }}"></div>
-          </div>
-        </div>
-      {% endfor %}
+        {% block page_content %}
+        {{ page.content }}
+        {% endblock %}
+      </div>
     </div>
   </div>
-{% endblock %}
 
-{% block aditional_scripts %}
-  <script>
-    // filtro cinza em eventos passados
-    var today = new Date();
-    var events = $('.event');
-
-    today.setHours(0,0,0,0);
-
-    $.each(events, function(index, event) {
-      var date = new Date($(event).data('event-date'));
-      date.setHours(0,0,0,0);
-
-      if (date.getTime() < today.getTime())
-        $(event).addClass('past-event');
-    });
-  </script>
-
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&dummy=.js"></script>
-
-  <script>
-
-    // mapas dos eventos
-    var maps = $('.map');
-
-    for (i = 0; i < maps.length; i++) {
-      var map = maps[i];
-      var latitude = $(map).data('latitude');
-      var longitude = $(map).data('longitude');
-      var map = new google.maps.Map(map, {
-          zoom: 10,
-          disableDefaultUI: true,
-          zoomControl: false,
-          center: new google.maps.LatLng(latitude, longitude),
-          mapTypeId: "roadmap"
-      });
-      var image = '{{ SITEURL }}/theme/img/ponteiro_mapa.png';
-      var beachMarker = new google.maps.Marker({
-        position: new google.maps.LatLng(latitude, longitude),
-        map: map,
-        icon: image
-      });
-
-    }
-
-  </script>
-
+  <iframe src='https://eventos.python.org.br/' class="center-block" frameborder="0" scrolling="yes" width="100%" height="1000"></iframe>
 {% endblock %}
