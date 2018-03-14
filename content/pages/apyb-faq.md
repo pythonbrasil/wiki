@@ -65,4 +65,27 @@ Python Brasil de 2019 em Ribeirão Preto em horário e dia ainda a ser estipulad
 
 Para se candidatar você deve ser um associado pleno e deve formar uma chapa, juntamente com outros 3 membros associados. As divulgações de chapas podem ser feitas antes da Assembléia e sugere-se que as mesmas sejam feitas de tal forma que os associados conheçam as propostas.
 
+# O que é preciso para usar a infraestrutura da APyB?
 
+Os critérios para usar a infraestrutura da APyB são simples:
+
+- O organizador e responsável pelo evento precisa ser membro da Apyb.
+- O evento precisa ter relação com a missão da APyB que é fomentar Python no Brasil.
+
+# Custa alguma coisa usar a infraestrutura da APyB?
+
+Se o evento for pago, a Apyb fica com 10% dos valores que entrarem para custear os impostos, a operação da associação e a operação dos eventos gratuitos.
+
+Se o evento for gratuito, não há incidência de custos para o seu evento.
+
+# Existe algum meio de organizar um evento e não precisar da APyB?
+
+Você pode evitar usar a infraestrutura da APyB pedindo para o(s) seu(s) patrocinador(es) pagarem diretamente as empresas que prestarão serviço para o seu evento.
+
+# Eu vou fazer um evento que está de acordo com a missão da APyB, ela é obrigada a ajudar o meu evento?
+
+Não. A APyB tem limitações e nem sempre poderá abranger todos os eventos que surgem no país todo. 
+Atualmente, fazemos o melhor para que nenhum fique de fora, mas é possível que eventualmente
+não se tenha condições de lidar com todas as burocracias necessárias para todos os eventos. 
+Lembre-se de que todo o trabalho da associação também é voluntário e que tempo é um recurso limitado
+ :)
