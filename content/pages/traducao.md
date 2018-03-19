@@ -6,7 +6,7 @@ Uma excelênte forma de contribuir com a comunidade é através da tradução da
 
 Caso esteja interessado em contribuír, a comunidade possuí um grupo no telegram destinado a essa tarefa que pode ser acessado através do seguinte link:
 
-[https://telegram.me/joinchat/CjIqFj4UVvCtPnCwxUDJLA](https://telegram.me/joinchat/CjIqFj4UVvCtPnCwxUDJLA)
+[https://t.me/pybr_i18n](https://t.me/pybr_i18n)
 
 As traduções estão sendo feitas através da plataforma [transifex](https://www.transifex.com/). Para ajudar com a tradução basta criar uma conta e seguir para um dos projetos em andamento abaixo:
 
