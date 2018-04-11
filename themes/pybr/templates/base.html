@@ -34,7 +34,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
+        <a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>
 
         <div class="collapse navbar-collapse" id="navbar">
           <div class="navbar-nav mr-auto">
@@ -45,7 +45,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   {% for sublink in link.children %}
-                    <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
+                    {% if sublink.href.startswith('http') %}
+                      <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
+                    {% else %}
+                      <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
+                    {% endif %}
                   {% endfor %}
                 </div>
               </li>

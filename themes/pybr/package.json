@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "4.0.0-alpha.6",
     "browser-sync": "^2.18.12",
     "ecstatic": "^2.1.0",
     "font-awesome": "^4.7.0",

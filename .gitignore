@@ -81,4 +81,5 @@ content/pyladies/
 content/empresas/
 
 # node
+package-lock.json
 node_modules/

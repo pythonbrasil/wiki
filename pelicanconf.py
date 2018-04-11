@@ -84,6 +84,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'qual-python',
             },
             {
+                'title': 'Download do python',
+                'href': 'https://www.python.org/downloads/',
+            },
+            {
                 'title': 'Instalação Linux',
                 'href': 'instalacao-linux',
             },
