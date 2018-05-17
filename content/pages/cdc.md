@@ -1,6 +1,5 @@
 Title: Código de Conduta
 Slug: cdc
-Alias: /cdc/
 Template: page
 
 # Código de Conduta do Evento Python Brasil
