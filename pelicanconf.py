@@ -187,6 +187,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'python-brasil',
             },
             {
+                'title': 'Código de Conduta',
+                'href': 'cdc',
+            },
+            {
                 'title': 'Prêmio Dorneles Treméa',
                 'href': 'premio-dorneles-tremea',
             },
