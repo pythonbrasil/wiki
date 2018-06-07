@@ -1,10 +1,23 @@
 {
     "links": [
+	[   "Telegram",
+ 	    "https://t.me/GrupyRN"
+	
+	],
+    	[
+	    "GitHub",
+	    "https://github.com/GruPy-RN"
+	],
+	[
+	    "Facebook",
+	    "https://www.facebook.com/grupyrn/"
+	],	
         [
             "Google Groups",
             "https://groups.google.com/forum/#!forum/grupy-rn"
         ]
     ],
     "nome": "Grupo de usu\u00e1rios do Rio Grande do Norte",
+    "imagem": "images/comunidades-locais/grupy-rn.png",
     "sigla": "GruPy-RN"
 }
