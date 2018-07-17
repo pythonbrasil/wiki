@@ -25,7 +25,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 ### Documentação Django em Português
 - [v1.10.3](https://docs.djangoproject.com/pt-br/1.10/) Tradução parcial, mas da versão atual.
 - [v1.3.1](http://waltercruz.github.io/django-l10n-portuguese/): Esta é a tradução da documentação oficial do Django, mantida pelo grupo de localização do Django para o Português.
-- 
+ 
 ## _web2py_
 [2] - [Web2py](https://http://web2py.com/): web2py é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
 
