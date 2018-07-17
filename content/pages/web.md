@@ -1,4 +1,5 @@
 
+  
 Title: Python para desenvolvimento Web
 Slug: web
 Template: page
@@ -30,9 +31,10 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 
 #### referencias do web2py (pt-BR)
-- [web2py.com.br](https://web2py.com.br/) Site Brasileiro do framework em desenvolvimento.
-- [wiki na Python brasil]([https://wiki.python.org.br/web2py](https://wiki.python.org.br/web2py)/) 
-- [Grupo Telegram]([https://t.me/web2pybrasil](https://t.me/web2pybrasil)/) Partricipe
+- [web2py.com.br](https://web2py.com.br/) Site Brasileiro do framework (em desenvolvimento).
+- [wiki na Python brasil](https://wiki.python.org.br/web2py/) 
+- [Grupo Telegram](https://t.me/web2pybrasil) Partricipe
 
 #### Cursos de web2py
-- [# PASSO-A-PASSO WEB2PY - Julia Rizzal]([https://juliarizza.wordpress.com/2015/08/03/passo-a-passo-web2py-1o-passo](https://juliarizza.wordpress.com/2015/08/03/passo-a-passo-web2py-1o-passo)/)  ótimo curso da Julia Rizza, com o básico do framework.
+- [# PASSO-A-PASSO WEB2PY - Julia Rizza](https://juliarizza.wordpress.com/2015/08/03/passo-a-passo-web2py-1o-passo)  ótimo curso da Julia Rizza, com o básico do framework.
+- [# Curso em Video do Bruno Rocha](https://www.youtube.com/playlist?list=PL5CWed0-MqAPLiMS5gJvWKZDBez-vcRuN) Curso Completo em Video do [Bruno Rocha](http://brunorocha.org/)
