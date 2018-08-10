@@ -108,4 +108,5 @@ O estatuto oficial encontra-se disponível [aqui](https://github.com/pythonbrasi
 
 <h2 id="financeiro">Financeiro</h2>
 
-Em breve...
+Extrato financeiro (atualizado mensalmente) público: https://drive.google.com/open?id=0B_CQOAVUY5bRQ2pjbzVocjZMX1E 
+Não é necessário o login nem uma conta no Google para visualização, disponível em todos os formatos disponibilizados pelo banco. 
