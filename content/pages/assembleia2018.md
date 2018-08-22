@@ -16,12 +16,11 @@ Esta assembleia visa apresentar e discutir os seguintes tópicos:
 
 ## Escolha da cidade sede
 
-Quer sediar a Python Brasil[16] em 2020? Envie sua proposta até no máximo 13/10 às 23:59 [utilizando este formulário](https://goo.gl/forms/5y4oKYVtHuJjFB4N2). Submissões fora do prazo não serão aceitas.
+Quer sediar a Python Brasil[16] em 2020? Envie sua proposta até 13 de Outubro [utilizando este formulário](https://goo.gl/forms/5y4oKYVtHuJjFB4N2). Inscrições serão aceitas até as 23:59 deste dia.
 
 ## Qualificação dos Participantes
 
-Estão qualificados a participar da Assembleia Geral todas as pessoas associadas em
-situação regular conforme definido nos artigos 4º, 5º e 6º do [Estatuto da Associação](https://python.org.br/estatuto/).
+Estão qualificadas a participar da Assembleia Geral todas as pessoas associadas em situação regular conforme definido nos artigos 4º, 5º e 6º do [Estatuto da Associação](https://python.org.br/estatuto/).
 
 ## Processo de Filiação
 
@@ -40,5 +39,6 @@ Sábado, dia 20 de outubro de 2018, 14:00.
 
 ```
 PythonBrasil[14] - Hotel Holiday Inn
+Av. Sen. Salgado Filho, 1906
 Natal / Rio Grande do Norte (RN), Brasil.
 ```
