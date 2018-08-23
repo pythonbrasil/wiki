@@ -31,6 +31,8 @@ As modalidades de associação disponíveis e os respectivos valores de anuidade
 - Profissional: R$ 64,00
 - Estudante: R$ 32,00
 
+Terão direito a voto apenas os Associados Plenos e Associados Efetivos (modalidade de associação profissional) conforme descrito no artigos 4º, 5º e 6º do [Estatuto da Associação](https://python.org.br/estatuto/).
+
 ## Data e Hora
 
 Sábado, dia 20 de outubro de 2018, 14:00.
