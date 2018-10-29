@@ -1,6 +1,8 @@
+
 # Site estático python.org.br
 
 [![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
+
 
 Site Live: [http://python.org.br/](http://python.org.br/)
 
@@ -57,7 +59,9 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 3. **Premio Dorneles Tremea** - Conteúdo em formato markdown no arquivo [content/pages/premio-dorneles-tremea.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/premio-dorneles-tremea.md).
 
 ### Para contribuir com desenvolvimento
+*(ao contribuir com o Repositório utilizar a branch 'pelican')*
 
+ 
 Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
 ```
