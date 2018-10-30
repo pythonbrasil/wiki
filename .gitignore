@@ -55,8 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
-output/*
-!output/.keep
+output/
 cache/
 
 # pelican process id files
