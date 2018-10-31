@@ -7,7 +7,7 @@ var gulp      = require('gulp'),
     rename    = require('gulp-rename'),
     sync      = require('browser-sync');
 
-gulp.task('scss', function () {
+gulp.task('scss', gulp.series(function (done) {
   gulp.src('./static/scss/pybr.scss')
     .pipe(sass({ errLogToConsole: true  }))
     .pipe(prefix())
@@ -16,29 +16,33 @@ gulp.task('scss', function () {
     .pipe(gulp.dest('./static/css'))
     .pipe(notify("styles compiled"))
     .pipe(sync.reload({ stream: true }));
-});
+  done();
+}));
 
-gulp.task('js', function () {
+gulp.task('js', gulp.series(function (done) {
   gulp.src(['./node_modules/jquery/dist/jquery.min.js',
             './node_modules/tether/dist/js/tether.min.js',
             './node_modules/bootstrap/dist/js/bootstrap.min.js'])
     .pipe(gulp.dest('./static/js'))
     .pipe(notify("javascript updated"));
-});
+  done();
+}));
 
-gulp.task('fonts', function () {
+gulp.task('fonts', gulp.series(function (done) {
   gulp.src('./node_modules/font-awesome/fonts/*')
     .pipe(gulp.dest('./static/fonts'))
     .pipe(notify("fonts updated"));
-});
+  done();
+}));
 
-gulp.task('sync', function() {
+gulp.task('sync', gulp.series(function(done) {
   sync.init({
     proxy: 'localhost:8000'
   });
-  gulp.watch('./static/scss/**/*.scss', ['scss']);
-  gulp.watch('./static/js/**/*.js', sync.reload);
-});
+  gulp.watch('./static/scss/**/*.scss', gulp.series(['scss']));
+  gulp.watch('./static/js/**/*.js', gulp.series(sync.reload));
+  done();
+}));
 
-gulp.task('build', ['scss', 'js', 'fonts']);
-gulp.task('default', ['build', 'sync']);
+gulp.task('build', gulp.series(['scss', 'js', 'fonts']));
+gulp.task('default', gulp.series(['build', 'sync']));
