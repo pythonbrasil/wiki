@@ -10,12 +10,12 @@ pre, code {
   margin: 50px 0;
 
   .thumbnail {
-    border: solid 1px $gray-lighter;
+    border: solid 1px $gray-500;
     min-height: 415px;
     margin-bottom: 30px;
 
     &:hover {
-      border: solid 1px $gray;
+      border: solid 1px $gray-700;
     }
 
     img {

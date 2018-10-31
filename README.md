@@ -145,11 +145,11 @@ $ npm install
 Com as dependências instaladas para rodar a montagem do css com live reload basta rodar:
 
 ```
-$ gulp
+$ npm run gulp
 ```
 
 E caso queira rodar sem o live reload, somente para gerar o css para publicação rode:
 
 ```
-$ gulp build
+$ npm run gulp build
 ```
