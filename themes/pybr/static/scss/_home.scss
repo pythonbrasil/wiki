@@ -1,5 +1,5 @@
 .home-background {
-  background-color: $gray-lightest;
+  background-color: $gray-300;
 
   .page-description-link {
     &:hover {
@@ -14,7 +14,7 @@
       vertical-align: top;
 
       &:hover {
-        background-color: $gray-lighter;
+        background-color: $gray-500;
       }
 
       .page-description-title {
