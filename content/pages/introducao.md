@@ -13,7 +13,7 @@ Existem diversos cursos onlines onde você pode encontrar material. São cursos 
 tipos de variáveis, como escrever funções, etc.
 
 **Devo usar o Interpretador do Python puro?**
-Depende da sua preferência. Ele é uma ferramenta poderosa. Mas uma boa parte dos profissionais usa o interpretador
+Depende da sua preferência. Ele é uma ferramenta poderosa. Mas boa parte de profissionais usa o interpretador
 [*ipython*](http://ipython.org/) pois este contém mais recursos visuais e de auxílio (como colorir as mensagens de erro).
 
 **Que IDE usar?**
@@ -22,7 +22,7 @@ Para quem vem do MATLAB ou R, o [Spyder](https://github.com/spyder-ide/spyder) p
 
 **Aonde eu encontro os módulos para utilizar no meu projeto?**
 Alguns módulos já vem por padrão no Python puro, por exemplo o módulo matemático. Outros, devem ser baixados de um repositório, como é o caso do Django ou Numpy.
-Hoje, mais de 107 mil projetos estão cadastros no [repositório oficial](https://pypi.org/). Caso você não ache o que procura, é super incentivado que você contrua um módulo novo e inclua no repositório!
+Hoje, mais de 107 mil projetos estão cadastros no [repositório oficial](https://pypi.org/). Caso você não ache o que procura, há muito incentivo para que você construa um módulo novo e inclua no repositório!
 
 Se você não tem a menor ideia mesmo de que módulo você precise, dê uma procurada no Google e StackOverflow. De certo alguém já fez algo parecido com o que você precisa!
 
