@@ -2,9 +2,9 @@ Title: Como colaborar com a tradução
 Slug: traducao
 Template: page
 
-Uma excelênte forma de contribuir com a comunidade é através da tradução da documentação da linguagem, de bibliotecas e de ferramentas. Com isso você contribuí com o crescimento da comunidade aumentando o alcance da linguagem dentro dos falantes do Português Brasileiro.
+Uma excelente forma de contribuir com a comunidade é através da tradução da documentação da linguagem, de bibliotecas e de ferramentas. Com isso você contribui com o crescimento da comunidade aumentando o alcance da linguagem dentro de pessoas nativas do Português Brasileiro.
 
-Caso esteja interessado em contribuír, a comunidade possuí um grupo no telegram destinado a essa tarefa que pode ser acessado através do seguinte link:
+Caso haja interesse em contribuir, a comunidade possui um grupo no Telegram destinado a essa tarefa que pode ser acessado através do seguinte link:
 
 [https://t.me/pybr_i18n](https://t.me/pybr_i18n)
 
@@ -23,7 +23,7 @@ Para começar a traduzir faça sua requisição através de:
 [https://www.transifex.com/django/public/](https://www.transifex.com/django/public/)
 
 Você pode também participar da lista de e-mails para
-discussão sobre tradução do django:
+discussão sobre tradução do Django:
 
 [https://groups.google.com/d/forum/django-i18n](https://groups.google.com/d/forum/django-i18n)
 
@@ -41,7 +41,7 @@ O Luciano Ramalho e mais uma galera, criaram algumas dicas para quando eles esta
 
 Embora o processo de tradução possa ser feito diretamente pelo navegador web, também é possível gerar a documentação traduzida no computador. Isso pode facilitar o processo de revisão já que pelo browser fica mais difícil visualizar links quebrados e navegar pela documentação.
 
-Para gerar a documentação em português siga os passos a seguir (usaremos o django como exemplo):
+Para gerar a documentação em português siga os passos a seguir (usaremos o Django como exemplo):
 
 **1** - Conforme a [documentação do Transifex](http://docs.transifex.com/client/config/), será preciso criar um arquivo chamado `.transifexrc` na raiz do seu diretório pessoal (ex.: `/home/user/.transifexrc`) contendo seu login e senha no Transifex:
 
@@ -65,7 +65,7 @@ mkdir ~/traducoes/django-br && cd ~/traducoes/django-br
 git clone https://github.com/django/django.git
 ```
 
-**4** - Faça também o clone do repositório contendo as traduções do Django (como as traduções consomem muito espaço, elas foram movidas para um repositório em separado):
+**4** - Faça também o clone do repositório contendo as traduções do Django (como as traduções consomem muito espaço, elas foram movidas para um repositório separado):
 
 ```
 git clone https://github.com/django/django-docs-translations.git
@@ -150,19 +150,31 @@ A página principal da documentação é a `index.html`, clique duas vezes nesse
 
 Nesta seção apresentamos agumas dicas de tradução.
 
-### Atenção com palavras de grafía parecida
+### Atenção com palavras de grafia parecida
 
 Model: Modelo -- Classe que representa uma tabela.
 Module: Módulo -- Módulo Python, e dentro do Django ainda pode ser o nome de uma Django "app".
 
 
-### Cudado com o neologismo
+### Cuidado com neologismo
 
 A maioria dos termos de computação vem do inglês. E muitas vezes usamos os termos em inglês sem nos dar conta, ou pior, usamos uma tradução cujo o sentido da palavra em português é outro.
 
+### Adotando a linguagem neutra de gênero
+
+Tente usar a linguagem neutra de gênero, pois é uma forma inclusiva de comunicação. Usar 'x' ou '@' no final de termos masculinos ou femininos não é inclusivo e não é reconhecido por leitores de tela. Tente usar uma linguagem que se refira à pessoas, não somente ao masculino ou feminino. Por exemplo:
+
+**Se você está interessado em contribuir entre em contato conosco**
+
+Use ao invés disso:
+
+**Caso haja interesse em contribuir entre em contato conosco**
+
+Para saber mais sobre a linguagem neutra de gênero você poder ler este artigo da ThoughtWorks Brasil: [Adotando a linguagem neutra de gênero](https://medium.com/coragem/adotando-a-linguagem-neutra-de-g%C3%AAnero-e509e6e4e06c)
+
 ### Cuidado com os artigos
 
-Em inglês as palavras não possuem gênero, portando fique atento a concordancia dos artigos ao realizar a tradução:
+Em inglês as palavras não possuem gênero, portando tenha atenção quanto a concordância dos artigos ao realizar a tradução:
 
 **Or use a common ancestor to hold the :class:\`~django.db.models.AutoField\`**
 
@@ -170,7 +182,7 @@ alguém poderia traduzir como usando o artigo "o" referindo-se ao "autoField":
 
 **Ou use um acestral comum para manter o :class:\`~django.db.models.AutoField\`**
 
-Mas não seria correto. Talvez para um leitor menos atento fique até estranho, o que é bom pois o chamará atenção se usarmos um artigo feminino neste caso.
+Mas não seria correto. Talvez para uma leitura menos atenta fique até estranho, o que é bom pois chamará atenção se usarmos um artigo feminino neste caso.
 
 **Ou use um acestral comum para manter a :class:\`~django.db.models.AutoField\`**
 
@@ -178,14 +190,14 @@ quer dizer, "ou use um acestral comum para a manter a classe ~django.db.models.A
 
 Depois do texto renderizado, a  diretiva `:class:` não é mostrada, e usar o artigo correto ajuda a lembrar que referenciamos uma classe ou método por exemplo.
 
-### Não tente explicar mais que o Autor original
+### Não tente explicar mais que na autoria original
 
 Cuidado ao achar que um texto em inglês não está bem explicado, ou falta detalhes. Você pode ter razão, e a solução é sugerir melhorias no texto original.
 
-Se ao invés disso,  tentar escrever um texto melhor na tradução,
+Se ao invés disso, tentar escrever um texto melhor na tradução,
 além do problema raiz persistir, pode acontecer de estar sendo repetitivo.
 
-O erro no texto original pode existir, mas antes de afirmá-lo, procure ler o contexto todo e entender se aquele detalhe ou explicaç ao deveria estar ali, ou já foi comentado emoutra seção,
+O erro no texto original pode existir, mas antes de afirmá-lo, procure ler o contexto todo e entender se aquele detalhe ou explicação deveria estar ali, ou já foi comentado em outra seção,
 ou se é realmente papel do texto explicar em detalhes tal condição.
 
 ### Glossário de tradução
