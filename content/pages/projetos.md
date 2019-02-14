@@ -20,3 +20,4 @@ Alguns projetos brasileiros que usam python:
 - [python-ami](https://github.com/ettoreleandrotognoli/python-ami/)
 - [python-cdi](https://github.com/ettoreleandrotognoli/python-cdi)
 - [django-pycdi](https://github.com/ettoreleandrotognoli/django-pycdi)
+- [revelation](https://github.com/humrochagf/revelation)
