@@ -80,6 +80,10 @@ NAVBAR_HOME_LINKS = [
         'desc': 'Veja como é fácil começar a usar a linguagem.',
         'children': [
             {
+                'title': 'Introdução',
+                'href': 'introducao',
+            },
+            {
                 'title': 'Qual Python?',
                 'href': 'qual-python',
             },
@@ -98,10 +102,6 @@ NAVBAR_HOME_LINKS = [
             {
                 'title': 'Instalação Windows',
                 'href': 'instalacao-windows',
-            },
-            {
-                'title': 'Introdução',
-                'href': 'introducao',
             },
             {
                 'title': 'Ferramentas',
