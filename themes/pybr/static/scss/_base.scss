@@ -38,6 +38,22 @@
     .page-content {
       margin: 40px 0;
 
+      h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        font-weight: bold;
+      }
+
+      ul, ol {
+
+        li {
+          margin-bottom: 10px;
+        }
+      }
+
       .table-wrapper {
         width: 100%;
 
