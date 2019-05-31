@@ -2,7 +2,7 @@ Title: Código de Conduta
 Slug: cdc
 Template: page
 
-# Código de Conduta do Evento Python Brasil
+# [Código de Conduta do Evento Python Brasil](#ptbr)
 
 O evento Python Brasil é um ambiente amistoso, de boa convivência, inclusivo e livre de intimidação, onde todas as pessoas são bem-vindas e a civilidade é exigida.
 
@@ -28,7 +28,7 @@ Havendo um relato de violação destes princípios, a Equipe de Resposta realiza
 
 ---
 
-# Python Brasil Code of Conduct
+# [Python Brasil Code of Conduct](#en)
 
 Python Brasil conference is a friendly, inclusive and harassment-free environment where everyone is welcome and where civility is compulsory.
 
