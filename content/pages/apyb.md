@@ -70,15 +70,14 @@ Existem duas categorias de membros:
 ##### Estudantes
 
 - Anuidade: R$32,00
-- Direito a descontos em eventos da APyB
-- Descontos em ofertas de parceiros
+- Direito a votar em eleições para cidade sede da Python Brasil
 
 ##### Efetivo
 
 - Anuidade: R$64,00
-- Direito a descontos em eventos da APyB
-- Descontos em ofertas de parceiros
 - Direito a votar e ser votado para cargos da APyB
+- Direito a votar em propostas de alteração no estatuto
+- Direito a votar em eleições para cidade sede da Python Brasil
  
 
 <h2 id="associado">Já sou associado</h2>
