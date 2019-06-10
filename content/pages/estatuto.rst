@@ -77,10 +77,9 @@ d. Honorários.
  Brasil, recebam tal designação do Conselho Deliberativo, ouvida a
  Diretoria.
 
-Art. 5º - São direitos de todos os Associados pessoas físicas: ter prioridade e
-desconto na inscrição em atividades patrocinadas ou organizadas pela Associação
-Python Brasil; ser informado de tais atividades e de outros benefícios que
-venham a ser criados.
+Art. 5º - É direito de todos os Associados pessoas físicas serem informados de
+atividades apoiadas ou organizadas pela Associação Python Brasil e de outros
+benefícios que venham a ser criados.
 
  § único: São direitos exclusivos dos Associados Plenos e Associados
  Efetivos: votar as deliberações propostas em Assembléia Geral, votar e ser
