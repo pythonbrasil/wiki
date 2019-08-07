@@ -13,7 +13,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 - [Tutorial Django Girls](https://tutorial.djangogirls.org/pt/): Aprenda como construir uma pequena aplicação web funcional para um blog pessoal. Com foco no público iniciante. Criado pela comunidade [Django Girls](https://djangogirls.org).
 - [Python 3 na Web com Django](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario): Curso voltado ao desenvolvimento de aplicações web de forma rápida. Voltado para um público iniciante para intermediário. Criado por [Gileno Filho](https://twitter.com/gilenofilho).
 - [Escrevendo seu primeiro app Django](https://docs.djangoproject.com/pt-br/2.1/intro/tutorial01/): Através deste tutorial, nós vamos caminhar através da criação de uma aplicação básica de enquetes.
-- [Dicas de django](https://humberto.io/blog/tag/django/): Postagens voltadas para tirar dúvidas de nível intermediário a respeito de diversos aspectos do Django como a criação de backend em Django para se comunicar com um frontend em Angular. Criado por [Humberto Rocha](https://humberto.io/blog/)
+- [Dicas de django](https://humberto.io/pt-br/tags/django/): Postagens voltadas para tirar dúvidas de nível intermediário a respeito de diversos aspectos do Django como a criação de backend em Django para se comunicar com um frontend em Angular. Criado por [Humberto Rocha](https://humberto.io/blog/)
 
 ### Documentação
 

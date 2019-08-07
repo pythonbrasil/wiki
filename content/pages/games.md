@@ -11,7 +11,7 @@ Ela é uma camada de abstração construída sobre a biblioteca [SDL](http://www
 
 ### Cursos e Tutoriais
 
-- [Desbravando o pygame](https://humberto.io/blog/tag/pygame/): Série de postagens introduzindo o desenvolvimento de jogos com pygame por [Humberto Rocha](https://humberto.io/blog/). 
+- [Desbravando o pygame](https://humberto.io/pt-br/tags/pygame/): Série de postagens introduzindo o desenvolvimento de jogos com pygame por [Humberto Rocha](https://humberto.io/blog/). 
 
 ### Documentação
 
