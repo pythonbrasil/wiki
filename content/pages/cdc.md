@@ -1,8 +1,6 @@
-Title: Código de Conduta
+Title: Código de Conduta do Evento Python Brasil
 Slug: cdc
 Template: page
-
-# [Código de Conduta do Evento Python Brasil](#ptbr)
 
 O evento Python Brasil é um ambiente amistoso, de boa convivência, inclusivo e livre de intimidação, onde todas as pessoas são bem-vindas e a civilidade é exigida.
 
@@ -28,7 +26,7 @@ Havendo um relato de violação destes princípios, a Equipe de Resposta realiza
 
 ---
 
-# [Python Brasil Code of Conduct](#en)
+# Python Brasil Code of Conduct (English version)
 
 Python Brasil conference is a friendly, inclusive and harassment-free environment where everyone is welcome and where civility is compulsory.
 
@@ -51,3 +49,28 @@ If you feel harassed, discriminated or humiliated, or if you witnessed any of th
 
 In face of any allegation of violation of these principles, the Response Team will examine and consider the case in order to take action to ensure that such events will not happen again. These actions might take the form of a conversation to reconcile the parts, an invitation to leave the event indefinitely or any other form to keep up with the values stated in this Code of Conduct.
 
+---
+
+# Código de Conducta del Evento Python Brasil (Version en español)
+
+El evento Python Brasil es un ambiente amistoso, de buena convivencia, inclusivo y libre de intimidación, donde todas las personas son bienvenidas y la civilidad es exigida.
+
+Con esta finalidad, la organización del evento cuenta con un Equipo de Respuesta que actúa para garantizar un ambiente con esas cualidades.
+
+Por eso:
+
+1. No es tolerado ningún tipo de acoso, discriminación inapropiada o humillación pública;
+2. No es tolerado el incumplimiento de las leyes brasileñas;
+3. Toda persona presente en el evento, independientemente de su papel, está sujeta a estas reglas;
+
+De esta forma, entendemos que:
+
+- El acoso es la acción de insistir, perseguir o coaccionar a otra persona a un comportamiento involuntario.
+- La discriminación inapropiada es el acto de separar, injuriar o humillar a alguien promoviendo su exclusión por atributo particular de la misma.
+- La humillación pública es el acto de someter, rebajar, ridiculizar o promover la vergüenza de otro en público.
+
+El público-objetivo del evento también incluye a niños y adolescentes, por lo que buscamos mantener un ambiente apropiado para todas las edades. Siendo así, lenguaje e imágenes sexualizadas no son adecuados para conferencias y acciones promocionales de patrocinadores.
+
+Si usted se siente asediado, discriminado indebidamente o humillado, o ha presenciado alguna de estas actitudes, por favor entre en contacto con el Equipo de Respuesta.
+
+Habiendo un relato de violación de estos principios, el Equipo de Respuesta realizará el debida análisis y, cuando sea necesario, tomará las acciones para impedir la reincidencia. Estas acciones pueden, pero no se restringen ni implican en ir desde una conversación en busca de la retractación hasta una invitación a retirarse del evento por tiempo indeterminado.
