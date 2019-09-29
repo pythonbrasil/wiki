@@ -73,10 +73,10 @@ travis: publish
 	git push -fq origin $(GITHUB_PAGES_BRANCH) > /dev/null
 
 import_pyladies:
-	python pyladies_generator.py
+	$(PY) pyladies_generator.py
 
 import_empresas:
-	python empresas_generator.py
+	$(PY) empresas_generator.py
 
 ping:
 	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
