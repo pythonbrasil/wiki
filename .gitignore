@@ -48,7 +48,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+*.lo
 
 # Sphinx documentation
 docs/_build/
@@ -79,6 +79,9 @@ content/pyladies/
 
 # empresas
 content/empresas/
+
+# wiki
+wiki
 
 # node
 package-lock.json
