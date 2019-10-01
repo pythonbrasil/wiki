@@ -4,10 +4,15 @@ Template: page
 
 Python é uma linguagem poderosa e divertida. Com ela você pode fazer diversas coisas como:
 
-* Construção de sistemas Web com Django, Flask, Pyramid, etc.
-* Análise de dados, Inteligência Artificial, Machine Learning e etc com Numpy, Pandas, Matplotlib, etc
-* Construção de aplicativos com Kivy e Pybee
-* Construção de sistemas desktop com Tkinter, WxPython, etc.
+* Construção de sistemas Web com [Django](https://www.djangoproject.com/),
+[Flask](https://flask.palletsprojects.com/en/1.0.x/tutorial/layout/),
+[Pyramid](https://trypyramid.com/), etc.
+* Análise de dados, Inteligência Artificial, Machine Learning e etc com [Numpy](https://numpy.org/),
+[Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), etc
+* Construção de aplicativos com [Kivy](https://kivy.org/) 
+e [Pybee](https://beeware.org/)
+* Construção de sistemas desktop com [Tkinter](https://docs.python.org/3/library/tkinter.html), 
+[WxPython](https://wxpython.org/), etc.
 
 Existem diversos cursos onlines onde você pode encontrar material. São cursos que você consegue aprender o básico da programação com Python como 
 tipos de variáveis, como escrever funções, etc.
