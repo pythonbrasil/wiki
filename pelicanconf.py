@@ -233,7 +233,13 @@ SOCIAL_LINKS = (
         'href': 'https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ',
         'icon': 'fa-paper-plane',
         'text': 'Telegram'
+    },
+    {
+	'href':'https://planet.python.org.br/',
+        'icon': 'fa-globe',
+        'text': 'Planet Python'
     }
+
 )
 
 
