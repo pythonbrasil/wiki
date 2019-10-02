@@ -237,7 +237,7 @@ SOCIAL_LINKS = (
      {
         'href': 'https://planet.python.org.br/',
         'icon': 'fa-globe',
-        'text': 'Planet Pyhon'
+        'text': 'Planet Python'
     }
 )
 
