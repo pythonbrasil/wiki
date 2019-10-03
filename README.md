@@ -23,17 +23,27 @@ em content/empresas.
 
 ### Páginas do Inicie-se
 
-1. **Qual python?** - Conteúdo em formato markdown no arquivo [content/pages/qual-python.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/qual-python.md).
+1. **Introdução** - Conteúdo em formato markdown no arquivo
+[content/pages/introducao.md](content/pages/qual-python.md).
 
-2. **Instalação Linux** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-linux.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-linux.md).
+1. **Qual python?** - Conteúdo em formato markdown no arquivo
+[content/pages/qual-python.md](content/pages/qual-python.md).
 
-3. **Instalação Mac** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-mac.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-mac.md).
+1. **Download do Python** - Apenas um link para [página de download do Python]
+(https://www.python.org/downloads/). Esse link, assim como todos os itens do
+menu principal, são definidos na arquivo [pelicanconf.py](pelicanconf.py) na
+variável *NAVBAR_HOME_LINKS*.
 
-4. **Instalação Windows** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-windows.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-windows.md).
+1. **Instalação Linux** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-linux.md](content/pages/instalacao-linux.md).
 
-5. **Introdução** - Conteúdo em formato markdown no arquivo [content/pages/introducao.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/introducao.md).
+1. **Instalação Mac** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-mac.md](content/pages/instalacao-mac.md).
 
-6. **Ferramentas** - Conteúdo em formato markdown no arquivo [content/pages/ferramentas.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/ferramentas.md)
+1. **Instalação Windows** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-windows.md](content/pages/instalacao-windows.md).
+
+1. **Ferramentas** - Conteúdo em formato markdown no arquivo [content/pages/ferramentas.md](content/pages/ferramentas.md)
 
 ### Páginas do Aprenda mais
 
