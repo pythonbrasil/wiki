@@ -61,26 +61,28 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 ### Para contribuir com desenvolvimento
 *(ao contribuir com o Repositório utilizar a branch 'pelican')*
 
- 
-Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
-
-```
-$ virtualenv project-name
-
-$ cd project-name
-
-$ source bin/activate
-```
-
-Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
+Clone o repositório do projeto para o seu computador e depois navegue para o
+diretório criado:
 
 ```
 $ git clone git@github.com:pythonbrasil/wiki.git
 
 $ cd wiki
 ```
+ 
+Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
-Pronto! Você já está na pasta do projeto! Agora vamos instalar os programas necessários (Certifique-se que o virtualenv está ativado):
+```
+$ virtualenv -p python3 .venv
+
+$ source .venv/bin/activate
+```
+
+Provavelmente irá aparecer em seu terminal algo como *(.venv)$*:
+
+
+Pronto! Você já está na pasta do projeto e com o virtualenv ativado!
+Certifique-se disso. Agora vamos instalar os programas necessários:
 
 ```
 $ pip install -r requirements.txt
