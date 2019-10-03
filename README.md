@@ -13,6 +13,8 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 ### Páginas do Impressione-se
 
 1. **Empresas** - O Conteúdo das empresas é uma importação do conteúdo encontrado em [https://github.com/pythonbrasil/pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR).
+1. **Projetos Brasileiros** - Conteúdo em formato markdown no arquivo
+[content/pages/projetos.md](content/pages/projetos.md)
 
 ### Páginas do Inicie-se
 
