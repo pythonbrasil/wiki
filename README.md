@@ -13,11 +13,11 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 ### Páginas do Impressione-se
 
 1. **Empresas** - O conteúdo em formato JSON criado através de uma importação do
-conteúdo encontrado em [https://github.com/pythonbrasil/pyBusinesses-BR].
+conteúdo encontrado em
+[pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR).
 Essa importação é feita quando *make html* é executado (ver abaixo), pelo
-arquivo [empresas_generator.py] (empresas_generator.py) e os arquivos são salvos
+arquivo [empresas_generator.py](empresas_generator.py) e os arquivos são salvos
 em content/empresas.
-(https://github.com/pythonbrasil/pyBusinesses-BR).
 1. **Projetos Brasileiros** - Conteúdo em formato markdown no arquivo
 [content/pages/projetos.md](content/pages/projetos.md)
 
