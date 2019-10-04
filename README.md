@@ -47,20 +47,20 @@ variável *NAVBAR_HOME_LINKS*.
 
 ### Páginas do Aprenda mais
 
-1. **Web** - Conteúdo em formato markdown no arquivo [content/pages/web.md]
-(content/pages/web.md).
+1. **Web** - Conteúdo em formato markdown no arquivo
+[content/pages/web.md](content/pages/web.md).
 
-1. **Mobile** - Conteúdo em formato markdown no arquivo [content/pages/mobile.md]
-(content/pages/mobile.md).
+1. **Mobile** - Conteúdo em formato markdown no arquivo
+[content/pages/mobile.md](content/pages/mobile.md).
 
-1. **Games** - Conteúdo em formato markdown no arquivo [content/pages/games.md]
-(content/pages/games.md).
+1. **Games** - Conteúdo em formato markdown no arquivo
+[content/pages/games.md](content/pages/games.md).
 
 1. **Científico** - Conteúdo em formato markdown no arquivo
 [content/pages/cientifico.md](content/pages/cientifico.md).
 
-1. **Wiki** - Apenas um link para o [wiki antigo da comunidade Python Brasil]
-(https://wiki.python.org.br).
+1. **Wiki** - Apenas um link para o [wiki antigo](https://wiki.python.org.br)
+da comunidade Python Brasil.
 
 ### Páginas do Participe
 
