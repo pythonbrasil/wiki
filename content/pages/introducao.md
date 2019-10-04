@@ -18,7 +18,7 @@ Depende da sua preferência. Ele é uma ferramenta poderosa. Mas boa parte de pr
 
 **Que IDE usar?**
 Depende muito da sua preferência. Você pode usar qualquer editor de texto padrão, como o [Notepad++](https://notepad-plus-plus.org/), Gedit ou [Sublime](http://sublimetext.com/) até o VI puro. Não existe padrão.
-Para quem vem do MATLAB ou R, o [Spyder](https://github.com/spyder-ide/spyder) pode ser muito útil. O [Pycharm](https://www.jetbrains.com/pycharm/) é outro IDE muito utilizado na comunidade.
+Para quem vem do MATLAB ou R, o [Spyder](https://github.com/spyder-ide/spyder) pode ser muito útil. O [Pycharm](https://www.jetbrains.com/pycharm/) é outro IDE muito utilizado na comunidade e traz consigo muitas funções úteis para iniciantes e profissionais.
 
 **Aonde eu encontro os módulos para utilizar no meu projeto?**
 Alguns módulos já vem por padrão no Python puro, por exemplo o módulo matemático. Outros, devem ser baixados de um repositório, como é o caso do Django ou Numpy.
