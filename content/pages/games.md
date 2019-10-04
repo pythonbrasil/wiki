@@ -21,3 +21,7 @@ Ela é uma camada de abstração construída sobre a biblioteca [SDL](http://www
 
 [Pyxel](https://github.com/kitao/pyxel) é uma engine para desenvolvimentos de jogos retro seguindo as limitações dos consoles fictícios [PICO-8](https://www.lexaloffle.com/pico-8.php) e [TIC-80](https://tic.computer/).
 Ela vem com um editor embutido para criação de sprites, tilemaps e efeitos sonoros.
+
+## Free Python Games
+
+O website [Free Python Games](http://www.grantjenks.com/docs/freegames/) é uma coleção licenciada por Apache2 de jogos em Python gratuitos feitos para o aprendizado e diversão. Os jogos são escritos em um código simples de Python e projetados para experimentação e mudanças. Há versões simplificadas de severos jogos arcade clássicos, como *Snake* ou *Pong*.
