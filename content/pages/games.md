@@ -24,4 +24,4 @@ Ela vem com um editor embutido para criação de sprites, tilemaps e efeitos son
 
 ## Free Python Games
 
-O website [Free Python Games](http://www.grantjenks.com/docs/freegames/) é uma coleção licenciada por Apache2 de jogos em Python gratuitos feitos para o aprendizado e diversão. Os jogos são escritos em um código simples de Python e projetados para experimentação e mudanças. Há versões simplificadas de severos jogos arcade clássicos, como *Snake* ou *Pong*.
+[Free Python Games](http://www.grantjenks.com/docs/freegames/) é uma coleção licenciada por Apache2 de jogos em Python gratuitos feitos para o aprendizado e diversão. Os jogos são escritos em um código simples de Python e projetados para experimentação e mudanças. Há versões simplificadas de diversos jogos arcade clássicos, como *Snake* ou *Pong*.
