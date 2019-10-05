@@ -23,11 +23,11 @@ Os gerenciadores de pacotes mais comuns são apt-get (Debian, Ubuntu) e yum
 
 Para instalar o Python 3, digite em um terminal:
 
-    $ sudo apt-get install python3.5
+    $ sudo apt-get install python3
 
 (Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:
 
-    $ sudo apt-get install python-pip
+    $ sudo apt-get install python3-pip
 
 ### Yum
 
