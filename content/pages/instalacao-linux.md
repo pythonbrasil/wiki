@@ -21,11 +21,7 @@ Os gerenciadores de pacotes mais comuns são apt-get (Debian, Ubuntu) e yum
 
 ### Apt-get
 
-Para instalar o Python 2.7, digite em um terminal:
-
-    $ sudo apt-get install python2.7
-
-Para instalar o Python 3.5, digite em um terminal:
+Para instalar o Python 3, digite em um terminal:
 
     $ sudo apt-get install python3.5
 
@@ -34,10 +30,6 @@ Para instalar o Python 3.5, digite em um terminal:
     $ sudo apt-get install python-pip
 
 ### Yum
-
-Para instalar o Python 2.7, digite em um terminal:
-
-    $ sudo yum install python27
 
 Para instalar o Python 3.5, digite em um terminal:
 
