@@ -17,8 +17,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 ### Documentação
 
-- [v2.2](https://docs.djangoproject.com/pt-br/2.2/) Tradução da versão atual.
-- [v1.3.1](http://waltercruz.github.io/django-l10n-portuguese/): Esta é a tradução da documentação oficial do Django, mantida pelo grupo de localização do Django para o Português. No entanto, está desatualizada.
+- [Tradução da versão atual.](https://docs.djangoproject.com/pt-br/)
 
 ## web2py
 
