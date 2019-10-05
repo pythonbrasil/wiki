@@ -31,10 +31,10 @@ Para instalar o Python 3, digite em um terminal:
 
 ### Yum
 
-Para instalar o Python 3.5, digite em um terminal:
+Para instalar o Python 3, digite em um terminal:
 
-    $ sudo yum install python35
+    $ sudo yum install python3
 
 (Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:
 
-    $ yum -y install python-pip
+    $ yum -y install python3-pip
