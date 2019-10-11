@@ -30,16 +30,28 @@ Se você não tem a menor ideia mesmo de que módulo você precise, dê uma proc
 O ideal para projetos Python é que você isole as bibliotecas que você usa, para evitar conflitos entre projetos. 
 Isso é uma boa prática e pode evitar dores de cabeça futuras. [Dê uma lida](https://virtualenv.pypa.io/en/stable/) sobre antes de iniciar um projeto grande, ok?
 
-**Indicação de cursos**
+**Indicação de materiais de estudo para iniciantes**
 
-Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está começando na linguagem:
+Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está
+começando na linguagem:
 
- Ano | Título | Autor | Tipo | Nível | Grátis? | Link 
------|--------|-------|------|-------|---------|------
- 2003 | Python para Zumbis | Fernando Massanori | Curso | Iniciante | Sim | [link](http://pycursos.com/python-para-zumbis/)
- 2014 | Introdução à Programação com Python | Nilo Ney Coutinho Menezes | Livro | Iniciante | Não | [link](http://python.nilo.pro.br/)
- 2015 | Curso de Programação em Python para Iniciantes | PyLadies BH | Curso | Iniciante | Sim | [link](https://www.youtube.com/watch?v=O2xKiMl-d7Y&list=PL70CUfm2J_8SXFHovpVUbq8lB2JSuUXgk)
- 2016 | Python Básico  | Solyd/Guilherme Junqueira | Curso | Iniciante | Sim	 | [link](https://solyd.com.br/treinamentos/python-basico)
- 2017 | Introdução à Ciência da Computação com Python  | CCSL do IME/USP | Curso | Iniciante | Sim	 | [link](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn)
- 2017 | Pycubator (Tradução PT-BR) | Noam Elfanbaum, Udi Oron e Gilson Filho (Tradução) | Material online | Iniciante | Sim | [link](http://df.python.org.br/pycubator/)
+- [Python para Zumbis](http://pycursos.com/python-para-zumbis/): aprenda a
+programar de um modo profissional e divertido. Video aula com o professor
+Fernando Massanori, docente da FATEC São José dos Campos.
+
+- [Python Básico](https://solyd.com.br/treinamentos/python-basico): inicie no 
+mundo da programação rapidamente com Python, com aulas práticas e fáceis de 
+serem acompanhadas. Curso ministrado pelo professor Guilherme Junqueira da
+Solyd.
+
+- [Introdução à Ciência da Computação com Python](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn):
+curso destinado a alunos do ensino médio, graduação e para profissionais, tanto
+de computação como de outras áreas. Curso ministrado pelo professor Fabio Kon,
+titular de Ciências da Computação do IME/USP. 
+
+- [Introdução à Programação com Python](http://python.nilo.pro.br/): livro
+orientado ao iniciante em programação. Autoria de Nilo Ney Coutinho Menezes e
+está na 3º edição, lançado em 2019.
+
+
 
