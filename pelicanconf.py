@@ -252,10 +252,9 @@ def date_hook(json_dict):
     return json_dict
 
 
-def import_empresas(path):
+def ordena_por_regiao(empresas):
     por_regiao = {}
-    dados = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
-
+    dados = empresas
     for empresa in dados:
         regiao = empresa['regiao']
         estado = empresa['estado']
@@ -286,9 +285,13 @@ COMUNIDADES_LOCAIS = [
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 
 # Configurações da página de empresas
-EMPRESAS = import_empresas('content/empresas/*.json')
+# EMPRESAS = import_empresas('content/empresas/*.json')
+EMPRESAS = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/empresas/*.json')
+]
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
-
+empresas = ordena_por_regiao(EMPRESAS)
 # Configurações da página das pyladies
 PYLADIES = [
     json.load(open(fname, 'r'))
