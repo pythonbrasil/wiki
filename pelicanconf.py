@@ -255,7 +255,7 @@ def date_hook(json_dict):
 def ordena_por_regiao(empresas):
     por_regiao = {}
     dados = empresas
-    for empresa in dados:
+    for empresa in empresas:
         regiao = empresa['regiao']
         estado = empresa['estado']
 
