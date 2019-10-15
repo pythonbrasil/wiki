@@ -13,7 +13,7 @@ Existem diversos cursos onlines onde você pode encontrar material. São cursos 
 tipos de variáveis, como escrever funções, etc.
 
 **Devo usar o Interpretador do Python puro?**
-Depende da sua preferência. Ele é uma ferramenta poderosa. Mas boa parte de profissionais usa o interpretador
+Depende da sua preferência. Ele é uma ferramenta poderosa, mas boa parte de profissionais usa o interpretador
 [*ipython*](http://ipython.org/) pois este contém mais recursos visuais e de auxílio (como colorir as mensagens de erro).
 
 **Que IDE usar?**
@@ -30,26 +30,27 @@ Se você não tem a menor ideia mesmo de que módulo você precise, dê uma proc
 O ideal para projetos Python é que você isole as bibliotecas que você usa, para evitar conflitos entre projetos. 
 Isso é uma boa prática e pode evitar dores de cabeça futuras. [Dê uma lida](https://virtualenv.pypa.io/en/stable/) sobre antes de iniciar um projeto grande, ok?
 
+
 **Indicação de materiais de estudo para iniciantes**
 
 Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está
 começando na linguagem:
 
-- [Python para Zumbis](http://pycursos.com/python-para-zumbis/): aprenda a
+- [**Python para Zumbis**](http://pycursos.com/python-para-zumbis/): aprenda a
 programar de um modo profissional e divertido. Video aula com o professor
 Fernando Massanori, docente da FATEC São José dos Campos.
 
-- [Python Básico](https://solyd.com.br/treinamentos/python-basico): inicie no 
-mundo da programação rapidamente com Python, com aulas práticas e fáceis de 
+- [**Python Básico**](https://solyd.com.br/treinamentos/python-basico): inicie
+no mundo da programação rapidamente com Python, com aulas práticas e fáceis de 
 serem acompanhadas. Curso ministrado pelo professor Guilherme Junqueira da
 Solyd.
 
-- [Introdução à Ciência da Computação com Python](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn):
+- [**Introdução à Ciência da Computação com Python**](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn):
 curso destinado a alunos do ensino médio, graduação e para profissionais, tanto
 de computação como de outras áreas. Curso ministrado pelo professor Fabio Kon,
 titular de Ciências da Computação do IME/USP. 
 
-- [Introdução à Programação com Python](http://python.nilo.pro.br/): livro
+- [**Introdução à Programação com Python**](http://python.nilo.pro.br/): livro
 orientado ao iniciante em programação. Autoria de Nilo Ney Coutinho Menezes e
 está na 3º edição, lançado em 2019.
 
