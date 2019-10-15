@@ -1,0 +1,19 @@
+{
+    "links": [
+        [
+            "Site",
+            " https://pypi.python.org/pypi/caipyra/"
+        ],
+        [
+            "Github",
+            "https://github.com/jtemporal/caipyra"
+        ],
+        [
+            "Telegram",
+            "https://t.me/caipyra"
+        ]
+    ],
+    "nome": "Site do Caipyra",
+    "imagem": "images/projetos-brasileiros/caipyra.png",
+    "sigla": "Caipyra"
+}

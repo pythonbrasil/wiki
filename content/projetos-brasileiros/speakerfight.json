@@ -1,0 +1,19 @@
+{
+    "links": [
+        [
+            "Site",
+            "https://speakerfight.com/"
+        ],
+        [
+            "Github",
+            "https://github.com/luanfonceca/speakerfight"
+        ],
+        [
+            "Telegram",
+            ""
+        ]
+    ],
+    "nome": "Site do Speakerfight",
+    "imagem": "images/projetos-brasileiros/speakerfight.png",
+    "sigla": "SPEAKERFIGHT"
+}
