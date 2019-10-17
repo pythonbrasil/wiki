@@ -171,6 +171,11 @@ NAVBAR_HOME_LINKS = [
                 'title': 'Tradução',
                 'href': 'traducao',
             },
+            {
+                'title': 'Código de Conduta',
+                'href': 'cdc_psf',
+            },
+
         ]
     },
     {
