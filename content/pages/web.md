@@ -12,7 +12,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 - [Tutorial Django Girls](https://tutorial.djangogirls.org/pt/): Aprenda como construir uma pequena aplicação web funcional para um blog pessoal. Com foco no público iniciante. Criado pela comunidade [Django Girls](https://djangogirls.org).
 - [Python 3 na Web com Django](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario): Curso voltado ao desenvolvimento de aplicações web de forma rápida. Voltado para um público iniciante para intermediário. Criado por [Gileno Filho](https://twitter.com/gilenofilho).
-- [Escrevendo seu primeiro app Django](https://docs.djangoproject.com/pt-br/2.1/intro/tutorial01/): Através deste tutorial, nós vamos caminhar através da criação de uma aplicação básica de enquetes.
+- [Escrevendo seu primeiro app Django](https://docs.djangoproject.com/pt-br/2.2/intro/tutorial01/): Através deste tutorial, nós vamos caminhar através da criação de uma aplicação básica de enquetes.
 - [Dicas de django](https://humberto.io/pt-br/tags/django/): Postagens voltadas para tirar dúvidas de nível intermediário a respeito de diversos aspectos do Django como a criação de backend em Django para se comunicar com um frontend em Angular. Criado por [Humberto Rocha](https://humberto.io/blog/)
 
 ### Documentação
@@ -22,7 +22,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 ## web2py
 
-[Web2py](https://http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
+[Web2py](http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
 
 ### Cursos e Tutoriais
 
@@ -31,6 +31,6 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 ### Documentação
 
-- [web2py.com.br](https://web2py.com.br/): Site Brasileiro do framework (em desenvolvimento).
+- [web2py.com.br](http://web2py.com.br/): Site Brasileiro do framework (em desenvolvimento).
 - [wiki na Python brasil](https://wiki.python.org.br/web2py/)
 - [Grupo Telegram](https://t.me/web2pybrasil): Participe.
