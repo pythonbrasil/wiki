@@ -66,6 +66,12 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
   * Filipe Cifali
   * Humberto Rocha
   * Rudá Porto Filgueiras
+
+**2019 - PythonBrasil 15 (Ribeirão Preto)**
+
+  * Pyladies São Paulo
+  * Álvaro Turicas Justen 
+  * Leonardo Rochael
  
 ## Sobre Dorneles Treméa
 
