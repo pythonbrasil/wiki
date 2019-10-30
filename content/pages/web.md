@@ -22,7 +22,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 ## web2py
 
-[Web2py](https://http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
+[Web2py](https://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
 
 ### Cursos e Tutoriais
 
