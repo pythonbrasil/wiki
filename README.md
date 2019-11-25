@@ -149,7 +149,7 @@ $ make html
 $ make serve
 ```
 
-O *make html* irá gerar o HTML e o *make serve* irá criar o servidor. Basta acessar *localhost:8000* e pronto! O site já está rodando em seu computador localmente!
+O *make html* irá gerar o HTML e o *make serve* irá executar o servidor. Basta acessar *localhost:8000* e pronto! O site já está rodando em seu computador localmente!
 
 Agora basta fazer as modificações na pasta *content/pages*, rodar os comandos *make html* e *make serve* e suas alterações já serão visíveis.
 
