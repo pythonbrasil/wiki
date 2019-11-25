@@ -60,6 +60,12 @@ A entrega do Prêmio Dorneles Treméa é realizada anualmente durante a PythonBr
 
   * Jean Rodrigo Ferri
   * Bruno Rocha
+
+**2018 - PythonBrasil 14 (Natal)**
+
+  * Filipe Cifali
+  * Humberto Rocha
+  * Rudá Porto Filgueiras
  
 ## Sobre Dorneles Treméa
 
