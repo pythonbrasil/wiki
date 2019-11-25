@@ -23,7 +23,7 @@ EMPRESAS_LOGO_PATH = 'https://raw.githubusercontent.com/pythonbrasil/pyBusinesse
 
 def scrapping_empresas():
     file = urlopen(EMPRESAS_FILE)
-    file = file.read().decode()
+    file = file.read()
     region = state = city = ''
     empresas = []
 
