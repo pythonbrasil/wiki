@@ -14,7 +14,9 @@
 
             <div class="badge-group">
               {% for link in comunidade.links %}
-                <a class="badge badge-default" href="{{ link.1 }}">{{ link.0 }}</a>
+                <a class="" href="{{ link.1 }}" style="padding:5px; white-space: nowrap;" > 
+                  <i class="fa fa-{{ link.0|lower }}" style="font-size:1em;"></i> {{ link.0 }}
+                </a>
               {% endfor %}
             </div>
           </div>
