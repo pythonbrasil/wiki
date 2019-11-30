@@ -12,31 +12,55 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 
 ### Páginas do Impressione-se
 
-1. **Empresas** - O Conteúdo das empresas é uma importação do conteúdo encontrado em [https://github.com/pythonbrasil/pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR).
+1. **Empresas** - O conteúdo em formato JSON criado através de uma importação do
+conteúdo encontrado em
+[pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR).
+Essa importação é feita quando *make html* é executado (ver abaixo), pelo
+arquivo [empresas_generator.py](empresas_generator.py) e os arquivos são salvos
+em content/empresas.
+1. **Projetos Brasileiros** - Conteúdo em formato markdown no arquivo
+[content/pages/projetos.md](content/pages/projetos.md)
 
 ### Páginas do Inicie-se
 
-1. **Qual python?** - Conteúdo em formato markdown no arquivo [content/pages/qual-python.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/qual-python.md).
+1. **Introdução** - Conteúdo em formato markdown no arquivo
+[content/pages/introducao.md](content/pages/qual-python.md).
 
-2. **Instalação Linux** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-linux.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-linux.md).
+1. **Qual python?** - Conteúdo em formato markdown no arquivo
+[content/pages/qual-python.md](content/pages/qual-python.md).
 
-3. **Instalação Mac** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-mac.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-mac.md).
+1. **Download do Python** - Apenas um link para [página de download do Python]
+(https://www.python.org/downloads/). Esse link, assim como todos os itens do
+menu principal, são definidos na arquivo [pelicanconf.py](pelicanconf.py) na
+variável *NAVBAR_HOME_LINKS*.
 
-4. **Instalação Windows** - Conteúdo em formato markdown no arquivo [content/pages/instalacao-windows.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/instalacao-windows.md).
+1. **Instalação Linux** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-linux.md](content/pages/instalacao-linux.md).
 
-5. **Introdução** - Conteúdo em formato markdown no arquivo [content/pages/introducao.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/introducao.md).
+1. **Instalação Mac** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-mac.md](content/pages/instalacao-mac.md).
 
-6. **Ferramentas** - Conteúdo em formato markdown no arquivo [content/pages/ferramentas.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/ferramentas.md)
+1. **Instalação Windows** - Conteúdo em formato markdown no arquivo
+[content/pages/instalacao-windows.md](content/pages/instalacao-windows.md).
+
+1. **Ferramentas** - Conteúdo em formato markdown no arquivo [content/pages/ferramentas.md](content/pages/ferramentas.md)
 
 ### Páginas do Aprenda mais
 
-1. **Web** - Conteúdo em formato markdown no arquivo [content/pages/web.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/web.md).
+1. **Web** - Conteúdo em formato markdown no arquivo
+[content/pages/web.md](content/pages/web.md).
 
-2. **Mobile** - Conteúdo em formato markdown no arquivo [content/pages/mobile.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/mobile.md).
+1. **Mobile** - Conteúdo em formato markdown no arquivo
+[content/pages/mobile.md](content/pages/mobile.md).
 
-3. **Games** - Conteúdo em formato markdown no arquivo [content/pages/games.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/games.md).
+1. **Games** - Conteúdo em formato markdown no arquivo
+[content/pages/games.md](content/pages/games.md).
 
-4. **Científico** - Conteúdo em formato markdown no arquivo [content/pages/cientifico.md](https://github.com/pythonbrasil/wiki/blob/pelican/content/pages/cientifico.md).
+1. **Científico** - Conteúdo em formato markdown no arquivo
+[content/pages/cientifico.md](content/pages/cientifico.md).
+
+1. **Wiki** - Apenas um link para o [wiki antigo](https://wiki.python.org.br)
+da comunidade Python Brasil.
 
 ### Páginas do Participe
 
@@ -61,26 +85,28 @@ Para contribuír com a melhoria do conteúdo deste site basta acessar alguma das
 ### Para contribuir com desenvolvimento
 *(ao contribuir com o Repositório utilizar a branch 'pelican')*
 
- 
-Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
-
-```
-$ virtualenv project-name
-
-$ cd project-name
-
-$ source bin/activate
-```
-
-Provavelmente irá aparecer em seu terminal algo como *(project-name)$*, agora vamos clonar o repositório do projeto:
+Clone o repositório do projeto para o seu computador e depois navegue para o
+diretório criado:
 
 ```
 $ git clone git@github.com:pythonbrasil/wiki.git
 
 $ cd wiki
 ```
+ 
+Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
-Pronto! Você já está na pasta do projeto! Agora vamos instalar os programas necessários (Certifique-se que o virtualenv está ativado):
+```
+$ virtualenv -p python3 .venv
+
+$ source .venv/bin/activate
+```
+
+Provavelmente irá aparecer em seu terminal algo como *(.venv)$*:
+
+
+Pronto! Você já está na pasta do projeto e com o virtualenv ativado!
+Certifique-se disso. Agora vamos instalar os programas necessários:
 
 ```
 $ pip install -r requirements.txt
