@@ -25,7 +25,7 @@ Para quem vem do MATLAB ou R, o [Spyder](https://github.com/spyder-ide/spyder) p
 **Aonde eu encontro os módulos para utilizar no meu projeto?**
 Alguns módulos já vem por padrão no Python puro, por exemplo o módulo matemático
 (math). Outros, devem ser baixados de um repositório, como é o caso do Django ou
-Numpy. Hoje, mais de 107 mil projetos estão cadastrados no
+Numpy. Hoje, mais de 207 mil projetos estão cadastrados no
 [repositório oficial](https://pypi.org/). Caso você não ache o que procura, há
 muito incentivo para que você construa um novo módulo e inclua no repositório!
 
