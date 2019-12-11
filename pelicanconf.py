@@ -280,6 +280,16 @@ COMUNIDADES_LOCAIS = [
 ]
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 
+
+# Configurações da página de projetos brasileiros
+PROJETOS_BRASILEIROS = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/projetos-brasileiros/*.json')
+]
+DEFAULT_PROJETOSBR_IMAGE = "images/projetos-brasileiros/default.png"
+
+
+
 # Configurações da página de empresas
 EMPRESAS = import_empresas('content/empresas/*.json')
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
