@@ -8,45 +8,15 @@ Sua atual diretoria atuará até Setembro de 2019.
 
 ## Sumário
 
-- [Integrantes da diretoria e conselhos - Gestão 2018-2019](#diretoria)
-- [Contato](#contato)
 - [Objetivos e Metas](#objetivos)
 - [Associe-se](#associar)
 - [Já sou associado](#associado)
 - [Canais Oficiais de Comunicação](#canais)
 - [Eventos apoiados pela APyB](#guidelines)
 - [Estatuto](#estatuto)
-
-
-<h2 id="diretoria">Integrantes da diretoria e conselhos - Gestão 2018-2019</h2>
-
-##### Diretoria
-
-- Mário Queiroz - Presidente
-- Henrique Bastos - Diretor Financeiro
-- Humberto Rocha- Diretor de Tecnologia
-- Letícia Portella - Diretora de Marketing
-
-##### Conselho Deliberativo
-
-- Marco Rougeth
-- Jessica Temporal
-- Erika Campos
-
-##### Conselho Fiscal
-
-- Leonardo Rochael
-- Renata Scheibler
-- Luis Felipe Miléo
-
-##### Suplentes
-- Tânia Andrea
-- Filipe Cifali
-
-<h2 id="contato">Formas de contato</h2>
-
-- contato@ (python.org.br)
-- doacoes@ (python.org.br)
+- [Contato](#contato)
+- [Financeiro](#financeiro)
+- [Integrantes da diretoria e conselhos](#diretorias)
 
 <h2 id="objetivos">Objetivos e Metas</h2>
 
@@ -108,4 +78,59 @@ O estatuto oficial encontra-se disponível [aqui](https://github.com/pythonbrasi
 <h2 id="financeiro">Financeiro</h2>
 
 Extrato financeiro [público](https://drive.google.com/open?id=0B_CQOAVUY5bRQ2pjbzVocjZMX1E)  
-Não é necessário o login nem uma conta no Google para visualização, disponível em todos os formatos disponibilizados pelo banco. 
+Não é necessário o login nem uma conta no Google para visualização, disponível em todos os formatos disponibilizados pelo banco.
+
+<h2 id="contato">Formas de contato</h2>
+
+- contato@ (python.org.br)
+- doacoes@ (python.org.br)
+
+<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2020-2021</h2>
+
+##### Diretoria
+
+- Patrick Mazulo - Presidente
+- Cássio Botaro - Diretor Financeiro
+- Thais Viana- Diretor de Tecnologia
+- Gustavo Carvalho - Diretora de Marketing
+
+##### Conselho Deliberativo
+
+- Raphael Passini
+- Isadora Morena
+- Humberto Diógenes
+
+##### Conselho Fiscal
+
+- Igor dos Santos
+- Octavio Hermano
+- Judite Macedo
+
+##### Suplentes
+- André Filipe
+- Leonardo Rochael
+
+<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2018-2019</h2>
+
+##### Diretoria
+
+- Mário Queiroz - Presidente
+- Henrique Bastos - Diretor Financeiro
+- Humberto Rocha- Diretor de Tecnologia
+- Letícia Portella - Diretora de Marketing
+
+##### Conselho Deliberativo
+
+- Marco Rougeth
+- Jessica Temporal
+- Erika Campos
+
+##### Conselho Fiscal
+
+- Leonardo Rochael
+- Renata Scheibler
+- Luis Felipe Miléo
+
+##### Suplentes
+- Tânia Andrea
+- Filipe Cifali
