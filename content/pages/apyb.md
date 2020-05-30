@@ -8,7 +8,6 @@ Sua atual diretoria atuará até Setembro de 2019.
 
 ## Sumário
 
-- [Integrantes da diretoria e conselhos - Gestão 2018-2019](#diretoria)
 - [Contato](#contato)
 - [Objetivos e Metas](#objetivos)
 - [Associe-se](#associar)
@@ -16,6 +15,7 @@ Sua atual diretoria atuará até Setembro de 2019.
 - [Canais Oficiais de Comunicação](#canais)
 - [Eventos apoiados pela APyB](#guidelines)
 - [Estatuto](#estatuto)
+- [Integrantes da diretoria e conselhos](#diretorias)
 
 <h2 id="contato">Formas de contato</h2>
 
@@ -84,9 +84,32 @@ O estatuto oficial encontra-se disponível [aqui](https://github.com/pythonbrasi
 Extrato financeiro [público](https://drive.google.com/open?id=0B_CQOAVUY5bRQ2pjbzVocjZMX1E)  
 Não é necessário o login nem uma conta no Google para visualização, disponível em todos os formatos disponibilizados pelo banco.
 
+<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2020-2021</h2>
 
+##### Diretoria
 
-<h2 id="diretoria">Integrantes da diretoria e conselhos - Gestão 2018-2019</h2>
+- Patrick Mazulo - Presidente
+- Cássio Botaro - Diretor Financeiro
+- Thais Viana- Diretor de Tecnologia
+- Gustavo Carvalho - Diretora de Marketing
+
+##### Conselho Deliberativo
+
+- Raphael Passini
+- Isadora Morena
+- Humberto Diógenes
+
+##### Conselho Fiscal
+
+- Igor dos Santos
+- Octavio Hermano
+- Judite Macedo
+
+##### Suplentes
+- André Filipe
+- Leonardo Rochael
+
+<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2018-2019</h2>
 
 ##### Diretoria
 
