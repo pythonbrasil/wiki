@@ -4,7 +4,7 @@ Template: page
 
 A Associação Python Brasil (APyB) foi formada em abril de 2007 com a meta de apoiar as comunidades relacionadas à linguagem Python e suas tecnologias derivadas.
 
-Sua atual diretoria atuará até Setembro de 2019. 
+Sua atual diretoria atuará até Dezembro de 2021.
 
 ## Sumário
 
@@ -91,8 +91,8 @@ Não é necessário o login nem uma conta no Google para visualização, dispon�
 
 - Patrick Mazulo - Presidente
 - Cássio Botaro - Diretor Financeiro
-- Thais Viana- Diretor de Tecnologia
-- Gustavo Carvalho - Diretora de Marketing
+- Thais Viana - Diretora de Tecnologia
+- Gustavo Carvalho - Diretor de Marketing
 
 ##### Conselho Deliberativo
 
