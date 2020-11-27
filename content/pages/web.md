@@ -20,6 +20,21 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 - [v2.1](https://docs.djangoproject.com/pt-br/2.1/) Tradução da versão atual.
 - [v1.3.1](http://waltercruz.github.io/django-l10n-portuguese/): Esta é a tradução da documentação oficial do Django, mantida pelo grupo de localização do Django para o Português. No entanto, está desatualizada.
 
+## Flask
+
+[Flask](https://flask.palletsprojects.com/en/1.1.x/) é um micro framework open-source de desenvolvimento web. Foi projetado para tornar o inicio rápido e fácil, com a capacidade de escalar até aplicações completas.
+
+### Cursos e Tutoriais
+
+- [Curso em Video do Bruno Rocha](https://codeshow.com.br/tags/flask/): Curso Completo em vídeo do [Bruno Rocha](http://brunorocha.org/)
+- [Flask Tutorials](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH): Tutorial em Flask no Youtube (Inglês)
+
+### Documentação
+
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/): Documentação oficial do Flask (Inglês)
+- [Flask Brasil](https://flask-ptbr.readthedocs.io/en/latest/index.html): Documntação do Flask em PT-BR
+- [Grupo Telegram](https://t.me/flaskbrasil): Participe.
+
 ## web2py
 
 [Web2py](https://http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
