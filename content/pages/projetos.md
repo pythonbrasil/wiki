@@ -2,9 +2,6 @@ Title: Projetos brasileiros com Python
 Slug: projetos
 Template: page 
 
-
-## Projetos 
-
 Diversos projetos de Python e outras linguagens estão disponíveis [neste post](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)!
 
 Alguns projetos brasileiros que usam python:
@@ -23,3 +20,4 @@ Alguns projetos brasileiros que usam python:
 - [python-ami](https://github.com/ettoreleandrotognoli/python-ami/)
 - [python-cdi](https://github.com/ettoreleandrotognoli/python-cdi)
 - [django-pycdi](https://github.com/ettoreleandrotognoli/django-pycdi)
+- [revelation](https://github.com/humrochagf/revelation)

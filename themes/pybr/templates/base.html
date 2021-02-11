@@ -29,21 +29,23 @@
     {% endif %}
 
     <div class="master-wrapper {% if href == 'index' %}yellow-top-border{% else %}blue-top-border{% endif %}">
-      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+
+        <a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>
 
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto">
             {% for link in NAVBAR_HOME_LINKS[:-1] %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ link.title }}
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   {% for sublink in link.children %}
                     {% if sublink.href.startswith('http') %}
                       <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
@@ -54,22 +56,22 @@
                 </div>
               </li>
             {% endfor %}
-          </div>
+          </ul>
 
-          <div class="navbar-nav">
+          <ul class="navbar-nav">
             {% for link in NAVBAR_HOME_LINKS[-1:] %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ link.title }}
                 </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   {% for sublink in link.children %}
                     <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
                   {% endfor %}
                 </div>
               </li>
             {% endfor %}
-          </div>
+          </ul>
         </div>
       </nav>
 
@@ -82,7 +84,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="header-container">
-                  <a href="{{ SITEURL }}/index">
+                  <a href="{{ SITEURL }}/index.html">
                     <img class="header-logo" src="{{ SITEURL }}/theme/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
                   </a>
 

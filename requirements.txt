@@ -6,7 +6,7 @@ ecdsa
 feedgenerator
 jinja2
 lxml
-markdown
+markdown==2.6.11
 markupsafe
 mdx-video
 paramiko

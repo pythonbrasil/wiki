@@ -3,19 +3,19 @@ pre, code {
   color: #f8f8f2;
   line-height: 1.5em;
   margin: 0 0 1rem 0;
-  padding: 4px 4px 2px 4px;
+  padding: 8px 12px 6px 12px;
 }
 
 .thumbnail-container {
   margin: 50px 0;
 
   .thumbnail {
-    border: solid 1px $gray-lighter;
+    border: solid 1px $gray-500;
     min-height: 415px;
     margin-bottom: 30px;
 
     &:hover {
-      border: solid 1px $gray;
+      border: solid 1px $gray-700;
     }
 
     img {

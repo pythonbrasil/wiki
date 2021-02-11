@@ -5,7 +5,7 @@ Template: empresas
 
 # Empresas que usam Python
 
-Conheça as empresas espalhados pelo Brasil que utilizam Python.
+Conheça as empresas espalhadas pelo Brasil que utilizam Python.
 
 > Se você quer incluir alguma empresa que usa Python, faça sua contribuição, adicionando-a ao repositório [https://github.com/pythonbrasil/pyBusinesses-BR](https://github.com/pythonbrasil/pyBusinesses-BR). Todos os dados aqui apresentados encontram-se nesse mesmo repositório.
 

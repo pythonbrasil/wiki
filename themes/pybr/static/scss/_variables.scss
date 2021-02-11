@@ -2,31 +2,19 @@
 
 $fa-font-path: "../fonts";
 
-$font-size-base: .875rem;
-$font-size-lg:   1rem;
-$font-size-sm:   .75rem;
-$font-size-xs:   .625rem;
+$font-size-base: 1rem;
+$spacer: 1rem;
 
-$headings-margin-bottom: 1rem;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.4;
+$h4-font-size: $font-size-base * 1.2;
+$h5-font-size: $font-size-base * 1.1;
+$h6-font-size: $font-size-base;
+
+$headings-font-weight: 700;
 
 /* colors */
 
-$white:  #fff;
-$black:  #000;
-$red:    #d9534f;
-$orange: #f0ad4e;
-$yellow: #ffd343;
-$green:  #5cb85c;
-$blue:   #1d6bbd;
-$teal:   #5bc0de;
-$pink:   #ff5b77;
-$purple: #613d7c;
-
-// Create grayscale
-$gray-dark:     #222222;
-$gray:          #444444;
-$gray-light:    #666666;
-$gray-lighter:  #bbbbbb;
-$gray-lightest: #dddddd;
-
-$brand-primary: $gray;
+$primary: #212529;
+$link-color: #495057;
