@@ -230,7 +230,7 @@ SOCIAL_LINKS = (
         'text': 'Lista de Discussões',
     },
     {
-        'href': 'https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ',
+        'href': 'https://t.me/pythonbrasil',
         'icon': 'fa-paper-plane',
         'text': 'Telegram'
     }
