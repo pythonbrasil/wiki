@@ -191,8 +191,8 @@ NAVBAR_HOME_LINKS = [
                 'href': 'cdc',
             },
             {
-                'title': 'Prêmio Dorneles Treméa',
-                'href': 'premio-dorneles-tremea',
+                'title': 'Prêmio Dorneles Treméa|Jean Ferri',
+                'href': 'premio-dorneles-tremea-jean-ferri',
             },
             {
                 'title': 'FAQ',
