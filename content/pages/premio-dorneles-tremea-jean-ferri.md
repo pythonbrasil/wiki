@@ -78,8 +78,14 @@ A entrega do Prêmio Dorneles Treméa|Jean Ferri é realizada anualmente durante
 **2020 - PythonBrasil 16 (Edição Online)**
 
   * Débora Azevedo
+  * Felipe de Morais
+  * Mário Sérgio
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/Esk_E1FxbyY" frameborder="0" allowfullscreen></iframe>
+
+**2021 - PythonBrasil 18 (Edição Online)**
+
+A ser anunciado
 
 
 ## Sobre Dorneles Treméa
