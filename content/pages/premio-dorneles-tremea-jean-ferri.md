@@ -85,7 +85,9 @@ A entrega do Prêmio Dorneles Treméa|Jean Ferri é realizada anualmente durante
 
 **2021 - PythonBrasil 18 (Edição Online)**
 
-A ser anunciado
+  * Eduardo Mendes (Dunossauro)
+  * Jéssica Temporal
+  * Letícia Portella
 
 
 ## Sobre Dorneles Treméa
