@@ -17,7 +17,7 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 
 ### Documentação
 
-- [v2.1](https://docs.djangoproject.com/pt-br/2.1/) Tradução da versão atual.
+- [v3.2](https://docs.djangoproject.com/pt-br/3.2/) Tradução da versão atual.
 - [v1.3.1](http://waltercruz.github.io/django-l10n-portuguese/): Esta é a tradução da documentação oficial do Django, mantida pelo grupo de localização do Django para o Português. No entanto, está desatualizada.
 
 ## Flask
@@ -35,9 +35,17 @@ Descubra as ferramentas e conteúdo para desenvolvimento Web:
 - [Flask Brasil](https://flask-ptbr.readthedocs.io/en/latest/index.html): Documntação do Flask em PT-BR
 - [Grupo Telegram](https://t.me/flaskbrasil): Participe.
 
+## FastAPI
+
+[FastAPI](https://fastapi.tiangolo.com/) é um micro framework open-souce para desenvolvimento web. Baseado em boas práticas como geração de documentação automática, utilização de tipos (Type Hints), sendo rápido e fácil de desenvolver.
+
+### Cursos e Tutoriais
+
+- [Criando uma aplicação com FastAPI - EN](https://realpython.com/fastapi-python-web-apis/)
+
 ## web2py
 
-[Web2py](https://http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
+[Web2py](http://web2py.com/) é um framework web gratuito e open-source criado para desenvolvimento ágil de aplicações web baseadas em banco de dados seguros; ele é escrito em Python e programável em Python. web2py é um framework full-stack, o que significa que ele contém todos os componentes que você precisa para construir aplicações web completamente funcionais.
 
 ### Cursos e Tutoriais
 
