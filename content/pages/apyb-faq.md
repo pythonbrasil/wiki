@@ -89,3 +89,15 @@ Atualmente, fazemos o melhor para que nenhum fique de fora, mas é possível que
 não se tenha condições de lidar com todas as burocracias necessárias para todos os eventos. 
 Lembre-se de que todo o trabalho da associação também é voluntário e que tempo é um recurso limitado
  :)
+ 
+# Qual a relação da APyB com a PSF(Python Software Foundation)?
+ 
+ Elas não tem relaçao de dependência entre si, uma não depende da outra, porem elas trabalham juntas para o melhor desenvolvimento do Python Software Foundation.
+ 
+#Sou empresa, como posso contribuir/doar?
+O Art 3º do estatuto da APyB diz:
+A Associação é constituída por número ilimitado de associados, pessoas físicas ou jurídicas, sem distinção de nacionalidade ou qualquer outra natureza, desde que concordem com os objetivos da Associação Python Brasil.
+
+Portanto, qualquer empresa que aceite essas condições podem contribuir.
+Veja mais informações no [estatuto](https://github.com/pythonbrasil/estatuto).
+

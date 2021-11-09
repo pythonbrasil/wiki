@@ -12,6 +12,7 @@ except ImportError:
     from urllib.request import urlopen
 
 import yaml
+from yaml import BaseLoader
 from slugify import slugify
 
 
@@ -31,7 +32,7 @@ def scrapping_pyladies():
     com os dados das sedes da Pyladies.
     """
     html = urlopen(PYLADIES_YAML).read()
-    return yaml.load(html)
+    return yaml.load(html, Loader=BaseLoader)
 
 
 def get_filename(directory, locale):
