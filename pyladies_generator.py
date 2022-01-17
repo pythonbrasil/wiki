@@ -31,7 +31,7 @@ def scrapping_pyladies():
     com os dados das sedes da Pyladies.
     """
     html = urlopen(PYLADIES_YAML).read()
-    return yaml.load(html)
+    return yaml.safe_load(html)
 
 
 def get_filename(directory, locale):
