@@ -101,16 +101,14 @@ Não é necessário o login nem uma conta no Google para visualização, dispon�
 - Alynne Ferreira
 - Gabriel Bellon
 - Eduardo Cuducos
+- Osvaldo Santana (Suplente)
 
 ##### Conselho Fiscal
 
 - Renne Rocha
 - Filipe Cifali
 - Osvaldo Santana
-
-##### Suplentes
-
-- Patrick Mazulo
+- Patrick Mazulo (Suplente)
 
 ### Gestão 2020-2021
 
