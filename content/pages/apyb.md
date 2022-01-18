@@ -85,7 +85,32 @@ Não é necessário o login nem uma conta no Google para visualização, dispon�
 - contato@ (python.org.br)
 - doacoes@ (python.org.br)
 
-<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2020-2021</h2>
+<h2 id="diretorias">Integrantes da diretoria e conselhos</h2>
+
+### Gestão 2022-2023
+
+##### Diretoria
+
+- Ana Dulce - Presidente
+- Juliana Barros - Diretora de Marketing
+- Marco Rougeth - Diretor de Tecnologia
+- Murilo Viana - Diretor Financeiro
+
+##### Conselho Deliberativo
+
+- Alynne Ferreira
+- Gabriel Bellon
+- Eduardo Cuducos
+- Osvaldo Santana (Suplente)
+
+##### Conselho Fiscal
+
+- Renne Rocha
+- Filipe Cifali
+- Osvaldo Santana
+- Patrick Mazulo (Suplente)
+
+### Gestão 2020-2021
 
 ##### Diretoria
 
@@ -110,7 +135,7 @@ Não é necessário o login nem uma conta no Google para visualização, dispon�
 - André Filipe
 - Leonardo Rochael
 
-<h2 id="diretorias">Integrantes da diretoria e conselhos - Gestão 2018-2019</h2>
+### Gestão 2018-2019
 
 ##### Diretoria
 
