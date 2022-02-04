@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches: [ pelican ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build wiki
+        run: make html
+
+      - name: Publish wiki to gh-pages branch
+        run: make travis ping
