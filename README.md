@@ -1,8 +1,7 @@
 
 # Site estático python.org.br
 
-[![Build Status](https://travis-ci.org/pythonbrasil/wiki.svg?branch=pelican)](https://travis-ci.org/pythonbrasil/wiki)
-
+[![Build Status](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)](https://github.com/pythonbrasil/wiki/actions/workflows/build.yml)
 
 Site Live: [http://python.org.br/](http://python.org.br/)
 
@@ -93,7 +92,7 @@ $ git clone git@github.com:pythonbrasil/wiki.git
 
 $ cd wiki
 ```
- 
+
 Crie um [virtualenv](https://virtualenv.readthedocs.org/en/latest/) com o nome que desejar, acesse a pasta e ative o virtualenv (Considerando os comandos em sistemas Linux e OS X):
 
 ```
@@ -135,9 +134,9 @@ $ export LANG=en_US.UTF-8
 Se der erro de pycripto instale:
 
 ```
-$ sudo apt install python3-dev 
+$ sudo apt install python3-dev
 ```
- 
+
 
 Ou verifique pelo Stackoverflow e pelo Google quais as soluções possíveis. Se o problema persistir, nos informe nas issues.
 
