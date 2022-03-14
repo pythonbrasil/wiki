@@ -233,6 +233,11 @@ SOCIAL_LINKS = (
         'href': 'https://t.me/pythonbrasil',
         'icon': 'fa-paper-plane',
         'text': 'Telegram'
+    },
+     {
+        'href': 'https://planet.python.org.br/',
+        'icon': 'fa-globe',
+        'text': 'Planet Python'
     }
 )
 
@@ -247,11 +252,9 @@ def date_hook(json_dict):
     return json_dict
 
 
-def import_empresas(path):
+def ordena_por_regiao(empresas):
     por_regiao = {}
-    dados = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
-
-    for empresa in dados:
+    for empresa in empresas:
         regiao = empresa['regiao']
         estado = empresa['estado']
 
@@ -262,15 +265,15 @@ def import_empresas(path):
         por_estado[estado] = no_estado
         por_regiao[regiao] = por_estado
 
-    empresas = OrderedDict()
+    empresas_ordenadas = OrderedDict()
     for regiao in sorted(por_regiao):
-        empresas[regiao] = OrderedDict()
+        empresas_ordenadas[regiao] = OrderedDict()
         for estado in sorted(por_regiao[regiao]):
             no_estado = por_regiao[regiao][estado]
             no_estado.sort(key=lambda x: x['nome'])
             no_estado.sort(key=lambda x: x['cidade'])
-            empresas[regiao][estado] = no_estado
-    return empresas
+            empresas_ordenadas[regiao][estado] = no_estado
+    return empresas_ordenadas
 
 
 # Configurações da página de comunidades locais
@@ -281,7 +284,12 @@ COMUNIDADES_LOCAIS = [
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 
 # Configurações da página de empresas
-EMPRESAS = import_empresas('content/empresas/*.json')
+# EMPRESAS = import_empresas('content/empresas/*.json')
+EMPRESAS = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/empresas/*.json')
+]
+EMPRESAS = ordena_por_regiao(EMPRESAS)
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
 
 # Configurações da página das pyladies
