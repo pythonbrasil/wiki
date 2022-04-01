@@ -5,7 +5,7 @@ Template: page
 Uma das dúvidas mais recorrentes dentre iniciantes na linguagem é a respeito da escolha de versão: "Estou começando na linguagem, devo usar python 2 ou python 3?" Para responder a esta pergunta é importante entender o estado atual da linguagem:
 
 - Python 2 foi o padrão da linguagem por muito tempo.
-- Python 3 introduziu algumas mudanças que quebraram a compatibilidade com a versão anterior o que criou a nessecidade de se manter duas versões da linguagem.
+- Python 3 introduziu algumas mudanças que quebraram a compatibilidade com a versão anterior o que criou a necessidade de se manter duas versões da linguagem.
 - Python 2 receberá atualizações de segurança até 2020 quando seu suporte será descontinuado.
 - Python 3 está constantemente evoluindo e recebendo novas funcionalidades, que não estarão presentes na versão anterior.
 
