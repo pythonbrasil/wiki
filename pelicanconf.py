@@ -191,6 +191,10 @@ NAVBAR_HOME_LINKS = [
                 'href': 'cdc',
             },
             {
+                'title': 'Fundo para Inclusão',
+                'href': 'fundo-para-inclusão',
+            },
+            {
                 'title': 'Prêmio Dorneles Treméa|Jean Ferri',
                 'href': 'premio-dorneles-tremea-jean-ferri',
             },
