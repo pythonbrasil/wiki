@@ -49,10 +49,19 @@ FOOTER_ABOUT = (
 )
 
 # Statics
-STATIC_PATHS = ['images', 'extra/CNAME']
+STATIC_PATHS = [
+    'images',
+    'extra/CNAME',
+    'extra/pages',
+]
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
+    'extra/pages/denuncia.html': {'path': 'denuncia/index.html'},
 }
+
+PAGE_EXCLUDES = ARTICLE_EXCLUDES = [
+    'extra/pages',
+]
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = 'monokai'
