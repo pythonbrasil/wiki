@@ -91,7 +91,7 @@ A entrega do Prêmio Dorneles Treméa|Jean Ferri é realizada anualmente durante
 
 **2022 - Python Brasil 2022 (Manaus)**
 
-  * Bianca Rossa
+  * Bianca Rosa
   * Lidiane Monteiro
   * Melissa Weber
 
