@@ -23,7 +23,7 @@ em content/empresas.
 ### Páginas do Inicie-se
 
 1. **Introdução** - Conteúdo em formato markdown no arquivo
-[content/pages/introducao.md](content/pages/qual-python.md).
+[content/pages/introducao.md](content/pages/introducao.md).
 
 1. **Qual python?** - Conteúdo em formato markdown no arquivo
 [content/pages/qual-python.md](content/pages/qual-python.md).

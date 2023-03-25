@@ -57,7 +57,7 @@ A IDLE vem com o Python. É feita com Tkinter e se você se acostumar pode lhe a
 
 Também desenvolvido pela ActiveState o Komodo-Edit é uma excelente opção de editor, bastante rico em recursos tais como autocomplete, calltips, multi-language file support, syntax coloring, syntax checking, Vi emulation, Emacs key bindings e outros.
 
-### [NetBeans](http://plugins.netbeans.org/plugin/61688/python)
+### [NetBeans](http://nbpython.org/)
 
 Analogamente ao Eclipse, o NetBeans também oferece suporte ao Python através de plugins.
 
