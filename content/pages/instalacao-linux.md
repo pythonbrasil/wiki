@@ -2,39 +2,62 @@ Title: Instalando o Python no Linux
 Slug: instalacao-linux
 Template: page
 
-Verifique se já tem o Python instalado, se você usa GNU/Linux, provavelmente já possui alguma versão do Python instalada por padrão. Para conferir, digite em um terminal:
-
-    $ which python
-
-ou
+Os sistemas GNU/Linux mais recentes ja possuem uma versão do Python instalada junto com o sistema operacional. Podemos checar com o seguinte comando:
 
     $ which python3
+    /usr/bin/python3
 
-que deve retornar algo como `/usr/bin/python`. Isso significa que o Python está instalado nesse endereço.
+que nos mostra onde o Python padrão do sistema operacional está instalado.
 
-Caso contrário, se retornar algo como `which: no python in (/usr/local/sbin:/usr/local/bin:/usr/bin:/usr...)` você precisa instalar pelos repositórios ou gerenciador de pacotes de sua distribuição.
+A versão do Python na distribuição Linux Ubuntu 22.04.2 LTS é a 3.10.
 
-## Instalação por Gerenciadores de Pacotes
+    $ python3 --version
+    Python 3.10.6
 
-Os gerenciadores de pacotes mais comuns são apt-get (Debian, Ubuntu) e yum
+Para evitar conflitos com o Python do sistema operacional, sugere-se a instalação de um outro interpretador, que pode ser feita de 2 formas diferentes: através do  de gerenciador de pacotes ou de repositórios.
+
+## Instalação por gerenciadores de pacotes
+
+Os gerenciadores de pacotes mais comuns são `apt-get` (Debian, Ubuntu) e `yum`
 (RedHat, CentOS). Caso sua distribuição utilize um gerenciador de pacotes diferente, acesse a [página de downloads do Python](https://www.python.org/downloads/).
 
-### Apt-get
+### Debian e Ubuntu
+
+Através do gerenciador de pacotes, é possível instalar versões específicas do Python.
+No exemplo abaixo, é instalada a versão, por exemplo, 3.9 do Python
+
+    sudo apt-get install python3.9
+
+É possível instalar qualquer outra versão: `python3.8`, `python3.9`, `python.10`
+
+Desta forma, a instalação desta versão específica do Python acima difere da versão padrão do sistema operacional.
+
+    $ which python3.9
+    /usr/bin/python3.9
+
+    $ which python3
+    /usr/bin/python3
+
+### RedHat e CentOS
 
 Para instalar o Python 3, digite em um terminal:
 
-    $ sudo apt-get install python3
+    sudo yum install python3.9
 
-(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:
+## Instalação por repositório
 
-    $ sudo apt-get install python3-pip
+Os repositórios no GNU/Linux são chamados de PPAs (do inglês Personal Package Archives).
 
-### Yum
+Para adicionar repositórios ao nosso sistema, precisamos de um software chamado `software-properties-common`, que pode ser instalado com o comando abaixo:
 
-Para instalar o Python 3, digite em um terminal:
+    sudo apt-get install software-properties-common
 
-    $ sudo yum install python3
+Habilitada a adição de repositórios ao nosso sitema operacional, podemos agora incluir o repositório que contém o Python. Este repositório é chamado de deadsnakes, cuja página oficial pode ser encontrada neste [link](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa).
 
-(Opcional) Para instalar o gerenciador de pacotes pip, digite em um terminal:
+    sudo add-apt-repository ppa:deadsnakes/ppa
 
-    $ yum -y install python3-pip
+Agora a instalação do Python pode ser feita a partir deste repositório com o comando
+
+    sudo apt-get install python3.9
+
+Da mesma forma, é possível instalar várias versões. Observem que a versão python correspondente à do sistema operacional padrão não está disponível no repositório deadsnakes.
