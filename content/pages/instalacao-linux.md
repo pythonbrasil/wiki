@@ -40,7 +40,8 @@ Desta forma, a instalação desta versão específica do Python acima difere da 
 
 ### RedHat e CentOS
 
-Para instalar o Python 3, digite em um terminal:
+Assim como no tópico anterior, é possível instalar versões específicas do Python.
+No comando abaixo, é instalada a versão, por exemplo, 3.9 do Python.
 
     sudo yum install python3.9
 
