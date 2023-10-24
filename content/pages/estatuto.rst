@@ -147,16 +147,18 @@ c. alterar o estatuto.
 d. aprovar as contas e relatório constante no item "a" art 29.º deste Estatuto.
 
 Art. 12º - A Assembléia Geral reunir-se-á ordinariamente uma vez por ano, de
-preferência durante a realização de evento de porte nacional, para dar
-conhecimento aos seus membros do relatório da Diretoria, já aprovado pelo
-Conselho Deliberativo, e eleger, quando couber, uma nova Diretoria e membros do
-Conselho Deliberativo, conforme dispõem os termos do Estatuto;
-extraordinariamente, para fins especiais e expressos, sempre que convocada pelo
-Conselho Deliberativo, pela Diretoria ou por 1/5 (um quinto) dos Associados
-Plenos e Efetivos em gozo dos seus direitos.
+preferência durante a realização de evento de porte nacional e de forma híbrida,
+com pessoas participantes de forma online ou presentes fisicamente nas dependências
+da assembleia, para dar conhecimento aos seus membros do relatório da Diretoria,
+já aprovado pelo Conselho Deliberativo, e eleger, quando couber, uma nova
+Diretoria e membros do Conselho Deliberativo, conforme dispõem os termos do
+Estatuto; extraordinariamente, para fins especiais e expressos, sempre que
+convocada pelo Conselho Deliberativo, pela Diretoria ou por 1/5 (um quinto) dos
+Associados Plenos e Efetivos em gozo dos seus direitos.
 
  § primeiro: a Assembléia Geral elegerá dentre os seus membros uma Mesa
  constituída por um presidente, um primeiro e um segundo secretários.
+ Que preferencialmente estejam na assembleia presencialmente.
 
  § segundo: os trabalhos das Assembléias Gerais serão dirigidos pelo
  presidente, coadjuvado pelos secretários.
@@ -167,7 +169,8 @@ seguintes normas para que a Assembléia Geral se realize e delibere:
 a. a Assembléia Geral deverá funcionar, em primeira convocação, com a presença
    mínima de 1/3 (um terço) dos Associados com direito a voto, e em segunda
    convocação, 30 (trinta) minutos depois, com qualquer quorum a partir de 11
-   (onze) membros;
+   (onze) membros. Essa verificação de presença deverá levar em conta as pessoas
+   conecatas por meios digitais;
 b. as decisões serão obtidas por maioria absoluta dos presentes, exceto quando
    se tratar de alterações neste estatuto;
 c. para aprovar alterações neste estatuto serão necessários no mínimo 2/3 dos
