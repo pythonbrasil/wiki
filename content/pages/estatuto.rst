@@ -170,7 +170,7 @@ a. a Assembléia Geral deverá funcionar, em primeira convocação, com a presen
    mínima de 1/3 (um terço) dos Associados com direito a voto, e em segunda
    convocação, 30 (trinta) minutos depois, com qualquer quorum a partir de 11
    (onze) membros. Essa verificação de presença deverá levar em conta as pessoas
-   conecatas por meios digitais;
+   conectadas por meios digitais;
 b. as decisões serão obtidas por maioria absoluta dos presentes, exceto quando
    se tratar de alterações neste estatuto;
 c. para aprovar alterações neste estatuto serão necessários no mínimo 2/3 dos
