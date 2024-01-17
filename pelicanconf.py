@@ -170,7 +170,7 @@ NAVBAR_HOME_LINKS = [
             },
             {
                 'title': 'Eventos',
-                'href': 'eventos',
+                'href': 'https://eventos.python.org.br',
             },
             {
                 'title': 'Contribua',
