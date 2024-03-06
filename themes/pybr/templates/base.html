@@ -56,6 +56,10 @@
                       {% endfor %}
                     </div>
                   </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
+                </li>
               {% endif %}
             {% endfor %}
           </ul>

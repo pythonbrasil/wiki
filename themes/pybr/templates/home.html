@@ -16,7 +16,7 @@
                   </div>
                 </div>
               </a>
-            {% else %}
+            {% elif item.desc is defined %}
               <a href="{{ item.href }}" class="page-description-link" target="_blank">
                 <div class="page-description">
                   <h1 class="page-description-title">{{ item.title }} <i class="fa fa-angle-double-right"></i></h1>
