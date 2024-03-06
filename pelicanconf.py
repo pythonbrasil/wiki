@@ -185,6 +185,10 @@ NAVBAR_HOME_LINKS = [
         "href": "https://apyb.python.org.br/",
         "desc": "Conheça a Associação Python Brasil.",
     },
+    {
+        "title": "Código de Conduta",
+        "href": "cdc",
+    },
 ]
 
 # Links sociais do rodapé
