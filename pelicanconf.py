@@ -69,189 +69,161 @@ PYGMENTS_STYLE = 'monokai'
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
     {
-        'title': 'Impressione-se',
-        'href': '#',
-        'desc': 'Descubra como Python está presente em seu dia-a-dia.',
-        'children': [
+        "title": "Impressione-se",
+        "href": "#",
+        "desc": "Descubra como Python está presente em seu dia-a-dia.",
+        "children": [
             {
-                'title': 'Empresas',
-                'href': 'empresas',
+                "title": "Empresas",
+                "href": "empresas",
             },
             {
-                'title': 'Projetos Brasileiros',
-                'href': 'projetos',
+                "title": "Projetos Brasileiros",
+                "href": "projetos",
             },
-        ]
+        ],
     },
     {
-        'title': 'Inicie-se',
-        'href': '#',
-        'desc': 'Veja como é fácil começar a usar a linguagem.',
-        'children': [
+        "title": "Inicie-se",
+        "href": "#",
+        "desc": "Veja como é fácil começar a usar a linguagem.",
+        "children": [
             {
-                'title': 'Introdução',
-                'href': 'introducao',
+                "title": "Introdução",
+                "href": "introducao",
             },
             {
-                'title': 'Qual Python?',
-                'href': 'qual-python',
+                "title": "Qual Python?",
+                "href": "qual-python",
             },
             {
-                'title': 'Download do python',
-                'href': 'https://www.python.org/downloads/',
+                "title": "Download do python",
+                "href": "https://www.python.org/downloads/",
             },
             {
-                'title': 'Instalação Linux',
-                'href': 'instalacao-linux',
+                "title": "Instalação Linux",
+                "href": "instalacao-linux",
             },
             {
-                'title': 'Instalação Mac',
-                'href': 'instalacao-mac',
+                "title": "Instalação Mac",
+                "href": "instalacao-mac",
             },
             {
-                'title': 'Instalação Windows',
-                'href': 'instalacao-windows',
+                "title": "Instalação Windows",
+                "href": "instalacao-windows",
             },
             {
-                'title': 'Ferramentas',
-                'href': 'ferramentas',
+                "title": "Ferramentas",
+                "href": "ferramentas",
             },
-        ]
+        ],
     },
     {
-        'title': 'Aprenda mais',
-        'href': '#',
-        'desc': (
-            'Conheça mais sobre a linguagem e torne-se um '
-            'verdadeiro pythonista.'
+        "title": "Aprenda mais",
+        "href": "#",
+        "desc": (
+            "Conheça mais sobre a linguagem e torne-se um " "verdadeiro pythonista."
         ),
-        'children': [
+        "children": [
             {
-                'title': 'Web',
-                'href': 'web',
+                "title": "Web",
+                "href": "web",
             },
             {
-                'title': 'Mobile',
-                'href': 'mobile',
+                "title": "Mobile",
+                "href": "mobile",
             },
             {
-                'title': 'Games',
-                'href': 'games',
+                "title": "Games",
+                "href": "games",
             },
             {
-                'title': 'Científico',
-                'href': 'cientifico',
+                "title": "Científico",
+                "href": "cientifico",
             },
             {
-                'title': 'Wiki',
-                'href': 'wiki',
+                "title": "Wiki",
+                "href": "wiki",
             },
-        ]
+        ],
     },
     {
-        'title': 'Participe',
-        'href': '#',
-        'desc': (
-            'Encontre e participe da comunidade e compartilhe '
-            'suas dúvidas e idéias.'
+        "title": "Participe",
+        "href": "#",
+        "desc": (
+            "Encontre e participe da comunidade e compartilhe " "suas dúvidas e idéias."
         ),
-        'children': [
+        "children": [
             {
-                'title': 'Lista de Discussões',
-                'href': 'lista-de-discussoes',
+                "title": "Lista de Discussões",
+                "href": "lista-de-discussoes",
             },
             {
-                'title': 'Comunidades Locais',
-                'href': 'comunidades-locais',
+                "title": "Comunidades Locais",
+                "href": "comunidades-locais",
             },
             {
-                'title': 'Pyladies',
-                'href': 'pyladies',
+                "title": "Pyladies",
+                "href": "pyladies",
             },
             {
-                'title': 'Eventos',
-                'href': 'https://eventos.python.org.br',
+                "title": "Eventos",
+                "href": "https://eventos.python.org.br",
             },
             {
-                'title': 'Contribua',
-                'href': 'contribua',
+                "title": "Contribua",
+                "href": "contribua",
             },
             {
-                'title': 'Tradução',
-                'href': 'traducao',
+                "title": "Tradução",
+                "href": "traducao",
             },
-        ]
+        ],
     },
     {
-        'title': 'APyB',
-        'href': '#',
-        'desc': 'Conheça a Associação Python Brasil.',
-        'children': [
-            {
-                'title': 'A APyB',
-                'href': 'apyb',
-            },
-            {
-                'title': 'Python Brasil',
-                'href': 'python-brasil',
-            },
-            {
-                'title': 'Código de Conduta',
-                'href': 'cdc',
-            },
-            {
-                'title': 'Fundo para Inclusão',
-                'href': 'fundo-para-inclusão',
-            },
-            {
-                'title': 'Prêmio Dorneles Treméa|Jean Ferri',
-                'href': 'premio-dorneles-tremea-jean-ferri',
-            },
-            {
-                'title': 'FAQ',
-                'href': 'apyb-faq',
-            },
-            {
-                'title': 'História da APyB',
-                'href': 'apyb-historia',
-            },
-
-        ]
+        "title": "APyB",
+        "href": "https://apyb.python.org.br/",
+        "desc": "Conheça a Associação Python Brasil.",
+    },
+    {
+        "title": "Código de Conduta",
+        "href": "cdc",
     },
 ]
 
 # Links sociais do rodapé
 SOCIAL_LINKS = (
     {
-        'href': 'https://github.com/pythonbrasil',
-        'icon': 'fa-github',
-        'text': 'GitHub',
+        "href": "https://github.com/pythonbrasil",
+        "icon": "fa-github",
+        "text": "GitHub",
     },
     {
-        'href': 'https://twitter.com/pythonbrasil',
-        'icon': 'fa-twitter',
-        'text': 'Twitter',
+        "href": "https://twitter.com/pythonbrasil",
+        "icon": "fa-twitter",
+        "text": "Twitter",
     },
     {
-        'href': 'https://www.facebook.com/groups/python.brasil',
-        'icon': 'fa-facebook-official',
-        'text': 'Facebook',
+        "href": "https://www.instagram.com/pythonbrasil/",
+        "icon": "fa-instagram",
+        "text": "Instagram",
     },
     {
-        'href': 'https://groups.google.com/forum/#!forum/python-brasil',
-        'icon': 'fa-users',
-        'text': 'Lista de Discussões',
+        "href": "https://www.facebook.com/groups/python.brasil",
+        "icon": "fa-facebook-official",
+        "text": "Facebook",
     },
     {
-        'href': 'https://t.me/pythonbrasil',
-        'icon': 'fa-paper-plane',
-        'text': 'Telegram'
+        "href": "https://groups.google.com/forum/#!forum/python-brasil",
+        "icon": "fa-users",
+        "text": "Lista de Discussões",
     },
-     {
-        'href': 'https://planet.python.org.br/',
-        'icon': 'fa-globe',
-        'text': 'Planet Python'
-    }
+    {"href": "https://t.me/pythonbrasil", "icon": "fa-paper-plane", "text": "Telegram"},
+    {
+        "href": "https://planet.python.org.br/",
+        "icon": "fa-globe",
+        "text": "Planet Python",
+    },
 )
 
 

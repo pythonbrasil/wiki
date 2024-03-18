@@ -40,36 +40,27 @@
 
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
-            {% for link in NAVBAR_HOME_LINKS[:-1] %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {% for sublink in link.children %}
-                    {% if sublink.href.startswith('http') %}
-                      <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
-                    {% else %}
-                      <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </li>
-            {% endfor %}
-          </ul>
-
-          <ul class="navbar-nav">
-            {% for link in NAVBAR_HOME_LINKS[-1:] %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  {% for sublink in link.children %}
-                    <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
-                  {% endfor %}
-                </div>
-              </li>
+            {% for link in NAVBAR_HOME_LINKS %}
+              {% if link.children is defined and link.children|length %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }}
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      {% for sublink in link.children %}
+                        {% if sublink.href.startswith('http') %}
+                          <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
+                        {% else %}
+                          <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </div>
