@@ -10,19 +10,15 @@
         ],
         [
             "Telegram",
-            "https://t.me/PythonRio"
+            "https://t.me/pythonrio2023"
         ],
         [
             "Twitter",
             "https://twitter.com/pythonrio"
-        ],
-        [
-            "Yahoo Groups",
-            "https://br.groups.yahoo.com/neo/groups/pythonrio/info"
         ]
 
     ],
     "nome": "Grupo de usu\u00e1rios do Rio de Janeiro",
     "imagem": "images/comunidades-locais/pythonrio.png",
-    "sigla": "PythonOnRio"
+    "sigla": "PythOnRio"
 }
