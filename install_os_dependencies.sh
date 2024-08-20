@@ -29,12 +29,12 @@ function list_packages(){
 
 function install()
 {
-    list_packages | xargs apt-get --no-upgrade install -y;
+    list_packages | xargs apt --no-upgrade install -y;
 }
 
 function upgrade()
 {
-    list_packages | xargs apt-get install -y;
+    list_packages | xargs apt install -y;
 }
 
 
@@ -52,7 +52,7 @@ function install_or_upgrade()
         exit 1
     else
 
-        apt-get update
+        apt update
 
         # Install the basic compilation dependencies and other required libraries of this project
         if [ "$PARAN" == "install" ]; then
@@ -62,7 +62,7 @@ function install_or_upgrade()
         fi
 
         # cleaning downloaded packages from apt-get cache
-        apt-get clean
+        apt clean
 
         exit 0
     fi

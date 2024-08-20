@@ -13,7 +13,7 @@ paramiko
 pelican==4.7.1
 pelican-alias==1.1
 pillow
-pycrypto
+pycryptodome
 pygments
 python-dateutil
 pytz
