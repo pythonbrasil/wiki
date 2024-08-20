@@ -7,7 +7,7 @@ Template: page
 
 ## Telegram
 
-- [Python Brasil - Roda de Conversa](https://t.me/pythonbr)
+- [Comunidade Python (não oficial) - Roda de Conversa](https://t.me/pythonbr)
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
 - [Engenharia de Dados](https://t.me/engenhariadadosbr)
