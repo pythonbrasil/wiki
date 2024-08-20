@@ -5,6 +5,12 @@ Template: page
 
 # Grupos On-Line
 
+Estes grupos não são organizados pelo Associação Python Brasil.
+Os grupos listados abaixo são gerenciados e mantidos por iniciativas independentes da comunidade Python.
+
+Sites listados apenas para facilitar serem encontrados.
+
+
 ## Telegram
 
 - [Python Brasil - Roda de Conversa](https://t.me/pythonbr)
