@@ -175,10 +175,6 @@ NAVBAR_HOME_LINKS = [
                 "href": "contribua",
             },
             {
-                "title": "Grupos de Discussão On-line",
-                "href": "gruposonline",
-            },
-            {
                 "title": "Tradução",
                 "href": "traducao",
             },
