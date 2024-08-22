@@ -36,8 +36,8 @@ Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está co
 
  Ano | Título | Autor | Tipo | Nível | Grátis? | Link 
 -----|--------|-------|------|-------|---------|------
+ 2024 | Introdução à Programação com Python (4ª edição) | Nilo Ney Coutinho Menezes | Livro | Iniciante | Não | [link](http://python.nilo.pro.br/)
  2021 | Curso para acesso ao mercado Python de Tecnologia  | Renzo Nuccitelli | Curso | Intermediario | Não | [link](https://www.python.pro.br/)
- 2019 | Introdução à Programação com Python | Nilo Ney Coutinho Menezes | Livro | Iniciante | Não | [link](http://python.nilo.pro.br/)
  2017 | Introdução à Ciência da Computação com Python  | CCSL do IME/USP | Curso | Iniciante | Sim	 | [link](https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn)
  2017 | Pycubator (Tradução PT-BR) | Noam Elfanbaum, Udi Oron e Gilson Filho (Tradução) | Material online | Iniciante | Sim | [link](http://df.python.org.br/pycubator/)
  2016 | Python Básico  | Solyd/Guilherme Junqueira | Curso | Iniciante | Sim	 | [link](https://solyd.com.br/treinamentos/python-basico)
