@@ -3,9 +3,7 @@ Slug: gruposonline
 Template: page
 
 
-# Grupos On-Line
-
-Estes grupos não são organizados pelo Associação Python Brasil.
+Estes grupos não são organizados pelo [Associação Python Brasil](https://apyb.python.org.br/).
 Os grupos listados abaixo são gerenciados e mantidos por iniciativas independentes da comunidade Python.
 
 Sites listados apenas para facilitar serem encontrados.
@@ -16,9 +14,12 @@ Sites listados apenas para facilitar serem encontrados.
 - [Python Brasil - Roda de Conversa](https://t.me/pythonbr)
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
-- [Engenharia de Dados](https://t.me/engenhariadadosbr)
+- [Engenharia de Dados BR](https://t.me/engenhariadadosbr)
 - [Flask Brasil](https://t.me/flaskbrasil)
 
+Diversos grupos e comunidades locais também organizam seus próprios grupos no Telegram.
+[Lista completa das comunidades locais](/comunidades-locais)
 
-## Discord
+<!-- ## Discord -->
 
+Caso você queira adicionar seu grupo Telegram ou servidor Discord, [faça um pull request no repositório desta wiki](https://github.com/pythonbrasil/wiki/).
