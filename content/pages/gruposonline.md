@@ -14,12 +14,13 @@ Sites listados apenas para facilitar serem encontrados.
 - [Python Brasil - Roda de Conversa](https://t.me/pythonbr)
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
-- [Engenharia de Dados BR](https://t.me/engenhariadadosbr)
 - [Flask Brasil](https://t.me/flaskbrasil)
 
 Diversos grupos e comunidades locais também organizam seus próprios grupos no Telegram.
 [Lista completa das comunidades locais](/comunidades-locais)
 
-<!-- ## Discord -->
+## Discord
 
-Caso você queira adicionar seu grupo Telegram ou servidor Discord, [faça um pull request no repositório desta wiki](https://github.com/pythonbrasil/wiki/).
+- [Python Brasil](https://discord.gg/TuENdUjwQX)
+
+Caso você queira adicionar seu grupo Telegram ou servidor Discord, [faça um pull request no repositório desta wiki](https://github.com/pythonbrasil/wiki/). Lembre-se que ela deve ser sobre o ecossistema Python.
