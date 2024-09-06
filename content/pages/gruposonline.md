@@ -15,6 +15,7 @@ Sites listados apenas para facilitar serem encontrados.
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
 - [Flask Brasil](https://t.me/flaskbrasil)
+- [pybr i18n](https://t.me/pybr_i18n)
 
 Diversos grupos e comunidades locais também organizam seus próprios grupos no Telegram.
 [Lista completa das comunidades locais](/comunidades-locais)
