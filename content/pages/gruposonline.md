@@ -16,6 +16,7 @@ Sites listados apenas para facilitar serem encontrados.
 - [Django Brasil](https://t.me/djangobrasil)
 - [Flask Brasil](https://t.me/flaskbrasil)
 - [FastAPI Brasil](https://t.me/fastapibr)
+- [Live de Python - Dunossauro](https://t.me/livepython)
 
 Diversos grupos e comunidades locais também organizam seus próprios grupos no Telegram.
 [Lista completa das comunidades locais](/comunidades-locais)
