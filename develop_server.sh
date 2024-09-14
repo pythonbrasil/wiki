@@ -2,6 +2,7 @@
 ##
 # This section should match your Makefile
 ##
+
 PY=${PY:-python}
 PELICAN=${PELICAN:-pelican}
 PELICANOPTS=
@@ -19,7 +20,7 @@ SRV_PID=$BASEDIR/srv.pid
 PELICAN_PID=$BASEDIR/pelican.pid
 
 function usage(){
-  echo "usage: $0 (stop) (start) (restart) [port]"
+  echo "usage: $0 (stop) (start) (restart) (docker_start) [port]"
   echo "This starts Pelican in debug and reload mode and then launches"
   echo "an HTTP server to help site development. It doesn't read"
   echo "your Pelican settings, so if you edit any paths in your Makefile"
@@ -67,11 +68,14 @@ function start_up(){
   pelican_pid=$!
   echo $pelican_pid > $PELICAN_PID
   mkdir -p $OUTPUTDIR && cd $OUTPUTDIR
-  $PY -m pelican.server $port &
+  $PY -m pelican --listen $port &
+
   srv_pid=$!
   echo $srv_pid > $SRV_PID
   cd $BASEDIR
+
   sleep 1
+
   if ! alive $pelican_pid ; then
     echo "Pelican didn't start. Is the Pelican package installed?"
     return 1
@@ -80,6 +84,10 @@ function start_up(){
     return 1
   fi
   echo 'Pelican and HTTP server processes now running in background.'
+}
+
+function docker_start(){
+  $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS  -l -b 0.0.0.0 -D
 }
 
 ###
@@ -98,6 +106,8 @@ elif [[ $1 == "start" ]]; then
   if ! start_up $port; then
     shut_down
   fi
+elif [[ $1 == "docker_start" ]]; then
+  docker_start
 else
   usage
 fi

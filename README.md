@@ -156,6 +156,12 @@ Resta então fazer o commit de suas alterações em seu repositório local e env
 
 Mais informações sobre como funciona o Pelican, indicamos o artigo - [http://mindbending.org/pt/instalando-o-pelican](http://mindbending.org/pt/instalando-o-pelican).
 
+Se você quiser gerar o site automaticamente a cada alteração, utilize:
+
+```
+$ make devserver
+```
+
 Caso queira contribuir com o tema é preciso ter o node instalado em sua máquina. Sua instalação é bem direta e pode ser obtida em:
 
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
@@ -177,4 +183,21 @@ E caso queira rodar sem o live reload, somente para gerar o css para publicaçã
 
 ```
 $ npm run gulp build
+```
+
+#### Rodando com Docker
+
+Criando a imagem:
+```
+docker build -t wiki .
+```
+
+Rodando:
+```
+docker run --rm -t -i -p 8000:8000 -v .:/home/wiki --name pelican wiki
+```
+
+Parando a imagem:
+```
+docker stop pelican
 ```
