@@ -15,6 +15,7 @@ Sites listados apenas para facilitar serem encontrados.
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
 - [Flask Brasil](https://t.me/flaskbrasil)
+- [Tradução da documentação da documentação do Python e correlatas](https://t.me/pybr_i18n)
 - [FastAPI Brasil](https://t.me/fastapibr)
 - [Live de Python - Dunossauro](https://t.me/livepython)
 
