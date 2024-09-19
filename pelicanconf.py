@@ -191,7 +191,8 @@ NAVBAR_HOME_LINKS = [
     },
     {
         "title": "Código de Conduta",
-        "href": "cdc",
+        "href": "https://apyb.python.org.br/pythonbrasil/cdc/",
+        "desc": "Código de Conduta da comunidade Python Brasil.",
     },
 ]
 
