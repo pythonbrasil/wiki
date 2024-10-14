@@ -1,13 +1,17 @@
 {
     "links": [
-        [
-            "Google Groups",
-            "https://groups.google.com/forum/#!forum/pug-pe"
+	[
+            "Telegram",
+            "https://t.me/pugpe"
         ],
-        [
-            "Site",
-            "http://pycon.pug.pe/XLI/"
-        ]
+	[
+            "Github",
+            "https://github.com/pugpe"
+        ],              
+	[
+	    "Instagram",
+	    "https://www.instagram.com/pug.pe/"
+	]
     ],
     "nome": "Grupo de usu\u00e1rios de Pernambuco",
     "imagem": "images/comunidades-locais/pug-pe.png",
