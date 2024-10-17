@@ -19,8 +19,12 @@ profissionais usa o interpretador [*ipython*](http://ipython.org/). Pois, este
 contém mais recursos visuais e de auxílio (como colorir as mensagens de erro).
 
 **Que IDE usar?**
-Depende muito da sua preferência. Você pode usar qualquer editor de texto padrão, como o [Notepad++](https://notepad-plus-plus.org/), Gedit ou [Sublime](http://sublimetext.com/) até o VI puro. Não existe padrão.
-Para quem vem do MATLAB ou R, o [Spyder](https://github.com/spyder-ide/spyder) pode ser muito útil. O [Pycharm](https://www.jetbrains.com/pycharm/) é outro IDE muito utilizado na comunidade e traz consigo muitas funções úteis para iniciantes e profissionais.
+Depende muito da sua preferência. Você pode usar qualquer editor de texto puro, como o [Notepad++](https://notepad-plus-plus.org/),
+[gedit](https://help.gnome.org/users/gedit/stable/index.html.pt_BR) ou [Sublime](http://sublimetext.com/) e até editores orientados para
+a linha de comando, como o [Nano](https://www.nano-editor.org/). Ou editores com recursos de depuração, execução de tarefas e controle
+de versão, como o [VS Code](https://code.visualstudio.com/) ou sua versão sem telemetria e rastreamento, o [VSCodium](https://vscodium.com/).
+Não existe padrão.
+Para quem vem do MATLAB ou R, o [Spyder](https://www.spyder-ide.org/) pode ser muito útil. O [Pycharm](https://www.jetbrains.com/pycharm/) é outro IDE muito utilizado na comunidade e traz consigo muitas funções úteis para iniciantes e profissionais.
 
 **Aonde eu encontro os módulos para utilizar no meu projeto?**
 Alguns módulos já vem por padrão no Python puro, por exemplo o módulo matemático
@@ -33,9 +37,9 @@ Se você não tem a menor ideia de que módulo você precise, dê uma procurada 
 Google e StackOverflow. De certo, alguém já fez algo parecido com o que você
 precisa!
 
-**O que são VirtualEnvs?**
+**O que são ambientes virtuais?**
 O ideal para projetos Python é que você isole as bibliotecas que você usa, para evitar conflitos entre projetos. 
-Isso é uma boa prática e pode evitar dores de cabeça futuras. [Dê uma lida](https://virtualenv.pypa.io/en/stable/) sobre antes de iniciar um projeto grande, ok?
+Isso é uma boa prática e pode evitar dores de cabeça futuras. [Dê uma lida](https://docs.python.org/pt-br/3/library/venv.html) sobre antes de iniciar um projeto, ok?
 
 **Indicação de material de estudo**
 
