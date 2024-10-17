@@ -40,36 +40,27 @@
 
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
-            {% for link in NAVBAR_HOME_LINKS[:-1] %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {% for sublink in link.children %}
-                    {% if sublink.href.startswith('http') %}
-                      <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
-                    {% else %}
-                      <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </li>
-            {% endfor %}
-          </ul>
-
-          <ul class="navbar-nav">
-            {% for link in NAVBAR_HOME_LINKS[-1:] %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  {% for sublink in link.children %}
-                    <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
-                  {% endfor %}
-                </div>
-              </li>
+            {% for link in NAVBAR_HOME_LINKS %}
+              {% if link.children is defined and link.children|length %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }}
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      {% for sublink in link.children %}
+                        {% if sublink.href.startswith('http') %}
+                          <a class="dropdown-item" href="{{ sublink.href }}">{{ sublink.title }}</a>
+                        {% else %}
+                          <a class="dropdown-item" href="{{ SITEURL }}/{{ sublink.href }}">{{ sublink.title }}</a>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </div>
@@ -84,11 +75,14 @@
             <div class="row">
               <div class="col-12">
                 <div class="header-container">
-                  <a href="{{ SITEURL }}/index.html">
-                    <img class="header-logo" src="{{ SITEURL }}/theme/img/site-logo.svg" title="{{ SITENAME }}" alt="{{ SITENAME }}"/>
+                  <a href="https://2024.pythonbrasil.org.br" target="_blank">
+                    <img class="header-logo" title="Python Brasil 2024" alt="Python Brasil 2024" src="https://2024.pythonbrasil.org.br/theme/images/logo.png">
                   </a>
-
-                  <h2 class="header-subtitle">{{ WELCOME_TEXT }}</h2>
+                  
+                  <h2 class="header-subtitle">DE 16 A 21 DE OUTUBRO DE 2024</h2>
+                  <a class="header-subtitle" href="https://2024.pythonbrasil.org.br/" target="_blank">
+                    Acesse aqui o site da conferência para maiores informações e inscrição
+                  </a>
                 </div>
               </div>
             </div>

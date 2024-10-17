@@ -6,18 +6,63 @@
       <div class="row">
         <div class="col-12">
           {% for item in NAVBAR_HOME_LINKS %}
-            <a href="{{ SITEURL }}/{{ item.children.0.href }}" class="page-description-link">
-              <div class="page-description">
-                <h1 class="page-description-title">{{ item.title }} <i class="fa fa-angle-double-right"></i></h1>
+            {% if item.children is defined and item.children|length %}
+              <a href="{{ SITEURL }}/{{ item.children.0.href }}" class="page-description-link">
+                <div class="page-description">
+                  <h1 class="page-description-title">{{ item.title }} <i class="fa fa-angle-double-right"></i></h1>
 
-                <div class="page-description-text">
-                  {{ item.desc }}
+                  <div class="page-description-text">
+                    {{ item.desc }}
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            {% elif item.desc is defined %}
+              <a href="{{ item.href }}" class="page-description-link" target="_blank">
+                <div class="page-description">
+                  <h1 class="page-description-title">{{ item.title }} <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    {{ item.desc }}
+                  </div>
+                </div>
+              </a>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
+
+
+<div class="container">
+   <div class="row"><h4>Grupos de Usuários Python no Brasil (GUPy)</h4></div>
+   <div class="row">
+
+      {% for comunidade in COMUNIDADES_LOCAIS %}
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">{{ comunidade.sigla }}</h4>
+            <h6 class="card-subtitle text-muted">{{ comunidade.nome }}</h6>
+         </div>
+         {% if comunidade.imagem %}
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="{{ SITEURL }}/{{ comunidade.imagem }}" alt="{{ comunidade.sigla }}">
+
+         {% endif %}
+
+         <!-- Text Content -->
+         <div class="card-body">
+            {% for link in comunidade.links %}
+            <a class="card-link" href="{{ link.1 }}">{{ link.0 }}</a>
+            {% endfor %}
+
+         </div>
+
+      </div>
+      {% endfor %}
+   </div>
+</div>
+
 {% endblock %}

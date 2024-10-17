@@ -21,3 +21,4 @@ Alguns projetos brasileiros que usam python:
 - [python-cdi](https://github.com/ettoreleandrotognoli/python-cdi)
 - [django-pycdi](https://github.com/ettoreleandrotognoli/django-pycdi)
 - [revelation](https://github.com/humrochagf/revelation)
+- [BotCity Framework Core](https://github.com/botcity-dev/botcity-framework-core-python)

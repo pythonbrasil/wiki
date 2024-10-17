@@ -1,43 +1,61 @@
-Title: Instalando o Python no Windows
+Title: Instalando o Python 3 no Windows
 Slug: instalacao-windows
 Template: page
 
-Para instalar o Python em Windows, baixe o instalador do site oficial [neste link](https://www.python.org/downloads/). **Dê preferência ao Python 3**, já que a versão 2.x é mantida por compatibilidade com códigos antigos e será descontinuada em 2020.
+Para instalar o Python no seu sistema operacional Windows, você precisa baixar o instalador. Acesse o site oficial [neste link](https://www.python.org/downloads/) e clique em download, como mostrado abaixo.
 
-Rode o instalador baixado para instalar o python no sistema e ao finalizar a instalação siga os passos para adicionar o python no path do sistema, ou ignore esta etapa caso a versão do instalador que você baixou possua a opção de configurar o path para você.
+![passos](./../images/instalacao-windows/01.png)
 
-## Adicionando o python no path
+Isso fará o download do Python 3 para sitemas 64 bits. Para o instalador de 32 bits, acesse [](https://www.python.org/downloads/windows/) e selecione o instalador de 32 bits apropriado, como mostrado abaixo.
 
-Para que você consiga rodar o python pela linha de comando é necessário adiciona-lo no path do sistema que pode ser feito seguindo os passos a seguir:
+![passos](./../images/instalacao-windows/02.png)
 
-![passos]({filename}/images/instalacao-windows/add-python-to-path.png)
+Faça o download do instalador executável do Windows (32 ou 64 bits) e clique duas vezes nele para iniciar o assistente de instalação do python, como mostrado abaixo.
 
-1. Abra o painel de controle e navegue até as configurações de sistema
-2. Selecione as configurações avançadas do sistema
-3. Clique em variáveis de ambiente
-4. Procure nas variáveis do sistema pela variável `Path`
-5. Clique em editar
-6. Verifique se os valores `C:\Python34` e `C:\Python34\Scripts` existem no campo de valor da variável, caso não exista adicione ao final dos valores separando cada valor com `;`. O `Python34` neste exemplo é referente a pasta onde o python foi instalado no seu sistema, este valor pode ser diferente caso esteja instalando outra versão do python por exemplo se for a versão 2.7 o valor será `Python27`. Verifique o destino da sua instalação e subistitua por este valor.
-7. Clique em OK
+![passos](./../images/instalacao-windows/03.png)
 
+O processo de instalação é bem simples.  
 
-## Instalando o pip
+1. Marque a opção "Add Python to PATH"  
+2. Clique em "Install Now"
 
-Para que você consiga instalar os pacotes do python é necessário que você tenha o `pip` instalado no sistema. Este procedimento funciona com python 2.7.9 ou versões superiores e python 3.x.
+A tela abaixo será mostrada. Aguarde enquanto o instalador completa o processo de instalação.
 
-Clique com o botão direito no icone do windows e selecione **executar**:
+![passos](./../images/instalacao-windows/04.png)
 
-![executar]({filename}/images/instalacao-windows/windows-run.png)
+Se tudo ocorrer bem, a próxima tela será mostrada. Clique em "Close".
 
-Digite `cmd` e clique em ok:
+![passos](./../images/instalacao-windows/05.png)
 
-![cmd]({filename}/images/instalacao-windows/cmd.png)
+Para verificar se a instalação do Python foi bem-sucedida, pesquise no menu iniciar por "cmd" e clique duas vezes para abri-lo.
 
-Na linha de comando rode `python -m ensurepip`:
+![passos](./../images/instalacao-windows/06.png)
 
-![ensurepip]({filename}/images/instalacao-windows/ensurepip.png)
+Digite o seguinte comando:
+    $ python --version
+    Python 3.11.3
 
-Se o comando retornar dizendo que os requisitos já estão satisfeitos rode `python -m ensurepip --upgrade`:
+Este comando retornará a versão do python que está instalada em sua máquina. Agora digite:
 
+    $ pip --version
+    pip 22.3.1 from C:\Users\...\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
 
-![ensurepip-upgrade]({filename}/images/instalacao-windows/ensurepip-upgrade.png)
+Esse comando retornará a versão do pip que está instalada em sua máquina. O pip é o gerenciador de pacote do Python. Com ele você poderá adicionar novas funcionalidades ao seu Python.
+
+## IDLE
+
+O IDLE (Ambiente de Desenvolvimento e Aprendizagem Integrado) é um ambiente de desenvolvimento integrado (IDE) para Python. O instalador do Python para Windows contém o módulo IDLE por padrão.
+
+O IDLE pode ser usado para executar uma única instrução, como o Python Shell, e também para criar, modificar e executar scripts Python. O IDLE fornece um editor de texto completo para criar scripts Python que incluem recursos como destaque de sintaxe, preenchimento automático e recuo inteligente. Ele também possui um depurador com recursos de etapas e pontos de interrupção.
+
+Para iniciar o shell interativo IDLE, procure o ícone IDLE no menu Iniciar e clique duas vezes nele.
+
+![passos](./../images/instalacao-windows/09.png)
+
+Isso abrirá o IDLE, onde você pode escrever o código Python e executá-lo como mostrado abaixo.
+
+![passos](./../images/instalacao-windows/11.gif)
+
+Parabéns, agora o Python, o pip e o Idle já estão instalados em seu sistema Windows.
+
+Happy Hacking! ^-^

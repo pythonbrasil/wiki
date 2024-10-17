@@ -49,10 +49,19 @@ FOOTER_ABOUT = (
 )
 
 # Statics
-STATIC_PATHS = ['images', 'extra/CNAME']
+STATIC_PATHS = [
+    'images',
+    'extra/CNAME',
+    'extra/pages',
+]
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
+    'extra/pages/denuncia.html': {'path': 'denuncia/index.html'},
 }
+
+PAGE_EXCLUDES = ARTICLE_EXCLUDES = [
+    'extra/pages',
+]
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = 'monokai'
@@ -60,180 +69,166 @@ PYGMENTS_STYLE = 'monokai'
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
     {
-        'title': 'Impressione-se',
-        'href': '#',
-        'desc': 'Descubra como Python está presente em seu dia-a-dia.',
-        'children': [
+        "title": "Impressione-se",
+        "href": "#",
+        "desc": "Descubra como Python está presente em seu dia-a-dia.",
+        "children": [
             {
-                'title': 'Empresas',
-                'href': 'empresas',
+                "title": "Empresas",
+                "href": "empresas",
             },
             {
-                'title': 'Projetos Brasileiros',
-                'href': 'projetos',
+                "title": "Projetos Brasileiros",
+                "href": "projetos",
             },
-        ]
+        ],
     },
     {
-        'title': 'Inicie-se',
-        'href': '#',
-        'desc': 'Veja como é fácil começar a usar a linguagem.',
-        'children': [
+        "title": "Inicie-se",
+        "href": "#",
+        "desc": "Veja como é fácil começar a usar a linguagem.",
+        "children": [
             {
-                'title': 'Introdução',
-                'href': 'introducao',
+                "title": "Introdução",
+                "href": "introducao",
             },
             {
-                'title': 'Qual Python?',
-                'href': 'qual-python',
+                "title": "Qual Python?",
+                "href": "qual-python",
             },
             {
-                'title': 'Download do python',
-                'href': 'https://www.python.org/downloads/',
+                "title": "Download do python",
+                "href": "https://www.python.org/downloads/",
             },
             {
-                'title': 'Instalação Linux',
-                'href': 'instalacao-linux',
+                "title": "Instalação Linux",
+                "href": "instalacao-linux",
             },
             {
-                'title': 'Instalação Mac',
-                'href': 'instalacao-mac',
+                "title": "Instalação Mac",
+                "href": "instalacao-mac",
             },
             {
-                'title': 'Instalação Windows',
-                'href': 'instalacao-windows',
+                "title": "Instalação Windows",
+                "href": "instalacao-windows",
             },
             {
-                'title': 'Ferramentas',
-                'href': 'ferramentas',
+                "title": "Ferramentas",
+                "href": "ferramentas",
             },
-        ]
+        ],
     },
     {
-        'title': 'Aprenda mais',
-        'href': '#',
-        'desc': (
-            'Conheça mais sobre a linguagem e torne-se um '
-            'verdadeiro pythonista.'
+        "title": "Aprenda mais",
+        "href": "#",
+        "desc": (
+            "Conheça mais sobre a linguagem e torne-se um " "verdadeiro pythonista."
         ),
-        'children': [
+        "children": [
             {
-                'title': 'Web',
-                'href': 'web',
+                "title": "Web",
+                "href": "web",
             },
             {
-                'title': 'Mobile',
-                'href': 'mobile',
+                "title": "Mobile",
+                "href": "mobile",
             },
             {
-                'title': 'Games',
-                'href': 'games',
+                "title": "Games",
+                "href": "games",
             },
             {
-                'title': 'Científico',
-                'href': 'cientifico',
+                "title": "Científico",
+                "href": "cientifico",
             },
             {
-                'title': 'Wiki',
-                'href': 'wiki',
+                "title": "Wiki",
+                "href": "wiki",
             },
-        ]
+        ],
     },
     {
-        'title': 'Participe',
-        'href': '#',
-        'desc': (
-            'Encontre e participe da comunidade e compartilhe '
-            'suas dúvidas e idéias.'
+        "title": "Participe",
+        "href": "#",
+        "desc": (
+            "Encontre e participe da comunidade e compartilhe " "suas dúvidas e idéias."
         ),
-        'children': [
+        "children": [
             {
-                'title': 'Lista de Discussões',
-                'href': 'lista-de-discussoes',
+                "title": "Lista de Discussões",
+                "href": "lista-de-discussoes",
             },
             {
-                'title': 'Comunidades Locais',
-                'href': 'comunidades-locais',
+                "title": "Comunidades Locais",
+                "href": "comunidades-locais",
             },
             {
-                'title': 'Pyladies',
-                'href': 'pyladies',
+                "title": "Pyladies",
+                "href": "pyladies",
             },
             {
-                'title': 'Eventos',
-                'href': 'eventos',
+                "title": "Eventos",
+                "href": "https://eventos.python.org.br",
             },
             {
-                'title': 'Contribua',
-                'href': 'contribua',
+                "title": "Contribua",
+                "href": "contribua",
             },
             {
-                'title': 'Tradução',
-                'href': 'traducao',
+                "title": "Grupos de Discussão On-line",
+                "href": "gruposonline",
             },
-        ]
+            {
+                "title": "Tradução",
+                "href": "traducao",
+            },
+        ],
     },
     {
-        'title': 'APyB',
-        'href': '#',
-        'desc': 'Conheça a Associação Python Brasil.',
-        'children': [
-            {
-                'title': 'A APyB',
-                'href': 'apyb',
-            },
-            {
-                'title': 'Python Brasil',
-                'href': 'python-brasil',
-            },
-            {
-                'title': 'Código de Conduta',
-                'href': 'cdc',
-            },
-            {
-                'title': 'Prêmio Dorneles Treméa',
-                'href': 'premio-dorneles-tremea',
-            },
-            {
-                'title': 'FAQ',
-                'href': 'apyb-faq',
-            },
-            {
-                'title': 'História da APyB',
-                'href': 'apyb-historia',
-            },
-
-        ]
+        "title": "APyB",
+        "href": "https://apyb.python.org.br/",
+        "desc": "Conheça a Associação Python Brasil.",
+    },
+    {
+        "title": "Código de Conduta",
+        "href": "https://apyb.python.org.br/pythonbrasil/cdc/",
+        "desc": "Código de Conduta da comunidade Python Brasil.",
     },
 ]
 
 # Links sociais do rodapé
 SOCIAL_LINKS = (
     {
-        'href': 'https://github.com/pythonbrasil',
-        'icon': 'fa-github',
-        'text': 'GitHub',
+        "href": "https://github.com/pythonbrasil",
+        "icon": "fa-github",
+        "text": "GitHub",
     },
     {
-        'href': 'https://twitter.com/pythonbrasil',
-        'icon': 'fa-twitter',
-        'text': 'Twitter',
+        "href": "https://twitter.com/pythonbrasil",
+        "icon": "fa-twitter",
+        "text": "Twitter",
     },
     {
-        'href': 'https://www.facebook.com/groups/python.brasil',
-        'icon': 'fa-facebook-official',
-        'text': 'Facebook',
+        "href": "https://www.instagram.com/pythonbrasil/",
+        "icon": "fa-instagram",
+        "text": "Instagram",
     },
     {
-        'href': 'https://groups.google.com/forum/#!forum/python-brasil',
-        'icon': 'fa-users',
-        'text': 'Lista de Discussões',
+        "href": "https://www.facebook.com/groups/python.brasil",
+        "icon": "fa-facebook-official",
+        "text": "Facebook",
     },
     {
-        'href': 'https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ',
-        'icon': 'fa-paper-plane',
-        'text': 'Telegram'
-    }
+        "href": "https://groups.google.com/forum/#!forum/python-brasil",
+        "icon": "fa-users",
+        "text": "Lista de Discussões",
+    },
+    {"href": "https://t.me/pythonbrasil", "icon": "fa-paper-plane", "text": "Telegram"},
+    {
+        "href": "https://planet.python.org.br/",
+        "icon": "fa-globe",
+        "text": "Planet Python",
+    },
 )
 
 
@@ -247,11 +242,9 @@ def date_hook(json_dict):
     return json_dict
 
 
-def import_empresas(path):
+def ordena_por_regiao(empresas):
     por_regiao = {}
-    dados = [json.load(open(fname, 'r')) for fname in glob.glob(path)]
-
-    for empresa in dados:
+    for empresa in empresas:
         regiao = empresa['regiao']
         estado = empresa['estado']
 
@@ -262,15 +255,15 @@ def import_empresas(path):
         por_estado[estado] = no_estado
         por_regiao[regiao] = por_estado
 
-    empresas = OrderedDict()
+    empresas_ordenadas = OrderedDict()
     for regiao in sorted(por_regiao):
-        empresas[regiao] = OrderedDict()
+        empresas_ordenadas[regiao] = OrderedDict()
         for estado in sorted(por_regiao[regiao]):
             no_estado = por_regiao[regiao][estado]
             no_estado.sort(key=lambda x: x['nome'])
             no_estado.sort(key=lambda x: x['cidade'])
-            empresas[regiao][estado] = no_estado
-    return empresas
+            empresas_ordenadas[regiao][estado] = no_estado
+    return empresas_ordenadas
 
 
 # Configurações da página de comunidades locais
@@ -281,7 +274,12 @@ COMUNIDADES_LOCAIS = [
 DEFAULT_COMMUNITY_IMAGE = "images/comunidades-locais/default.png"
 
 # Configurações da página de empresas
-EMPRESAS = import_empresas('content/empresas/*.json')
+# EMPRESAS = import_empresas('content/empresas/*.json')
+EMPRESAS = [
+    json.load(open(fname, 'r'))
+    for fname in glob.glob('content/empresas/*.json')
+]
+EMPRESAS = ordena_por_regiao(EMPRESAS)
 DEFAULT_EMPRESA_IMAGE = "images/empresas/default.png"
 
 # Configurações da página das pyladies

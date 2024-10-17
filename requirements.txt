@@ -6,14 +6,14 @@ ecdsa
 feedgenerator
 jinja2
 lxml
-markdown==2.6.11
+markdown==3.3.6
 markupsafe
 mdx-video
 paramiko
-pelican==3.6
+pelican==4.7.1
 pelican-alias==1.1
 pillow
-pycrypto
+pycryptodome
 pygments
 python-dateutil
 pytz

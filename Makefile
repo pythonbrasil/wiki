@@ -66,9 +66,9 @@ github: publish
 	ghp-import -m "Generate APyB site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-travis: publish
+push: publish
 	git config --global user.email "contato@python.org.br"
-	git config --global user.name "APyB Travis Bot"
+	git config --global user.name "APyB Bot"
 	ghp-import -m "Updated APyB site." -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push -fq origin $(GITHUB_PAGES_BRANCH) > /dev/null
 
