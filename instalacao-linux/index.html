@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Python Brasil-Instalando o Python no Linux</title>
+
+    <!-- Favicon -->
+    <link href="https://python.org.br/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://python.org.br/theme/css/pybr.min.css" rel="stylesheet">
+    <link href="https://python.org.br/theme/css/pygment.css" rel="stylesheet">
+
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62093919-3', 'auto');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+
+
+    </script>
+  </head>
+
+  <body>
+
+    <div class="master-wrapper blue-top-border">
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+
+        <a class="navbar-brand" href="https://python.org.br/">Python Brasil</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Impressione-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/empresas">Empresas</a>
+                          <a class="dropdown-item" href="https://python.org.br/projetos">Projetos Brasileiros</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Inicie-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/introducao">Introdução</a>
+                          <a class="dropdown-item" href="https://python.org.br/qual-python">Qual Python?</a>
+                          <a class="dropdown-item" href="https://www.python.org/downloads/">Download do python</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-linux">Instalação Linux</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-mac">Instalação Mac</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-windows">Instalação Windows</a>
+                          <a class="dropdown-item" href="https://python.org.br/ferramentas">Ferramentas</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Aprenda mais
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/web">Web</a>
+                          <a class="dropdown-item" href="https://python.org.br/mobile">Mobile</a>
+                          <a class="dropdown-item" href="https://python.org.br/games">Games</a>
+                          <a class="dropdown-item" href="https://python.org.br/cientifico">Científico</a>
+                          <a class="dropdown-item" href="https://python.org.br/wiki">Wiki</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Participe
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/lista-de-discussoes">Lista de Discussões</a>
+                          <a class="dropdown-item" href="https://python.org.br/comunidades-locais">Comunidades Locais</a>
+                          <a class="dropdown-item" href="https://python.org.br/pyladies">Pyladies</a>
+                          <a class="dropdown-item" href="https://eventos.python.org.br">Eventos</a>
+                          <a class="dropdown-item" href="https://python.org.br/contribua">Contribua</a>
+                          <a class="dropdown-item" href="https://python.org.br/gruposonline">Grupos de Discussão On-line</a>
+                          <a class="dropdown-item" href="https://python.org.br/traducao">Tradução</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/">APyB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/pythonbrasil/cdc/">Código de Conduta</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <main>
+  <div class="container">
+
+    <div class="row page-content">
+      <div class="offset-md-2 col-md-8 col-sm-12">
+        <h1>Instalando o Python no Linux</h1>
+
+        <p>Os sistemas GNU/Linux mais recentes ja possuem uma versão do Python instalada junto com o sistema operacional. Podemos checar com o seguinte comando:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>which<span class="w"> </span>python3
+/usr/bin/python3
+</code></pre></div>
+<p>que nos mostra onde o Python padrão do sistema operacional está instalado.</p>
+<p>A versão do Python na distribuição Linux Ubuntu 22.04.2 LTS é a 3.10.</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>python3<span class="w"> </span>--version
+Python<span class="w"> </span><span class="m">3</span>.10.6
+</code></pre></div>
+<p>Para evitar conflitos com o Python do sistema operacional, sugere-se a instalação de um outro interpretador, que pode ser feita de 2 formas diferentes: através do  de gerenciador de pacotes ou de repositórios.</p>
+<h2>Instalação por gerenciadores de pacotes</h2>
+<p>Os gerenciadores de pacotes mais comuns são <code>apt-get</code> (Debian, Ubuntu) e <code>yum</code>
+(RedHat, CentOS). Caso sua distribuição utilize um gerenciador de pacotes diferente, acesse a <a href="https://www.python.org/downloads/">página de downloads do Python</a>.</p>
+<h3>Debian e Ubuntu</h3>
+<p>Através do gerenciador de pacotes, é possível instalar versões específicas do Python.
+No exemplo abaixo, é instalada a versão, por exemplo, 3.9 do Python</p>
+<div class="highlight"><pre><span></span><code>sudo apt-get install python3.9
+</code></pre></div>
+<p>É possível instalar qualquer outra versão: <code>python3.8</code>, <code>python3.9</code>, <code>python.10</code></p>
+<p>Desta forma, a instalação desta versão específica do Python acima difere da versão padrão do sistema operacional.</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>which<span class="w"> </span>python3.9
+/usr/bin/python3.9
+
+$<span class="w"> </span>which<span class="w"> </span>python3
+/usr/bin/python3
+</code></pre></div>
+<h3>RedHat e CentOS</h3>
+<p>Assim como no tópico anterior, é possível instalar versões específicas do Python.
+No comando abaixo, é instalada a versão, por exemplo, 3.9 do Python.</p>
+<div class="highlight"><pre><span></span><code>sudo yum install python3.9
+</code></pre></div>
+<h2>Instalação por repositório</h2>
+<p>Os repositórios no GNU/Linux são chamados de PPAs (do inglês Personal Package Archives).</p>
+<p>Para adicionar repositórios ao nosso sistema, precisamos de um software chamado <code>software-properties-common</code>, que pode ser instalado com o comando abaixo:</p>
+<div class="highlight"><pre><span></span><code>sudo apt-get install software-properties-common
+</code></pre></div>
+<p>Habilitada a adição de repositórios ao nosso sitema operacional, podemos agora incluir o repositório que contém o Python. Este repositório é chamado de deadsnakes, cuja página oficial pode ser encontrada neste <a href="https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa">link</a>.</p>
+<div class="highlight"><pre><span></span><code>sudo add-apt-repository ppa:deadsnakes/ppa
+</code></pre></div>
+<p>Agora a instalação do Python pode ser feita a partir deste repositório com o comando</p>
+<div class="highlight"><pre><span></span><code>sudo apt-get install python3.9
+</code></pre></div>
+<p>Da mesma forma, é possível instalar várias versões. Observem que a versão python correspondente à do sistema operacional padrão não está disponível no repositório deadsnakes.</p>
+      </div>
+    </div>
+
+  </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3>Sobre</h3>
+              <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
+            </div>
+
+            <div class="col-12 col-md-4 offset-md-2 col-lg-4 offset-lg-4">
+              <h3>Social</h3>
+
+              <ul>
+                  <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
+                  <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
+                  <li><a href="https://www.instagram.com/pythonbrasil/"><icon class="fa fa-instagram"></icon> Instagram</a></li>
+                  <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
+                  <li><a href="https://t.me/pythonbrasil"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
+                  <li><a href="https://planet.python.org.br/"><icon class="fa fa-globe"></icon> Planet Python</a></li>
+              </ul>
+            </div>
+        </div>
+      </footer>
+
+      <script src="https://python.org.br/theme/js/jquery.min.js"></script>
+      <script src="https://python.org.br/theme/js/tether.min.js"></script>
+      <script src="https://python.org.br/theme/js/bootstrap.min.js"></script>
+
+    </div>
+  </body>
+</html>

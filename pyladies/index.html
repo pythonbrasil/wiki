@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Python Brasil-Pyladies</title>
+
+    <!-- Favicon -->
+    <link href="https://python.org.br/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://python.org.br/theme/css/pybr.min.css" rel="stylesheet">
+    <link href="https://python.org.br/theme/css/pygment.css" rel="stylesheet">
+
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62093919-3', 'auto');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+
+
+    </script>
+  </head>
+
+  <body>
+
+    <div class="master-wrapper blue-top-border">
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+
+        <a class="navbar-brand" href="https://python.org.br/">Python Brasil</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Impressione-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/empresas">Empresas</a>
+                          <a class="dropdown-item" href="https://python.org.br/projetos">Projetos Brasileiros</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Inicie-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/introducao">Introdução</a>
+                          <a class="dropdown-item" href="https://python.org.br/qual-python">Qual Python?</a>
+                          <a class="dropdown-item" href="https://www.python.org/downloads/">Download do python</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-linux">Instalação Linux</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-mac">Instalação Mac</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-windows">Instalação Windows</a>
+                          <a class="dropdown-item" href="https://python.org.br/ferramentas">Ferramentas</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Aprenda mais
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/web">Web</a>
+                          <a class="dropdown-item" href="https://python.org.br/mobile">Mobile</a>
+                          <a class="dropdown-item" href="https://python.org.br/games">Games</a>
+                          <a class="dropdown-item" href="https://python.org.br/cientifico">Científico</a>
+                          <a class="dropdown-item" href="https://python.org.br/wiki">Wiki</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Participe
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/lista-de-discussoes">Lista de Discussões</a>
+                          <a class="dropdown-item" href="https://python.org.br/comunidades-locais">Comunidades Locais</a>
+                          <a class="dropdown-item" href="https://python.org.br/pyladies">Pyladies</a>
+                          <a class="dropdown-item" href="https://eventos.python.org.br">Eventos</a>
+                          <a class="dropdown-item" href="https://python.org.br/contribua">Contribua</a>
+                          <a class="dropdown-item" href="https://python.org.br/gruposonline">Grupos de Discussão On-line</a>
+                          <a class="dropdown-item" href="https://python.org.br/traducao">Tradução</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/">APyB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/pythonbrasil/cdc/">Código de Conduta</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <main>
+  <div class="container">
+
+    <div class="row page-content">
+      <div class="offset-md-2 col-md-8 col-sm-12">
+        <h1>Pyladies</h1>
+
+        <p>PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de ajudar mais e mais mulheres a se tornarem participantes ativas e líderes na comunidade open source Python.</p>
+<p>Para saber mais sobre esta iniciativa, acesse <a href="http://brasil.pyladies.com/">brasil.pyladies.com</a> ou entre diretamente em contato com um dos grupos regionais listados abaixo:</p>
+      </div>
+    </div>
+
+  <div class="row thumbnail-container">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_recife.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Recife</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesrecife">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladies_recife">Twitter</a>
+                <a class="badge badge-default" href="mailto:recife@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_teresina.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Teresina</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesteresina">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/search/top/?q=pyladies%20teresina">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesthe">Twitter</a>
+                <a class="badge badge-default" href="mailto:teresina@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_manaus.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Manaus</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesmanaus">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/www.facebook.com/pyladiesmanaus/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesmanaus">Twitter</a>
+                <a class="badge badge-default" href="mailto:manaus@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Joinville</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:joinville@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_fortaleza.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Fortaleza</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesfortaleza">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesFortaleza">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesfort">Twitter</a>
+                <a class="badge badge-default" href="mailto:fortaleza@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_paraiba.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Paraíba</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiespb/">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiespb">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiespb">Twitter</a>
+                <a class="badge badge-default" href="mailto:pb@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_goiania.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Goiânia</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:goiania@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Pato Branco</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiespatobranco">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiespatobranco/">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sul_de_minas.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Sul de Minas Gerais</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesmg">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesmg/">Facebook</a>
+                <a class="badge badge-default" href="https://pyladiesmg.github.io/">Site</a>
+                <a class="badge badge-default" href="mailto:suldeminasgerais@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_porto_alegre.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Porto Alegre</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiespoa">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PoaPyladies/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/Pyladiespoa">Twitter</a>
+                <a class="badge badge-default" href="https://pyladiespoa.pythonanywhere.com/">Site</a>
+                <a class="badge badge-default" href="mailto:portoalegre@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sao_luis.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies São Luís</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-slz">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesSLZ">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyladiesSlz">Twitter</a>
+                <a class="badge badge-default" href="mailto:pyladies.slz@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Duque de Caxias</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-dcaxias">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesDuqueDeCaxias">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyLadiesCaxias">Twitter</a>
+                <a class="badge badge-default" href="mailto:duquedecaxias@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_maceio.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Maceió</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesMaceio">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyLadiesMaceio">Twitter</a>
+                <a class="badge badge-default" href="mailto:maceio@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_aracati.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Aracati</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesAracati">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesAracati">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyladiesAracati">Twitter</a>
+                <a class="badge badge-default" href="https://pyladiesaracati.github.io/">Site</a>
+                <a class="badge badge-default" href="mailto:aracati@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_distrito_federal.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Distrito Federal</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesdf">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesdf">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyLadiesDF">Twitter</a>
+                <a class="badge badge-default" href="https://df.pyladies.com/">Site</a>
+                <a class="badge badge-default" href="mailto:df@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Picos</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesPicos">Facebook</a>
+                <a class="badge badge-default" href="mailto:picos@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Vale do Paraíba</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiesvale">Github</a>
+                <a class="badge badge-default" href="https://facebook.com/pyladiesvale">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesvale">Twitter</a>
+                <a class="badge badge-default" href="http://vale.pyladies.com/">Site</a>
+                <a class="badge badge-default" href="mailto:vale@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sergipe.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Sergipe</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-sergipe">Github</a>
+                <a class="badge badge-default" href="https://twitter.com/PyladiesSergipe">Twitter</a>
+                <a class="badge badge-default" href="mailto:sergipe@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sao_carlos.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies São Carlos</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesSanca">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesSaoCarlos">Facebook</a>
+                <a class="badge badge-default" href="mailto:saocarlos@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sao_paulo.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies São Paulo</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesSP">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesSP">Facebook</a>
+                <a class="badge badge-default" href="mailto:saopaulo@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies PUC Rio de Janeiro</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesPUCRio">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiespucrio">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiespucrio">Twitter</a>
+                <a class="badge badge-default" href="mailto:pucrio@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Campinas</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiescps">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiescps">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiescps">Twitter</a>
+                <a class="badge badge-default" href="mailto:campinas@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Belém</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesbelem/">Facebook</a>
+                <a class="badge badge-default" href="mailto:belem@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_salvador.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Salvador</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladiessalvador">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladies.ssa">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladies_ssa">Twitter</a>
+                <a class="badge badge-default" href="mailto:salvador@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies São Bento do Sul</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:saobentodosul@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_rio_de_janeiro.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Rio de Janeiro</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-brazil">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesrio/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/rio_pyladies">Twitter</a>
+                <a class="badge badge-default" href="http://rio.pyladies.com">Site</a>
+                <a class="badge badge-default" href="mailto:rio@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_parnaiba.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Parnaíba</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/pyLadiesPHB">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesphb">Twitter</a>
+                <a class="badge badge-default" href="mailto:parnaiba@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Canoas</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiescanoas">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiescanoas">Twitter</a>
+                <a class="badge badge-default" href="mailto:canoas@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_curitiba.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Curitiba</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/Pyladies-CWB">Github</a>
+                <a class="badge badge-default" href="mailto:curitiba@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Pará</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:para@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_florianopolis.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Florianópolis</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesfloripa/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyLadiesFloripa">Twitter</a>
+                <a class="badge badge-default" href="mailto:floripa@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sao_jose_dos_campos.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies São José dos Campos</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyladiesSJC">Github</a>
+                <a class="badge badge-default" href="mailto:sjc@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_macae.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Macaé</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:macae@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_sorocaba.jpg" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Sorocaba</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesSorocaba">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesSorocaba">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyLadieSorocaba">Twitter</a>
+                <a class="badge badge-default" href="mailto:sorocaba@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_caxias_do_sul.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Caxias do Sul</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyladiesCaxias">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiescaxiasdosul/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/caxiaspyladies">Twitter</a>
+                <a class="badge badge-default" href="https://pyladiescaxias.github.io/">Site</a>
+                <a class="badge badge-default" href="mailto:caxiasdosul@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_ativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Boa Vista</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:boavista@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_natal.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Natal</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesNatal">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadiesNatal">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/PyladiesNatal">Twitter</a>
+                <a class="badge badge-default" href="http://pyladiesnatal.github.io/">Site</a>
+                <a class="badge badge-default" href="mailto:natalrn@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Caldas Novas</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:cn@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_blumenau.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Blumenau</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/PyLadies-Blumenau-1928509964035574">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pyladiesbnu">Twitter</a>
+                <a class="badge badge-default" href="mailto:blumenau@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_inativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Espírito Santo</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-es">Github</a>
+                <a class="badge badge-default" href="mailto:es@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_ativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Rosana</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="mailto:rosana@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_ribeirao_preto.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Ribeirão Preto</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/pyladies-rp">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesrp">Facebook</a>
+                <a class="badge badge-default" href="http://pyladies-rp.github.io/">Site</a>
+                <a class="badge badge-default" href="mailto:ribeiraopreto@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_nova_iguacu.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Nova Iguaçu</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyladiesRural">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesrural">Facebook</a>
+                <a class="badge badge-default" href="mailto:rural@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="http://brasil.pyladies.com/images/locais/pyladies_default_ativa.png" alt="">
+
+          <div class="caption">
+            <h3 class="text-center">Pyladies Belo Horizonte</h3>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/PyLadiesBH">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pyladiesbh">Facebook</a>
+                <a class="badge badge-default" href="twitter.com/pyladiesbh">Twitter</a>
+                <a class="badge badge-default" href="mailto:bh@pyladies.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3>Sobre</h3>
+              <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
+            </div>
+
+            <div class="col-12 col-md-4 offset-md-2 col-lg-4 offset-lg-4">
+              <h3>Social</h3>
+
+              <ul>
+                  <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
+                  <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
+                  <li><a href="https://www.instagram.com/pythonbrasil/"><icon class="fa fa-instagram"></icon> Instagram</a></li>
+                  <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
+                  <li><a href="https://t.me/pythonbrasil"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
+                  <li><a href="https://planet.python.org.br/"><icon class="fa fa-globe"></icon> Planet Python</a></li>
+              </ul>
+            </div>
+        </div>
+      </footer>
+
+      <script src="https://python.org.br/theme/js/jquery.min.js"></script>
+      <script src="https://python.org.br/theme/js/tether.min.js"></script>
+      <script src="https://python.org.br/theme/js/bootstrap.min.js"></script>
+
+    </div>
+  </body>
+</html>

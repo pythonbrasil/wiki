@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Python Brasil</title>
+
+    <!-- Favicon -->
+    <link href="https://python.org.br/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://python.org.br/theme/css/pybr.min.css" rel="stylesheet">
+    <link href="https://python.org.br/theme/css/pygment.css" rel="stylesheet">
+
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62093919-3', 'auto');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+
+
+    </script>
+  </head>
+
+  <body>
+
+    <div class="master-wrapper yellow-top-border">
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+
+        <a class="navbar-brand" href="https://python.org.br/">Python Brasil</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Impressione-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/empresas">Empresas</a>
+                          <a class="dropdown-item" href="https://python.org.br/projetos">Projetos Brasileiros</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Inicie-se
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/introducao">Introdução</a>
+                          <a class="dropdown-item" href="https://python.org.br/qual-python">Qual Python?</a>
+                          <a class="dropdown-item" href="https://www.python.org/downloads/">Download do python</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-linux">Instalação Linux</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-mac">Instalação Mac</a>
+                          <a class="dropdown-item" href="https://python.org.br/instalacao-windows">Instalação Windows</a>
+                          <a class="dropdown-item" href="https://python.org.br/ferramentas">Ferramentas</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Aprenda mais
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/web">Web</a>
+                          <a class="dropdown-item" href="https://python.org.br/mobile">Mobile</a>
+                          <a class="dropdown-item" href="https://python.org.br/games">Games</a>
+                          <a class="dropdown-item" href="https://python.org.br/cientifico">Científico</a>
+                          <a class="dropdown-item" href="https://python.org.br/wiki">Wiki</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Participe
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://python.org.br/lista-de-discussoes">Lista de Discussões</a>
+                          <a class="dropdown-item" href="https://python.org.br/comunidades-locais">Comunidades Locais</a>
+                          <a class="dropdown-item" href="https://python.org.br/pyladies">Pyladies</a>
+                          <a class="dropdown-item" href="https://eventos.python.org.br">Eventos</a>
+                          <a class="dropdown-item" href="https://python.org.br/contribua">Contribua</a>
+                          <a class="dropdown-item" href="https://python.org.br/gruposonline">Grupos de Discussão On-line</a>
+                          <a class="dropdown-item" href="https://python.org.br/traducao">Tradução</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/">APyB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://apyb.python.org.br/pythonbrasil/cdc/">Código de Conduta</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+
+        <header>
+          <a href="https://github.com/pythonbrasil/wiki">
+            <img style="position: absolute; top: 40px; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="header-container">
+                  <a href="https://2024.pythonbrasil.org.br" target="_blank">
+                    <img class="header-logo" title="Python Brasil 2024" alt="Python Brasil 2024" src="https://2024.pythonbrasil.org.br/theme/images/logo.png">
+                  </a>
+                  
+                  <h2 class="header-subtitle">DE 16 A 21 DE OUTUBRO DE 2024</h2>
+                  <a class="header-subtitle" href="https://2024.pythonbrasil.org.br/" target="_blank">
+                    Acesse aqui o site da conferência para maiores informações e inscrição
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+      <main>
+  <div class="home-background">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+              <a href="https://python.org.br/empresas" class="page-description-link">
+                <div class="page-description">
+                  <h1 class="page-description-title">Impressione-se <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Descubra como Python está presente em seu dia-a-dia.
+                  </div>
+                </div>
+              </a>
+              <a href="https://python.org.br/introducao" class="page-description-link">
+                <div class="page-description">
+                  <h1 class="page-description-title">Inicie-se <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Veja como é fácil começar a usar a linguagem.
+                  </div>
+                </div>
+              </a>
+              <a href="https://python.org.br/web" class="page-description-link">
+                <div class="page-description">
+                  <h1 class="page-description-title">Aprenda mais <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Conheça mais sobre a linguagem e torne-se um verdadeiro pythonista.
+                  </div>
+                </div>
+              </a>
+              <a href="https://python.org.br/lista-de-discussoes" class="page-description-link">
+                <div class="page-description">
+                  <h1 class="page-description-title">Participe <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Encontre e participe da comunidade e compartilhe suas dúvidas e idéias.
+                  </div>
+                </div>
+              </a>
+              <a href="https://apyb.python.org.br/" class="page-description-link" target="_blank">
+                <div class="page-description">
+                  <h1 class="page-description-title">APyB <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Conheça a Associação Python Brasil.
+                  </div>
+                </div>
+              </a>
+              <a href="https://apyb.python.org.br/pythonbrasil/cdc/" class="page-description-link" target="_blank">
+                <div class="page-description">
+                  <h1 class="page-description-title">Código de Conduta <i class="fa fa-angle-double-right"></i></h1>
+
+                  <div class="page-description-text">
+                    Código de Conduta da comunidade Python Brasil.
+                  </div>
+                </div>
+              </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+   <div class="row"><h4>Grupos de Usuários Python no Brasil (GUPy)</h4></div>
+   <div class="row">
+
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Python Floripa</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Florianópolis</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://floripa.sc.python.org.br/">Site</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/python-floripa">Google groups</a>
+            <a class="card-link" href="https://plus.google.com/communities/103743339273138251517">Google Plus</a>
+            <a class="card-link" href="https://github.com/PythonFloripa">Github</a>
+            <a class="card-link" href="https://www.facebook.com/groups/python.floripa/">Facebook</a>
+            <a class="card-link" href="https://twitter.com/pythonfloripa">Twitter</a>
+            <a class="card-link" href="https://pythonfloripa.slack.com/">Slack</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-ABC</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Grande ABC (São Paulo)</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupy-abc.png" alt="GruPy-ABC">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://grupyabc.org/">Site</a>
+            <a class="card-link" href="https://github.com/Grupy-ABC">Github</a>
+            <a class="card-link" href="https://t.me/grupyabc">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-Campinas</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Campinas-SP</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/joinchat/BCCTWj_O8w9uJKNSoEuaVA">Telegram</a>
+            <a class="card-link" href="https://www.meetup.com/pt-BR/GruPy-Campinas/">Meetup</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy Sul Fluminense</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Sul Fluminense do Rio de Janeiro</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy Sul Fluminense">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://chat.whatsapp.com/LUlfeFVxrxA7n77pp9rb52">Whatsapp</a>
+            <a class="card-link" href="https://discord.gg/Cc49kNjaF2">Discord</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Py013</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários da Baixada Santista DDD 013 (Litoral de SP)</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/py013.png" alt="Py013">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://web.facebook.com/Python013/">Facebook</a>
+            <a class="card-link" href="https://github.com/Py013">Github</a>
+            <a class="card-link" href="https://t.me/+aLIZYKBDc3qtD_Rd">Telegram</a>
+            <a class="card-link" href="https://www.linkedin.com/company/py013/">Linkedin</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-MG</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Minas Gerais</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/python-mg.png" alt="Pug-MG">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://http://pythonmg.com.br/">Site</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/python-mg">Google Groups</a>
+            <a class="card-link" href="https://github.com/python-mg">Github</a>
+            <a class="card-link" href="https://twitter.com/pythonMG">Twitter</a>
+            <a class="card-link" href="https://www.youtube.com/c/PythonMinasGerais">Youtube</a>
+            <a class="card-link" href="http://www.meetup.com/pt/Belo-Horizonte-Python-User-Group/">Meetup</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy Blumenau</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Blumenau SC</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://pythonbnu.github.io/">Site</a>
+            <a class="card-link" href="https://www.facebook.com/pythonbnu">Facebook</a>
+            <a class="card-link" href="https://t.me/GruPyBnu">Telegram</a>
+            <a class="card-link" href="https://twitter.com/pythonbnu">Twitter</a>
+            <a class="card-link" href="https://hackerspaceblumenau.slack.com/messages/C6U70HXK4">Slack</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-PE</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Pernambuco</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-pe.png" alt="Pug-PE">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/pugpe">Telegram</a>
+            <a class="card-link" href="https://github.com/pugpe">Github</a>
+            <a class="card-link" href="https://www.instagram.com/pug.pe/">Instagram</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/pug-pe">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-SE</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Sergipe</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-se.png" alt="Pug-SE">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/pug-se">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-ES</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Espírito Santo</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy_es">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-RO</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Rondônia</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-ro">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">PyNorte</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários da Região Norte do Brasil</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/default.png" alt="PyNorte">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://pynorte.python.org.br/">Site</a>
+            <a class="card-link" href="http://facebook.com/pynorte">Facebook</a>
+            <a class="card-link" href="http://bit.ly/pynorte">Telegram</a>
+            <a class="card-link" href="https://github.com/PyNorte">GitHub</a>
+            <a class="card-link" href="https://groups.google.com/d/forum/pynorte">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GrupyBauru</h4>
+            <h6 class="card-subtitle text-muted">Comunidade Python de Bauru/SP e região</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/grupy_bauru">Telegram</a>
+            <a class="card-link" href="https://discord.gg/YsGGXAagAv">Discord</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-PI</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Piauí</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-pi.png" alt="Pug-PI">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://www.facebook.com/groups/pugpi/">Facebook</a>
+            <a class="card-link" href="https://t.me/pugpi">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-MA</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Maranhão</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-ma.png" alt="Pug-MA">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/pug-ma">Google Groups</a>
+            <a class="card-link" href="https://github.com/pug-ma">Github</a>
+            <a class="card-link" href="https://t.me/pugma">Telegram</a>
+            <a class="card-link" href="https://www.facebook.com/pugmaranhao/">Facebook</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-SC</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Santa Catarina</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://br.groups.yahoo.com/neo/groups/pug-sc/info">Yahoo Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-CE</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Ceará</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-ce.png" alt="Pug-CE">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/pug-ce">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-BA</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários da Bahia</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-ba">Google Groups</a>
+            <a class="card-link" href="http://www.meetup.com/pt/Salvador-Python-Meetup/">Meetup</a>
+            <a class="card-link" href="https://t.me/grupyba">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-SP</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de São Paulo</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupysp.png" alt="GruPy-SP">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-sp">Google Groups</a>
+            <a class="card-link" href="https://github.com/grupy-sp/encontros">Github</a>
+            <a class="card-link" href="https://www.facebook.com/grupysp">Facebook</a>
+            <a class="card-link" href="https://twitter.com/grupysp">Twitter</a>
+            <a class="card-link" href="https://grupysp.herokuapp.com">Slack</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-GO</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Goiás</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/python-goias.png" alt="GruPy-GO">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-go">Google Groups</a>
+            <a class="card-link" href="https://t.me/grupygo">Telegram</a>
+            <a class="card-link" href="https://github.com/Grupy-GO">GitHub</a>
+            <a class="card-link" href="https://www.facebook.com/groups/grupygo/">Facebook</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-DF</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Distrito Federal</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupy-df.png" alt="GruPy-DF">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-df">Google Groups</a>
+            <a class="card-link" href="http://df.python.org.br/">Site</a>
+            <a class="card-link" href="https://github.com/grupydf/">Github</a>
+            <a class="card-link" href="https://www.meetup.com/pt-BR/pythondf/">Meetup</a>
+            <a class="card-link" href="https://t.me/grupydf">Telegram</a>
+            <a class="card-link" href="https://www.facebook.com/groups/grupydf/about/">Facebook</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">grupy-sanca</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários Python de São Carlos (SP)</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupy-sanca.png" alt="grupy-sanca">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://github.com/grupy-sanca/">Github</a>
+            <a class="card-link" href="https://www.facebook.com/grupysanca">Facebook (página)</a>
+            <a class="card-link" href="https://www.facebook.com/groups/grupysanca">Facebook (grupo)</a>
+            <a class="card-link" href="https://meetup.com/grupy-sanca">Meetup</a>
+            <a class="card-link" href="https://t.me/grupysanca">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pug-Am</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Amazonas</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-am">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">PyTche</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Rio Grande do Sul</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pytche.png" alt="PyTche">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://www.meetup.com/pt/PyTche/">Meetup</a>
+            <a class="card-link" href="https://telegram.me/pytche">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-RN</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Rio Grande do Norte</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupy-rn.png" alt="GruPy-RN">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/GrupyRN">Telegram</a>
+            <a class="card-link" href="https://github.com/GruPy-RN">GitHub</a>
+            <a class="card-link" href="https://www.facebook.com/grupyrn/">Facebook</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-rn">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-RP</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Ribeirão Preto</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://grupyrp.herokuapp.com">Slack</a>
+            <a class="card-link" href="http://www.meetup.com/pt/grupy-rp/">Meetup</a>
+            <a class="card-link" href="https://github.com/grupyrp">Github</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-rp">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-Al</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Alagoas</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-al">Google Groups</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-PR</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Paraná</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/grupypr.png" alt="GruPy-PR">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/grupy-pr">Google Groups</a>
+            <a class="card-link" href="https://github.com/GruPyPR">Github</a>
+            <a class="card-link" href="https://grupypr.mobilize.io/registrations/groups/3334">Mobilize</a>
+            <a class="card-link" href="http://grupypr.herokuapp.com/">Slack</a>
+            <a class="card-link" href="https://telegram.me/joinchat/AKcLJQkMbfHhN6LOju_s9g">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">GruPy-MT</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Mato Grosso</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-MT">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/grupymt">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">PythOnRio</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários do Rio de Janeiro</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pythonrio.png" alt="PythOnRio">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="http://pythonrio.python.org.br/">Site</a>
+            <a class="card-link" href="https://www.facebook.com/pythonrio">Facebook</a>
+            <a class="card-link" href="https://t.me/pythonrio2023">Telegram</a>
+            <a class="card-link" href="https://twitter.com/pythonrio">Twitter</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Pydata BSB</h4>
+            <h6 class="card-subtitle text-muted">Comunidade do programa educacional PyData de Brasília</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/default.png" alt="Pydata BSB">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://twitter.com/PyDataBSB">Twitter</a>
+            <a class="card-link" href="https://www.meetup.com/pt-BR/PyData-Brasilia/">Meetup</a>
+            <a class="card-link" href="https://t.me/PyDataBSB">Telegram</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">Python Sorocaba</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários de Sorocaba</h6>
+         </div>
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/python-sorocaba">Google Groups</a>
+            <a class="card-link" href="https://github.com/python-sorocaba">Github</a>
+            <a class="card-link" href="https://grupopythonsorocaba.herokuapp.com">Slack</a>
+
+         </div>
+
+      </div>
+      <div class="card text-center" style="max-width: 202px; margin:5px; ">
+
+         <!-- Heading -->
+         <div class="card-body">
+            <h4 class="card-title">PUG-PB</h4>
+            <h6 class="card-subtitle text-muted">Grupo de usuários da Paraíba</h6>
+         </div>
+         <!-- Image -->
+         <img class="mx-auto" style="width:50%; align:center" src="https://python.org.br/images/comunidades-locais/pug-pb.png" alt="PUG-PB">
+
+
+         <!-- Text Content -->
+         <div class="card-body">
+            <a class="card-link" href="https://t.me/pugpb">Telegram</a>
+            <a class="card-link" href="https://github.com/pug-pb">Github</a>
+            <a class="card-link" href="https://groups.google.com/forum/#!forum/pug-pb">Google Groups</a>
+            <a class="card-link" href="http://twitter.com/pug_pb">Twitter</a>
+
+         </div>
+
+      </div>
+   </div>
+</div>
+
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3>Sobre</h3>
+              <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
+            </div>
+
+            <div class="col-12 col-md-4 offset-md-2 col-lg-4 offset-lg-4">
+              <h3>Social</h3>
+
+              <ul>
+                  <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
+                  <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
+                  <li><a href="https://www.instagram.com/pythonbrasil/"><icon class="fa fa-instagram"></icon> Instagram</a></li>
+                  <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
+                  <li><a href="https://t.me/pythonbrasil"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
+                  <li><a href="https://planet.python.org.br/"><icon class="fa fa-globe"></icon> Planet Python</a></li>
+              </ul>
+            </div>
+        </div>
+      </footer>
+
+      <script src="https://python.org.br/theme/js/jquery.min.js"></script>
+      <script src="https://python.org.br/theme/js/tether.min.js"></script>
+      <script src="https://python.org.br/theme/js/bootstrap.min.js"></script>
+
+    </div>
+  </body>
+</html>

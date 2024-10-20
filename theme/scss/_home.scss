@@ -1,0 +1,37 @@
+.home-background {
+  background-color: $gray-300;
+
+  .page-description-link {
+    &:hover {
+      text-decoration: none;
+    }
+
+    .page-description {
+      display: inline-block;
+      width: 19.7%;
+      height: 230px;
+      padding: 70px 20px;
+      vertical-align: top;
+
+      &:hover {
+        background-color: $gray-500;
+      }
+
+      .page-description-title {
+        font-size: 22px;
+      }
+
+      .page-description-text {
+        font-size: 13px;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      .page-description {
+        display: block;
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+}
