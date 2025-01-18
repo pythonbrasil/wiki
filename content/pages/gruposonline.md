@@ -11,7 +11,7 @@ Sites listados apenas para facilitar serem encontrados.
 
 ## Telegram
 
-- [Python Brasil - Roda de Conversa](https://t.me/pythonbr)
+- [Python Brasil - Grupo para conversa sobre a linguagem de programação Python](https://t.me/pythonbr)
 - [Python Brasil - Canal para compartilhamento de links, cursos, vagas e eventos sobre Python](https://t.me/pythonbrasil)
 - [Data Science Python](https://t.me/datasciencepython)
 - [Django Brasil](https://t.me/djangobrasil)
