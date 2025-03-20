@@ -182,6 +182,10 @@ NAVBAR_HOME_LINKS = [
                 "title": "Tradução",
                 "href": "traducao",
             },
+            {
+                "tittle": "Código de Conduta",
+                "href": "codigo-de-conduta",
+            }
         ],
     },
     {
