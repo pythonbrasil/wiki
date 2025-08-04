@@ -155,10 +155,6 @@ NAVBAR_HOME_LINKS = [
         ),
         "children": [
             {
-                "title": "Lista de Discussões",
-                "href": "lista-de-discussoes",
-            },
-            {
                 "title": "Comunidades Locais",
                 "href": "comunidades-locais",
             },
