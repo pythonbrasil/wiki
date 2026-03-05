@@ -26,6 +26,7 @@ help:
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
 	@echo '   make stopserver                  stop local server                  '
+	@echo '   make test                        run tests on generated site        '
 	@echo '   make github                      upload the web site via gh-pages   '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
@@ -82,4 +83,8 @@ ping:
 	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
 	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://pythonbrasil.github.io/wiki/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
 
-.PHONY: html help clean regenerate serve devserver publish github
+test:
+	@echo "Executando testes..."
+	$(PY) test_site.py
+
+.PHONY: html help clean regenerate serve devserver publish github test
