@@ -2,7 +2,7 @@ Title: Ferramentas de Desenvolvimento
 Slug: ferramentas
 Template: page
 
-A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos" — o importante é encontrar o ambiente em que você se sente produtivo e confortável.
+A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos"; o importante é encontrar um ambiente em que você se sente produtivo e confortável.
 
 Esta página reúne recomendações atualizadas de editores e IDEs para Python, organizadas por finalidade e perfil de uso. Algumas dicas gerais:
 
@@ -115,14 +115,3 @@ Fork moderno do Vim com foco em extensibilidade e desempenho. Suporta LSP (Langu
 ### [Rope](https://github.com/python-rope/rope)
 
 Biblioteca Python para refatoração automática. Integra-se a várias IDEs e editores. Suporta renomeação, extração de métodos, reorganização de imports e mais.
-
----
-
-# Outras opções (verifique status atual)
-
-Ferramentas abaixo podem estar descontinuadas ou com manutenção irregular. Recomendamos verificar repositórios e comunidades antes de adotar:
-
-- **Komodo Edit/IDE**: editor/IDE da ActiveState (verifique se ainda é mantido)
-- **Eric**: IDE baseada em Qt, projeto de longa data
-- **NINJA-IDE**: IDE multiplataforma (verifique atividade do projeto)
-- **Wing IDE**: IDE comercial com versão educacional gratuita
