@@ -2,7 +2,7 @@ Title: Ferramentas de Desenvolvimento
 Slug: ferramentas
 Template: page
 
-A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos"; o importante é encontrar um ambiente em que você se sente produtivo e confortável.
+A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos". O importante é encontrar um ambiente em que você se sente produtivo e confortável, pois escolher a ferramenta certa pode fazer toda a diferença na sua produtividade e aprendizado. 
 
 Esta página reúne recomendações atualizadas de editores e IDEs para Python, organizadas por finalidade e perfil de uso. Algumas dicas gerais:
 
