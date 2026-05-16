@@ -2,19 +2,32 @@ Title: Ferramentas de Desenvolvimento
 Slug: ferramentas
 Template: page
 
-Escolher a ferramenta certa pode fazer toda a diferença na sua produtividade e aprendizado. Esta página reúne recomendações atualizadas de editores e IDEs para Python, organizadas por finalidade e perfil de uso.
+A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos" — o importante é encontrar o ambiente em que você se sente produtivo e confortável.
 
-## Recomendações Rápidas por Perfil
+Esta página reúne recomendações atualizadas de editores e IDEs para Python, organizadas por finalidade e perfil de uso. Algumas dicas gerais:
 
+1. **Iniciantes**: prefira ferramentas com boa documentação em português, comunidade ativa e curva de aprendizado suave (IDLE, VS Code, PyCharm Community, Thonny).
+2. **Ciência de dados**: priorize suporte a notebooks, visualização de dados e exploração interativa (Positron, JupyterLab, Spyder).
+3. **Desenvolvimento profissional**: invista em IDEs completas com refatoração, debugging avançado e integração com ferramentas de deploy (PyCharm, VS Code).
+4. **Performance e minimalismo**: editores leves e configuráveis como Vim, Neovim ou Sublime Text podem ser mais produtivos após configuração inicial.
+
+# Recomendações rápidas por perfil
+
+- **Aprendizado Python básico**: IDLE (já vem com Python) ou VS Code
 - **Iniciante geral**: VS Code ou PyCharm Community — interfaces intuitivas, bom suporte e comunidade ativa
 - **Desenvolvimento web**: VS Code ou PyCharm — excelente suporte para Django, Flask e frameworks modernos
 - **Ciência de dados e notebooks**: Positron (Python/R + IA), JupyterLab, VS Code com extensões Jupyter, ou PyCharm
 - **Terminal e minimalistas**: Vim, Emacs, ou Neovim com configurações Python
-- **Aprendizado Python básico**: IDLE (já vem com Python) ou VS Code
 
 ---
 
-## IDEs e Editores — Principais Recomendações
+# IDEs e editores
+
+## Principais recomendações
+
+### [IDLE](https://docs.python.org/3/library/idle.html)
+
+IDE que acompanha a instalação padrão do Python. Feita com Tkinter, é simples e adequada para iniciantes absolutos ou para testes rápidos. Inclui shell interativo e editor básico.
 
 ### [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -38,9 +51,7 @@ Ambiente interativo baseado em navegador para notebooks Jupyter. Excelente para 
 
 IDE open source voltada para cientistas, engenheiros e analistas de dados. Interface familiar para quem vem do MATLAB ou RStudio. Inclui editor com análise de código, console IPython integrado, explorador de variáveis e visualização de gráficos. Faz parte do ecossistema Anaconda.
 
----
-
-## Editores de Texto Avançados
+## Editores de texto avançados
 
 ### [Vim](https://www.vim.org/)
 
@@ -54,42 +65,7 @@ Editor (ou "sistema operacional com capacidades de edição") extremamente poder
 
 Editor proprietário rápido e elegante, com versão de avaliação gratuita (sem limite de tempo). Interface limpa, múltiplos cursores, busca poderosa e sistema de plugins. Popular entre desenvolvedores que valorizam desempenho e minimalismo.
 
----
-
-## Ferramentas Específicas por Contexto
-
-### Para Notebooks e Análise Interativa
-
-- **[JupyterLab](https://jupyter.org/)**: ambiente padrão da comunidade científica
-- **[Positron](https://positron.posit.co/)**: IDE completa para ciência de dados com notebooks nativos (Python e R)
-- **[VS Code](https://code.visualstudio.com/)**: com extensão oficial Jupyter
-- **[Google Colab](https://colab.research.google.com/)**: notebooks na nuvem, gratuito, com GPU
-
-### Para Ciência de Dados
-
-- **Positron**: IDE completa com IA integrada, suporte a Python e R, notebooks nativos
-- **Spyder**: interface familiar, explorador de variáveis
-- **PyCharm Professional**: suporte completo para Jupyter, DataFrames, SQL
-- **VS Code**: com extensões Python, Jupyter e Data Wrangler
-
-### Para Desenvolvimento Web
-
-- **PyCharm**: excelente suporte para Django, Flask, FastAPI, templates
-- **VS Code**: leve, extensível, ótimo para frameworks modernos
-
-### Para Terminal e Servidores
-
-- **Vim/Neovim**: ubíquo, eficiente, ideal para SSH
-- **Emacs**: poderoso e programável
-- **Micro**: editor de terminal moderno e amigável ([https://micro-editor.github.io/](https://micro-editor.github.io/))
-
----
-
-## IDEs Complementares e Alternativas
-
-### [IDLE](https://docs.python.org/3/library/idle.html)
-
-IDE que acompanha a instalação padrão do Python. Feita com Tkinter, é simples e adequada para iniciantes absolutos ou para testes rápidos. Inclui shell interativo e editor básico.
+## IDEs complementares e alternativas
 
 ### [Thonny](https://thonny.org/)
 
@@ -105,7 +81,36 @@ Fork moderno do Vim com foco em extensibilidade e desempenho. Suporta LSP (Langu
 
 ---
 
-## Refatoração e Ferramentas de Código
+# Ferramentas específicas por contexto
+
+## Para notebooks e análise interativa
+
+- **[JupyterLab](https://jupyter.org/)**: ambiente padrão da comunidade científica
+- **[Positron](https://positron.posit.co/)**: IDE completa para ciência de dados com notebooks nativos (Python e R)
+- **[VS Code](https://code.visualstudio.com/)**: com extensão oficial Jupyter
+- **[Google Colab](https://colab.research.google.com/)**: notebooks na nuvem, gratuito, com GPU
+
+## Para ciência de dados
+
+- **Positron**: IDE completa com IA integrada, suporte a Python e R, notebooks nativos
+- **Spyder**: interface familiar, explorador de variáveis
+- **PyCharm Professional**: suporte completo para Jupyter, DataFrames, SQL
+- **VS Code**: com extensões Python, Jupyter e Data Wrangler
+
+## Para desenvolvimento web
+
+- **PyCharm**: excelente suporte para Django, Flask, FastAPI, templates
+- **VS Code**: leve, extensível, ótimo para frameworks modernos
+
+## Para terminal e servidores
+
+- **Vim/Neovim**: ubíquo, eficiente, ideal para SSH
+- **Emacs**: poderoso e programável
+- **Micro**: editor de terminal moderno e amigável ([https://micro-editor.github.io/](https://micro-editor.github.io/))
+
+---
+
+# Refatoração e ferramentas de código
 
 ### [Rope](https://github.com/python-rope/rope)
 
@@ -113,7 +118,7 @@ Biblioteca Python para refatoração automática. Integra-se a várias IDEs e ed
 
 ---
 
-## Outras Opções (Verifique Status Atual)
+# Outras opções (verifique status atual)
 
 Ferramentas abaixo podem estar descontinuadas ou com manutenção irregular. Recomendamos verificar repositórios e comunidades antes de adotar:
 
@@ -121,16 +126,3 @@ Ferramentas abaixo podem estar descontinuadas ou com manutenção irregular. Rec
 - **Eric**: IDE baseada em Qt, projeto de longa data
 - **NINJA-IDE**: IDE multiplataforma (verifique atividade do projeto)
 - **Wing IDE**: IDE comercial com versão educacional gratuita
-
----
-
-## Dicas para Escolher
-
-1. **Iniciantes**: prefira ferramentas com boa documentação em português, comunidade ativa e curva de aprendizado suave (VS Code, PyCharm Community, Thonny).
-2. **Ciência de dados**: priorize suporte a notebooks, visualização de dados e exploração interativa (Positron, JupyterLab, Spyder).
-3. **Desenvolvimento profissional**: invista em IDEs completas com refatoração, debugging avançado e integração com ferramentas de deploy (PyCharm, VS Code).
-4. **Performance e minimalismo**: editores leves e configuráveis como Vim, Neovim ou Sublime Text podem ser mais produtivos após configuração inicial.
-
----
-
-*Conteúdo original baseado em http://wiki.python.org.br/IdesPython, atualizado pela comunidade Python Brasil.*
