@@ -2,155 +2,116 @@ Title: Ferramentas de Desenvolvimento
 Slug: ferramentas
 Template: page
 
-Veja aqui uma listagem de ferramentas para te auxiliar no desenvolvimento python:
+A escolha de uma ferramenta de desenvolvimento é algo pessoal e depende do seu perfil, experiência e objetivos. Não existe uma opção única "melhor para todos". O importante é encontrar um ambiente em que você se sente produtivo e confortável, pois escolher a ferramenta certa pode fazer toda a diferença na sua produtividade e aprendizado. 
 
+Esta página reúne recomendações atualizadas de editores e IDEs para Python, organizadas por finalidade e perfil de uso. Algumas dicas gerais:
 
-# Editores de texto
+1. **Iniciantes**: prefira ferramentas com boa documentação em português, comunidade ativa e curva de aprendizado suave (IDLE, VS Code, PyCharm Community, Thonny).
+2. **Ciência de dados**: priorize suporte a notebooks, visualização de dados e exploração interativa (Positron, JupyterLab, Spyder).
+3. **Desenvolvimento profissional**: invista em IDEs completas com refatoração, debugging avançado e integração com ferramentas de deploy (PyCharm, VS Code).
+4. **Performance e minimalismo**: editores leves e configuráveis como Vim, Neovim ou Sublime Text podem ser mais produtivos após configuração inicial.
 
-### [Atom](https://atom.io/)
+# Recomendações rápidas por perfil
 
-Atom é open source e feito pelo Github e com suporte para várias linguagens, dentre elas o Python. É integrado ao Git e Github, sendo possível mexer com o Git e Github através da interface do editor de texto. Ótimo para iniciantes.
+- **Aprendizado Python básico**: IDLE (já vem com Python) ou VS Code
+- **Iniciante geral**: VS Code ou PyCharm Community — interfaces intuitivas, bom suporte e comunidade ativa
+- **Desenvolvimento web**: VS Code ou PyCharm — excelente suporte para Django, Flask e frameworks modernos
+- **Ciência de dados e notebooks**: Positron (Python/R + IA), JupyterLab, VS Code com extensões Jupyter, ou PyCharm
+- **Terminal e minimalistas**: Vim, Emacs, ou Neovim com configurações Python
+
+---
+
+# IDEs e editores
+
+## Principais recomendações
+
+### [IDLE](https://docs.python.org/3/library/idle.html)
+
+IDE que acompanha a instalação padrão do Python. Feita com Tkinter, é simples e adequada para iniciantes absolutos ou para testes rápidos. Inclui shell interativo e editor básico.
 
 ### [Visual Studio Code](https://code.visualstudio.com/)
 
-O VSCode é open source e free, desenvolvido pela Microsoft. Suporta inúmeras linguagens de programação.
+Editor gratuito e open source da Microsoft, com suporte excelente para Python através de extensões oficiais. Leve, extensível e muito popular. Suporta desenvolvimento web, ciência de dados (Jupyter integrado), debugging avançado e integração com Git. Ideal para quem quer um editor moderno e versátil.
 
-### [Vim](http://www.vim.org/)
+### [PyCharm Community](https://www.jetbrains.com/pycharm/)
 
-Tem em todo GNU/Linux e é altamente configurável. Uma forma de transformar o vim em uma IDE Python completa é seguindo o tutorial em [vim a ide para programadores python](https://avelino.run/vim-a-ide-para-programadores-python/).
+IDE gratuita e open source (licença Apache) desenvolvida pela JetBrains. Oferece análise de código inteligente, depurador gráfico, refatoração automática, testes integrados e suporte para frameworks web como Django e Flask. Multiplataforma e muito completa, ótima opção para projetos de médio a grande porte.
 
-### [Emacs](http://www.gnu.org/software/emacs/emacs.html)
+**PyCharm Professional** (pago): versão completa com suporte avançado para web (Django, Flask, FastAPI), bancos de dados, Jupyter Notebooks integrados, desenvolvimento remoto e mais. Possui licenças gratuitas para estudantes e projetos open source.
 
-Um editor (ou um sistema operacional com capacidades de edição?!) poderoso e amplamente extensível em eLisp (um dialeto Lisp). Vencida a curva de aprendizado (considerada difícil por algumas pessoas) é possível torná-lo em uma IDE Python poderosíssima. O python-mode.el prove diversas funcionalidades para edição, debug e desenvolvimento de programas em Python e o Ropemacs funcionalidades de refactoring. Mais "Emacs Goodies" na própria Wiki em PythonComEmacs.
+### [Positron](https://positron.posit.co/)
 
-### [SciTE](http://www.scintilla.org/SciTE.html)
+"The Data Science IDE" — IDE desenvolvida pela Posit (criadora do RStudio) para unificar trabalho exploratório e produtivo em ciência de dados. Suporta Python e R, com ferramentas de IA integradas, interface baseada no VS Code, notebooks Jupyter nativos, integração com Quarto, visualização de dados e exploração interativa de variáveis. Gratuita e com código-fonte disponível (Elastic License 2.0). Ideal para todo o ciclo de ciência de dados: desde análise exploratória até produção. Projeto ativo e funcional.
 
-Excelente editor de texto voltado para programação. Suporta uma grande lista de linguagens, pode rodar e debugar os programas, é fácil de usar e é facilmente configurável. Disponível para Windows e X (ambiente gráfico dos UNIXes).
+### [JupyterLab](https://jupyter.org/)
 
-### [jext](https://sourceforge.net/projects/jext/)
+Ambiente interativo baseado em navegador para notebooks Jupyter. Excelente para análise de dados, prototipagem, ensino e documentação com código executável. Suporta visualizações inline, markdown, LaTeX e extensões. Fundamental para ciência de dados e pesquisa.
 
-Muito bom editor! Suporta muitas linguagens e possui plugins para Python (executar, por exemplo).
+### [Spyder](https://www.spyder-ide.org/)
 
-### [joe](http://sourceforge.net/projects/joe-editor/)
+IDE open source voltada para cientistas, engenheiros e analistas de dados. Interface familiar para quem vem do MATLAB ou RStudio. Inclui editor com análise de código, console IPython integrado, explorador de variáveis e visualização de gráficos. Faz parte do ecossistema Anaconda.
 
-Editor de texto para dinossauros :-) Utiliza os mesmos comandos do WordStar, SideKick, etc. Disponivel via apt-get e emerge.
+## Editores de texto avançados
 
-### [sublime](http://www.sublimetext.com/)
+### [Vim](https://www.vim.org/)
 
-Editor de texto proprietário e pago, porém disponibiliza uma versão beta para uso sem custo. Atualmente na versão 3, a compra de sua licensa permite o uso de ambas as versão existentes.
+Editor clássico de terminal, altamente configurável e presente em praticamente todo sistema Unix/Linux. Curva de aprendizado íngreme, mas extremamente poderoso e eficiente para quem domina. Pode ser transformado em IDE Python completa com plugins modernos como `coc.nvim`, `vim-lsp` e `ALE`. Veja também [Neovim](https://neovim.io/) (fork moderno do Vim).
 
-### [PS Pad](http://www.pspad.com/)
+### [Emacs](https://www.gnu.org/software/emacs/)
 
-Grátis (freeware) para Windows. Colore código Python e suporta edição com vários encodings. Tem também utilitários para HTML/XML, tabela ASCII e conversão DOS/UNIX. O Hex view quebra um galho na hora de procurar erros em arquivos com encoding incorreto.
+Editor (ou "sistema operacional com capacidades de edição") extremamente poderoso e extensível via Emacs Lisp. Suporta Python através de pacotes como `elpy`, `python-mode` e `lsp-mode`. Curva de aprendizado considerada difícil, mas oferece produtividade excepcional após domínio. Ideal para quem gosta de personalização profunda.
 
-# IDEs gratuitas
+### [Sublime Text](https://www.sublimetext.com/)
 
-### [Idle](http://www.python.org)
+Editor proprietário rápido e elegante, com versão de avaliação gratuita (sem limite de tempo). Interface limpa, múltiplos cursores, busca poderosa e sistema de plugins. Popular entre desenvolvedores que valorizam desempenho e minimalismo.
 
-A IDLE vem com o Python. É feita com Tkinter e se você se acostumar pode lhe ajudar bastante. É bem simples de ser usada também.
+## IDEs complementares e alternativas
 
-### [PyCharm community](https://www.jetbrains.com/pycharm/)
+### [Thonny](https://thonny.org/)
 
-É desenvolvido pela companhia JetBrains. Esta edição é liberada sob a licença da Apache. É multiplataforma. Essa IDE fornece análise de código, um depurador gráfico, um testador de unidade integrado, integração com sistemas de controle de versão (VCSes), e suporta desenvolvimento de web com Django.
+IDE gratuita voltada para iniciantes. Interface simples, depurador visual passo a passo, visualização de variáveis e indicação clara de erros. Excelente para aprendizado e ensino de Python.
 
-### [Komodo-Edit](http://www.activestate.com/komodo_edit/)
+### [Eclipse + PyDev](https://www.pydev.org/)
 
-Também desenvolvido pela ActiveState o Komodo-Edit é uma excelente opção de editor, bastante rico em recursos tais como autocomplete, calltips, multi-language file support, syntax coloring, syntax checking, Vi emulation, Emacs key bindings e outros.
+Plugin Python para o Eclipse IDE. Opção robusta para quem já usa Eclipse em outros projetos (ex.: Java). Oferece análise de código, debugging, refatoração e integração com ferramentas.
 
-### [NetBeans](http://nbpython.org/)
+### [Neovim](https://neovim.io/)
 
-Analogamente ao Eclipse, o NetBeans também oferece suporte ao Python através de plugins.
+Fork moderno do Vim com foco em extensibilidade e desempenho. Suporta LSP (Language Server Protocol) nativamente, interface gráfica via plugins e configuração em Lua. Comunidade ativa e plugins modernos.
 
-### [NINJA-IDE](http://ninja-ide.org/)
+---
 
-Do acrônimo recursivo: "Ninja-IDE Is Not Just Another IDE", é uma IDE multi-plataforma de desenvolvimento integrado. NINJA-IDE é executado em Linux/X11, Mac OS X e sistemas operacionais de desktop Windows, e permite aos desenvolvedores criarem aplicações para diversas finalidades, utilizando todas as ferramentas e utilitários de NINJA-IDE, tornando a tarefa de escrever software mais fácil e agradável.
+# Ferramentas específicas por contexto
 
-### [SPE](http://pythonide.blogspot.com/)
+## Para notebooks e análise interativa
 
-Desenvolvido com wxPython é livre e tem algumas funcionalidades interessantes. Tem wxGlade como plugin para desenho de telas gráficas.
+- **[JupyterLab](https://jupyter.org/)**: ambiente padrão da comunidade científica
+- **[Positron](https://positron.posit.co/)**: IDE completa para ciência de dados com notebooks nativos (Python e R)
+- **[VS Code](https://code.visualstudio.com/)**: com extensão oficial Jupyter
+- **[Google Colab](https://colab.research.google.com/)**: notebooks na nuvem, gratuito, com GPU
 
-### [Spyder 2](http://code.google.com/p/spyderlib/)
+## Para ciência de dados
 
-Spyder (também conhecido como Pydee) é um poderoso ambiente de desenvolvimento interativo para a linguagem Python com edição avançada, testes interativos, recursos de depuração e introspecção
+- **Positron**: IDE completa com IA integrada, suporte a Python e R, notebooks nativos
+- **Spyder**: interface familiar, explorador de variáveis
+- **PyCharm Professional**: suporte completo para Jupyter, DataFrames, SQL
+- **VS Code**: com extensões Python, Jupyter e Data Wrangler
 
-### [Pida](https://www.openhub.net/p/pida)
+## Para desenvolvimento web
 
-É um IDE desenvolvido com PyGTK e visa a integração com o Vim. Oferece recursos como project management, source code management, code browser, code refactor, profiler, debugger entre outros.
+- **PyCharm**: excelente suporte para Django, Flask, FastAPI, templates
+- **VS Code**: leve, extensível, ótimo para frameworks modernos
 
-### [Eric4](https://eric-ide.python-projects.org/)
+## Para terminal e servidores
 
-É feito com a biblioteca QT e se integra às ferramentas da QT e com outros softwares como o Bicycle Repair Man (refactoring) e TabNanny (verificação de indentações). O autor dos bindings python para o Qt4, lançou um instalador para Windows que contém as bibliotecas e os programas de desenvolvimento do Qt4, o pyqwt e o Eric4, o que facilita bastante a instalação no Windows.
+- **Vim/Neovim**: ubíquo, eficiente, ideal para SSH
+- **Emacs**: poderoso e programável
+- **Micro**: editor de terminal moderno e amigável ([https://micro-editor.github.io/](https://micro-editor.github.io/))
 
-### [Boa-Constructor](http://boa-constructor.sf.net)
+---
 
-Essa é a "única" IDE ao estilo RAD do Delphi/VB. Funciona com o wxPython na versão 2.4 e acho que é a mais fácil de ser usada apesar de não promover boas práticas de desenvolvimento como a de separar lógica de negócios de apresentação (telas). As outras IDEs não possuem mecanismos para desenho de telas gráficas mas podem usar ferramentas como Glade e/ou wxGlade.
-
-### [Eclipse](http://www.eclipse.org)
-
-Diferente de todos os outros. Pesado, grande, monstruoso mas muito poderoso. É feito em Java e é ideal para desenvolvimento Java. Mas existem plugins para se desenvolver em Python com ele (e detalhe: atualmente é um brasileiro quem o mantém) que é o [ppydev](http://pydev.sourceforge.net/).
-
-### [EasyEclipse](http://easyeclipse.org/site-1.0.2/distributions/python.html)
-
-EasyEclipse é open source e hospedado pela Sourceforge que fornece muitas  distribuições empacotadas do Eclipse pré-configuradas com plug-ins para Python, Ruby, etc.
-
-### [DrPython](http://drpython.sourceforge.net/)
-
-Usa wxPython. Criado para ser utilizado em escolas.
-
-### [IPython](https://ipython.org/)
-
-Um shell com muitos recursos, através das comandos "mágicos". Bastante útil, modo texto apenas. Você pode usá-lo como um shell "acoplado" aos seus programas também.
-
-### [KDevelop](http://www.kdevelop.org/)
-
-IDE livre para GNU/Linux e outros *nixes-like.
-
-### [PythonWin](http://pywin32.sf.net/)
-
-IDE que acompanha as extensões Win32 para Python (PyWin32). Oferece auto-completion e debugging, e tem recursos extras voltados à programação Windows (coletor de exceções para componentes COM criados, COM browser, geração de arquivos .py com informações sobre objetos COM (static dispatch), etc.).
-
-### [PythonCard](http://pythoncard.sourceforge.net)
-
-É uma GUI para construção de aplicações multiplataforma em Windows, Mac OS X e Linux, usando a linguagem de programação Python. O lema de PythonCard é "coisas simples devem ser simples de fazer e coisas complexas devem devem ser possiveis". É a ferramenta para quem deseja desenvolver aplicações gráficas de maneira rápida e fácil, com um mínimo de esforço e codificação; simples mas poderoso. Utiliza a biblioteca wxPython, mas separa a lógica do código da apresentação utilizando um tipo de arquivo de definição de recursos. (RômuloCampelo - 08/04/2005)
-
-### [PyScripter](https://sourceforge.net/projects/pyscripter/)
-
-Acompanha o conjunto de componentes python para Delphi (embora não requira que o Delphi esteja instalado para funcionar). Suporta debugging, auto-completion, navegação no código entre outros recursos.
-
-### [PyPE](http://pype.sourceforge.net/index.shtml)
-
-Não se trata de uma IDE propriamente dita, mas é um editor Python, leve, funcional e rico em recursos interessantes e multiplataforma. Além disso, é desenvolvido utilizando wxPython.
-
-### [Rodeo](https://rodeo.yhat.com/)
-
-Rodeo é uma IDE leve e intuitiva voltada para análise de dados. Com suporte a Jupyter Notebook, navegador de arquivos, busca de packages e visualização de gráficos, além de suporte a comandos VIM.
-
-# IDEs (pagas)
-
-### [Wing](http://www.wingware.com)
-
-A empresa wingware recentemente lançou o wingide101 para auxiliar no ensino de Python e é uma versão com menos recursos que as versões professional e personal, mas que tem funcionalidades interessantes, como depurador gráfico, shell interativo. Segue o link: http://wingware.com/wingide-101/index
-
-### [Komodo](http://www.activestate.com)
-
-Essa é outra IDE bem poderosa também. Trabalha com outras linguagens além de Python e roda em Linux e Windows. Existe uma licença gratuita que pode ser usada para aprendizado.
-
-### [PyCharm](http://www.jetbrains.com/pycharm/)
-
-Possui um conjunto de ferramentas úteis para um desenvolvimento produtivo. Além disso, a IDE fornece capacidades de alta classe para o desenvolvimento Web profissional com framework Django e Flask, Google AppEngine. Possui suporte a diversos sistemas de controle de versão, integração com Github e atraves de plugin, com o Heroku. Possui gerador de Diagramas de Classe e ORM. Suporte para interpretador Python remoto. Criação de gerência de ambientes (virtualenv). Mais informações sobre funcionalidades e desenvolvimento do PyCharm veja http://confluence.jetbrains.net/display/PYH/PyCharm+IDE+and+Python+Plugin+for+IntelliJ+IDEA
-
-### [Visual Studio 2010+](http://ironpython.net/)
-
-IDE completa para o mundo .NET que com o IronPython se torna uma excelente IDE.
-
-# Refactoring
-
-### [Bycicle Repair Man](http://bicyclerepair.sourceforge.net/)
-
-Automatiza algumas operações básicas de refactoring para Python. Tem integração com vários editores, como o PyDev e o Emacs.
+# Refatoração e ferramentas de código
 
 ### [Rope](https://github.com/python-rope/rope)
 
-Uma biblioteca de refactoring para Python. Pode ser usada em outras IDEs.
-
-*Boa parte deste conteúdo foi retirado do link (http://wiki.python.org.br/IdesPython)
+Biblioteca Python para refatoração automática. Integra-se a várias IDEs e editores. Suporta renomeação, extração de métodos, reorganização de imports e mais.
