@@ -1,0 +1,24 @@
+/* Sobrescrevendo as cores do header para usar cinza no estilo do evento */
+.master-wrapper header {
+    background-color: #6c757d !important;
+    background-image: linear-gradient(#495057 10%, #6c757d 90%) !important;
+}
+
+/* Garantindo que o texto continue branco para boa legibilidade */
+.master-wrapper header {
+    color: #fff !important;
+}
+
+.master-wrapper header .header-subtitle {
+    color: #e9ecef !important; /* Cor mais suave que combina com o fundo cinza */
+}
+
+/* Ajustando links para melhor contraste com o fundo cinza */
+.master-wrapper header a {
+    color: #fff !important;
+}
+
+.master-wrapper header a:hover {
+    color: #ffc107 !important;
+    text-decoration: none !important;
+}

@@ -1,0 +1,165 @@
+pre, code {
+  border-radius: 4px;
+  color: #f8f8f2;
+  line-height: 1.5em;
+  margin: 0 0 1rem 0;
+  padding: 8px 12px 6px 12px;
+}
+
+.thumbnail-container {
+  margin: 50px 0;
+
+  .thumbnail {
+    border: solid 1px $gray-500;
+    min-height: 415px;
+    margin-bottom: 30px;
+
+    &:hover {
+      border: solid 1px $gray-700;
+    }
+
+    img {
+      width: 100%;
+      padding: 20px;
+      max-height: 310px;
+    }
+
+    .caption {
+      text-align: center;
+      padding-bottom: 10px;
+
+      h3 {
+        padding-bottom: 15px;
+      }
+
+      .badge-group {
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+
+.event {
+  margin: 20px 0;
+  text-align: center;
+  height: 200px;
+
+  .event-date {
+    padding: 40px 0;
+    height: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .event-description{
+    height: 100%;
+    padding: 40px 0;
+    background-color: #666666;
+    color: #ffffff;
+  }
+
+  .event-map {
+    height: 100%;
+    padding: 0;
+  }
+
+  .map {
+    background-color: #dddddd;
+    width: 100%;
+    height: 100%;
+     pointer-events: none; /* diseable zoon and scroll to map */
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .event-description h1,
+  .event-description h2,
+  .event-description a {
+    color: #ffffff;
+  }
+
+  .event-description h1{
+    margin: 0;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .event-description h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .event-description p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  @include media-breakpoint-down(md) {
+    .event-description h1{
+      font-size: 18px;
+    }
+
+    .event-description h2 {
+      font-size: 14px;
+    }
+
+    .event-description p {
+      font-size: 16px;
+    }
+  }
+
+  .event-description a {
+    text-decoration: none;
+  }
+
+  .event-description a:hover {
+    font-weight: bold;
+  }
+
+  .date-blue {
+    background-color: #5088b7;
+  }
+
+  .date-yellow {
+    background-color: #ffd545;
+  }
+
+  .event-day {
+    margin: 0;
+    font-size: 60px;
+    line-height: 62px;
+  }
+
+  .event-month {
+    margin: 0;
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .event-year {
+    margin: 0;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+.past-event {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1);
+}
