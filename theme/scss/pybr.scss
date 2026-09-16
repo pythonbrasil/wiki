@@ -1,0 +1,12 @@
+@import 'variables';
+
+// bootstrap styles
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// font awesome styles
+@import '../../node_modules/font-awesome/scss/font-awesome';
+
+// pybr styles
+@import 'base';
+@import 'home';
+@import 'components';
